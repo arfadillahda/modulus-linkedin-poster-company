@@ -2,10 +2,10 @@ name: generate-company
 
 on:
   schedule:
-    # Daily 01:00 UTC (08:00 WIB) — runs 1h before Make polls at 09:00 WIB
-    # (02:00 UTC), leaving GitHub Pages a ~1h buffer to republish the feed
+    # Daily 08:00 UTC (15:00 WIB) — runs 1h before Make polls at 09:00 UTC
+    # (16:00 WIB), leaving GitHub Pages a ~1h buffer to republish the feed
     # before Make's single daily fetch.
-    - cron: "0 1 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch: {}
 
 permissions:
