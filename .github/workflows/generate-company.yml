@@ -1,0 +1,48 @@
+name: generate-company
+
+on:
+  schedule:
+    # Daily 07:00 UTC (~14:00 WIB) — staggered 1h after the personal repo
+    # so commit windows don't collide and Make polls them on separate cycles.
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Inter font + libcairo for SVG rasterization
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            fonts-inter libcairo2 fontconfig
+          fc-cache -f
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate next post (+ SVG infographic on alternating days)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_company.py
+
+      - name: Rebuild RSS feed
+        run: python scripts/build_rss.py
+
+      - name: Commit queue + feed + media
+        run: |
+          if [ -n "$(git status --porcelain data/ feed/ media/)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/ feed/ media/
+            git commit -m "chore: new company post + rss rebuild"
+            git push
+          fi
