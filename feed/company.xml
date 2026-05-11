@@ -4,7 +4,36 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 11 May 2026 04:03:13 +0000</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 11:17:33 +0000</lastBuildDate>
+<item>
+<title>Why AI pilots fail before they scale</title>
+<guid isPermaLink="false">54843029e824</guid>
+<pubDate>Mon, 11 May 2026 11:17:33 +0000</pubDate>
+<description><![CDATA[Most teams build an AI feature, it works in isolation, and then it breaks the moment real operators touch it. The model was right. The integration was wrong.
+
+This happens because AI gets bolted onto existing workflows as a black box. The operator doesn't understand what the model is doing, so they can't debug it. The engineer who built it doesn't understand the operator's actual process, so they optimized for the wrong signal. Neither side trusts the system enough to rely on it.
+
+We've stopped treating AI integration as a model problem. We treat it as a *feedback loop problem*.
+
+Before we write any code, we map three things: (1) What decision is the operator actually making today? (2) What does the operator need to see to trust the AI output? (3) How do we measure whether the AI is helping or just adding latency?
+
+Then we build the AI as a *tool in their workflow*, not a replacement for their judgment. Transparency first, accuracy second.
+
+The difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.]]></description>
+<content:encoded><![CDATA[Most teams build an AI feature, it works in isolation, and then it breaks the moment real operators touch it. The model was right. The integration was wrong.
+
+This happens because AI gets bolted onto existing workflows as a black box. The operator doesn't understand what the model is doing, so they can't debug it. The engineer who built it doesn't understand the operator's actual process, so they optimized for the wrong signal. Neither side trusts the system enough to rely on it.
+
+We've stopped treating AI integration as a model problem. We treat it as a *feedback loop problem*.
+
+Before we write any code, we map three things: (1) What decision is the operator actually making today? (2) What does the operator need to see to trust the AI output? (3) How do we measure whether the AI is helping or just adding latency?
+
+Then we build the AI as a *tool in their workflow*, not a replacement for their judgment. Transparency first, accuracy second.
+
+The difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects stall after the pilot phase</title>
 <guid isPermaLink="false">2f2f79980534</guid>
