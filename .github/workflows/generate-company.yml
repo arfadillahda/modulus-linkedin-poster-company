@@ -2,9 +2,10 @@ name: generate-company
 
 on:
   schedule:
-    # Daily 07:00 UTC (~14:00 WIB) — staggered 1h after the personal repo
-    # so commit windows don't collide and Make polls them on separate cycles.
-    - cron: "0 7 * * *"
+    # Daily 04:00 UTC (11:00 WIB) — runs 1h before Make polls at 12:00 WIB
+    # (05:00 UTC), leaving GitHub Pages a ~1h buffer to republish the feed
+    # before Make's single daily fetch.
+    - cron: "0 4 * * *"
   workflow_dispatch: {}
 
 permissions:
