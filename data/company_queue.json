@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2f2f79980534",
+    "ts": "2026-05-11T04:02:48.157015+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects stall after the pilot phase",
+    "body": "Most digitalization efforts die the moment they leave the pilot. A team builds a slick proof of concept on clean data, stakeholders nod, and then the project gets handed to operations. Two months later: the system sits unused because it doesn't talk to the legacy ERP, requires manual workarounds, or assumes conditions that never exist in production.\n\nThe failure mode isn't bad technology. It's that pilots optimize for demo-readiness, not operational reality. They run on curated datasets, stable network conditions, and users who expect friction. Real operators work offline half the time, have data quality issues baked in, and need systems to fail gracefully without stopping the line.\n\nWe approach this differently: build the pilot alongside the integration strategy, not after it. Before you write a single line of code, map the three hardest constraints your operation actually faces—connectivity gaps, data inconsistencies, handoff delays. Design the system to work *within* those constraints, not around them. The pilot becomes proof that your solution survives contact with reality, not just that it works on a bench.\n\nA pilot that can't scale into production was never a proof of concept—it was a prototype pretending to be one.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2f2f79980534.png"
+  }
+]
