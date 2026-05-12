@@ -16,5 +16,14 @@
     "title": "Why AI pilots fail before they scale",
     "body": "Most teams build an AI feature, it works in isolation, and then it breaks the moment real operators touch it. The model was right. The integration was wrong.\n\nThis happens because AI gets bolted onto existing workflows as a black box. The operator doesn't understand what the model is doing, so they can't debug it. The engineer who built it doesn't understand the operator's actual process, so they optimized for the wrong signal. Neither side trusts the system enough to rely on it.\n\nWe've stopped treating AI integration as a model problem. We treat it as a *feedback loop problem*.\n\nBefore we write any code, we map three things: (1) What decision is the operator actually making today? (2) What does the operator need to see to trust the AI output? (3) How do we measure whether the AI is helping or just adding latency?\n\nThen we build the AI as a *tool in their workflow*, not a replacement for their judgment. Transparency first, accuracy second.\n\nThe difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.",
     "image_url": ""
+  },
+  {
+    "id": "837953febca0",
+    "ts": "2026-05-12T10:30:52.370330+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability metrics fail in industrial ops",
+    "body": "Most industrial teams measure sustainability the way they measure uptime: as a compliance checkbox, not as a design constraint.\n\nThis happens because sustainability got bolted onto existing systems after the fact. A facility counts emissions from its fleet, reports the number, and moves on. But that number tells you nothing about whether the system is actually *designed* to reduce waste—it just tells you what leaked out.\n\nThe mechanism is structural. Sustainability was never part of the optimization function. Logistics routes optimize for speed and cost. Maintenance schedules optimize for availability. Scheduling optimizes for utilization. Nowhere in that chain is waste reduction a first-class citizen alongside throughput.\n\nHere's the reframe: stop reporting emissions. Start designing them out.\n\nThis means pulling sustainability upstream—into route planning, maintenance intervals, scheduling logic, equipment selection. Not as a penalty function that makes everything slower. As a real constraint that forces better design.\n\nWhen you do, something shifts. You find inefficiencies that were always costing money. Redundant routes. Over-maintenance. Idle capacity. The sustainability case builds itself.\n\nSystems designed for waste reduction tend to perform better on every metric that matters.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png"
   }
 ]

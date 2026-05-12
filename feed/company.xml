@@ -4,7 +4,42 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 11 May 2026 11:17:33 +0000</lastBuildDate>
+<lastBuildDate>Tue, 12 May 2026 10:31:15 +0000</lastBuildDate>
+<item>
+<title>Why sustainability metrics fail in industrial ops</title>
+<guid isPermaLink="false">837953febca0</guid>
+<pubDate>Tue, 12 May 2026 10:30:52 +0000</pubDate>
+<description><![CDATA[Most industrial teams measure sustainability the way they measure uptime: as a compliance checkbox, not as a design constraint.
+
+This happens because sustainability got bolted onto existing systems after the fact. A facility counts emissions from its fleet, reports the number, and moves on. But that number tells you nothing about whether the system is actually *designed* to reduce waste—it just tells you what leaked out.
+
+The mechanism is structural. Sustainability was never part of the optimization function. Logistics routes optimize for speed and cost. Maintenance schedules optimize for availability. Scheduling optimizes for utilization. Nowhere in that chain is waste reduction a first-class citizen alongside throughput.
+
+Here's the reframe: stop reporting emissions. Start designing them out.
+
+This means pulling sustainability upstream—into route planning, maintenance intervals, scheduling logic, equipment selection. Not as a penalty function that makes everything slower. As a real constraint that forces better design.
+
+When you do, something shifts. You find inefficiencies that were always costing money. Redundant routes. Over-maintenance. Idle capacity. The sustainability case builds itself.
+
+Systems designed for waste reduction tend to perform better on every metric that matters.]]></description>
+<content:encoded><![CDATA[Most industrial teams measure sustainability the way they measure uptime: as a compliance checkbox, not as a design constraint.
+
+This happens because sustainability got bolted onto existing systems after the fact. A facility counts emissions from its fleet, reports the number, and moves on. But that number tells you nothing about whether the system is actually *designed* to reduce waste—it just tells you what leaked out.
+
+The mechanism is structural. Sustainability was never part of the optimization function. Logistics routes optimize for speed and cost. Maintenance schedules optimize for availability. Scheduling optimizes for utilization. Nowhere in that chain is waste reduction a first-class citizen alongside throughput.
+
+Here's the reframe: stop reporting emissions. Start designing them out.
+
+This means pulling sustainability upstream—into route planning, maintenance intervals, scheduling logic, equipment selection. Not as a penalty function that makes everything slower. As a real constraint that forces better design.
+
+When you do, something shifts. You find inefficiencies that were always costing money. Redundant routes. Over-maintenance. Idle capacity. The sustainability case builds itself.
+
+Systems designed for waste reduction tend to perform better on every metric that matters.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI pilots fail before they scale</title>
 <guid isPermaLink="false">54843029e824</guid>
