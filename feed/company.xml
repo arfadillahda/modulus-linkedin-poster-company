@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 13 May 2026 10:26:39 +0000</lastBuildDate>
+<lastBuildDate>Thu, 14 May 2026 10:14:46 +0000</lastBuildDate>
+<item>
+<title>Why AI models fail silently in industrial environments</title>
+<guid isPermaLink="false">9e8502f5abb7</guid>
+<pubDate>Thu, 14 May 2026 10:14:21 +0000</pubDate>
+<description><![CDATA[A predictive maintenance model trains on 18 months of clean sensor data. It ships to a plant floor where a vibration sensor drifts 0.3% per week, a temperature logger gets recalibrated mid-deployment, and someone swaps out hardware without logging it. The model's confidence stays high. Its predictions become noise. Nobody notices for six weeks.
+
+This happens because most AI systems treat deployment like a static checkpoint. They assume the world that built the training set remains stable. Industrial and B2B environments don't work that way — sensors drift, operators change procedures, equipment gets replaced. The data distribution shifts constantly, but the model doesn't know it's wrong.
+
+The fix: build observability into the model itself, not around it. We've started embedding drift detection and input validation directly into inference pipelines — real-time checks that flag when sensor readings fall outside learned distributions, when correlation patterns break, when the model should stop trusting itself. Not as a separate monitoring layer. As part of the model.
+
+When your AI knows when it's seeing unfamiliar data, you can actually trust it in the field.]]></description>
+<content:encoded><![CDATA[A predictive maintenance model trains on 18 months of clean sensor data. It ships to a plant floor where a vibration sensor drifts 0.3% per week, a temperature logger gets recalibrated mid-deployment, and someone swaps out hardware without logging it. The model's confidence stays high. Its predictions become noise. Nobody notices for six weeks.
+
+This happens because most AI systems treat deployment like a static checkpoint. They assume the world that built the training set remains stable. Industrial and B2B environments don't work that way — sensors drift, operators change procedures, equipment gets replaced. The data distribution shifts constantly, but the model doesn't know it's wrong.
+
+The fix: build observability into the model itself, not around it. We've started embedding drift detection and input validation directly into inference pipelines — real-time checks that flag when sensor readings fall outside learned distributions, when correlation patterns break, when the model should stop trusting itself. Not as a separate monitoring layer. As part of the model.
+
+When your AI knows when it's seeing unfamiliar data, you can actually trust it in the field.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9e8502f5abb7.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9e8502f5abb7.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability roadmaps die after year one</title>
 <guid isPermaLink="false">76d2a79cab2a</guid>

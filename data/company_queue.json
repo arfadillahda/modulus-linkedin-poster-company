@@ -34,5 +34,14 @@
     "title": "Why sustainability roadmaps die after year one",
     "body": "Your sustainability initiative launches with fanfare. By month 13, it's competing for budget with actual revenue targets—and losing.\n\nThe failure mode: sustainability gets grafted onto existing workflows as an add-on. Engineering teams track emissions data separately from operational metrics. Finance treats carbon reduction as a cost center, not a lever tied to asset performance. Nobody owns the correlation between optimization and impact, so when a production crisis hits, sustainability becomes the first thing cut.\n\nWe've noticed the teams that hold momentum do something different. They embed sustainability into the problem statement itself, not the solution.\n\nInstead of \"reduce emissions by 15%,\" they frame it as: \"our compressor efficiency has 8-point upside; hitting it cuts both energy cost and scope 2 by $200k annually.\" Now operations owns it. Engineering sees a hard constraint they can optimize against. Finance sees margin recovery.\n\nThe mechanism is simple: align the metric to something already measured, already pressured, already funded. Sustainability stops being additional work and becomes the shape of the work you're already doing.\n\nChange the question, not the checklist.",
     "image_url": ""
+  },
+  {
+    "id": "9e8502f5abb7",
+    "ts": "2026-05-14T10:14:21.924469+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI models fail silently in industrial environments",
+    "body": "A predictive maintenance model trains on 18 months of clean sensor data. It ships to a plant floor where a vibration sensor drifts 0.3% per week, a temperature logger gets recalibrated mid-deployment, and someone swaps out hardware without logging it. The model's confidence stays high. Its predictions become noise. Nobody notices for six weeks.\n\nThis happens because most AI systems treat deployment like a static checkpoint. They assume the world that built the training set remains stable. Industrial and B2B environments don't work that way — sensors drift, operators change procedures, equipment gets replaced. The data distribution shifts constantly, but the model doesn't know it's wrong.\n\nThe fix: build observability into the model itself, not around it. We've started embedding drift detection and input validation directly into inference pipelines — real-time checks that flag when sensor readings fall outside learned distributions, when correlation patterns break, when the model should stop trusting itself. Not as a separate monitoring layer. As part of the model.\n\nWhen your AI knows when it's seeing unfamiliar data, you can actually trust it in the field.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9e8502f5abb7.png"
   }
 ]
