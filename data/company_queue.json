@@ -43,5 +43,14 @@
     "title": "Why AI models fail silently in industrial environments",
     "body": "A predictive maintenance model trains on 18 months of clean sensor data. It ships to a plant floor where a vibration sensor drifts 0.3% per week, a temperature logger gets recalibrated mid-deployment, and someone swaps out hardware without logging it. The model's confidence stays high. Its predictions become noise. Nobody notices for six weeks.\n\nThis happens because most AI systems treat deployment like a static checkpoint. They assume the world that built the training set remains stable. Industrial and B2B environments don't work that way — sensors drift, operators change procedures, equipment gets replaced. The data distribution shifts constantly, but the model doesn't know it's wrong.\n\nThe fix: build observability into the model itself, not around it. We've started embedding drift detection and input validation directly into inference pipelines — real-time checks that flag when sensor readings fall outside learned distributions, when correlation patterns break, when the model should stop trusting itself. Not as a separate monitoring layer. As part of the model.\n\nWhen your AI knows when it's seeing unfamiliar data, you can actually trust it in the field.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9e8502f5abb7.png"
+  },
+  {
+    "id": "50b5849cc0ee",
+    "ts": "2026-05-15T10:21:44.780193+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization feels like overhead instead of leverage",
+    "body": "Most digitalization efforts fail because they start with the technology, not the constraint.\n\nA plant manager inherits a legacy scheduling system. It's painful—slow, manual, error-prone. So leadership green-lights a modern platform. New software arrives. The team loads in their data. But six months later, people are still working around it, printing schedules, keeping shadow spreadsheets.\n\nThis happens because nobody asked: *what about the actual workflow forces this system to fail?* The software didn't fail. The underlying process did. You can't digitalize a broken workflow—you just accelerate the breakage.\n\nThe reframe: before you pick a tool, map the constraint. Where does work stall? Where do humans override the system? Where does information get trapped in email or memory? That friction point tells you what's actually broken. Sometimes it's process. Sometimes it's org structure. Sometimes it's missing data or unclear ownership.\n\nDigitalization only sticks when you've fixed the thing the tool is meant to *support*, not replace.\n\nTechnology amplifies clarity. It doesn't create it.",
+    "image_url": ""
   }
 ]
