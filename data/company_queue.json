@@ -52,5 +52,14 @@
     "title": "Why digitalization feels like overhead instead of leverage",
     "body": "Most digitalization efforts fail because they start with the technology, not the constraint.\n\nA plant manager inherits a legacy scheduling system. It's painful—slow, manual, error-prone. So leadership green-lights a modern platform. New software arrives. The team loads in their data. But six months later, people are still working around it, printing schedules, keeping shadow spreadsheets.\n\nThis happens because nobody asked: *what about the actual workflow forces this system to fail?* The software didn't fail. The underlying process did. You can't digitalize a broken workflow—you just accelerate the breakage.\n\nThe reframe: before you pick a tool, map the constraint. Where does work stall? Where do humans override the system? Where does information get trapped in email or memory? That friction point tells you what's actually broken. Sometimes it's process. Sometimes it's org structure. Sometimes it's missing data or unclear ownership.\n\nDigitalization only sticks when you've fixed the thing the tool is meant to *support*, not replace.\n\nTechnology amplifies clarity. It doesn't create it.",
     "image_url": ""
+  },
+  {
+    "id": "4d709bb25edc",
+    "ts": "2026-05-16T09:28:43.125647+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build Features Nobody Actually Needs",
+    "body": "We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.\n\nThe mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.\n\nThe reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.\n\nA classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.\n\nAlign the model to the decision, not the decision to the model.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png"
   }
 ]

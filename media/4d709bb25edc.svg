@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="88" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text x="960" y="88" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="132" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Model Accuracy Is the</text>
+  <text x="64" y="184" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Wrong Target</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="196" width="320" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- MIDDLE BAND — 2x2 grid of 4 tiles -->
+  <!-- Tile layout: 2 columns, 2 rows, gap 16px, outer padding 64px -->
+  <!-- Column width: (1024 - 64 - 64 - 16) / 2 = 440px -->
+  <!-- Row top positions: 236, 236+220+16=472 -->
+  <!-- Tile height: 210px -->
+
+  <!-- Tile 01 — top-left: x=64, y=236, w=440, h=210 -->
+  <rect x="64" y="236" width="440" height="210" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="286" font-size="40" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">01</text>
+  <text x="92" y="318" font-size="18" font-weight="700" fill="#111111">Wrong Signal</text>
+  <text x="92" y="344" font-size="14" font-weight="400" fill="#3A3A3A">Teams train models on the wrong objective</text>
+  <!-- decorative thin separator -->
+  <line x1="92" y1="360" x2="472" y2="360" stroke="#11111115" stroke-width="1"/>
+  <text x="92" y="382" font-size="13" font-weight="400" fill="#3A3A3A">Prediction windows don't match real schedules</text>
+  <text x="92" y="402" font-size="13" font-weight="400" fill="#3A3A3A">so nobody uses the output</text>
+
+  <!-- Tile 02 — top-right: x=520, y=236, w=440, h=210 -->
+  <rect x="520" y="236" width="440" height="210" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="286" font-size="40" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">02</text>
+  <text x="548" y="318" font-size="18" font-weight="700" fill="#111111">Misaligned Objectives</text>
+  <text x="548" y="344" font-size="14" font-weight="400" fill="#3A3A3A">ML teams optimize F1 score, not downtime</text>
+  <line x1="548" y1="360" x2="928" y2="360" stroke="#11111115" stroke-width="1"/>
+  <text x="548" y="382" font-size="13" font-weight="400" fill="#3A3A3A">Operations teams optimize for budget</text>
+  <text x="548" y="402" font-size="13" font-weight="400" fill="#3A3A3A">and staff utilization — not accuracy</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=462, w=440, h=210 -->
+  <rect x="64" y="462" width="440" height="210" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="512" font-size="40" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">03</text>
+  <text x="92" y="544" font-size="18" font-weight="700" fill="#111111">Think Decision, Not Model</text>
+  <text x="92" y="570" font-size="14" font-weight="400" fill="#3A3A3A">Map who decides, with what info, how fast</text>
+  <line x1="92" y1="586" x2="472" y2="586" stroke="#11111115" stroke-width="1"/>
+  <text x="92" y="608" font-size="13" font-weight="400" fill="#3A3A3A">Then work backward to what</text>
+  <text x="92" y="628" font-size="13" font-weight="400" fill="#3A3A3A">the model must output and when</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=462, w=440, h=210 -->
+  <rect x="520" y="462" width="440" height="210" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="512" font-size="40" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">04</text>
+  <text x="548" y="544" font-size="18" font-weight="700" fill="#111111">Useful Beats Accurate</text>
+  <text x="548" y="570" font-size="14" font-weight="400" fill="#3A3A3A">70% accuracy that shifts a call saves millions</text>
+  <line x1="548" y1="586" x2="928" y2="586" stroke="#11111115" stroke-width="1"/>
+  <text x="548" y="608" font-size="13" font-weight="400" fill="#3A3A3A">92% accuracy six hours too late</text>
+  <text x="548" y="628" font-size="13" font-weight="400" fill="#3A3A3A">is worth nothing to operations</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="730" x2="960" y2="730" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="800" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Align the model to the decision.</text>
+  <text x="512" y="832" font-size="16" font-weight="400" fill="#3A3A3A" text-anchor="middle">Not the decision to the model.</text>
+
+  <!-- Bottom wordmark / attribution line -->
+  <text x="512" y="920" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="middle">MODULUS1</text>
+
+</svg>

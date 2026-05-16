@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 15 May 2026 10:21:44 +0000</lastBuildDate>
+<lastBuildDate>Sat, 16 May 2026 09:29:05 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Features Nobody Actually Needs</title>
+<guid isPermaLink="false">4d709bb25edc</guid>
+<pubDate>Sat, 16 May 2026 09:28:43 +0000</pubDate>
+<description><![CDATA[We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.
+
+The mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.
+
+The reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.
+
+A classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.
+
+Align the model to the decision, not the decision to the model.]]></description>
+<content:encoded><![CDATA[We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.
+
+The mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.
+
+The reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.
+
+A classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.
+
+Align the model to the decision, not the decision to the model.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization feels like overhead instead of leverage</title>
 <guid isPermaLink="false">50b5849cc0ee</guid>
