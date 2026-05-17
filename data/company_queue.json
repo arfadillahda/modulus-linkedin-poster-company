@@ -61,5 +61,14 @@
     "title": "Why AI Teams Build Features Nobody Actually Needs",
     "body": "We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.\n\nThe mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.\n\nThe reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.\n\nA classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.\n\nAlign the model to the decision, not the decision to the model.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png"
+  },
+  {
+    "id": "c4995fc3791a",
+    "ts": "2026-05-17T09:46:15.609542+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software fails to scale past pilot",
+    "body": "Most sustainability platforms collect data beautifully but can't answer the question that matters: \"Did we actually reduce emissions in production, or just in the spreadsheet?\"\n\nThe gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.\n\nWe've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.\n\nThe shift: stop asking \"what were our emissions last month?\" Start asking \"which 3 decisions today would reduce tomorrow's footprint by 2%.\" When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.\n\nEmissions reduction happens in operations, not in reports.",
+    "image_url": ""
   }
 ]

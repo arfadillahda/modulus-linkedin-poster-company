@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 16 May 2026 09:29:05 +0000</lastBuildDate>
+<lastBuildDate>Sun, 17 May 2026 09:46:15 +0000</lastBuildDate>
+<item>
+<title>Why sustainability software fails to scale past pilot</title>
+<guid isPermaLink="false">c4995fc3791a</guid>
+<pubDate>Sun, 17 May 2026 09:46:15 +0000</pubDate>
+<description><![CDATA[Most sustainability platforms collect data beautifully but can't answer the question that matters: "Did we actually reduce emissions in production, or just in the spreadsheet?"
+
+The gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.
+
+We've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.
+
+The shift: stop asking "what were our emissions last month?" Start asking "which 3 decisions today would reduce tomorrow's footprint by 2%." When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.
+
+Emissions reduction happens in operations, not in reports.]]></description>
+<content:encoded><![CDATA[Most sustainability platforms collect data beautifully but can't answer the question that matters: "Did we actually reduce emissions in production, or just in the spreadsheet?"
+
+The gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.
+
+We've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.
+
+The shift: stop asking "what were our emissions last month?" Start asking "which 3 decisions today would reduce tomorrow's footprint by 2%." When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.
+
+Emissions reduction happens in operations, not in reports.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build Features Nobody Actually Needs</title>
 <guid isPermaLink="false">4d709bb25edc</guid>
