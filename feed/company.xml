@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 17 May 2026 09:46:15 +0000</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 11:44:03 +0000</lastBuildDate>
+<item>
+<title>Why digitalization fails when operators can't find data</title>
+<guid isPermaLink="false">6edf09bdbdb5</guid>
+<pubDate>Mon, 18 May 2026 11:43:42 +0000</pubDate>
+<description><![CDATA[Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?
+
+This happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.
+
+We've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.
+
+Digitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.]]></description>
+<content:encoded><![CDATA[Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?
+
+This happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.
+
+We've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.
+
+Digitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability software fails to scale past pilot</title>
 <guid isPermaLink="false">c4995fc3791a</guid>

@@ -70,5 +70,14 @@
     "title": "Why sustainability software fails to scale past pilot",
     "body": "Most sustainability platforms collect data beautifully but can't answer the question that matters: \"Did we actually reduce emissions in production, or just in the spreadsheet?\"\n\nThe gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.\n\nWe've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.\n\nThe shift: stop asking \"what were our emissions last month?\" Start asking \"which 3 decisions today would reduce tomorrow's footprint by 2%.\" When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.\n\nEmissions reduction happens in operations, not in reports.",
     "image_url": ""
+  },
+  {
+    "id": "6edf09bdbdb5",
+    "ts": "2026-05-18T11:43:42.734105+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization fails when operators can't find data",
+    "body": "Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?\n\nThis happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.\n\nWe've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.\n\nDigitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png"
   }
 ]

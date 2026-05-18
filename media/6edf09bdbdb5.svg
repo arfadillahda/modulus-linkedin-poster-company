@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════════════
+       TOP BAND  (~0 – 225px)
+  ════════════════════════════════════════════════════════════ -->
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text
+    x="960" y="78"
+    text-anchor="end"
+    font-size="13"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker -->
+  <text
+    x="64" y="88"
+    font-size="11"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.2em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Accent underline rule under headline area -->
+  <line x1="64" y1="101" x2="200" y2="101" stroke="#2D5BFF" stroke-width="1.5"/>
+
+  <!-- Display headline — line 1 -->
+  <text
+    x="64" y="152"
+    font-size="54"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators won't trust</text>
+
+  <!-- Display headline — line 2 -->
+  <text
+    x="64" y="212"
+    font-size="54"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">data they can't trace.</text>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MIDDLE BAND  (~245 – 870px)
+       4 tiles in 2 × 2 grid
+       Tile width: (1024 - 64 - 64 - 16) / 2 = 440
+       Tile height: (870 - 245 - 16) / 2 = 304.5 → 304
+       Row 1 top: 245   Row 2 top: 245 + 304 + 16 = 565
+  ════════════════════════════════════════════════════════════ -->
+
+  <!-- ── TILE 01 ── top-left  x=64, y=245, w=440, h=304 -->
+  <rect x="64" y="245" width="440" height="304" rx="16" ry="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="308"
+        font-size="52" font-weight="800" fill="#2D5BFF"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+
+  <text x="92" y="352"
+        font-size="22" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Dashboards Without Trust</text>
+
+  <text x="92" y="384"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators can't verify a metric's</text>
+  <text x="92" y="404"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">sensor, calculation, or timestamp.</text>
+
+  <!-- ── TILE 02 ── top-right  x=520, y=245, w=440, h=304 -->
+  <rect x="520" y="245" width="440" height="304" rx="16" ry="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="308"
+        font-size="52" font-weight="800" fill="#2D5BFF"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+
+  <text x="548" y="352"
+        font-size="22" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Designed for Analysts</text>
+
+  <text x="548" y="384"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Flows are built for engineers, then</text>
+  <text x="548" y="404"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">handed to people who must act.</text>
+
+  <!-- ── TILE 03 ── bottom-left  x=64, y=565, w=440, h=304 -->
+  <rect x="64" y="565" width="440" height="304" rx="16" ry="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="628"
+        font-size="52" font-weight="800" fill="#2D5BFF"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+
+  <text x="92" y="672"
+        font-size="22" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Audit Trails as First Class</text>
+
+  <text x="92" y="704"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Every value carries its lineage:</text>
+  <text x="92" y="724"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">raw → transform → storage → display.</text>
+
+  <!-- ── TILE 04 ── bottom-right  x=520, y=565, w=440, h=304 -->
+  <rect x="520" y="565" width="440" height="304" rx="16" ry="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="628"
+        font-size="52" font-weight="800" fill="#2D5BFF"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+
+  <text x="548" y="672"
+        font-size="22" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Verification Drives Adoption</text>
+
+  <text x="548" y="704"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neve', Arial, sans-serif">Confidence follows traceability;</text>
+  <text x="548" y="724"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">adoption sticks when trust is earned.</text>
+
+  <!-- ═══════════════════════════════════════════════════════
+       BOTTOM BAND  (~890 – 1024px)
+  ════════════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="900" x2="960" y2="900" stroke="#11111128" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="956"
+    text-anchor="middle"
+    font-size="20"
+    font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="0.005em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Adoption is a verification problem, not a UI problem.</text>
+
+</svg>
