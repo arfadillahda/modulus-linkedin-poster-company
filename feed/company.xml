@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 18 May 2026 11:44:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 19 May 2026 11:16:37 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects collapse during scaling</title>
+<guid isPermaLink="false">eae54cdf58d3</guid>
+<pubDate>Tue, 19 May 2026 11:16:37 +0000</pubDate>
+<description><![CDATA[You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.
+
+This happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.
+
+We've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.
+
+Operators aren't ignoring your process. They're solving a problem your process didn't account for.
+
+Fix the process visibility first. Then scale the tool.]]></description>
+<content:encoded><![CDATA[You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.
+
+This happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.
+
+We've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.
+
+Operators aren't ignoring your process. They're solving a problem your process didn't account for.
+
+Fix the process visibility first. Then scale the tool.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization fails when operators can't find data</title>
 <guid isPermaLink="false">6edf09bdbdb5</guid>

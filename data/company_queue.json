@@ -79,5 +79,14 @@
     "title": "Why digitalization fails when operators can't find data",
     "body": "Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?\n\nThis happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.\n\nWe've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.\n\nDigitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png"
+  },
+  {
+    "id": "eae54cdf58d3",
+    "ts": "2026-05-19T11:16:37.753900+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects collapse during scaling",
+    "body": "You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.\n\nThis happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.\n\nWe've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.\n\nOperators aren't ignoring your process. They're solving a problem your process didn't account for.\n\nFix the process visibility first. Then scale the tool.",
+    "image_url": ""
   }
 ]
