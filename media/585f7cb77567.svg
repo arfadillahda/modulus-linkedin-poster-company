@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- TOP BAND (~22% = 0–225px) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960"
+    y="44"
+    text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="13"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="2.4"
+  >MODULUS1</text>
+
+  <!-- Kicker -->
+  <text
+    x="64"
+    y="80"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="11"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="2"
+  >AI</text>
+
+  <!-- Headline underline rule -->
+  <rect x="64" y="94" width="52" height="1.5" fill="#2D5BFF" opacity="0.85"/>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64"
+    y="148"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="56"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-1.5"
+  >Accurate Models</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64"
+    y="210"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="56"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-1.5"
+  >Nobody Trusts</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- MIDDLE BAND (~62% = 225–860px) -->
+  <!-- 4 tiles in 2×2 grid -->
+  <!-- Outer padding: 64px, gap: 16px -->
+  <!-- tile width: (1024 - 64 - 64 - 16) / 2 = 440px -->
+  <!-- tile height: (860 - 225 - 16 - 16*2) / 2 = ~293px -> use 292 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Tile col/row positions:
+       Col A x=64, Col B x=520
+       Row 1 y=245, Row 2 y=553
+       tile w=440, tile h=292
+  -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="245" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="302" font-size="42" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="354" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Shared Vocabulary Missing</text>
+  <text x="92" y="387" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Engineers and operators don't speak</text>
+  <text x="92" y="406" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the same language about decisions.</text>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="520" y="245" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="302" font-size="42" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="354" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators Need Actionability</text>
+  <text x="548" y="387" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Can I act on this in 30 seconds?</text>
+  <text x="548" y="406" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Accuracy metrics don't answer that.</text>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="553" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="610" font-size="42" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="662" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build the Translation Layer First</text>
+  <text x="92" y="695" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map domain workflow before touching</text>
+  <text x="92" y="714" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the model architecture.</text>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="520" y="553" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="610" font-size="42" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="662" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Interpretability Over Raw Accuracy</text>
+  <text x="548" y="695" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sometimes reframe the problem entirely.</text>
+  <text x="548" y="714" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Trust beats precision every time.</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- BOTTOM BAND (~16% = 860–1024px) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule above closing line -->
+  <line x1="64" y1="876" x2="960" y2="876" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512"
+    y="950"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22"
+    font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.2"
+  >An accurate model no one trusts is just a research project.</text>
+</svg>

@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 19 May 2026 11:16:37 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 10:49:59 +0000</lastBuildDate>
+<item>
+<title>Why AI Projects Stall When Teams Skip the Domain Layer</title>
+<guid isPermaLink="false">585f7cb77567</guid>
+<pubDate>Wed, 20 May 2026 10:49:33 +0000</pubDate>
+<description><![CDATA[You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.
+
+This happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.
+
+The fix: build a translation layer before you touch the model.
+
+We work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.
+
+It's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.
+
+An accurate model no one trusts is just a research project.]]></description>
+<content:encoded><![CDATA[You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.
+
+This happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.
+
+The fix: build a translation layer before you touch the model.
+
+We work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.
+
+It's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.
+
+An accurate model no one trusts is just a research project.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects collapse during scaling</title>
 <guid isPermaLink="false">eae54cdf58d3</guid>

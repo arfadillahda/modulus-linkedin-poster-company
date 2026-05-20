@@ -88,5 +88,14 @@
     "title": "Why digitalization projects collapse during scaling",
     "body": "You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.\n\nThis happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.\n\nWe've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.\n\nOperators aren't ignoring your process. They're solving a problem your process didn't account for.\n\nFix the process visibility first. Then scale the tool.",
     "image_url": ""
+  },
+  {
+    "id": "585f7cb77567",
+    "ts": "2026-05-20T10:49:33.132598+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Projects Stall When Teams Skip the Domain Layer",
+    "body": "You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.\n\nThis happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.\n\nThe fix: build a translation layer before you touch the model.\n\nWe work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.\n\nIt's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.\n\nAn accurate model no one trusts is just a research project.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png"
   }
 ]
