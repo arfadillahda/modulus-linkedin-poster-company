@@ -97,5 +97,14 @@
     "title": "Why AI Projects Stall When Teams Skip the Domain Layer",
     "body": "You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.\n\nThis happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.\n\nThe fix: build a translation layer before you touch the model.\n\nWe work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.\n\nIt's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.\n\nAn accurate model no one trusts is just a research project.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png"
+  },
+  {
+    "id": "dbb5c754438c",
+    "ts": "2026-05-21T11:22:14.694201+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability targets ignore how operators actually work",
+    "body": "Most industrial sustainability targets are built top-down: reduce emissions by 40% by 2030, cut water usage 25%, hit net-zero scope 3. They're mathematically sound. They're also divorced from how a plant floor actually runs.\n\nThe gap exists because sustainability gets owned by strategy or compliance teams who measure in annual reports. Operations owns daily decisions—equipment runtime, shift scheduling, material flow—in minutes and hours. A target set 18 months ago doesn't account for the supplier that went offline last week or the unexpected demand spike. When there's friction between the target and operational reality, operations wins. It has to. The plant keeps running.\n\nThe reframe: stop treating sustainability as a constraint on operations. Treat it as a signal inside operational decision-making. When you make a maintenance call, a throughput call, a staffing call—sustainability metrics should surface the trade-offs in real time, not after the decision's made.\n\nThis means embedding emissions intensity, water per unit, waste streams into the same dashboards where operators see line pressure and cycle time. Not as audit fodder. As operational data.\n\nTargets don't change behavior. Visibility in the workflow does.",
+    "image_url": ""
   }
 ]
