@@ -1,0 +1,202 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Subtle background texture lines -->
+  <line x1="0" y1="226" x2="1024" y2="226" stroke="#11111108" stroke-width="1"/>
+  <line x1="0" y1="860" x2="1024" y2="860" stroke="#11111108" stroke-width="1"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- TOP BAND -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="96"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="11" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="start">SUSTAINABILITY</text>
+
+  <!-- Accent underline under kicker -->
+  <line x1="64" y1="104" x2="178" y2="104" stroke="#1F5C3D" stroke-width="1.5"/>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="148"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start">Operators win when KPIs</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="202"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start">don't speak their language</text>
+
+  <!-- Accent rule under headline -->
+  <line x1="64" y1="216" x2="320" y2="216" stroke="#1F5C3D" stroke-width="2"/>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="76"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="12" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="end">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- MIDDLE BAND — 4 tiles in 2×2 grid -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Grid layout: 2 columns, 2 rows -->
+  <!-- col1 x=64, col2 x=548 -->
+  <!-- row1 y=242, row2 y=554 -->
+  <!-- tile width = 460, tile height = 288, gap = 24 -->
+
+  <!-- TILE 01 -->
+  <rect x="64" y="242" width="460" height="288" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="96" y="302"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">01</text>
+  <text
+    x="96" y="352"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em">Two Incentive Worlds</text>
+  <text
+    x="96" y="390"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">ESG reporting and uptime goals</text>
+  <text
+    x="96" y="412"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">rarely share the same metric.</text>
+  <!-- Decorative accent mark -->
+  <rect x="96" y="436" width="40" height="3" rx="1.5" fill="#1F5C3D" opacity="0.35"/>
+
+  <!-- TILE 02 -->
+  <rect x="548" y="242" width="412" height="288" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="580" y="302"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">02</text>
+  <text
+    x="580" y="352"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em">Audit Pressure Fades</text>
+  <text
+    x="580" y="390"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">Targets hit on paper; old process</text>
+  <text
+    x="580" y="412"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">quietly returns when no one watches.</text>
+  <rect x="580" y="436" width="40" height="3" rx="1.5" fill="#1F5C3D" opacity="0.35"/>
+
+  <!-- TILE 03 -->
+  <rect x="64" y="554" width="460" height="282" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="96" y="614"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">03</text>
+  <text
+    x="96" y="664"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em">Start With Their Win</text>
+  <text
+    x="96" y="702"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">Energy cost, scrap, fewer changeovers</text>
+  <text
+    x="96" y="724"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">— find what operators actually want.</text>
+  <rect x="96" y="748" width="40" height="3" rx="1.5" fill="#1F5C3D" opacity="0.35"/>
+
+  <!-- TILE 04 -->
+  <rect x="548" y="554" width="412" height="282" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="580" y="614"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">04</text>
+  <text
+    x="580" y="664"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em">Carbon as Side Effect</text>
+  <text
+    x="580" y="702"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">Sustainability follows a choice they</text>
+  <text
+    x="580" y="724"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400"
+    fill="#3A3A3A">made for themselves. Behavior sticks.</text>
+  <rect x="580" y="748" width="40" height="3" rx="1.5" fill="#1F5C3D" opacity="0.35"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- BOTTOM BAND -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="868" x2="960" y2="868" stroke="#11111120" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="920"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="18" font-weight="600"
+    fill="#3A3A3A"
+    letter-spacing="0.01em"
+    text-anchor="middle">Same goal. That's when the behavior actually sticks.</text>
+
+  <!-- Bottom wordmark repeat (small, right-aligned) -->
+  <text
+    x="960" y="972"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="10" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    opacity="0.6"
+    text-anchor="end">MODULUS1</text>
+
+</svg>
