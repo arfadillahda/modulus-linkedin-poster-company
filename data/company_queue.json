@@ -115,5 +115,14 @@
     "title": "Why sustainability KPIs disconnect from operator incentives",
     "body": "A plant hits its carbon reduction target on paper, then operations quietly reverts to the old process when audit pressure lifts. The KPI was real. The behavior change wasn't.\n\nThis happens because sustainability metrics live in one incentive structure (corporate ESG reporting, regulatory compliance) while operators live in another (uptime, cost per unit, no surprises). When those two don't align, the operator wins every time—and rightfully so. They own the outcome.\n\nWe've started asking a different question early: What does the operator actually need to *want* this change? Not why they should. Why they'd choose it.\n\nThat usually means finding a win that matters to their day-to-day first—energy cost drop, scrap reduction, fewer changeovers—and *then* layering the sustainability story on top. The carbon reduction becomes a side effect of a choice they made for themselves.\n\nIt's not about manipulation. It's about starting where the incentive already points.\n\nWhen operator goals and sustainability goals are the same goal, the behavior sticks.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/188a4222485c.png"
+  },
+  {
+    "id": "4b5f6e3c47c3",
+    "ts": "2026-05-25T11:52:35.100034+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Inference Costs Spiral in Production",
+    "body": "Your ML team ships a classifier that works great in eval. Six months later, inference is burning $40k/month and nobody can explain why.\n\nThis happens because models don't degrade gracefully under real-world distribution shift. A classifier trained on pristine data encounters edge cases—unusual sensor readings, malformed inputs, novel patterns—and either halluccinates or runs expensive fallback logic. Each edge case triggers a retry, a longer inference window, a call to a larger model. The cost curve doesn't slope, it jumps.\n\nThe fix is to build a filtering layer before inference: a lightweight schema validator that catches malformed inputs upstream, and a learned anomaly detector that quarantines out-of-distribution samples before they hit your expensive model. We've done this with industrial sensor data using a two-stage pipeline—a rule-based gate, then a trained OOD classifier—that cuts inference volume by 35–50% without touching the main model.\n\nYour ML cost problem isn't a tuning problem. It's an architecture problem. Filter early, or pay later.",
+    "image_url": ""
   }
 ]
