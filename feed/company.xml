@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 25 May 2026 11:52:35 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 11:38:09 +0000</lastBuildDate>
+<item>
+<title>Why digitalization roadmaps ignore what operators actually need</title>
+<guid isPermaLink="false">d6ce962f243a</guid>
+<pubDate>Thu, 28 May 2026 11:37:42 +0000</pubDate>
+<description><![CDATA[Most digitalization strategies start with a technology stack—cloud platforms, analytics engines, integration layers—then ask operators to fit their work around it. Six months in, adoption stalls because the roadmap solved a problem nobody had.
+
+The gap exists because digitalization is usually planned by people who don't spend time on the shop floor. They see inefficiency in aggregate data or process visibility. Operators see something else: tools that complicate their day without solving their immediate constraints. A drilling supervisor doesn't care about enterprise dashboards; she cares that her current workflow requires five systems to answer one question.
+
+The reframe: start by mapping the actual decision loops operators run—not the decisions we think they should run. What information do they need right now to do their job faster? What context gets lost in handoffs? Where do they default to spreadsheets because the system doesn't speak their language?
+
+Digitalization that sticks isn't built from technology downward. It's built from the operator's next decision upward.
+
+The tools follow the logic, not the other way around.]]></description>
+<content:encoded><![CDATA[Most digitalization strategies start with a technology stack—cloud platforms, analytics engines, integration layers—then ask operators to fit their work around it. Six months in, adoption stalls because the roadmap solved a problem nobody had.
+
+The gap exists because digitalization is usually planned by people who don't spend time on the shop floor. They see inefficiency in aggregate data or process visibility. Operators see something else: tools that complicate their day without solving their immediate constraints. A drilling supervisor doesn't care about enterprise dashboards; she cares that her current workflow requires five systems to answer one question.
+
+The reframe: start by mapping the actual decision loops operators run—not the decisions we think they should run. What information do they need right now to do their job faster? What context gets lost in handoffs? Where do they default to spreadsheets because the system doesn't speak their language?
+
+Digitalization that sticks isn't built from technology downward. It's built from the operator's next decision upward.
+
+The tools follow the logic, not the other way around.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6ce962f243a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6ce962f243a.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Inference Costs Spiral in Production</title>
 <guid isPermaLink="false">4b5f6e3c47c3</guid>

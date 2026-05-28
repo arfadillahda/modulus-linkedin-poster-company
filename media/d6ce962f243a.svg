@@ -1,0 +1,142 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND (0 – 225px)
+  ═══════════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text x="64" y="88"
+        font-size="11" font-weight="600" fill="#2D5BFF"
+        letter-spacing="0.18em" text-anchor="start"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="88"
+        font-size="11" font-weight="600" fill="#2D5BFF"
+        letter-spacing="0.18em" text-anchor="end"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Accent underline rule under kicker -->
+  <line x1="64" y1="96" x2="180" y2="96" stroke="#2D5BFF" stroke-width="1.5"/>
+
+  <!-- Display headline line 1 -->
+  <text x="64" y="147"
+        font-size="44" font-weight="800" fill="#111111"
+        letter-spacing="-0.02em" text-anchor="start"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build from the operator's</text>
+
+  <!-- Display headline line 2 -->
+  <text x="64" y="200"
+        font-size="44" font-weight="800" fill="#111111"
+        letter-spacing="-0.02em" text-anchor="start"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">decision upward.</text>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND — 4 tiles in 2×2 grid
+       Band: y=225 to y=860  (635px tall)
+       Tile rows:
+         Row 1:  y=245 → height=295
+         Row 2:  y=556 → height=295
+       Two cols:
+         Col 1:  x=64  → width=428
+         Col 2:  x=508 → width=452  (to edge 960)
+       Gap: 16px
+  ═══════════════════════════════════════════ -->
+
+  <!-- TILE 01 — Top-left -->
+  <rect x="64" y="245" width="428" height="295" rx="16" ry="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="90" y="307"
+        font-size="48" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <!-- Tile title -->
+  <text x="90" y="348"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Tech-first planning fails</text>
+  <!-- Caption line 1 -->
+  <text x="90" y="380"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Roadmaps built around platforms,</text>
+  <text x="90" y="400"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not actual operator constraints.</text>
+
+  <!-- TILE 02 — Top-right -->
+  <rect x="508" y="245" width="452" height="295" rx="16" ry="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="534" y="307"
+        font-size="48" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <!-- Tile title -->
+  <text x="534" y="348"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The shop-floor gap</text>
+  <!-- Caption -->
+  <text x="534" y="380"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Planners see aggregate data;</text>
+  <text x="534" y="400"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">operators see five-system friction.</text>
+
+  <!-- TILE 03 — Bottom-left -->
+  <rect x="64" y="556" width="428" height="295" rx="16" ry="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="90" y="618"
+        font-size="48" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <!-- Tile title -->
+  <text x="90" y="659"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map decision loops first</text>
+  <!-- Caption -->
+  <text x="90" y="691"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">What do operators need right now</text>
+  <text x="90" y="711"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">to answer one question faster?</text>
+
+  <!-- TILE 04 — Bottom-right -->
+  <rect x="508" y="556" width="452" height="295" rx="16" ry="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="534" y="618"
+        font-size="48" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <!-- Tile title -->
+  <text x="534" y="659"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Tools follow logic</text>
+  <!-- Caption -->
+  <text x="534" y="691"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Fix context lost in handoffs;</text>
+  <text x="534" y="711"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">let the workflow define the stack.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND (860 – 1024)
+  ═══════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="882" x2="960" y2="882" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="942"
+        font-size="18" font-weight="400" fill="#3A3A3A"
+        letter-spacing="0.01em" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Adoption sticks when digitalization starts with the operator's next decision.</text>
+
+</svg>
