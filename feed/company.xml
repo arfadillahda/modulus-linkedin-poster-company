@@ -4,7 +4,36 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 28 May 2026 11:38:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 29 May 2026 11:27:47 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Confuse Prediction Accuracy With Production Readiness</title>
+<guid isPermaLink="false">27490f98fc09</guid>
+<pubDate>Fri, 29 May 2026 11:27:47 +0000</pubDate>
+<description><![CDATA[Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.
+
+The confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.
+
+This gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.
+
+The reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?
+
+You'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.
+
+Accuracy is a prerequisite for trust. Usefulness is what builds it.]]></description>
+<content:encoded><![CDATA[Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.
+
+The confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.
+
+This gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.
+
+The reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?
+
+You'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.
+
+Accuracy is a prerequisite for trust. Usefulness is what builds it.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization roadmaps ignore what operators actually need</title>
 <guid isPermaLink="false">d6ce962f243a</guid>

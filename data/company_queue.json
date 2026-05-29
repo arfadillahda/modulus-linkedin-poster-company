@@ -133,5 +133,14 @@
     "title": "Why digitalization roadmaps ignore what operators actually need",
     "body": "Most digitalization strategies start with a technology stack—cloud platforms, analytics engines, integration layers—then ask operators to fit their work around it. Six months in, adoption stalls because the roadmap solved a problem nobody had.\n\nThe gap exists because digitalization is usually planned by people who don't spend time on the shop floor. They see inefficiency in aggregate data or process visibility. Operators see something else: tools that complicate their day without solving their immediate constraints. A drilling supervisor doesn't care about enterprise dashboards; she cares that her current workflow requires five systems to answer one question.\n\nThe reframe: start by mapping the actual decision loops operators run—not the decisions we think they should run. What information do they need right now to do their job faster? What context gets lost in handoffs? Where do they default to spreadsheets because the system doesn't speak their language?\n\nDigitalization that sticks isn't built from technology downward. It's built from the operator's next decision upward.\n\nThe tools follow the logic, not the other way around.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6ce962f243a.png"
+  },
+  {
+    "id": "27490f98fc09",
+    "ts": "2026-05-29T11:27:47.211564+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Confuse Prediction Accuracy With Production Readiness",
+    "body": "Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.\n\nThe confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.\n\nThis gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.\n\nThe reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?\n\nYou'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.\n\nAccuracy is a prerequisite for trust. Usefulness is what builds it.",
+    "image_url": ""
   }
 ]
