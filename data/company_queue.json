@@ -142,5 +142,14 @@
     "title": "Why AI Teams Confuse Prediction Accuracy With Production Readiness",
     "body": "Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.\n\nThe confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.\n\nThis gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.\n\nThe reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?\n\nYou'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.\n\nAccuracy is a prerequisite for trust. Usefulness is what builds it.",
     "image_url": ""
+  },
+  {
+    "id": "3343c37db34d",
+    "ts": "2026-05-30T09:59:44.220489+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software stops talking to operators",
+    "body": "A sustainability platform launches with carbon accounting, scope 3 tracking, and beautiful dashboards. Six months in, operators ignore it entirely. They're not lazy—they're rational.\n\nSustainability software treats the operator layer as a data entry point, not a feedback loop. A refinery technician has no mechanism to see how their shift decisions moved the needle on emissions. They report consumption metrics upstream, but never learn if that shift to a lower-temperature process actually cut carbon the way the sustainability team predicted. The system becomes one-directional: compliance data flows up, nothing flows back down to the people who actually control the dials.\n\nWithout a closed loop, operators can't build intuition. They can't trust the model. And they certainly can't innovate on it.\n\nWe've started embedding real-time feedback loops into operator dashboards—not as KPI theater, but as immediate cause-and-effect mirrors. When a technician adjusts a setpoint, they see the carbon impact within minutes, not in a quarterly report. The system becomes predictive and personal, not extractive.\n\nOperators don't need to care about sustainability targets. They need to see their work move something measurable in real time.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3343c37db34d.png"
   }
 ]
