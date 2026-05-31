@@ -4,7 +4,36 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 30 May 2026 10:00:03 +0000</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 10:14:39 +0000</lastBuildDate>
+<item>
+<title>Why digitalization audits miss the operator's actual bottleneck</title>
+<guid isPermaLink="false">45636ec35c03</guid>
+<pubDate>Sun, 31 May 2026 10:14:39 +0000</pubDate>
+<description><![CDATA[Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.
+
+We recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.
+
+This happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?
+
+The fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.
+
+We've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.
+
+Digitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.]]></description>
+<content:encoded><![CDATA[Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.
+
+We recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.
+
+This happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?
+
+The fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.
+
+We've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.
+
+Digitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability software stops talking to operators</title>
 <guid isPermaLink="false">3343c37db34d</guid>

@@ -151,5 +151,14 @@
     "title": "Why sustainability software stops talking to operators",
     "body": "A sustainability platform launches with carbon accounting, scope 3 tracking, and beautiful dashboards. Six months in, operators ignore it entirely. They're not lazy—they're rational.\n\nSustainability software treats the operator layer as a data entry point, not a feedback loop. A refinery technician has no mechanism to see how their shift decisions moved the needle on emissions. They report consumption metrics upstream, but never learn if that shift to a lower-temperature process actually cut carbon the way the sustainability team predicted. The system becomes one-directional: compliance data flows up, nothing flows back down to the people who actually control the dials.\n\nWithout a closed loop, operators can't build intuition. They can't trust the model. And they certainly can't innovate on it.\n\nWe've started embedding real-time feedback loops into operator dashboards—not as KPI theater, but as immediate cause-and-effect mirrors. When a technician adjusts a setpoint, they see the carbon impact within minutes, not in a quarterly report. The system becomes predictive and personal, not extractive.\n\nOperators don't need to care about sustainability targets. They need to see their work move something measurable in real time.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3343c37db34d.png"
+  },
+  {
+    "id": "45636ec35c03",
+    "ts": "2026-05-31T10:14:39.672610+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization audits miss the operator's actual bottleneck",
+    "body": "Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.\n\nWe recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.\n\nThis happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?\n\nThe fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.\n\nWe've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.\n\nDigitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.",
+    "image_url": ""
   }
 ]
