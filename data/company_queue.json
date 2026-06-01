@@ -160,5 +160,14 @@
     "title": "Why digitalization audits miss the operator's actual bottleneck",
     "body": "Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.\n\nWe recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.\n\nThis happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?\n\nThe fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.\n\nWe've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.\n\nDigitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.",
     "image_url": ""
+  },
+  {
+    "id": "7a7adfdd2bed",
+    "ts": "2026-06-01T13:35:33.208007+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects stall after the first win",
+    "body": "You deploy a new system, it works for one shift, then adoption flatlines. The operators use it when supervisors watch. Everyone else papers over it with spreadsheets.\n\nThis happens because digitalization gets treated as a technology problem instead of a workflow problem. You pick the tool, build the integration, declare victory. But you never mapped what the operator actually does before, during, and after the change. So the system solves a problem they didn't have, or creates friction they can't justify to their team.\n\nWe approach this differently: before any tool talk, we run a three-step audit.\n\nFirst, observe the actual workflow under load—not the org chart version, the real one. Second, identify the friction point that costs time or creates rework. Third, design the digital intervention to remove that friction, not add features around it.\n\nThe system becomes sticky because it saves someone's day, not because IT mandated it.\n\nSticky adoption isn't about better UX. It's about solving a problem the operator already feels.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7a7adfdd2bed.png"
   }
 ]
