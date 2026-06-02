@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 01 Jun 2026 13:35:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Jun 2026 12:03:10 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Features That Don't Reduce Operator Workload</title>
+<guid isPermaLink="false">823073a88c91</guid>
+<pubDate>Tue, 02 Jun 2026 12:03:10 +0000</pubDate>
+<description><![CDATA[We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.
+
+This happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.
+
+We use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.
+
+The model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.
+
+Start with workload, not with the algorithm.]]></description>
+<content:encoded><![CDATA[We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.
+
+This happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.
+
+We use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.
+
+The model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.
+
+Start with workload, not with the algorithm.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects stall after the first win</title>
 <guid isPermaLink="false">7a7adfdd2bed</guid>

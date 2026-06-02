@@ -169,5 +169,14 @@
     "title": "Why digitalization projects stall after the first win",
     "body": "You deploy a new system, it works for one shift, then adoption flatlines. The operators use it when supervisors watch. Everyone else papers over it with spreadsheets.\n\nThis happens because digitalization gets treated as a technology problem instead of a workflow problem. You pick the tool, build the integration, declare victory. But you never mapped what the operator actually does before, during, and after the change. So the system solves a problem they didn't have, or creates friction they can't justify to their team.\n\nWe approach this differently: before any tool talk, we run a three-step audit.\n\nFirst, observe the actual workflow under load—not the org chart version, the real one. Second, identify the friction point that costs time or creates rework. Third, design the digital intervention to remove that friction, not add features around it.\n\nThe system becomes sticky because it saves someone's day, not because IT mandated it.\n\nSticky adoption isn't about better UX. It's about solving a problem the operator already feels.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7a7adfdd2bed.png"
+  },
+  {
+    "id": "823073a88c91",
+    "ts": "2026-06-02T12:03:10.799469+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Build Features That Don't Reduce Operator Workload",
+    "body": "We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.\n\nThis happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.\n\nWe use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.\n\nThe model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.\n\nStart with workload, not with the algorithm.",
+    "image_url": ""
   }
 ]
