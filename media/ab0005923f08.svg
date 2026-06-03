@@ -1,0 +1,162 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ============================================================
+       TOP BAND  (0 – 225px)
+  ============================================================ -->
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text
+    x="1012" y="28"
+    text-anchor="end"
+    font-size="12" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="72"
+    font-size="11" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.22em"
+    text-transform="uppercase"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">SUSTAINABILITY</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="130"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators see what</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="188"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">metrics never measure.</text>
+
+  <!-- Accent underline rule beneath headline -->
+  <rect x="64" y="200" width="180" height="3" rx="1.5" fill="#1F5C3D"/>
+
+
+  <!-- ============================================================
+       MIDDLE BAND  (225 – 862px)  —  2 × 2 grid of 4 tiles
+       Tile layout:
+         Left col x=64,  Right col x=548
+         Row 1 y=232,    Row 2 y=554
+         Tile w=412, Tile h=306
+         Gap=16px, Corner radius=16
+  ============================================================ -->
+
+  <!-- ── TILE 01 ── (top-left) -->
+  <rect x="64" y="232" width="412" height="306" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- numeral -->
+  <text x="92" y="292"
+        font-size="48" font-weight="800"
+        fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <!-- tile title -->
+  <text x="92" y="338"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Wrong unit, wrong target</text>
+  <!-- caption line 1 -->
+  <text x="92" y="372"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Corporate CO₂ targets don't live</text>
+  <!-- caption line 2 -->
+  <text x="92" y="393"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">on the job site floor.</text>
+
+  <!-- ── TILE 02 ── (top-right) -->
+  <rect x="548" y="232" width="412" height="306" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="576" y="292"
+        font-size="48" font-weight="800"
+        fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="576" y="338"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Built top-down by design</text>
+  <text x="576" y="372"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Finance sets targets. Operators execute</text>
+  <text x="576" y="393"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">specs written in another language.</text>
+
+  <!-- ── TILE 03 ── (bottom-left) -->
+  <rect x="64" y="554" width="412" height="306" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="614"
+        font-size="48" font-weight="800"
+        fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="660"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Constraints, not compliance</text>
+  <text x="92" y="694"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask the smallest shift that</text>
+  <text x="92" y="715"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">survives contact with reality.</text>
+
+  <!-- ── TILE 04 ── (bottom-right) -->
+  <rect x="548" y="554" width="412" height="306" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="576" y="614"
+        font-size="48" font-weight="800"
+        fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="576" y="660"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators decide, math follows</text>
+  <text x="576" y="694"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Give operators agency and your</text>
+  <text x="576" y="715"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">targets move — and they stay.</text>
+
+
+  <!-- ============================================================
+       BOTTOM BAND  (862 – 1024px)
+  ============================================================ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="878" x2="960" y2="878"
+        stroke="#11111128" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="940"
+        text-anchor="middle"
+        font-size="20" font-weight="400"
+        fill="#3A3A3A"
+        letter-spacing="0.01em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Stop chasing someone else's number. Start with what operators adjust.</text>
+
+</svg>

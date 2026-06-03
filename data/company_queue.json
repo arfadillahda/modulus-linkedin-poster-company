@@ -178,5 +178,14 @@
     "title": "Why AI Teams Build Features That Don't Reduce Operator Workload",
     "body": "We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.\n\nThis happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.\n\nWe use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.\n\nThe model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.\n\nStart with workload, not with the algorithm.",
     "image_url": ""
+  },
+  {
+    "id": "ab0005923f08",
+    "ts": "2026-06-03T12:40:57.476682+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability metrics ignore what operators actually see",
+    "body": "Most sustainability initiatives measure the wrong unit: they track corporate targets (tons of CO2, energy per dollar revenue) instead of what operators control on the job site. An operator can't move a needle on \"company-wide emissions intensity.\" They can see a pressure gauge, a fuel tank, a maintenance interval.\n\nThis gap exists because sustainability was built top-down. Finance sets the target. Engineering translates it into spec. Operations executes a spec that was never written in their language. The operator becomes a instrument, not a decision-maker.\n\nReframe sustainability as a constraints problem, not a compliance problem. Instead of \"reduce energy by 12%,\" ask: what's the smallest adjustment an operator can make to their daily workflow that moves the system toward your target? Not the fastest. The smallest. The thing that survives contact with reality.\n\nWhen you stop asking operators to chase someone else's number and start asking what they can actually adjust, the math changes. Your targets move. Your operators stay.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ab0005923f08.png"
   }
 ]
