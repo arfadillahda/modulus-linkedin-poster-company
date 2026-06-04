@@ -187,5 +187,14 @@
     "title": "Why sustainability metrics ignore what operators actually see",
     "body": "Most sustainability initiatives measure the wrong unit: they track corporate targets (tons of CO2, energy per dollar revenue) instead of what operators control on the job site. An operator can't move a needle on \"company-wide emissions intensity.\" They can see a pressure gauge, a fuel tank, a maintenance interval.\n\nThis gap exists because sustainability was built top-down. Finance sets the target. Engineering translates it into spec. Operations executes a spec that was never written in their language. The operator becomes a instrument, not a decision-maker.\n\nReframe sustainability as a constraints problem, not a compliance problem. Instead of \"reduce energy by 12%,\" ask: what's the smallest adjustment an operator can make to their daily workflow that moves the system toward your target? Not the fastest. The smallest. The thing that survives contact with reality.\n\nWhen you stop asking operators to chase someone else's number and start asking what they can actually adjust, the math changes. Your targets move. Your operators stay.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ab0005923f08.png"
+  },
+  {
+    "id": "4cae6d58fac9",
+    "ts": "2026-06-04T10:59:34.421300+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability budgets disappear into unrealistic timelines",
+    "body": "Most industrial companies plan their sustainability roadmap by working backward from a 2030 or 2050 target, then dividing the gap into equal annual steps. Then reality hits: a furnace rebuild takes 18 months, a supply contract locks in for three years, a process change needs six months of validation. The linear math collapses.\n\nThis happens because sustainability planning treats the operation as infinitely flexible. It isn't. Industrial assets have physics, procurement cycles, and regulatory dependencies that don't compress. A sustainability framework that ignores these constraints becomes a document that operators dismiss—or worse, pursue through workarounds that create new compliance risk.\n\nWe approach this differently: start with the operational calendar. Map major asset lifecycles, contract renewals, and process validation windows for the next five years. Then anchor sustainability moves to those moments—when you're replacing a compressor anyway, right-size it for efficiency targets. When you're renegotiating a supply agreement, bake in emissions metrics. The goal stays the same. The path becomes real.\n\nSustainability timelines fail when they ignore how the plant actually changes.",
+    "image_url": ""
   }
 ]
