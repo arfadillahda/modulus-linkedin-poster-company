@@ -196,5 +196,14 @@
     "title": "Why sustainability budgets disappear into unrealistic timelines",
     "body": "Most industrial companies plan their sustainability roadmap by working backward from a 2030 or 2050 target, then dividing the gap into equal annual steps. Then reality hits: a furnace rebuild takes 18 months, a supply contract locks in for three years, a process change needs six months of validation. The linear math collapses.\n\nThis happens because sustainability planning treats the operation as infinitely flexible. It isn't. Industrial assets have physics, procurement cycles, and regulatory dependencies that don't compress. A sustainability framework that ignores these constraints becomes a document that operators dismiss—or worse, pursue through workarounds that create new compliance risk.\n\nWe approach this differently: start with the operational calendar. Map major asset lifecycles, contract renewals, and process validation windows for the next five years. Then anchor sustainability moves to those moments—when you're replacing a compressor anyway, right-size it for efficiency targets. When you're renegotiating a supply agreement, bake in emissions metrics. The goal stays the same. The path becomes real.\n\nSustainability timelines fail when they ignore how the plant actually changes.",
     "image_url": ""
+  },
+  {
+    "id": "60430befc798",
+    "ts": "2026-06-05T11:27:21.027330+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Teams Ship Models That Fail on Real Operator Data",
+    "body": "Your model performs at 94% accuracy on the test set. It hits 61% accuracy on live operator logs from week one. The gap isn't noise—it's a schema mismatch.\n\nMost teams treat training data and production data as the same thing. They aren't. Operators use terminology inconsistently, submit forms with missing fields, enter timestamps in three different formats, and abbreviate equipment names in ways your training set never saw. The model learned a statistical pattern. Production threw an edge case—one that occurs maybe 8% of the time but breaks the entire pipeline.\n\nThe mechanism: teams optimize for prediction accuracy in isolation, then bolt on schema validation as a cleanup step. That's backwards. You need to embed schema constraints into the training pipeline itself, so the model learns to work *within* the bounds of what operators actually produce.\n\nWe build models with schema-aware loss functions that penalize predictions falling outside valid ranges or missing required context. The accuracy number drops slightly on paper. Real-world reliability jumps 30–40%.\n\nTrain for the data you'll actually receive, not the data you wish you had.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/60430befc798.png"
   }
 ]

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top band: ~0 to 225px -->
+
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="48" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Headline -->
+  <text x="64" y="138" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">
+    <tspan x="64" dy="0">Schema Gaps, Not Model Flaws,</tspan>
+    <tspan x="64" dy="60">Kill Real-World Accuracy</tspan>
+  </text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="208" width="320" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- Middle band: ~225 to 860px -->
+  <!-- 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: col width = (1024 - 64 - 64 - 16) / 2 = 440, row height = (860 - 235 - 16) / 2 = 304.5 -->
+
+  <!-- Tile 01 — top-left: x=64, y=235, w=440, h=300 -->
+  <rect x="64" y="235" width="440" height="300" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="293" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">01</text>
+  <text x="92" y="334" font-size="20" font-weight="700" fill="#111111">The Accuracy Illusion</text>
+  <text x="92" y="364" font-size="15" font-weight="400" fill="#3A3A3A">94% test accuracy drops to 61% in production</text>
+
+  <!-- Tile 02 — top-right: x=520, y=235, w=440, h=300 -->
+  <rect x="520" y="235" width="440" height="300" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="293" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">02</text>
+  <text x="548" y="334" font-size="20" font-weight="700" fill="#111111">Operator Data is Messy</text>
+  <text x="548" y="364" font-size="15" font-weight="400" fill="#3A3A3A">Inconsistent terms, missing fields, varied timestamps</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=551, w=440, h=300 -->
+  <rect x="64" y="551" width="440" height="300" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="609" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">03</text>
+  <text x="92" y="650" font-size="20" font-weight="700" fill="#111111">Validation Bolted On Late</text>
+  <text x="92" y="680" font-size="15" font-weight="400" fill="#3A3A3A">Schema cleanup after training is backwards</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=551, w=440, h=300 -->
+  <rect x="520" y="551" width="440" height="300" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="609" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">04</text>
+  <text x="548" y="650" font-size="20" font-weight="700" fill="#111111">Schema-Aware Training</text>
+  <text x="548" y="680" font-size="15" font-weight="400" fill="#3A3A3A">Embed constraints early — reliability jumps 30–40%</text>
+
+  <!-- Bottom band: ~860 to 1024px -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="876" x2="960" y2="876" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="952" font-size="22" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Train for the data you'll actually receive.</text>
+
+</svg>
