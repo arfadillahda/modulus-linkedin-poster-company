@@ -205,5 +205,14 @@
     "title": "Why AI Teams Ship Models That Fail on Real Operator Data",
     "body": "Your model performs at 94% accuracy on the test set. It hits 61% accuracy on live operator logs from week one. The gap isn't noise—it's a schema mismatch.\n\nMost teams treat training data and production data as the same thing. They aren't. Operators use terminology inconsistently, submit forms with missing fields, enter timestamps in three different formats, and abbreviate equipment names in ways your training set never saw. The model learned a statistical pattern. Production threw an edge case—one that occurs maybe 8% of the time but breaks the entire pipeline.\n\nThe mechanism: teams optimize for prediction accuracy in isolation, then bolt on schema validation as a cleanup step. That's backwards. You need to embed schema constraints into the training pipeline itself, so the model learns to work *within* the bounds of what operators actually produce.\n\nWe build models with schema-aware loss functions that penalize predictions falling outside valid ranges or missing required context. The accuracy number drops slightly on paper. Real-world reliability jumps 30–40%.\n\nTrain for the data you'll actually receive, not the data you wish you had.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/60430befc798.png"
+  },
+  {
+    "id": "bd176b93b09d",
+    "ts": "2026-06-07T10:28:11.907327+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization projects measure the wrong things",
+    "body": "Most digitalization initiatives collapse because they treat data collection as the end goal. You build a system, pipe everything to a dashboard, and then ask operators what to do with it. Nothing happens.\n\nThe failure mode is structural. We've been trained to think 'more data = better decisions.' So we digitalize first and strategy second. We assume that once operators see the numbers, the right action becomes obvious. But operators don't need prettier versions of what they already knew — they need to know what changed about the decision they make every day.\n\nInvert the sequence: start with the operator's actual decision. What do they decide right now? What information do they wish they had in that moment? What constraint stops them from deciding faster or better? Now ask which of those gaps can be closed with data you can actually collect.\n\nDigitalization that works begins with a specific decision, not a data warehouse. Start there, and you'll ship something operators use within weeks instead of shipping something they ignore after months.",
+    "image_url": ""
   }
 ]
