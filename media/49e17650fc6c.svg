@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+
+  <!-- Kicker label -->
+  <text x="64" y="88" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="88" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Display headline -->
+  <text x="64" y="138" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Accuracy Measures Prediction.</text>
+  <text x="64" y="192" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Value Measures the Operator.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="204" width="200" height="2" fill="#2D5BFF" rx="1"/>
+
+  <!-- MIDDLE BAND: 2x2 grid of 4 tiles -->
+  <!-- Tile layout: 2 columns x 2 rows, outer padding 64px, gap 16px -->
+  <!-- Column width: (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- Row height: (1024*0.62 - 16) / 2 = approx 300 each, but let's set manually -->
+  <!-- Middle band starts at ~226, spans ~636px, so each tile ~310 tall -->
+
+  <!-- Tile 01 — top-left: x=64, y=228, w=440, h=298 -->
+  <rect x="64" y="228" width="440" height="298" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="278" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">01</text>
+  <text x="92" y="316" font-size="20" font-weight="700" fill="#111111">Accuracy ≠ Decision Quality</text>
+  <text x="92" y="346" font-size="15" font-weight="400" fill="#3A3A3A">Prediction scores don't capture cost of action.</text>
+  <text x="92" y="366" font-size="15" font-weight="400" fill="#3A3A3A">A 94% model can still erode field trust.</text>
+
+  <!-- Tile 02 — top-right: x=520, y=228, w=440, h=298 -->
+  <rect x="520" y="228" width="440" height="298" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="278" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">02</text>
+  <text x="548" y="316" font-size="20" font-weight="700" fill="#111111">False Alarms Kill Adoption</text>
+  <text x="548" y="346" font-size="15" font-weight="400" fill="#3A3A3A">Three bad alerts in a shift ends operator trust.</text>
+  <text x="548" y="366" font-size="15" font-weight="400" fill="#3A3A3A">Noise creates work; silence creates confidence.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=542, w=440, h=298 -->
+  <rect x="64" y="542" width="440" height="298" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="592" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">03</text>
+  <text x="92" y="630" font-size="20" font-weight="700" fill="#111111">Reframe the Metric</text>
+  <text x="92" y="660" font-size="15" font-weight="400" fill="#3A3A3A">Ask: how much effort saved per decision made?</text>
+  <text x="92" y="680" font-size="15" font-weight="400" fill="#3A3A3A">60% recall, zero false positives can win.</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=542, w=440, h=298 -->
+  <rect x="520" y="542" width="440" height="298" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="592" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">04</text>
+  <text x="548" y="630" font-size="20" font-weight="700" fill="#111111">Measure Day Thirty</text>
+  <text x="548" y="660" font-size="15" font-weight="400" fill="#3A3A3A">Time saved per shift, signal confidence, usage.</text>
+  <text x="548" y="680" font-size="15" font-weight="400" fill="#3A3A3A">If they still use it, the model delivered value.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="872" x2="960" y2="872" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="918" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Accuracy is what the model learned.</text>
+  <text x="512" y="948" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Value is what the operator gained.</text>
+
+</svg>

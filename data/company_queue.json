@@ -214,5 +214,14 @@
     "title": "Why digitalization projects measure the wrong things",
     "body": "Most digitalization initiatives collapse because they treat data collection as the end goal. You build a system, pipe everything to a dashboard, and then ask operators what to do with it. Nothing happens.\n\nThe failure mode is structural. We've been trained to think 'more data = better decisions.' So we digitalize first and strategy second. We assume that once operators see the numbers, the right action becomes obvious. But operators don't need prettier versions of what they already knew — they need to know what changed about the decision they make every day.\n\nInvert the sequence: start with the operator's actual decision. What do they decide right now? What information do they wish they had in that moment? What constraint stops them from deciding faster or better? Now ask which of those gaps can be closed with data you can actually collect.\n\nDigitalization that works begins with a specific decision, not a data warehouse. Start there, and you'll ship something operators use within weeks instead of shipping something they ignore after months.",
     "image_url": ""
+  },
+  {
+    "id": "49e17650fc6c",
+    "ts": "2026-06-08T12:27:21.121789+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Measure Success in the Wrong Unit",
+    "body": "Teams ship models that score 94% accuracy on test data and then wonder why operators ignore them in the field.\n\nThe gap isn't usually the model. It's that accuracy measures prediction quality, not decision quality. A model that correctly predicts a fault 94% of the time still generates false alarms 6% of the time—and if an operator sees three false alarms in a shift, they stop trusting it entirely. Accuracy doesn't account for cost of action, cost of inaction, or how humans actually incorporate uncertainty into their workflow.\n\nReframe the metric: instead of asking \"How often is the model right?\", ask \"How much does this reduce operator effort per decision made?\" A model that catches 60% of faults with zero false positives might be more valuable than one that catches 85% with constant noise. The second one creates work. The first one creates trust.\n\nMeasure what operators actually optimize for: time saved per shift, confidence in the signal, and whether they use it on day thirty.\n\nAccuracy is what the model learned. Value is what the operator gained.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png"
   }
 ]
