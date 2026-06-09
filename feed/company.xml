@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 08 Jun 2026 12:27:43 +0000</lastBuildDate>
+<lastBuildDate>Tue, 09 Jun 2026 10:59:05 +0000</lastBuildDate>
+<item>
+<title>Why sustainability software can't see what operators see</title>
+<guid isPermaLink="false">ae014b50410c</guid>
+<pubDate>Tue, 09 Jun 2026 10:59:05 +0000</pubDate>
+<description><![CDATA[Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.
+
+An operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.
+
+The fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.
+
+We've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.
+
+Sustainability software fails when it asks operators to change; it wins when it shows them why they should.]]></description>
+<content:encoded><![CDATA[Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.
+
+An operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.
+
+The fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.
+
+We've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.
+
+Sustainability software fails when it asks operators to change; it wins when it shows them why they should.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Measure Success in the Wrong Unit</title>
 <guid isPermaLink="false">49e17650fc6c</guid>

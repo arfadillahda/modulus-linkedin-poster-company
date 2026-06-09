@@ -223,5 +223,14 @@
     "title": "Why AI Teams Measure Success in the Wrong Unit",
     "body": "Teams ship models that score 94% accuracy on test data and then wonder why operators ignore them in the field.\n\nThe gap isn't usually the model. It's that accuracy measures prediction quality, not decision quality. A model that correctly predicts a fault 94% of the time still generates false alarms 6% of the time—and if an operator sees three false alarms in a shift, they stop trusting it entirely. Accuracy doesn't account for cost of action, cost of inaction, or how humans actually incorporate uncertainty into their workflow.\n\nReframe the metric: instead of asking \"How often is the model right?\", ask \"How much does this reduce operator effort per decision made?\" A model that catches 60% of faults with zero false positives might be more valuable than one that catches 85% with constant noise. The second one creates work. The first one creates trust.\n\nMeasure what operators actually optimize for: time saved per shift, confidence in the signal, and whether they use it on day thirty.\n\nAccuracy is what the model learned. Value is what the operator gained.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png"
+  },
+  {
+    "id": "ae014b50410c",
+    "ts": "2026-06-09T10:59:05.131853+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software can't see what operators see",
+    "body": "Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.\n\nAn operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.\n\nThe fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.\n\nWe've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.\n\nSustainability software fails when it asks operators to change; it wins when it shows them why they should.",
+    "image_url": ""
   }
 ]
