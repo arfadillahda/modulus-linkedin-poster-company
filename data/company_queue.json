@@ -232,5 +232,14 @@
     "title": "Why sustainability software can't see what operators see",
     "body": "Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.\n\nAn operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.\n\nThe fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.\n\nWe've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.\n\nSustainability software fails when it asks operators to change; it wins when it shows them why they should.",
     "image_url": ""
+  },
+  {
+    "id": "1e2febe3f263",
+    "ts": "2026-06-10T11:37:51.595011+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization breaks when operators can't validate inputs",
+    "body": "A manufacturing plant installs a new production-tracking system. Within weeks, operators stop using the upstream data form — not because it's clunky, but because they can't verify what they're entering will be accepted downstream. They revert to paper, and the digital chain collapses.\n\nThis happens because digitalization projects often treat data entry and validation as separate concerns. The operator's form sits isolated from the business logic that will actually consume the data. There's no live feedback loop. No schema contract. No way to know if what you're typing will break the next step.\n\nWe've found that shipping a validated input layer — one that enforces the same rules the backend expects, in real time, at the point of entry — doesn't just prevent garbage data. It rebuilds operator trust in the system itself. When someone sees their entry accepted (or rejected with a clear reason) *before* they hit submit, they start believing the digital pipeline actually works.\n\nOperators won't adopt systems they can't trust. Validation at the edge isn't a nice-to-have—it's the entry price for any digital handoff that actually sticks.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/1e2febe3f263.png"
   }
 ]
