@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 11 Jun 2026 12:09:14 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 11:43:14 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Models Nobody Actually Uses</title>
+<guid isPermaLink="false">cf21e4b6eca1</guid>
+<pubDate>Fri, 12 Jun 2026 11:42:48 +0000</pubDate>
+<description><![CDATA[You built a model that predicts equipment failures with 89% accuracy. Six months later, your operators still aren't using it. They don't trust the predictions, or they don't understand when to act on them, or the model fires alerts at 3 AM about things that never actually break.
+
+This happens because teams optimize for model performance in isolation—validation set accuracy, F1 scores, latency—and ship when those numbers look good. But production isn't a test set. Operators work under time pressure, with incomplete context, in environments full of noise. A model that's statistically sound can still be operationally unusable.
+
+We approach this differently. Before we touch a model architecture, we run what we call a "decision audit." We shadow operators, map exactly when and how they'd need to act on a prediction, and identify what information they're actually missing. Then we build a decision interface and simple decision rules *around* the model—not just the model itself. The model becomes one input to a human decision, not a black box output.
+
+The question isn't whether your model is accurate. It's whether your operator can actually use it.]]></description>
+<content:encoded><![CDATA[You built a model that predicts equipment failures with 89% accuracy. Six months later, your operators still aren't using it. They don't trust the predictions, or they don't understand when to act on them, or the model fires alerts at 3 AM about things that never actually break.
+
+This happens because teams optimize for model performance in isolation—validation set accuracy, F1 scores, latency—and ship when those numbers look good. But production isn't a test set. Operators work under time pressure, with incomplete context, in environments full of noise. A model that's statistically sound can still be operationally unusable.
+
+We approach this differently. Before we touch a model architecture, we run what we call a "decision audit." We shadow operators, map exactly when and how they'd need to act on a prediction, and identify what information they're actually missing. Then we build a decision interface and simple decision rules *around* the model—not just the model itself. The model becomes one input to a human decision, not a black box output.
+
+The question isn't whether your model is accurate. It's whether your operator can actually use it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization budgets vanish before operators see ROI</title>
 <guid isPermaLink="false">ebcbe4606295</guid>

@@ -250,5 +250,14 @@
     "title": "Why digitalization budgets vanish before operators see ROI",
     "body": "Most digitalization projects fail not because the tech doesn't work, but because they treat adoption as a broadcast problem. You build the system, train people once, and assume it sticks. Six months in, adoption has flatlined and the project gets labeled a failure.\n\nThe mechanism is simple: operators live in constraint. They have production targets, equipment that breaks unpredictably, and a dozen ways the new system can slow them down before it helps. Without ongoing feedback loops—not surveys, but real friction signals from the floor—the tool stays in the way rather than becoming part of the workflow.\n\nWe approach this differently. We treat adoption as a two-phase system: first, we ship something minimal and measurable that solves a single, named bottleneck the operator team already feels. Then we build a feedback channel—weekly, low-friction—where operators surface blockers and we iterate in visible sprints. Not quarterly reviews. Weekly. The system earns its place in the workflow through repetition, not mandate.\n\nDigitalization doesn't fail because operators resist change. It fails because we never gave them a reason to trust it.",
     "image_url": ""
+  },
+  {
+    "id": "cf21e4b6eca1",
+    "ts": "2026-06-12T11:42:48.030652+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ship Models Nobody Actually Uses",
+    "body": "You built a model that predicts equipment failures with 89% accuracy. Six months later, your operators still aren't using it. They don't trust the predictions, or they don't understand when to act on them, or the model fires alerts at 3 AM about things that never actually break.\n\nThis happens because teams optimize for model performance in isolation—validation set accuracy, F1 scores, latency—and ship when those numbers look good. But production isn't a test set. Operators work under time pressure, with incomplete context, in environments full of noise. A model that's statistically sound can still be operationally unusable.\n\nWe approach this differently. Before we touch a model architecture, we run what we call a \"decision audit.\" We shadow operators, map exactly when and how they'd need to act on a prediction, and identify what information they're actually missing. Then we build a decision interface and simple decision rules *around* the model—not just the model itself. The model becomes one input to a human decision, not a black box output.\n\nThe question isn't whether your model is accurate. It's whether your operator can actually use it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png"
   }
 ]
