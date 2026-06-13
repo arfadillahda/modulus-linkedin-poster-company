@@ -259,5 +259,14 @@
     "title": "Why AI Teams Ship Models Nobody Actually Uses",
     "body": "You built a model that predicts equipment failures with 89% accuracy. Six months later, your operators still aren't using it. They don't trust the predictions, or they don't understand when to act on them, or the model fires alerts at 3 AM about things that never actually break.\n\nThis happens because teams optimize for model performance in isolation—validation set accuracy, F1 scores, latency—and ship when those numbers look good. But production isn't a test set. Operators work under time pressure, with incomplete context, in environments full of noise. A model that's statistically sound can still be operationally unusable.\n\nWe approach this differently. Before we touch a model architecture, we run what we call a \"decision audit.\" We shadow operators, map exactly when and how they'd need to act on a prediction, and identify what information they're actually missing. Then we build a decision interface and simple decision rules *around* the model—not just the model itself. The model becomes one input to a human decision, not a black box output.\n\nThe question isn't whether your model is accurate. It's whether your operator can actually use it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png"
+  },
+  {
+    "id": "d19da2c9de99",
+    "ts": "2026-06-13T10:27:01.149573+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability plans fail at the operator level",
+    "body": "Most sustainability initiatives treat operators as compliance endpoints instead of information sources. A plant manager knows exactly where energy leaks, where cycles run long, where margins exist—but the sustainability plan arrived from corporate without asking.\n\nThis happens because sustainability gets built in isolation. An engineering team, a sustainability consultant, a finance controller—all working from dashboards and spreadsheets that aggregate away the granular reality operators live in daily. The plan assumes uniform conditions across sites. It doesn't account for aging equipment variance, seasonal demand shifts, or the real sequencing of a production floor.\n\nOperators then inherit targets that feel disconnected from what they can actually control. They ignore the plan, or they game the metrics. Either way, the initiative stalls.\n\nThe reframe: sustainability isn't a top-down program. It's a conversation between engineering constraints and operational reality. Start by asking operators what friction they see—not in abstract sustainability terms, but in their language: downtime, quality variance, schedule pressure. Those frictions almost always map to waste. When operators shape the plan, they own the execution.\n\nYou can't measure your way into change. You have to listen first.",
+    "image_url": ""
   }
 ]
