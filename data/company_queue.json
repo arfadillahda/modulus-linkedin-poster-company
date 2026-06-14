@@ -268,5 +268,14 @@
     "title": "Why sustainability plans fail at the operator level",
     "body": "Most sustainability initiatives treat operators as compliance endpoints instead of information sources. A plant manager knows exactly where energy leaks, where cycles run long, where margins exist—but the sustainability plan arrived from corporate without asking.\n\nThis happens because sustainability gets built in isolation. An engineering team, a sustainability consultant, a finance controller—all working from dashboards and spreadsheets that aggregate away the granular reality operators live in daily. The plan assumes uniform conditions across sites. It doesn't account for aging equipment variance, seasonal demand shifts, or the real sequencing of a production floor.\n\nOperators then inherit targets that feel disconnected from what they can actually control. They ignore the plan, or they game the metrics. Either way, the initiative stalls.\n\nThe reframe: sustainability isn't a top-down program. It's a conversation between engineering constraints and operational reality. Start by asking operators what friction they see—not in abstract sustainability terms, but in their language: downtime, quality variance, schedule pressure. Those frictions almost always map to waste. When operators shape the plan, they own the execution.\n\nYou can't measure your way into change. You have to listen first.",
     "image_url": ""
+  },
+  {
+    "id": "7181afa707fb",
+    "ts": "2026-06-14T10:48:19.493360+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability KPIs don't survive contact with operations",
+    "body": "You set a 30% emissions reduction target. Your sustainability team designs a beautiful roadmap. Six months in, ops reports they can't actually measure half of it — the equipment doesn't have sensors, the workflow data lives in three different systems, or the baseline itself was guessed.\n\nThis happens because sustainability targets are often built from accounting upward, not from what operators can actually observe. The gap isn't malice. It's that sustainability teams work from annual reports and engineering specs, while operators work from shift logs and what they see on the floor. Two different information universes.\n\nWe've found one heuristic that helps: start by mapping what your operators *already measure* — not what they should measure. Run a two-day audit with the people actually running the equipment. List every number they track today, however rough. Then build your sustainability framework *inside* that observable reality, not parallel to it.\n\nYou lose some precision early. You gain sustainability that doesn't evaporate at handoff.\n\nTarget your emissions to data your operators already own.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7181afa707fb.png"
   }
 ]
