@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 14 Jun 2026 10:48:50 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 13:53:29 +0000</lastBuildDate>
+<item>
+<title>Why AI Models Drift Hardest in the First Month</title>
+<guid isPermaLink="false">a35d4cc8b088</guid>
+<pubDate>Mon, 15 Jun 2026 13:53:29 +0000</pubDate>
+<description><![CDATA[Your model performs well in staging. Two weeks in production, it starts failing on edge cases nobody predicted. By week four, operators stop using it entirely.
+
+This happens because production data is never stationary. Seasonal shifts, new equipment, operator behavior changes, regulatory updates—they all arrive in waves. A model trained on historical data enters a domain it's never seen, and its confidence intervals collapse silently.
+
+Most teams treat drift as a monitoring problem. They add dashboards. They watch for metric decay. But by then, the gap between training and reality is already wide enough that operators have already lost trust.
+
+We've found the real lever is continuous validation against live operator behavior, not abstract statistical thresholds. Build a lightweight feedback loop that compares model predictions to what operators actually do with the output. Not through surveys—through logged actions. This tells you within days whether the model is still reducing friction or just producing confident-sounding noise.
+
+Drift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.]]></description>
+<content:encoded><![CDATA[Your model performs well in staging. Two weeks in production, it starts failing on edge cases nobody predicted. By week four, operators stop using it entirely.
+
+This happens because production data is never stationary. Seasonal shifts, new equipment, operator behavior changes, regulatory updates—they all arrive in waves. A model trained on historical data enters a domain it's never seen, and its confidence intervals collapse silently.
+
+Most teams treat drift as a monitoring problem. They add dashboards. They watch for metric decay. But by then, the gap between training and reality is already wide enough that operators have already lost trust.
+
+We've found the real lever is continuous validation against live operator behavior, not abstract statistical thresholds. Build a lightweight feedback loop that compares model predictions to what operators actually do with the output. Not through surveys—through logged actions. This tells you within days whether the model is still reducing friction or just producing confident-sounding noise.
+
+Drift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability KPIs don't survive contact with operations</title>
 <guid isPermaLink="false">7181afa707fb</guid>
