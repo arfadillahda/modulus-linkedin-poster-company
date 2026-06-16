@@ -286,5 +286,14 @@
     "title": "Why AI Models Drift Hardest in the First Month",
     "body": "Your model performs well in staging. Two weeks in production, it starts failing on edge cases nobody predicted. By week four, operators stop using it entirely.\n\nThis happens because production data is never stationary. Seasonal shifts, new equipment, operator behavior changes, regulatory updates—they all arrive in waves. A model trained on historical data enters a domain it's never seen, and its confidence intervals collapse silently.\n\nMost teams treat drift as a monitoring problem. They add dashboards. They watch for metric decay. But by then, the gap between training and reality is already wide enough that operators have already lost trust.\n\nWe've found the real lever is continuous validation against live operator behavior, not abstract statistical thresholds. Build a lightweight feedback loop that compares model predictions to what operators actually do with the output. Not through surveys—through logged actions. This tells you within days whether the model is still reducing friction or just producing confident-sounding noise.\n\nDrift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.",
     "image_url": ""
+  },
+  {
+    "id": "94df945a1d25",
+    "ts": "2026-06-16T12:52:00.374612+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization fails when you skip the operator",
+    "body": "Most digitalization projects treat operators as end-users. They're not. They're domain experts being asked to validate a system built without them.\n\nThis happens because digitalization gets framed as a technical problem: move data from paper to software, connect systems, automate workflows. So engineering and IT own it. The operator gets consulted in week eight, after architecture is locked. By then, the system doesn't match how work actually flows—how materials move, where decisions actually happen, what signals matter.\n\nThe operator knows this stuff cold. They've optimized around constraints for years. But they weren't in the room when the data model was designed or the workflow sequence was decided.\n\nReframe digitalization as an operator translation problem, not a software problem. Start by asking: what is the operator trying to accomplish each shift? What information do they need to accomplish it? What decisions do they make, in what order, with what certainty? Only then design the system.\n\nYou'll spend more time upfront and less time reworking after launch.\n\nThe operator's workflow should drive the digital architecture, not the reverse.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png"
   }
 ]

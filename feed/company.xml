@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 15 Jun 2026 13:53:29 +0000</lastBuildDate>
+<lastBuildDate>Tue, 16 Jun 2026 12:52:32 +0000</lastBuildDate>
+<item>
+<title>Why digitalization fails when you skip the operator</title>
+<guid isPermaLink="false">94df945a1d25</guid>
+<pubDate>Tue, 16 Jun 2026 12:52:00 +0000</pubDate>
+<description><![CDATA[Most digitalization projects treat operators as end-users. They're not. They're domain experts being asked to validate a system built without them.
+
+This happens because digitalization gets framed as a technical problem: move data from paper to software, connect systems, automate workflows. So engineering and IT own it. The operator gets consulted in week eight, after architecture is locked. By then, the system doesn't match how work actually flows—how materials move, where decisions actually happen, what signals matter.
+
+The operator knows this stuff cold. They've optimized around constraints for years. But they weren't in the room when the data model was designed or the workflow sequence was decided.
+
+Reframe digitalization as an operator translation problem, not a software problem. Start by asking: what is the operator trying to accomplish each shift? What information do they need to accomplish it? What decisions do they make, in what order, with what certainty? Only then design the system.
+
+You'll spend more time upfront and less time reworking after launch.
+
+The operator's workflow should drive the digital architecture, not the reverse.]]></description>
+<content:encoded><![CDATA[Most digitalization projects treat operators as end-users. They're not. They're domain experts being asked to validate a system built without them.
+
+This happens because digitalization gets framed as a technical problem: move data from paper to software, connect systems, automate workflows. So engineering and IT own it. The operator gets consulted in week eight, after architecture is locked. By then, the system doesn't match how work actually flows—how materials move, where decisions actually happen, what signals matter.
+
+The operator knows this stuff cold. They've optimized around constraints for years. But they weren't in the room when the data model was designed or the workflow sequence was decided.
+
+Reframe digitalization as an operator translation problem, not a software problem. Start by asking: what is the operator trying to accomplish each shift? What information do they need to accomplish it? What decisions do they make, in what order, with what certainty? Only then design the system.
+
+You'll spend more time upfront and less time reworking after launch.
+
+The operator's workflow should drive the digital architecture, not the reverse.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Models Drift Hardest in the First Month</title>
 <guid isPermaLink="false">a35d4cc8b088</guid>

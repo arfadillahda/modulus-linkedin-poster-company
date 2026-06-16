@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════
+       TOP BAND  (0 – 225px)
+  ════════════════════════════════════════════════ -->
+
+  <!-- Wordmark top-right -->
+  <text
+    x="1012" y="36"
+    text-anchor="end"
+    font-size="13"
+    font-weight="600"
+    letter-spacing="0.18em"
+    fill="#2D5BFF"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker -->
+  <text
+    x="64" y="80"
+    font-size="11.5"
+    font-weight="600"
+    letter-spacing="0.22em"
+    text-transform="uppercase"
+    fill="#2D5BFF"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Accent underline rule under headline -->
+  <line x1="64" y1="173" x2="220" y2="173" stroke="#2D5BFF" stroke-width="2.5"/>
+
+  <!-- Display headline -->
+  <text
+    x="64" y="130"
+    font-size="52"
+    font-weight="800"
+    letter-spacing="-0.02em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build for the operator,</text>
+  <text
+    x="64" y="188"
+    font-size="52"
+    font-weight="800"
+    letter-spacing="-0.02em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not the architecture.</text>
+
+  <!-- ═══════════════════════════════════════════════
+       MIDDLE BAND  (225 – 860px)  — 2 × 2 grid (4 tiles)
+       Outer padding 64px, gap 16px
+       Tile W = (1024 - 64 - 64 - 16) / 2 = 440
+       Tile H = (860 - 225 - 16 - 32) / 2 = 293.5 → 293
+       Row 1 top = 225 + 32 = 257
+       Row 2 top = 257 + 293 + 16 = 566
+       Col 1 left = 64
+       Col 2 left = 64 + 440 + 16 = 520
+  ════════════════════════════════════════════════ -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="230" width="440" height="305" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="285" font-size="46" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="326" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators aren't</text>
+  <text x="92" y="353" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">end-users</text>
+  <text x="92" y="400" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">They're domain experts asked to validate</text>
+  <text x="92" y="421" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">a system built without them.</text>
+  <!-- small divider -->
+  <line x1="92" y1="462" x2="472" y2="462" stroke="#11111114" stroke-width="1"/>
+  <text x="92" y="498" font-size="13.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-style="italic">Consulted in week eight, after architecture locks.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="230" width="440" height="305" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="285" font-size="46" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="326" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Framing is the</text>
+  <text x="548" y="353" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">root failure</text>
+  <text x="548" y="400" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Digitalization treated as a technical</text>
+  <text x="548" y="421" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">problem hands ownership to IT.</text>
+  <line x1="548" y1="462" x2="928" y2="462" stroke="#11111114" stroke-width="1"/>
+  <text x="548" y="498" font-size="13.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-style="italic">The system won't match how work actually flows.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="551" width="440" height="305" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="606" font-size="46" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="647" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The operator knows</text>
+  <text x="92" y="674" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the constraints</text>
+  <text x="92" y="721" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Years of optimization around real</text>
+  <text x="92" y="742" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">workflow — not documented anywhere.</text>
+  <line x1="92" y1="783" x2="472" y2="783" stroke="#11111114" stroke-width="1"/>
+  <text x="92" y="819" font-size="13.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-style="italic">Materials, decisions, signals — they know the order.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="551" width="440" height="305" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="606" font-size="46" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="647" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Reframe as a</text>
+  <text x="548" y="674" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">translation problem</text>
+  <text x="548" y="721" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask: what does the operator need</text>
+  <text x="548" y="742" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">each shift, and in what order?</text>
+  <line x1="548" y1="783" x2="928" y2="783" stroke="#11111114" stroke-width="1"/>
+  <text x="548" y="819" font-size="13.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-style="italic">Then design the system. More upfront, less rework.</text>
+
+  <!-- ═══════════════════════════════════════════════
+       BOTTOM BAND  (860 – 1024px)
+  ════════════════════════════════════════════════ -->
+
+  <line x1="64" y1="886" x2="960" y2="886" stroke="#11111130" stroke-width="1"/>
+
+  <text
+    x="512" y="940"
+    text-anchor="middle"
+    font-size="21"
+    font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operator workflow drives digital architecture — not the reverse.</text>
+
+</svg>
