@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 16 Jun 2026 12:52:32 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 12:14:55 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Confuse Model Performance with System Performance</title>
+<guid isPermaLink="false">86d74e395b5b</guid>
+<pubDate>Wed, 17 Jun 2026 12:14:55 +0000</pubDate>
+<description><![CDATA[Most AI teams measure success by test accuracy, F1 score, or AUC on a holdout dataset. Then they ship to production and operators ignore the predictions entirely.
+
+The gap isn't a mystery. A model that's 92% accurate on clean data can still be wrong on the messy inputs that actually matter—sensor noise, edge cases, the three operators who work the night shift differently. More fundamentally, accuracy doesn't tell you whether an operator will trust the output enough to act on it, or whether acting on it saves time, reduces errors, or just creates a false sense of safety.
+
+The reframe: stop optimizing for the model. Optimize for the decision the operator actually makes with it. That means measuring whether the system changes behavior in production, whether that change is observable, and whether operators choose to use it again next week.
+
+This shifts the entire development lens. You stop tuning hyperparameters and start building for human adoption—which often means simpler models, clearer explanations, and tighter feedback loops.
+
+Accuracy is an engineering constraint, not the goal.]]></description>
+<content:encoded><![CDATA[Most AI teams measure success by test accuracy, F1 score, or AUC on a holdout dataset. Then they ship to production and operators ignore the predictions entirely.
+
+The gap isn't a mystery. A model that's 92% accurate on clean data can still be wrong on the messy inputs that actually matter—sensor noise, edge cases, the three operators who work the night shift differently. More fundamentally, accuracy doesn't tell you whether an operator will trust the output enough to act on it, or whether acting on it saves time, reduces errors, or just creates a false sense of safety.
+
+The reframe: stop optimizing for the model. Optimize for the decision the operator actually makes with it. That means measuring whether the system changes behavior in production, whether that change is observable, and whether operators choose to use it again next week.
+
+This shifts the entire development lens. You stop tuning hyperparameters and start building for human adoption—which often means simpler models, clearer explanations, and tighter feedback loops.
+
+Accuracy is an engineering constraint, not the goal.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization fails when you skip the operator</title>
 <guid isPermaLink="false">94df945a1d25</guid>
