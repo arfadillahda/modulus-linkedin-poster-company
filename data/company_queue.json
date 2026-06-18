@@ -304,5 +304,14 @@
     "title": "Why AI Teams Confuse Model Performance with System Performance",
     "body": "Most AI teams measure success by test accuracy, F1 score, or AUC on a holdout dataset. Then they ship to production and operators ignore the predictions entirely.\n\nThe gap isn't a mystery. A model that's 92% accurate on clean data can still be wrong on the messy inputs that actually matter—sensor noise, edge cases, the three operators who work the night shift differently. More fundamentally, accuracy doesn't tell you whether an operator will trust the output enough to act on it, or whether acting on it saves time, reduces errors, or just creates a false sense of safety.\n\nThe reframe: stop optimizing for the model. Optimize for the decision the operator actually makes with it. That means measuring whether the system changes behavior in production, whether that change is observable, and whether operators choose to use it again next week.\n\nThis shifts the entire development lens. You stop tuning hyperparameters and start building for human adoption—which often means simpler models, clearer explanations, and tighter feedback loops.\n\nAccuracy is an engineering constraint, not the goal.",
     "image_url": ""
+  },
+  {
+    "id": "368ca10d36cd",
+    "ts": "2026-06-18T11:49:47.306507+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software fails at the meter",
+    "body": "Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.\n\nThis happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.\n\nThe fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.\n\nWe've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.\n\nYou can't sustain what you can't see at the point of action.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png"
   }
 ]

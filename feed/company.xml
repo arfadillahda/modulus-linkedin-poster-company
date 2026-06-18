@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 17 Jun 2026 12:14:55 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 11:50:18 +0000</lastBuildDate>
+<item>
+<title>Why sustainability software fails at the meter</title>
+<guid isPermaLink="false">368ca10d36cd</guid>
+<pubDate>Thu, 18 Jun 2026 11:49:47 +0000</pubDate>
+<description><![CDATA[Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.
+
+This happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.
+
+The fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.
+
+We've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.
+
+You can't sustain what you can't see at the point of action.]]></description>
+<content:encoded><![CDATA[Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.
+
+This happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.
+
+The fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.
+
+We've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.
+
+You can't sustain what you can't see at the point of action.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Confuse Model Performance with System Performance</title>
 <guid isPermaLink="false">86d74e395b5b</guid>
