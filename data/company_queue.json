@@ -313,5 +313,14 @@
     "title": "Why sustainability software fails at the meter",
     "body": "Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.\n\nThis happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.\n\nThe fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.\n\nWe've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.\n\nYou can't sustain what you can't see at the point of action.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png"
+  },
+  {
+    "id": "351aa2e1b2fa",
+    "ts": "2026-06-19T12:04:42.652782+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization stalls when operators can't trust the data source",
+    "body": "Operators reject digitalization projects not because they fear change—but because they can't verify where the numbers come from.\n\nWe watched a plant manager refuse to act on AI-generated efficiency recommendations because the model trained on sensor data from three shifts ago, during maintenance. No timestamp, no lineage, no way to know if the input was corrupted. The recommendation sat in a dashboard for six months.\n\nThis happens because most digitalization tooling treats data as a flow: raw → processed → insight. Operators need data as evidence. They want to know: When was this collected? Who touched it? Does it match what I saw on the floor?\n\nThe fix is schema-first architecture. Define the shape, source, and validity rules for every input *before* the AI layer touches it. We build a lot of this using JSON-LD with embedded provenance—timestamps, sensor IDs, calibration dates, source URIs. The operator sees not just 'efficiency up 12%' but 'based on flow meter XYZ, calibrated 2024-01-15, from shift 2 only.'\n\nTrust the data source, and the operator trusts the recommendation.\n\nWithout lineage, no amount of algorithmic sophistication moves the needle.",
+    "image_url": ""
   }
 ]

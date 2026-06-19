@@ -4,7 +4,36 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 18 Jun 2026 11:50:18 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 12:04:42 +0000</lastBuildDate>
+<item>
+<title>Why digitalization stalls when operators can't trust the data source</title>
+<guid isPermaLink="false">351aa2e1b2fa</guid>
+<pubDate>Fri, 19 Jun 2026 12:04:42 +0000</pubDate>
+<description><![CDATA[Operators reject digitalization projects not because they fear change—but because they can't verify where the numbers come from.
+
+We watched a plant manager refuse to act on AI-generated efficiency recommendations because the model trained on sensor data from three shifts ago, during maintenance. No timestamp, no lineage, no way to know if the input was corrupted. The recommendation sat in a dashboard for six months.
+
+This happens because most digitalization tooling treats data as a flow: raw → processed → insight. Operators need data as evidence. They want to know: When was this collected? Who touched it? Does it match what I saw on the floor?
+
+The fix is schema-first architecture. Define the shape, source, and validity rules for every input *before* the AI layer touches it. We build a lot of this using JSON-LD with embedded provenance—timestamps, sensor IDs, calibration dates, source URIs. The operator sees not just 'efficiency up 12%' but 'based on flow meter XYZ, calibrated 2024-01-15, from shift 2 only.'
+
+Trust the data source, and the operator trusts the recommendation.
+
+Without lineage, no amount of algorithmic sophistication moves the needle.]]></description>
+<content:encoded><![CDATA[Operators reject digitalization projects not because they fear change—but because they can't verify where the numbers come from.
+
+We watched a plant manager refuse to act on AI-generated efficiency recommendations because the model trained on sensor data from three shifts ago, during maintenance. No timestamp, no lineage, no way to know if the input was corrupted. The recommendation sat in a dashboard for six months.
+
+This happens because most digitalization tooling treats data as a flow: raw → processed → insight. Operators need data as evidence. They want to know: When was this collected? Who touched it? Does it match what I saw on the floor?
+
+The fix is schema-first architecture. Define the shape, source, and validity rules for every input *before* the AI layer touches it. We build a lot of this using JSON-LD with embedded provenance—timestamps, sensor IDs, calibration dates, source URIs. The operator sees not just 'efficiency up 12%' but 'based on flow meter XYZ, calibrated 2024-01-15, from shift 2 only.'
+
+Trust the data source, and the operator trusts the recommendation.
+
+Without lineage, no amount of algorithmic sophistication moves the needle.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability software fails at the meter</title>
 <guid isPermaLink="false">368ca10d36cd</guid>
