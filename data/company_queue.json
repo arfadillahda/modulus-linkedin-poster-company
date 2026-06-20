@@ -322,5 +322,14 @@
     "title": "Why digitalization stalls when operators can't trust the data source",
     "body": "Operators reject digitalization projects not because they fear change—but because they can't verify where the numbers come from.\n\nWe watched a plant manager refuse to act on AI-generated efficiency recommendations because the model trained on sensor data from three shifts ago, during maintenance. No timestamp, no lineage, no way to know if the input was corrupted. The recommendation sat in a dashboard for six months.\n\nThis happens because most digitalization tooling treats data as a flow: raw → processed → insight. Operators need data as evidence. They want to know: When was this collected? Who touched it? Does it match what I saw on the floor?\n\nThe fix is schema-first architecture. Define the shape, source, and validity rules for every input *before* the AI layer touches it. We build a lot of this using JSON-LD with embedded provenance—timestamps, sensor IDs, calibration dates, source URIs. The operator sees not just 'efficiency up 12%' but 'based on flow meter XYZ, calibrated 2024-01-15, from shift 2 only.'\n\nTrust the data source, and the operator trusts the recommendation.\n\nWithout lineage, no amount of algorithmic sophistication moves the needle.",
     "image_url": ""
+  },
+  {
+    "id": "c7e3c3c2c95a",
+    "ts": "2026-06-20T10:31:25.567118+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects stall after go-live",
+    "body": "Most digitalization projects ship and then flatline. The software works. The data flows. Three months in, adoption plateaus and nobody knows why.\n\nThe root cause: teams optimize for launch, not for the first operator who has to actually *change their routine*. You can have perfect data quality and a beautiful UI, but if someone's muscle memory still reaches for the old clipboard, the system becomes overhead instead of tool. The gap isn't technical — it's the distance between 'system ready' and 'operator ready to rely on it'.\n\nWe've learned to measure this gap explicitly. Before launch, we run what we call a 'friction audit': walk the actual workflow, identify the three smallest friction points the operator will hit first, and fix those before anything else. Not the most sophisticated feature. Not the worst complaint. The first real obstacle.\n\nMost teams skip this. They assume operators will adapt. Operators do adapt — they adapt by going back to what they know.\n\nSoftware adoption isn't a toggle; it's a habit that needs three months to form, and one friction point to break.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c7e3c3c2c95a.png"
   }
 ]

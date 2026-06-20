@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 19 Jun 2026 12:04:42 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 10:31:49 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects stall after go-live</title>
+<guid isPermaLink="false">c7e3c3c2c95a</guid>
+<pubDate>Sat, 20 Jun 2026 10:31:25 +0000</pubDate>
+<description><![CDATA[Most digitalization projects ship and then flatline. The software works. The data flows. Three months in, adoption plateaus and nobody knows why.
+
+The root cause: teams optimize for launch, not for the first operator who has to actually *change their routine*. You can have perfect data quality and a beautiful UI, but if someone's muscle memory still reaches for the old clipboard, the system becomes overhead instead of tool. The gap isn't technical — it's the distance between 'system ready' and 'operator ready to rely on it'.
+
+We've learned to measure this gap explicitly. Before launch, we run what we call a 'friction audit': walk the actual workflow, identify the three smallest friction points the operator will hit first, and fix those before anything else. Not the most sophisticated feature. Not the worst complaint. The first real obstacle.
+
+Most teams skip this. They assume operators will adapt. Operators do adapt — they adapt by going back to what they know.
+
+Software adoption isn't a toggle; it's a habit that needs three months to form, and one friction point to break.]]></description>
+<content:encoded><![CDATA[Most digitalization projects ship and then flatline. The software works. The data flows. Three months in, adoption plateaus and nobody knows why.
+
+The root cause: teams optimize for launch, not for the first operator who has to actually *change their routine*. You can have perfect data quality and a beautiful UI, but if someone's muscle memory still reaches for the old clipboard, the system becomes overhead instead of tool. The gap isn't technical — it's the distance between 'system ready' and 'operator ready to rely on it'.
+
+We've learned to measure this gap explicitly. Before launch, we run what we call a 'friction audit': walk the actual workflow, identify the three smallest friction points the operator will hit first, and fix those before anything else. Not the most sophisticated feature. Not the worst complaint. The first real obstacle.
+
+Most teams skip this. They assume operators will adapt. Operators do adapt — they adapt by going back to what they know.
+
+Software adoption isn't a toggle; it's a habit that needs three months to form, and one friction point to break.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c7e3c3c2c95a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c7e3c3c2c95a.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization stalls when operators can't trust the data source</title>
 <guid isPermaLink="false">351aa2e1b2fa</guid>

@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ─── TOP BAND ─── -->
+
+  <!-- Kicker label -->
+  <text x="64" y="88" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Display headline -->
+  <text x="64" y="140" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    <tspan x="64" dy="0">Launch isn't adoption.</tspan>
+    <tspan x="64" dy="62">Habit is.</tspan>
+  </text>
+
+  <!-- Accent underline beneath headline -->
+  <rect x="64" y="216" width="180" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="88" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- ─── MIDDLE BAND — 2×2 grid of tiles ─── -->
+  <!-- Grid origin: x=64, y=244; canvas width=896; gap=16; tile w=(896-16)/2=440; tile h=320 -->
+
+  <!-- Tile 01 — top left -->
+  <rect x="64" y="244" width="440" height="320" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="306" font-size="48" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="346" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Optimized for launch</text>
+  <text x="92" y="380" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Teams ship, then forget the first operator.</text>
+  <!-- Small decorative rule -->
+  <rect x="92" y="400" width="280" height="1" fill="#11111114"/>
+  <text x="92" y="432" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The gap: system ready ≠ operator ready.</text>
+
+  <!-- Tile 02 — top right -->
+  <rect x="520" y="244" width="440" height="320" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="306" font-size="48" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="346" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Muscle memory wins</text>
+  <text x="548" y="380" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Old clipboard beats beautiful UI every time.</text>
+  <rect x="548" y="400" width="280" height="1" fill="#11111114"/>
+  <text x="548" y="432" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Perfect data quality can't override habit.</text>
+
+  <!-- Tile 03 — bottom left -->
+  <rect x="64" y="580" width="440" height="320" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="642" font-size="48" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="682" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Run a friction audit</text>
+  <text x="92" y="716" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Walk the workflow before launch day.</text>
+  <rect x="92" y="736" width="280" height="1" fill="#11111114"/>
+  <text x="92" y="768" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Fix the first obstacle — not the worst one.</text>
+
+  <!-- Tile 04 — bottom right -->
+  <rect x="520" y="580" width="440" height="320" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="642" font-size="48" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="682" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Adoption is a habit</text>
+  <text x="548" y="716" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Three months to form. One friction to break.</text>
+  <rect x="548" y="736" width="280" height="1" fill="#11111114"/>
+  <text x="548" y="768" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators adapt by going back to what works.</text>
+
+  <!-- ─── BOTTOM BAND ─── -->
+  <!-- Hairline rule -->
+  <rect x="64" y="924" width="896" height="1" fill="#11111128"/>
+
+  <!-- Closing line -->
+  <text x="512" y="972" font-size="17" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Software adoption isn't a toggle — it's a habit to build.</text>
+</svg>
