@@ -331,5 +331,14 @@
     "title": "Why digitalization projects stall after go-live",
     "body": "Most digitalization projects ship and then flatline. The software works. The data flows. Three months in, adoption plateaus and nobody knows why.\n\nThe root cause: teams optimize for launch, not for the first operator who has to actually *change their routine*. You can have perfect data quality and a beautiful UI, but if someone's muscle memory still reaches for the old clipboard, the system becomes overhead instead of tool. The gap isn't technical — it's the distance between 'system ready' and 'operator ready to rely on it'.\n\nWe've learned to measure this gap explicitly. Before launch, we run what we call a 'friction audit': walk the actual workflow, identify the three smallest friction points the operator will hit first, and fix those before anything else. Not the most sophisticated feature. Not the worst complaint. The first real obstacle.\n\nMost teams skip this. They assume operators will adapt. Operators do adapt — they adapt by going back to what they know.\n\nSoftware adoption isn't a toggle; it's a habit that needs three months to form, and one friction point to break.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c7e3c3c2c95a.png"
+  },
+  {
+    "id": "b610eba0fbb2",
+    "ts": "2026-06-21T11:14:45.030333+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Build Systems That Only Work in Notebooks",
+    "body": "You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.\n\nThis happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.\n\nHere's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.\n\nWe call this \"workflow-first modeling.\" It's not new. But it's the difference between a model that scores well and a model that gets used.\n\nStatistical performance means nothing if the system never ships to a human who can act on it.",
+    "image_url": ""
   }
 ]

@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 20 Jun 2026 10:31:49 +0000</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 11:14:45 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Systems That Only Work in Notebooks</title>
+<guid isPermaLink="false">b610eba0fbb2</guid>
+<pubDate>Sun, 21 Jun 2026 11:14:45 +0000</pubDate>
+<description><![CDATA[You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.
+
+This happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.
+
+Here's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.
+
+We call this "workflow-first modeling." It's not new. But it's the difference between a model that scores well and a model that gets used.
+
+Statistical performance means nothing if the system never ships to a human who can act on it.]]></description>
+<content:encoded><![CDATA[You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.
+
+This happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.
+
+Here's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.
+
+We call this "workflow-first modeling." It's not new. But it's the difference between a model that scores well and a model that gets used.
+
+Statistical performance means nothing if the system never ships to a human who can act on it.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects stall after go-live</title>
 <guid isPermaLink="false">c7e3c3c2c95a</guid>
