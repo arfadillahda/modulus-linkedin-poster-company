@@ -340,5 +340,14 @@
     "title": "Why AI Teams Build Systems That Only Work in Notebooks",
     "body": "You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.\n\nThis happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.\n\nHere's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.\n\nWe call this \"workflow-first modeling.\" It's not new. But it's the difference between a model that scores well and a model that gets used.\n\nStatistical performance means nothing if the system never ships to a human who can act on it.",
     "image_url": ""
+  },
+  {
+    "id": "70a5c5f418f7",
+    "ts": "2026-06-22T13:33:24.327273+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability becomes a compliance tax instead of an operational lever",
+    "body": "Most sustainability initiatives treat operators as obstacles to compliance rather than sources of insight. A plant manager knows exactly where energy bleeds, where steam condenses unused, where motors run at half capacity. But sustainability plans are built by consultants in conference rooms, handed to ops as a checklist, and fail within six months because they ignore how the site actually runs.\n\nThe mechanism is structural: sustainability gets bolted onto operations as a separate mandate, not woven into the economics of running the asset. When a sustainability goal conflicts with uptime, meeting schedule, or cost per unit—which it always does—operators choose the metric their bonus depends on. The plan doesn't lose; it was never real.\n\nThe reframe: stop asking operators to comply with sustainability. Start asking them what they'd change if they owned the energy bill. The constraints are already there. The knowledge is already distributed across the floor. Sustainability becomes real when it aligns with how operators think—efficiency, reliability, cost—not when it's imposed as penance.\n\nOperators optimize for what they measure. Give them the right measurement, and sustainability stops being a separate burden.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/70a5c5f418f7.png"
   }
 ]

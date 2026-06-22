@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ── TOP BAND ── -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-size="13" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-variant="small-caps"
+  >SUSTAINABILITY</text>
+
+  <!-- Headline underline accent -->
+  <rect x="64" y="106" width="72" height="2" fill="#1F5C3D" rx="1"/>
+
+  <!-- Display Headline line 1 -->
+  <text
+    x="64" y="152"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+  >Operators know the</text>
+
+  <!-- Display Headline line 2 -->
+  <text
+    x="64" y="210"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+  >fix. Plans ignore them.</text>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="80"
+    font-size="13" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="end"
+  >MODULUS1</text>
+
+  <!-- ── MIDDLE BAND — 4 tiles in 2×2 grid ── -->
+  <!-- Grid origin: x=64, y=248 -->
+  <!-- Tile width: (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- Tile height: (1024*0.62 - 16) / 2 ≈ 299 → use 272 -->
+  <!-- Row 1: y=248, Row 2: y=248+272+16=536 -->
+  <!-- Col 1: x=64, Col 2: x=64+440+16=520 -->
+
+  <!-- TILE 01 -->
+  <rect x="64" y="248" width="440" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="306" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">01</text>
+  <text x="92" y="350" font-size="22" font-weight="700" fill="#111111">Plans built in conference rooms</text>
+  <text x="92" y="385" font-size="15" font-weight="400" fill="#3A3A3A">Consultants design plans; operators get a checklist.</text>
+  <!-- subtle separator -->
+  <line x1="92" y1="404" x2="472" y2="404" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="430" font-size="13" font-weight="400" fill="#3A3A3A">The site's actual knowledge never enters the room.</text>
+  <text x="92" y="452" font-size="13" font-weight="400" fill="#3A3A3A">Results: failure within six months.</text>
+  <text x="92" y="474" font-size="13" font-weight="400" fill="#3A3A3A">Structural disconnect from day one.</text>
+
+  <!-- TILE 02 -->
+  <rect x="520" y="248" width="440" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="306" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">02</text>
+  <text x="548" y="350" font-size="22" font-weight="700" fill="#111111">Sustainability bolted on</text>
+  <text x="548" y="385" font-size="15" font-weight="400" fill="#3A3A3A">Separate mandate, not woven into economics.</text>
+  <line x1="548" y1="404" x2="928" y2="404" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="430" font-size="13" font-weight="400" fill="#3A3A3A">When sustainability conflicts with uptime or cost,</text>
+  <text x="548" y="452" font-size="13" font-weight="400" fill="#3A3A3A">operators choose the metric their bonus tracks.</text>
+  <text x="548" y="474" font-size="13" font-weight="400" fill="#3A3A3A">The plan was never real.</text>
+
+  <!-- TILE 03 -->
+  <rect x="64" y="536" width="440" height="272" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="594" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">03</text>
+  <text x="92" y="638" font-size="22" font-weight="700" fill="#111111">The knowledge is on the floor</text>
+  <text x="92" y="673" font-size="15" font-weight="400" fill="#3A3A3A">Operators know where energy bleeds unused.</text>
+  <line x1="92" y1="692" x2="472" y2="692" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="718" font-size="13" font-weight="400" fill="#3A3A3A">Steam, motors, heat — visible to the plant manager,</text>
+  <text x="92" y="740" font-size="13" font-weight="400" fill="#3A3A3A">invisible to the consultant's report.</text>
+  <text x="92" y="762" font-size="13" font-weight="400" fill="#3A3A3A">Distributed insight, untapped.</text>
+
+  <!-- TILE 04 -->
+  <rect x="520" y="536" width="440" height="272" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="594" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">04</text>
+  <text x="548" y="638" font-size="22" font-weight="700" fill="#111111">Align metrics, not mandates</text>
+  <text x="548" y="673" font-size="15" font-weight="400" fill="#3A3A3A">Ask what they'd change if they owned the bill.</text>
+  <line x1="548" y1="692" x2="928" y2="692" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="718" font-size="13" font-weight="400" fill="#3A3A3A">Efficiency, reliability, cost — operators already</text>
+  <text x="548" y="740" font-size="13" font-weight="400" fill="#3A3A3A">optimize for these. Sustainability fits here.</text>
+  <text x="548" y="762" font-size="13" font-weight="400" fill="#3A3A3A">Measure right; behavior follows.</text>
+
+  <!-- ── BOTTOM BAND ── -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="852" x2="960" y2="852" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="910"
+    font-size="21" font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    text-anchor="middle"
+  >Give operators the right measure. Sustainability follows.</text>
+
+  <!-- Bottom wordmark / brand line -->
+  <text
+    x="512" y="960"
+    font-size="12" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="middle"
+  >MODULUS1</text>
+
+</svg>
