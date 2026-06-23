@@ -349,5 +349,14 @@
     "title": "Why sustainability becomes a compliance tax instead of an operational lever",
     "body": "Most sustainability initiatives treat operators as obstacles to compliance rather than sources of insight. A plant manager knows exactly where energy bleeds, where steam condenses unused, where motors run at half capacity. But sustainability plans are built by consultants in conference rooms, handed to ops as a checklist, and fail within six months because they ignore how the site actually runs.\n\nThe mechanism is structural: sustainability gets bolted onto operations as a separate mandate, not woven into the economics of running the asset. When a sustainability goal conflicts with uptime, meeting schedule, or cost per unit—which it always does—operators choose the metric their bonus depends on. The plan doesn't lose; it was never real.\n\nThe reframe: stop asking operators to comply with sustainability. Start asking them what they'd change if they owned the energy bill. The constraints are already there. The knowledge is already distributed across the floor. Sustainability becomes real when it aligns with how operators think—efficiency, reliability, cost—not when it's imposed as penance.\n\nOperators optimize for what they measure. Give them the right measurement, and sustainability stops being a separate burden.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/70a5c5f418f7.png"
+  },
+  {
+    "id": "b2443ef8e5c7",
+    "ts": "2026-06-23T11:14:22.594970+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability initiatives stall after the first quarter",
+    "body": "Most sustainability rollouts lose momentum six weeks in. The team launches with energy, baseline metrics look good, then adoption flatlines across sites. Operations ignores the new process. Finance sees no cost reduction. The project gets marked as 'ongoing' and drifts.\n\nThis happens because sustainability is treated as a parallel system instead of a modification to how people already work. You ask operators to log data in a new portal. You ask schedulers to optimize for carbon instead of throughput. You ask finance to track invisible savings. All of it sits on top of their actual job, competing for attention.\n\nWe've found one pattern that changes this: anchor sustainability to something operators already measure and care about. If your facility tracks equipment runtime, make carbon visible *inside* runtime reporting—not as a separate metric. If dispatch optimizes for uptime, show how the efficient route saves both fuel and downtime. Reframe the input, not the interface.\n\nSustainability sticks when it reduces friction, not when it creates a second job.",
+    "image_url": ""
   }
 ]
