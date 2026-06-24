@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 23 Jun 2026 11:14:22 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Jun 2026 10:48:41 +0000</lastBuildDate>
+<item>
+<title>Why AI Systems Fail at the Data Boundary</title>
+<guid isPermaLink="false">423b5f3aadbf</guid>
+<pubDate>Wed, 24 Jun 2026 10:48:08 +0000</pubDate>
+<description><![CDATA[Your ML team trained a model on clean historical data. It shipped. Then operators fed it real field readings—timestamps with gaps, sensor drift, unit conversions nobody documented—and the model's confidence collapsed.
+
+This happens because training pipelines and production pipelines are built by different people with different constraints. The training team optimizes for signal-to-noise ratio. The ops team optimizes for "whatever the field equipment sends." Nobody owns the contract between them. So models train on data that doesn't exist in production, then fail silently when they meet it.
+
+We've solved this by building a data schema layer that lives upstream of both training and inference. Not a fancy framework—a boring, versioned specification that describes what the data actually is: units, null semantics, acceptable ranges, transformation rules. Training data gets validated against it. Production data gets validated against it. When ops changes a sensor, the schema version bumps and everyone sees it.
+
+The model doesn't fail in the field. It fails in CI, where you can actually do something about it.
+
+Control the shape of your data before you control the math.]]></description>
+<content:encoded><![CDATA[Your ML team trained a model on clean historical data. It shipped. Then operators fed it real field readings—timestamps with gaps, sensor drift, unit conversions nobody documented—and the model's confidence collapsed.
+
+This happens because training pipelines and production pipelines are built by different people with different constraints. The training team optimizes for signal-to-noise ratio. The ops team optimizes for "whatever the field equipment sends." Nobody owns the contract between them. So models train on data that doesn't exist in production, then fail silently when they meet it.
+
+We've solved this by building a data schema layer that lives upstream of both training and inference. Not a fancy framework—a boring, versioned specification that describes what the data actually is: units, null semantics, acceptable ranges, transformation rules. Training data gets validated against it. Production data gets validated against it. When ops changes a sensor, the schema version bumps and everyone sees it.
+
+The model doesn't fail in the field. It fails in CI, where you can actually do something about it.
+
+Control the shape of your data before you control the math.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability initiatives stall after the first quarter</title>
 <guid isPermaLink="false">b2443ef8e5c7</guid>

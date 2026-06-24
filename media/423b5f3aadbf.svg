@@ -1,0 +1,132 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND (~22% = 0–225px)
+  ════════════════════════════════════════════ -->
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text
+    x="1012"
+    y="36"
+    text-anchor="end"
+    font-size="12"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker label -->
+  <text
+    x="64"
+    y="80"
+    font-size="11"
+    font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.22em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64"
+    y="138"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Data Shape Breaks</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64"
+    y="198"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Models in Production</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="210" width="160" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND: 4 TILES IN 2×2 (~225–800px)
+       Outer padding 64px, gap 16px
+       Tile width = (1024 - 64 - 64 - 16) / 2 = 440
+       Tile height = (800 - 225 - 64 - 16) / 2 - 8 = ~241
+       Row 1 top: 241  Row 2 top: 241+249+16 = 506
+       Actually let's compute carefully:
+       available height = 800 - 241 = 559, gap 16 → each tile h = (559-16)/2 = 271.5 → 270
+       Tile y1 = 241, y2 = 241+270+16 = 527
+       Tile x1 = 64, x2 = 64+440+16 = 520
+  ════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="241" width="440" height="268" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="295" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="340" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Training–Ops Mismatch</text>
+  <text x="92" y="368" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Different teams, different data constraints, no shared</text>
+  <text x="92" y="388" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">contract between training and production pipelines.</text>
+  <!-- small rule decoration -->
+  <rect x="92" y="460" width="320" height="1" fill="#11111114"/>
+  <text x="92" y="480" font-size="12.5" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Models train on data that doesn't exist in the field.</text>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="520" y="241" width="440" height="268" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="295" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="340" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Silent Field Failure</text>
+  <text x="548" y="368" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sensor drift, timestamp gaps, undocumented unit</text>
+  <text x="548" y="388" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">conversions — confidence collapses without warning.</text>
+  <rect x="548" y="460" width="320" height="1" fill="#11111114"/>
+  <text x="548" y="480" font-size="12.5" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Failure is invisible until it's already costing you.</text>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="525" width="440" height="268" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="579" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="624" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">A Schema Layer Upstream</text>
+  <text x="92" y="652" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Versioned specification: units, null semantics,</text>
+  <text x="92" y="672" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">acceptable ranges, transformation rules — shared.</text>
+  <rect x="92" y="744" width="320" height="1" fill="#11111114"/>
+  <text x="92" y="764" font-size="12.5" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Both training and inference validate against one truth.</text>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="520" y="525" width="440" height="268" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="579" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="624" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Fail in CI, Not the Field</text>
+  <text x="548" y="652" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Schema version bumps when ops changes a sensor.</text>
+  <text x="548" y="672" font-size="14.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Everyone sees it. Breakage surfaces where fixable.</text>
+  <rect x="548" y="744" width="320" height="1" fill="#11111114"/>
+  <text x="548" y="764" font-size="12.5" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" font-family="Inter, 'Helveticaועברית Neue', Arial, sans-serif">Catch drift before it reaches a running model.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND (~800–1024px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Hairline rule above closing line -->
+  <rect x="64" y="830" width="896" height="1" fill="#11111120"/>
+
+  <!-- Closing line -->
+  <text
+    x="512"
+    y="900"
+    text-anchor="middle"
+    font-size="22"
+    font-weight="700"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Control data shape before you control the math.</text>
+
+  <!-- Sub-closing / URL hint -->
+  <text
+    x="512"
+    y="938"
+    text-anchor="middle"
+    font-size="12"
+    font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="0.08em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1.IO</text>
+
+</svg>

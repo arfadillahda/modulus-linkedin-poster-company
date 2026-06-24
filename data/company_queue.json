@@ -358,5 +358,14 @@
     "title": "Why sustainability initiatives stall after the first quarter",
     "body": "Most sustainability rollouts lose momentum six weeks in. The team launches with energy, baseline metrics look good, then adoption flatlines across sites. Operations ignores the new process. Finance sees no cost reduction. The project gets marked as 'ongoing' and drifts.\n\nThis happens because sustainability is treated as a parallel system instead of a modification to how people already work. You ask operators to log data in a new portal. You ask schedulers to optimize for carbon instead of throughput. You ask finance to track invisible savings. All of it sits on top of their actual job, competing for attention.\n\nWe've found one pattern that changes this: anchor sustainability to something operators already measure and care about. If your facility tracks equipment runtime, make carbon visible *inside* runtime reporting—not as a separate metric. If dispatch optimizes for uptime, show how the efficient route saves both fuel and downtime. Reframe the input, not the interface.\n\nSustainability sticks when it reduces friction, not when it creates a second job.",
     "image_url": ""
+  },
+  {
+    "id": "423b5f3aadbf",
+    "ts": "2026-06-24T10:48:08.637393+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Systems Fail at the Data Boundary",
+    "body": "Your ML team trained a model on clean historical data. It shipped. Then operators fed it real field readings—timestamps with gaps, sensor drift, unit conversions nobody documented—and the model's confidence collapsed.\n\nThis happens because training pipelines and production pipelines are built by different people with different constraints. The training team optimizes for signal-to-noise ratio. The ops team optimizes for \"whatever the field equipment sends.\" Nobody owns the contract between them. So models train on data that doesn't exist in production, then fail silently when they meet it.\n\nWe've solved this by building a data schema layer that lives upstream of both training and inference. Not a fancy framework—a boring, versioned specification that describes what the data actually is: units, null semantics, acceptable ranges, transformation rules. Training data gets validated against it. Production data gets validated against it. When ops changes a sensor, the schema version bumps and everyone sees it.\n\nThe model doesn't fail in the field. It fails in CI, where you can actually do something about it.\n\nControl the shape of your data before you control the math.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png"
   }
 ]
