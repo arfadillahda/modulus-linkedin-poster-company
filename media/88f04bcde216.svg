@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════
+       TOP BAND (0 – ~225px)
+  ════════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI</text>
+
+  <!-- Headline -->
+  <text
+    x="64" y="148"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Accuracy Gets You</text>
+  <text
+    x="64" y="207"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Built. Utility Gets You Used.</text>
+
+  <!-- Accent underline beneath headline -->
+  <line x1="64" y1="218" x2="420" y2="218" stroke="#2D5BFF" stroke-width="2.5"/>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="96"
+    font-size="12" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════════════
+       MIDDLE BAND — 4 tiles in 2×2 grid
+       Top row y=248, Bottom row y=570
+       Tile width = (1024 - 64 - 64 - 16) / 2 = 440
+       Tile height top ≈ 306px, bottom ≈ 306px
+  ════════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="248" width="440" height="306" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="308" font-size="56" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="356" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Accuracy Is Measurable</text>
+  <text x="92" y="392" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Plot it, compare runs, write it</text>
+  <text x="92" y="412" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">in a paper — clean and legible.</text>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="520" y="248" width="440" height="306" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="308" font-size="56" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="356" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">But Test Sets Aren't Reality</text>
+  <text x="548" y="392" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">94% accurate — still useless if</text>
+  <text x="548" y="412" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">it fails the 6% that ships.</text>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="570" width="440" height="306" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="630" font-size="56" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="678" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Optimize for Utility</text>
+  <text x="92" y="714" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Does this prediction change</text>
+  <text x="92" y="734" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">what an operator actually does?</text>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="520" y="570" width="440" height="306" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="630" font-size="56" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="678" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Calibration &amp; Honest Uncertainty</text>
+  <text x="548" y="714" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Right when it says it's right —</text>
+  <text x="548" y="734" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">and admits when it isn't.</text>
+
+  <!-- ═══════════════════════════════════════════════
+       BOTTOM BAND (~896 – 1024px)
+  ════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="910" x2="960" y2="910" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="968"
+    font-size="22" font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Accuracy is table stakes. Utility is what ships.</text>
+
+</svg>

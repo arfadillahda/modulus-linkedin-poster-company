@@ -376,5 +376,14 @@
     "title": "Why digitalization fails before the first line of code",
     "body": "Most digitalization projects collapse not because the technology is wrong, but because teams design for the wrong user.\n\nYou build a dashboard. Operations doesn't use it. You assume they're resistant to change. Actually, the dashboard answers questions nobody asked. It was built for compliance, finance, or engineering — not for the person running the machine at 6 a.m. trying to diagnose why throughput dropped.\n\nThis happens because digitalization gets treated as a data problem, not a workflow problem. You map your IT architecture first, then bolt on a UI. Operators become an afterthought. The interface speaks in system logic, not operational reality.\n\nThe reframe: start where decisions actually happen. Sit with the operator for a full shift. Watch what they check, what they worry about, what takes them longer than it should. Document the real workflow — not the org chart version, the actual version. Only then design the system around how they work, not how you think they should work.\n\nDigitalization succeeds when you design for the person making the call, not the person measuring the call.",
     "image_url": ""
+  },
+  {
+    "id": "88f04bcde216",
+    "ts": "2026-06-26T10:49:50.241985+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Treat Accuracy Like It's the Entire Job",
+    "body": "We watch teams spend months optimizing model F1 scores, then ship systems that operators ignore because the model's answers don't align with how real work actually gets done.\n\nThe mechanism is simple: accuracy is measurable. It's clean. You can plot it, compare runs, write it in a paper. But accuracy measures what the model predicts against a static test set—not whether those predictions matter when a human operator needs to make a decision under time pressure with incomplete context. A model can be 94% accurate and still useless if it fails on the 6% that shows up in production, or if it can't explain itself, or if it asks for input the operator doesn't have.\n\nThe reframe: stop optimizing for accuracy in isolation. Optimize for *utility*—does this prediction change what an operator actually does, and can they trust it enough to act on it? That means involving operators early, understanding their workflow, testing not just on accuracy but on calibration (how often is the model right when it says it's right?), and building systems where the model admits uncertainty instead of confidently guessing.\n\nAccuracy is table stakes. Utility is what ships.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png"
   }
 ]
