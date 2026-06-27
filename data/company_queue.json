@@ -385,5 +385,14 @@
     "title": "Why AI Teams Treat Accuracy Like It's the Entire Job",
     "body": "We watch teams spend months optimizing model F1 scores, then ship systems that operators ignore because the model's answers don't align with how real work actually gets done.\n\nThe mechanism is simple: accuracy is measurable. It's clean. You can plot it, compare runs, write it in a paper. But accuracy measures what the model predicts against a static test set—not whether those predictions matter when a human operator needs to make a decision under time pressure with incomplete context. A model can be 94% accurate and still useless if it fails on the 6% that shows up in production, or if it can't explain itself, or if it asks for input the operator doesn't have.\n\nThe reframe: stop optimizing for accuracy in isolation. Optimize for *utility*—does this prediction change what an operator actually does, and can they trust it enough to act on it? That means involving operators early, understanding their workflow, testing not just on accuracy but on calibration (how often is the model right when it says it's right?), and building systems where the model admits uncertainty instead of confidently guessing.\n\nAccuracy is table stakes. Utility is what ships.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png"
+  },
+  {
+    "id": "9448bb54d919",
+    "ts": "2026-06-27T10:06:32.234182+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability dashboards don't talk to maintenance systems",
+    "body": "A plant manager sees a 12% energy reduction target on the sustainability dashboard. The maintenance team doesn't see it. Three months later, a compressor runs unscheduled 600 hours over summer because nobody flagged the thermal drift that would have cost 40 kWh/day to prevent.\n\nSustainability software lives in isolation because it's built to report up, not to integrate down. The dashboard speaks KPI language. The SCADA speaks sensor language. Maintenance speaks downtime language. Each system optimizes locally—and they conflict.\n\nWe've learned that closing this gap requires a shared data model that translates between operational intent and equipment state. Not a new platform. Not a mega-integration. A normalized schema that lets sustainability constraints talk to maintenance priorities without requiring three translation layers.\n\nWhen a sustainability target becomes a real-time input to maintenance scheduling—not an afterthought in spreadsheet form—operators can actually use it. The compressor gets serviced before drift accelerates. The target becomes achievable instead of aspirational.\n\nSustainability that doesn't speak operations language is just reporting.",
+    "image_url": ""
   }
 ]
