@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 27 Jun 2026 10:06:32 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 10:26:44 +0000</lastBuildDate>
+<item>
+<title>Why digitalization software ships with zero operator context</title>
+<guid isPermaLink="false">fc3eab570f4f</guid>
+<pubDate>Sun, 28 Jun 2026 10:26:20 +0000</pubDate>
+<description><![CDATA[A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.
+
+This happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.
+
+The mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.
+
+We've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.
+
+Your digitalization software succeeds when it speaks the operator's language before the first interface loads.]]></description>
+<content:encoded><![CDATA[A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.
+
+This happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.
+
+The mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.
+
+We've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.
+
+Your digitalization software succeeds when it speaks the operator's language before the first interface loads.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability dashboards don't talk to maintenance systems</title>
 <guid isPermaLink="false">9448bb54d919</guid>

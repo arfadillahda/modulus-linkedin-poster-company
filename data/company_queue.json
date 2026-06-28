@@ -394,5 +394,14 @@
     "title": "Why sustainability dashboards don't talk to maintenance systems",
     "body": "A plant manager sees a 12% energy reduction target on the sustainability dashboard. The maintenance team doesn't see it. Three months later, a compressor runs unscheduled 600 hours over summer because nobody flagged the thermal drift that would have cost 40 kWh/day to prevent.\n\nSustainability software lives in isolation because it's built to report up, not to integrate down. The dashboard speaks KPI language. The SCADA speaks sensor language. Maintenance speaks downtime language. Each system optimizes locally—and they conflict.\n\nWe've learned that closing this gap requires a shared data model that translates between operational intent and equipment state. Not a new platform. Not a mega-integration. A normalized schema that lets sustainability constraints talk to maintenance priorities without requiring three translation layers.\n\nWhen a sustainability target becomes a real-time input to maintenance scheduling—not an afterthought in spreadsheet form—operators can actually use it. The compressor gets serviced before drift accelerates. The target becomes achievable instead of aspirational.\n\nSustainability that doesn't speak operations language is just reporting.",
     "image_url": ""
+  },
+  {
+    "id": "fc3eab570f4f",
+    "ts": "2026-06-28T10:26:20.380619+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization software ships with zero operator context",
+    "body": "A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.\n\nThis happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.\n\nThe mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.\n\nWe've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.\n\nYour digitalization software succeeds when it speaks the operator's language before the first interface loads.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png"
   }
 ]
