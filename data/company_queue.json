@@ -403,5 +403,14 @@
     "title": "Why digitalization software ships with zero operator context",
     "body": "A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.\n\nThis happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.\n\nThe mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.\n\nWe've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.\n\nYour digitalization software succeeds when it speaks the operator's language before the first interface loads.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png"
+  },
+  {
+    "id": "1ae36ea89a46",
+    "ts": "2026-06-29T12:31:10.279938+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization roadmaps don't survive first contact",
+    "body": "We see a pattern: a manufacturer maps out a 18-month digitalization roadmap, sites get excited, then month four hits and the priorities shift. A process owner realizes the data they're collecting isn't what they actually need. A line manager says the new workflow doesn't fit how their team actually works. The roadmap becomes ornamental.\n\nIt happens because roadmaps are built on assumptions about process stability. We assume what works in the planning meeting will still make sense when operators are six months into it. We assume we know which data matters. But industrial operations are concrete — operators discover friction in real time that no stakeholder meeting could predict.\n\nWe've moved toward a different rhythm: ship a small module, run it live for 30 days, interview the people using it daily, then decide what comes next. The roadmap becomes a direction, not a mandate. Priorities shift based on what operators actually tell you they need, not what leadership imagined they'd need.\n\nThe best digitalization roadmap isn't airtight — it's porous enough to bend without breaking.",
+    "image_url": ""
   }
 ]
