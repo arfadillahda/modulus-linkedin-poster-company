@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Subtle top-left structural rule -->
+  <line x1="64" y1="64" x2="64" y2="220" stroke="#2D5BFF" stroke-width="2" opacity="0.18"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- TOP BAND -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text x="80" y="98" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="11.5" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start">AI</text>
+
+  <!-- Display headline line 1 -->
+  <text x="80" y="148" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="46" fill="#111111" letter-spacing="-0.025em" text-anchor="start">Build for Failure First,</text>
+  <!-- Display headline line 2 -->
+  <text x="80" y="197" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="46" fill="#111111" letter-spacing="-0.025em" text-anchor="start">Not Just the Clean Path</text>
+
+  <!-- Accent underline rule under headline -->
+  <rect x="80" y="208" width="112" height="2.5" fill="#2D5BFF" rx="1"/>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="88" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="11.5" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- MIDDLE BAND — 2x2 GRID (4 tiles) -->
+  <!-- Tile area: y=240 to y=790, x=64 to x=960 -->
+  <!-- Gap=16, so col width = (896-16)/2 = 440, row height = (550-16)/2 = 267 -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Tile 01 — top-left: x=64, y=240, w=440, h=267 -->
+  <rect x="64" y="240" width="440" height="267" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="92" y="308" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#2D5BFF" letter-spacing="-0.02em">01</text>
+  <!-- Tile title -->
+  <text x="92" y="348" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="22" fill="#111111" letter-spacing="-0.01em">Median-Case Trap</text>
+  <!-- Caption line 1 -->
+  <text x="92" y="382" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Teams tune models on representative data</text>
+  <!-- Caption line 2 -->
+  <text x="92" y="401" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">and miss the 5% that breaks everything.</text>
+
+  <!-- Tile 02 — top-right: x=520, y=240, w=440, h=267 -->
+  <rect x="520" y="240" width="440" height="267" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="548" y="308" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#2D5BFF" letter-spacing="-0.02em">02</text>
+  <!-- Tile title -->
+  <text x="548" y="348" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="22" fill="#111111" letter-spacing="-0.01em">Map Failure Modes First</text>
+  <!-- Caption -->
+  <text x="548" y="382" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Before touching the model, ask what</text>
+  <text x="548" y="401" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">goes wrong and how badly.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=523, w=440, h=267 -->
+  <rect x="64" y="523" width="440" height="267" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="92" y="591" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#2D5BFF" letter-spacing="-0.02em">03</text>
+  <!-- Tile title -->
+  <text x="92" y="631" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="22" fill="#111111" letter-spacing="-0.01em">Catch, Don't Prevent</text>
+  <!-- Caption -->
+  <text x="92" y="665" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">You can't stop every edge case —</text>
+  <text x="92" y="684" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">build fallbacks and guard rails instead.</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=523, w=440, h=267 -->
+  <rect x="520" y="523" width="440" height="267" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="548" y="591" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#2D5BFF" letter-spacing="-0.02em">04</text>
+  <!-- Tile title -->
+  <text x="548" y="631" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="22" fill="#111111" letter-spacing="-0.01em">Failure Visibility First</text>
+  <!-- Caption -->
+  <text x="548" y="665" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Log the boundary where assumptions crack.</text>
+  <text x="548" y="684" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Accuracy comes second.</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- BOTTOM BAND -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="826" x2="960" y2="826" stroke="#111111" stroke-width="1" opacity="0.12"/>
+
+  <!-- Closing line -->
+  <text x="512" y="886" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="19" fill="#3A3A3A" letter-spacing="-0.01em" text-anchor="middle">Your system is only as reliable as your worst tested case.</text>
+
+</svg>

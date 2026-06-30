@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 29 Jun 2026 12:31:10 +0000</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 10:56:00 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Systems That Only Work for Happy Paths</title>
+<guid isPermaLink="false">edd684f9789d</guid>
+<pubDate>Tue, 30 Jun 2026 10:55:33 +0000</pubDate>
+<description><![CDATA[You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.
+
+This happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.
+
+We flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.
+
+This means your first build isn't about accuracy. It's about failure visibility.
+
+Your AI system is only as reliable as the worst case you actually tested for.]]></description>
+<content:encoded><![CDATA[You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.
+
+This happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.
+
+We flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.
+
+This means your first build isn't about accuracy. It's about failure visibility.
+
+Your AI system is only as reliable as the worst case you actually tested for.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization roadmaps don't survive first contact</title>
 <guid isPermaLink="false">1ae36ea89a46</guid>

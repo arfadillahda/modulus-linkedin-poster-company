@@ -412,5 +412,14 @@
     "title": "Why digitalization roadmaps don't survive first contact",
     "body": "We see a pattern: a manufacturer maps out a 18-month digitalization roadmap, sites get excited, then month four hits and the priorities shift. A process owner realizes the data they're collecting isn't what they actually need. A line manager says the new workflow doesn't fit how their team actually works. The roadmap becomes ornamental.\n\nIt happens because roadmaps are built on assumptions about process stability. We assume what works in the planning meeting will still make sense when operators are six months into it. We assume we know which data matters. But industrial operations are concrete — operators discover friction in real time that no stakeholder meeting could predict.\n\nWe've moved toward a different rhythm: ship a small module, run it live for 30 days, interview the people using it daily, then decide what comes next. The roadmap becomes a direction, not a mandate. Priorities shift based on what operators actually tell you they need, not what leadership imagined they'd need.\n\nThe best digitalization roadmap isn't airtight — it's porous enough to bend without breaking.",
     "image_url": ""
+  },
+  {
+    "id": "edd684f9789d",
+    "ts": "2026-06-30T10:55:33.018167+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ship Systems That Only Work for Happy Paths",
+    "body": "You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.\n\nThis happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.\n\nWe flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.\n\nThis means your first build isn't about accuracy. It's about failure visibility.\n\nYour AI system is only as reliable as the worst case you actually tested for.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png"
   }
 ]
