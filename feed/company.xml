@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 30 Jun 2026 10:56:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 11:22:06 +0000</lastBuildDate>
+<item>
+<title>Why sustainability is treated like a cost center, not an asset</title>
+<guid isPermaLink="false">76a5fef6ed2f</guid>
+<pubDate>Wed, 01 Jul 2026 11:22:06 +0000</pubDate>
+<description><![CDATA[Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.
+
+The reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.
+
+This isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.
+
+The shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.
+
+Sustainability stops being a tax when it's woven into how you run the thing.]]></description>
+<content:encoded><![CDATA[Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.
+
+The reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.
+
+This isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.
+
+The shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.
+
+Sustainability stops being a tax when it's woven into how you run the thing.]]></content:encoded>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ship Systems That Only Work for Happy Paths</title>
 <guid isPermaLink="false">edd684f9789d</guid>

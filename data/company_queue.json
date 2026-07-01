@@ -421,5 +421,14 @@
     "title": "Why AI Teams Ship Systems That Only Work for Happy Paths",
     "body": "You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.\n\nThis happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.\n\nWe flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.\n\nThis means your first build isn't about accuracy. It's about failure visibility.\n\nYour AI system is only as reliable as the worst case you actually tested for.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png"
+  },
+  {
+    "id": "76a5fef6ed2f",
+    "ts": "2026-07-01T11:22:06.692201+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability is treated like a cost center, not an asset",
+    "body": "Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.\n\nThe reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.\n\nThis isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.\n\nThe shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.\n\nSustainability stops being a tax when it's woven into how you run the thing.",
+    "image_url": ""
   }
 ]
