@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="64" font-size="12" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="138" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Your targets drift when</text>
+  <text x="64" y="190" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">ops runs a different race.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="202" width="280" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- MIDDLE BAND — 4 tiles in 2x2 grid -->
+  <!-- Gap: 16px, outer pad: 64px, canvas: 1024px -->
+  <!-- Total width available: 1024 - 128 = 896px -->
+  <!-- 2 cols: (896 - 16) / 2 = 440px per tile -->
+  <!-- Top row: y=236, height=220 -->
+  <!-- Bottom row: y=472, height=220 -->
+  <!-- Total grid height: 220+16+220 = 456, ends at 236+456=692 -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="236" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="292" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.01em">01</text>
+  <text x="92" y="328" font-size="18" font-weight="700" fill="#111111">Siloed systems</text>
+  <text x="92" y="356" font-size="14" font-weight="400" fill="#3A3A3A">Sustainability lives in a separate reporting layer.</text>
+  <text x="92" y="378" font-size="14" font-weight="400" fill="#3A3A3A">Ops data never touches it.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="236" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="292" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.01em">02</text>
+  <text x="548" y="328" font-size="18" font-weight="700" fill="#111111">Conflicting objectives</text>
+  <text x="548" y="356" font-size="14" font-weight="400" fill="#3A3A3A">Operators optimize uptime. Sustainability teams</text>
+  <text x="548" y="378" font-size="14" font-weight="400" fill="#3A3A3A">optimize metrics. They win when the other loses.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="472" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="528" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.01em">03</text>
+  <text x="92" y="564" font-size="18" font-weight="700" fill="#111111">Decision-point visibility</text>
+  <text x="92" y="592" font-size="14" font-weight="400" fill="#3A3A3A">Surface the carbon cost at the maintenance</text>
+  <text x="92" y="614" font-size="14" font-weight="400" fill="#3A3A3A">ticket, the equipment swap, the shift plan.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="472" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="528" font-size="48" font-weight="800" fill="#1F5C3D" letter-spacing="-0.01em">04</text>
+  <text x="548" y="564" font-size="18" font-weight="700" fill="#111111">One shared problem</text>
+  <text x="548" y="592" font-size="14" font-weight="400" fill="#3A3A3A">Embed sustainability as a constraint in the</text>
+  <text x="548" y="614" font-size="14" font-weight="400" fill="#3A3A3A">same trade-off ops already solves.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="732" x2="960" y2="732" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="800" font-size="20" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.005em">When targets live in the workflow, they stay relevant.</text>
+
+</svg>

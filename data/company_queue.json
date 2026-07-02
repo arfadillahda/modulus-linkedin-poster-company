@@ -430,5 +430,14 @@
     "title": "Why sustainability is treated like a cost center, not an asset",
     "body": "Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.\n\nThe reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.\n\nThis isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.\n\nThe shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.\n\nSustainability stops being a tax when it's woven into how you run the thing.",
     "image_url": ""
+  },
+  {
+    "id": "5a95178c5728",
+    "ts": "2026-07-02T10:36:38.405080+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability KPIs drift from operations mid-year",
+    "body": "You set carbon or water targets in Q1. By Q3, they're no longer connected to the decisions your operators actually make.\n\nThis happens because sustainability lives in a separate system—a spreadsheet, a SaaS dashboard, a reporting layer—disconnected from the real-time data that drives dispatch, maintenance, and production planning. Your operators optimize for throughput or uptime. Your sustainability team optimizes for metrics. They win when the other loses.\n\nWe solve this by embedding sustainability outcomes directly into operational trade-offs, not as a parallel goal. Instead of asking 'did we hit our carbon target,' we ask: 'which energy cost decision in this maintenance schedule actually moves the needle?' Then we surface that trade-off at the point of decision—the maintenance ticket, the equipment swap, the shift plan—with real context about what the choice costs in carbon or water.\n\nIt's not about better reporting. It's about making sustainability a constraint in the same problem your operations team is already solving.\n\nWhen sustainability lives in the operational workflow, the targets stay relevant.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5a95178c5728.png"
   }
 ]
