@@ -439,5 +439,14 @@
     "title": "Why sustainability KPIs drift from operations mid-year",
     "body": "You set carbon or water targets in Q1. By Q3, they're no longer connected to the decisions your operators actually make.\n\nThis happens because sustainability lives in a separate system—a spreadsheet, a SaaS dashboard, a reporting layer—disconnected from the real-time data that drives dispatch, maintenance, and production planning. Your operators optimize for throughput or uptime. Your sustainability team optimizes for metrics. They win when the other loses.\n\nWe solve this by embedding sustainability outcomes directly into operational trade-offs, not as a parallel goal. Instead of asking 'did we hit our carbon target,' we ask: 'which energy cost decision in this maintenance schedule actually moves the needle?' Then we surface that trade-off at the point of decision—the maintenance ticket, the equipment swap, the shift plan—with real context about what the choice costs in carbon or water.\n\nIt's not about better reporting. It's about making sustainability a constraint in the same problem your operations team is already solving.\n\nWhen sustainability lives in the operational workflow, the targets stay relevant.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5a95178c5728.png"
+  },
+  {
+    "id": "e5c3d5f4f6b4",
+    "ts": "2026-07-03T10:33:44.132681+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Systems Fail When Users Go Offline",
+    "body": "Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.\n\nThis happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.\n\nThe gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.\n\nWe've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.\n\nOffline-first isn't a feature. It's how you ship AI that actually works in the field.",
+    "image_url": ""
   }
 ]

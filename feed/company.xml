@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 02 Jul 2026 10:36:59 +0000</lastBuildDate>
+<lastBuildDate>Fri, 03 Jul 2026 10:33:44 +0000</lastBuildDate>
+<item>
+<title>Why AI Systems Fail When Users Go Offline</title>
+<guid isPermaLink="false">e5c3d5f4f6b4</guid>
+<pubDate>Fri, 03 Jul 2026 10:33:44 +0000</pubDate>
+<description><![CDATA[Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.
+
+This happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.
+
+The gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.
+
+We've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.
+
+Offline-first isn't a feature. It's how you ship AI that actually works in the field.]]></description>
+<content:encoded><![CDATA[Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.
+
+This happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.
+
+The gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.
+
+We've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.
+
+Offline-first isn't a feature. It's how you ship AI that actually works in the field.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability KPIs drift from operations mid-year</title>
 <guid isPermaLink="false">5a95178c5728</guid>
