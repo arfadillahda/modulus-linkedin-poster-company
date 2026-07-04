@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 03 Jul 2026 10:33:44 +0000</lastBuildDate>
+<lastBuildDate>Sat, 04 Jul 2026 10:08:24 +0000</lastBuildDate>
+<item>
+<title>Why digitalization fails when you treat it as software</title>
+<guid isPermaLink="false">fbb80e0cd901</guid>
+<pubDate>Sat, 04 Jul 2026 10:08:06 +0000</pubDate>
+<description><![CDATA[Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.
+
+When a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.
+
+The mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.
+
+Reframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.
+
+You can't automate what you don't understand. You can only document it differently.]]></description>
+<content:encoded><![CDATA[Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.
+
+When a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.
+
+The mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.
+
+Reframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.
+
+You can't automate what you don't understand. You can only document it differently.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Systems Fail When Users Go Offline</title>
 <guid isPermaLink="false">e5c3d5f4f6b4</guid>
@@ -1272,29 +1299,6 @@ Then we build the AI as a *tool in their workflow*, not a replacement for their 
 
 The difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization projects stall after the pilot phase</title>
-<guid isPermaLink="false">2f2f79980534</guid>
-<pubDate>Mon, 11 May 2026 04:02:48 +0000</pubDate>
-<description><![CDATA[Most digitalization efforts die the moment they leave the pilot. A team builds a slick proof of concept on clean data, stakeholders nod, and then the project gets handed to operations. Two months later: the system sits unused because it doesn't talk to the legacy ERP, requires manual workarounds, or assumes conditions that never exist in production.
-
-The failure mode isn't bad technology. It's that pilots optimize for demo-readiness, not operational reality. They run on curated datasets, stable network conditions, and users who expect friction. Real operators work offline half the time, have data quality issues baked in, and need systems to fail gracefully without stopping the line.
-
-We approach this differently: build the pilot alongside the integration strategy, not after it. Before you write a single line of code, map the three hardest constraints your operation actually faces—connectivity gaps, data inconsistencies, handoff delays. Design the system to work *within* those constraints, not around them. The pilot becomes proof that your solution survives contact with reality, not just that it works on a bench.
-
-A pilot that can't scale into production was never a proof of concept—it was a prototype pretending to be one.]]></description>
-<content:encoded><![CDATA[Most digitalization efforts die the moment they leave the pilot. A team builds a slick proof of concept on clean data, stakeholders nod, and then the project gets handed to operations. Two months later: the system sits unused because it doesn't talk to the legacy ERP, requires manual workarounds, or assumes conditions that never exist in production.
-
-The failure mode isn't bad technology. It's that pilots optimize for demo-readiness, not operational reality. They run on curated datasets, stable network conditions, and users who expect friction. Real operators work offline half the time, have data quality issues baked in, and need systems to fail gracefully without stopping the line.
-
-We approach this differently: build the pilot alongside the integration strategy, not after it. Before you write a single line of code, map the three hardest constraints your operation actually faces—connectivity gaps, data inconsistencies, handoff delays. Design the system to work *within* those constraints, not around them. The pilot becomes proof that your solution survives contact with reality, not just that it works on a bench.
-
-A pilot that can't scale into production was never a proof of concept—it was a prototype pretending to be one.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2f2f79980534.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2f2f79980534.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>

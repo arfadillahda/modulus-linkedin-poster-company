@@ -448,5 +448,14 @@
     "title": "Why AI Systems Fail When Users Go Offline",
     "body": "Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.\n\nThis happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.\n\nThe gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.\n\nWe've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.\n\nOffline-first isn't a feature. It's how you ship AI that actually works in the field.",
     "image_url": ""
+  },
+  {
+    "id": "fbb80e0cd901",
+    "ts": "2026-07-04T10:08:06.447879+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization fails when you treat it as software",
+    "body": "Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.\n\nWhen a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.\n\nThe mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.\n\nReframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.\n\nYou can't automate what you don't understand. You can only document it differently.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png"
   }
 ]

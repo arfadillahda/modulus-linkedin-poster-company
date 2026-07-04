@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+
+  <!-- Kicker label -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps" text-transform="uppercase">DIGITALIZATION</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="96" font-size="12" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Accent underline under kicker -->
+  <line x1="64" y1="103" x2="190" y2="103" stroke="#C24A1F" stroke-width="1"/>
+
+  <!-- Display headline -->
+  <text x="64" y="148" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">
+    <tspan x="64" dy="0">Software ships.</tspan>
+    <tspan x="64" dy="56">Operators decide.</tspan>
+  </text>
+
+  <!-- Thin divider line between top and middle -->
+  <line x1="64" y1="228" x2="960" y2="228" stroke="#11111118" stroke-width="1"/>
+
+  <!-- MIDDLE BAND — 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: each ~432px wide, ~260px tall, gap 16px, starting y=248 -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="248" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="298" font-size="38" font-weight="800" fill="#C24A1F">01</text>
+  <text x="88" y="332" font-size="17" font-weight="700" fill="#111111">Not a Software Problem</text>
+  <text x="88" y="360" font-size="13" font-weight="400" fill="#3A3A3A">
+    <tspan x="88" dy="0">Digitalization is a work redesign</tspan>
+    <tspan x="88" dy="18">problem, not a technology one.</tspan>
+  </text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="528" y="248" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="298" font-size="38" font-weight="800" fill="#C24A1F">02</text>
+  <text x="552" y="332" font-size="17" font-weight="700" fill="#111111">Operators Live in Shifts</text>
+  <text x="552" y="360" font-size="13" font-weight="400" fill="#3A3A3A">
+    <tspan x="552" dy="0">Handovers, maintenance logs, and</tspan>
+    <tspan x="552" dy="18">tribal knowledge drive real work.</tspan>
+  </text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="524" width="432" height="260" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="574" font-size="38" font-weight="800" fill="#C24A1F">03</text>
+  <text x="88" y="608" font-size="17" font-weight="700" fill="#111111">Dashboards Become Noise</text>
+  <text x="88" y="636" font-size="13" font-weight="400" fill="#3A3A3A">
+    <tspan x="88" dy="0">Software built against operator</tspan>
+    <tspan x="88" dy="18">rhythm is ignored from day one.</tspan>
+  </text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="528" y="524" width="432" height="260" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="574" font-size="38" font-weight="800" fill="#C24A1F">04</text>
+  <text x="552" y="608" font-size="17" font-weight="700" fill="#111111">Map Before You Build</text>
+  <text x="552" y="636" font-size="13" font-weight="400" fill="#3A3A3A">
+    <tspan x="552" dy="0">Understand operator decisions first.</tspan>
+    <tspan x="552" dy="18">Let the software follow the work.</tspan>
+  </text>
+
+  <!-- BOTTOM BAND -->
+  <line x1="64" y1="826" x2="960" y2="826" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="886" font-size="18" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">
+    You can't automate what you don't understand.
+  </text>
+
+</svg>
