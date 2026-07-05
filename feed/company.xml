@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 04 Jul 2026 10:08:24 +0000</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 10:10:44 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Confuse Correlation with Causation</title>
+<guid isPermaLink="false">8c19f51fba95</guid>
+<pubDate>Sun, 05 Jul 2026 10:10:44 +0000</pubDate>
+<description><![CDATA[Most teams building AI systems for industrial operations assume that if their model predicts something accurately in retrospect, it will control something accurately in the future. Then their recommendations fail in production and no one understands why.
+
+The mechanism is simple: prediction and causation are not the same thing. A model trained on historical data learns correlations—patterns that happened to be true when you collected the data. But the moment you act on that pattern, the system dynamics change. The correlation breaks. If you predict a bearing will fail based on vibration signatures you've seen before, but you don't actually understand what causes that vibration, your intervention might address the symptom and miss the root. Or worse, create new failure modes.
+
+The reframe: stop asking "does our model predict this?" Start asking "do we understand what would have to be true about the system for this prediction to remain valid after we act on it?" That's the gap between inference and intervention. Bridge it by working backwards from your intervention to the causal story. What has to stay constant? What breaks if we change it? 
+
+Accuracy on a test set tells you how well you read the past. Causality tells you if you'll survive the future.]]></description>
+<content:encoded><![CDATA[Most teams building AI systems for industrial operations assume that if their model predicts something accurately in retrospect, it will control something accurately in the future. Then their recommendations fail in production and no one understands why.
+
+The mechanism is simple: prediction and causation are not the same thing. A model trained on historical data learns correlations—patterns that happened to be true when you collected the data. But the moment you act on that pattern, the system dynamics change. The correlation breaks. If you predict a bearing will fail based on vibration signatures you've seen before, but you don't actually understand what causes that vibration, your intervention might address the symptom and miss the root. Or worse, create new failure modes.
+
+The reframe: stop asking "does our model predict this?" Start asking "do we understand what would have to be true about the system for this prediction to remain valid after we act on it?" That's the gap between inference and intervention. Bridge it by working backwards from your intervention to the causal story. What has to stay constant? What breaks if we change it? 
+
+Accuracy on a test set tells you how well you read the past. Causality tells you if you'll survive the future.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization fails when you treat it as software</title>
 <guid isPermaLink="false">fbb80e0cd901</guid>
@@ -1271,35 +1292,6 @@ Systems designed for waste reduction tend to perform better on every metric that
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI pilots fail before they scale</title>
-<guid isPermaLink="false">54843029e824</guid>
-<pubDate>Mon, 11 May 2026 11:17:33 +0000</pubDate>
-<description><![CDATA[Most teams build an AI feature, it works in isolation, and then it breaks the moment real operators touch it. The model was right. The integration was wrong.
-
-This happens because AI gets bolted onto existing workflows as a black box. The operator doesn't understand what the model is doing, so they can't debug it. The engineer who built it doesn't understand the operator's actual process, so they optimized for the wrong signal. Neither side trusts the system enough to rely on it.
-
-We've stopped treating AI integration as a model problem. We treat it as a *feedback loop problem*.
-
-Before we write any code, we map three things: (1) What decision is the operator actually making today? (2) What does the operator need to see to trust the AI output? (3) How do we measure whether the AI is helping or just adding latency?
-
-Then we build the AI as a *tool in their workflow*, not a replacement for their judgment. Transparency first, accuracy second.
-
-The difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.]]></description>
-<content:encoded><![CDATA[Most teams build an AI feature, it works in isolation, and then it breaks the moment real operators touch it. The model was right. The integration was wrong.
-
-This happens because AI gets bolted onto existing workflows as a black box. The operator doesn't understand what the model is doing, so they can't debug it. The engineer who built it doesn't understand the operator's actual process, so they optimized for the wrong signal. Neither side trusts the system enough to rely on it.
-
-We've stopped treating AI integration as a model problem. We treat it as a *feedback loop problem*.
-
-Before we write any code, we map three things: (1) What decision is the operator actually making today? (2) What does the operator need to see to trust the AI output? (3) How do we measure whether the AI is helping or just adding latency?
-
-Then we build the AI as a *tool in their workflow*, not a replacement for their judgment. Transparency first, accuracy second.
-
-The difference between a pilot that scales and one that dies is whether the operator understands why the AI said yes.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

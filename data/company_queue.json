@@ -457,5 +457,14 @@
     "title": "Why digitalization fails when you treat it as software",
     "body": "Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.\n\nWhen a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.\n\nThe mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.\n\nReframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.\n\nYou can't automate what you don't understand. You can only document it differently.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png"
+  },
+  {
+    "id": "8c19f51fba95",
+    "ts": "2026-07-05T10:10:44.666332+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Confuse Correlation with Causation",
+    "body": "Most teams building AI systems for industrial operations assume that if their model predicts something accurately in retrospect, it will control something accurately in the future. Then their recommendations fail in production and no one understands why.\n\nThe mechanism is simple: prediction and causation are not the same thing. A model trained on historical data learns correlations—patterns that happened to be true when you collected the data. But the moment you act on that pattern, the system dynamics change. The correlation breaks. If you predict a bearing will fail based on vibration signatures you've seen before, but you don't actually understand what causes that vibration, your intervention might address the symptom and miss the root. Or worse, create new failure modes.\n\nThe reframe: stop asking \"does our model predict this?\" Start asking \"do we understand what would have to be true about the system for this prediction to remain valid after we act on it?\" That's the gap between inference and intervention. Bridge it by working backwards from your intervention to the causal story. What has to stay constant? What breaks if we change it? \n\nAccuracy on a test set tells you how well you read the past. Causality tells you if you'll survive the future.",
+    "image_url": ""
   }
 ]
