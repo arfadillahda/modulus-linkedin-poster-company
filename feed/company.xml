@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 05 Jul 2026 10:10:44 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 12:03:40 +0000</lastBuildDate>
+<item>
+<title>Why sustainability reporting breaks when operators change the plan</title>
+<guid isPermaLink="false">66f18d24d2e2</guid>
+<pubDate>Mon, 06 Jul 2026 12:03:21 +0000</pubDate>
+<description><![CDATA[A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.
+
+Sustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.
+
+The fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.
+
+We've built this into several industrial deployments: sustainability reporting that survives maintenance windows.
+
+Operations change. Your measurement should too.]]></description>
+<content:encoded><![CDATA[A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.
+
+Sustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.
+
+The fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.
+
+We've built this into several industrial deployments: sustainability reporting that survives maintenance windows.
+
+Operations change. Your measurement should too.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Confuse Correlation with Causation</title>
 <guid isPermaLink="false">8c19f51fba95</guid>
@@ -1257,41 +1284,6 @@ The mechanism is simple: align the metric to something already measured, already
 Change the question, not the checklist.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability metrics fail in industrial ops</title>
-<guid isPermaLink="false">837953febca0</guid>
-<pubDate>Tue, 12 May 2026 10:30:52 +0000</pubDate>
-<description><![CDATA[Most industrial teams measure sustainability the way they measure uptime: as a compliance checkbox, not as a design constraint.
-
-This happens because sustainability got bolted onto existing systems after the fact. A facility counts emissions from its fleet, reports the number, and moves on. But that number tells you nothing about whether the system is actually *designed* to reduce waste—it just tells you what leaked out.
-
-The mechanism is structural. Sustainability was never part of the optimization function. Logistics routes optimize for speed and cost. Maintenance schedules optimize for availability. Scheduling optimizes for utilization. Nowhere in that chain is waste reduction a first-class citizen alongside throughput.
-
-Here's the reframe: stop reporting emissions. Start designing them out.
-
-This means pulling sustainability upstream—into route planning, maintenance intervals, scheduling logic, equipment selection. Not as a penalty function that makes everything slower. As a real constraint that forces better design.
-
-When you do, something shifts. You find inefficiencies that were always costing money. Redundant routes. Over-maintenance. Idle capacity. The sustainability case builds itself.
-
-Systems designed for waste reduction tend to perform better on every metric that matters.]]></description>
-<content:encoded><![CDATA[Most industrial teams measure sustainability the way they measure uptime: as a compliance checkbox, not as a design constraint.
-
-This happens because sustainability got bolted onto existing systems after the fact. A facility counts emissions from its fleet, reports the number, and moves on. But that number tells you nothing about whether the system is actually *designed* to reduce waste—it just tells you what leaked out.
-
-The mechanism is structural. Sustainability was never part of the optimization function. Logistics routes optimize for speed and cost. Maintenance schedules optimize for availability. Scheduling optimizes for utilization. Nowhere in that chain is waste reduction a first-class citizen alongside throughput.
-
-Here's the reframe: stop reporting emissions. Start designing them out.
-
-This means pulling sustainability upstream—into route planning, maintenance intervals, scheduling logic, equipment selection. Not as a penalty function that makes everything slower. As a real constraint that forces better design.
-
-When you do, something shifts. You find inefficiencies that were always costing money. Redundant routes. Over-maintenance. Idle capacity. The sustainability case builds itself.
-
-Systems designed for waste reduction tend to perform better on every metric that matters.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/837953febca0.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

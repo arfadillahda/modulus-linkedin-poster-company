@@ -466,5 +466,14 @@
     "title": "Why AI Teams Confuse Correlation with Causation",
     "body": "Most teams building AI systems for industrial operations assume that if their model predicts something accurately in retrospect, it will control something accurately in the future. Then their recommendations fail in production and no one understands why.\n\nThe mechanism is simple: prediction and causation are not the same thing. A model trained on historical data learns correlations—patterns that happened to be true when you collected the data. But the moment you act on that pattern, the system dynamics change. The correlation breaks. If you predict a bearing will fail based on vibration signatures you've seen before, but you don't actually understand what causes that vibration, your intervention might address the symptom and miss the root. Or worse, create new failure modes.\n\nThe reframe: stop asking \"does our model predict this?\" Start asking \"do we understand what would have to be true about the system for this prediction to remain valid after we act on it?\" That's the gap between inference and intervention. Bridge it by working backwards from your intervention to the causal story. What has to stay constant? What breaks if we change it? \n\nAccuracy on a test set tells you how well you read the past. Causality tells you if you'll survive the future.",
     "image_url": ""
+  },
+  {
+    "id": "66f18d24d2e2",
+    "ts": "2026-07-06T12:03:21.870677+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability reporting breaks when operators change the plan",
+    "body": "A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.\n\nSustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.\n\nThe fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.\n\nWe've built this into several industrial deployments: sustainability reporting that survives maintenance windows.\n\nOperations change. Your measurement should too.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png"
   }
 ]
