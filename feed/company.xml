@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 06 Jul 2026 12:03:40 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 10:53:31 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization data won't survive handoff to operations</title>
+<guid isPermaLink="false">9512fd6a7ec6</guid>
+<pubDate>Tue, 07 Jul 2026 10:53:31 +0000</pubDate>
+<description><![CDATA[You've shipped a beautiful digital system. Six months in, operators are running parallel processes because the system doesn't speak their language — literally. Field engineers see sensor data in JSON. They need thresholds, alarm sequences, and decision trees. The schema is clean. The mappings are documented. The system is unusable.
+
+This happens because digitalization software is built in isolation from how operators actually work. Engineers optimize for data correctness and API cleanliness. Operators optimize for speed and pattern recognition under uncertainty. These are different problems, and schema alone doesn't bridge them.
+
+We've started embedding operator-native data models into the systems we ship — not as UI gloss, but as first-class schema. When a maintenance technician queries the system, they get answers structured around their decision loop, not our data model. Same underlying truth. Different shape for different eyes.
+
+Your data architecture is irrelevant if the people holding the wrench can't reason about it.]]></description>
+<content:encoded><![CDATA[You've shipped a beautiful digital system. Six months in, operators are running parallel processes because the system doesn't speak their language — literally. Field engineers see sensor data in JSON. They need thresholds, alarm sequences, and decision trees. The schema is clean. The mappings are documented. The system is unusable.
+
+This happens because digitalization software is built in isolation from how operators actually work. Engineers optimize for data correctness and API cleanliness. Operators optimize for speed and pattern recognition under uncertainty. These are different problems, and schema alone doesn't bridge them.
+
+We've started embedding operator-native data models into the systems we ship — not as UI gloss, but as first-class schema. When a maintenance technician queries the system, they get answers structured around their decision loop, not our data model. Same underlying truth. Different shape for different eyes.
+
+Your data architecture is irrelevant if the people holding the wrench can't reason about it.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability reporting breaks when operators change the plan</title>
 <guid isPermaLink="false">66f18d24d2e2</guid>
@@ -1255,35 +1276,6 @@ When your AI knows when it's seeing unfamiliar data, you can actually trust it i
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9e8502f5abb7.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability roadmaps die after year one</title>
-<guid isPermaLink="false">76d2a79cab2a</guid>
-<pubDate>Wed, 13 May 2026 10:26:39 +0000</pubDate>
-<description><![CDATA[Your sustainability initiative launches with fanfare. By month 13, it's competing for budget with actual revenue targets—and losing.
-
-The failure mode: sustainability gets grafted onto existing workflows as an add-on. Engineering teams track emissions data separately from operational metrics. Finance treats carbon reduction as a cost center, not a lever tied to asset performance. Nobody owns the correlation between optimization and impact, so when a production crisis hits, sustainability becomes the first thing cut.
-
-We've noticed the teams that hold momentum do something different. They embed sustainability into the problem statement itself, not the solution.
-
-Instead of "reduce emissions by 15%," they frame it as: "our compressor efficiency has 8-point upside; hitting it cuts both energy cost and scope 2 by $200k annually." Now operations owns it. Engineering sees a hard constraint they can optimize against. Finance sees margin recovery.
-
-The mechanism is simple: align the metric to something already measured, already pressured, already funded. Sustainability stops being additional work and becomes the shape of the work you're already doing.
-
-Change the question, not the checklist.]]></description>
-<content:encoded><![CDATA[Your sustainability initiative launches with fanfare. By month 13, it's competing for budget with actual revenue targets—and losing.
-
-The failure mode: sustainability gets grafted onto existing workflows as an add-on. Engineering teams track emissions data separately from operational metrics. Finance treats carbon reduction as a cost center, not a lever tied to asset performance. Nobody owns the correlation between optimization and impact, so when a production crisis hits, sustainability becomes the first thing cut.
-
-We've noticed the teams that hold momentum do something different. They embed sustainability into the problem statement itself, not the solution.
-
-Instead of "reduce emissions by 15%," they frame it as: "our compressor efficiency has 8-point upside; hitting it cuts both energy cost and scope 2 by $200k annually." Now operations owns it. Engineering sees a hard constraint they can optimize against. Finance sees margin recovery.
-
-The mechanism is simple: align the metric to something already measured, already pressured, already funded. Sustainability stops being additional work and becomes the shape of the work you're already doing.
-
-Change the question, not the checklist.]]></content:encoded>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

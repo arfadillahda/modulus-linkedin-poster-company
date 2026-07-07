@@ -475,5 +475,14 @@
     "title": "Why sustainability reporting breaks when operators change the plan",
     "body": "A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.\n\nSustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.\n\nThe fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.\n\nWe've built this into several industrial deployments: sustainability reporting that survives maintenance windows.\n\nOperations change. Your measurement should too.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png"
+  },
+  {
+    "id": "9512fd6a7ec6",
+    "ts": "2026-07-07T10:53:31.735930+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your digitalization data won't survive handoff to operations",
+    "body": "You've shipped a beautiful digital system. Six months in, operators are running parallel processes because the system doesn't speak their language — literally. Field engineers see sensor data in JSON. They need thresholds, alarm sequences, and decision trees. The schema is clean. The mappings are documented. The system is unusable.\n\nThis happens because digitalization software is built in isolation from how operators actually work. Engineers optimize for data correctness and API cleanliness. Operators optimize for speed and pattern recognition under uncertainty. These are different problems, and schema alone doesn't bridge them.\n\nWe've started embedding operator-native data models into the systems we ship — not as UI gloss, but as first-class schema. When a maintenance technician queries the system, they get answers structured around their decision loop, not our data model. Same underlying truth. Different shape for different eyes.\n\nYour data architecture is irrelevant if the people holding the wrench can't reason about it.",
+    "image_url": ""
   }
 ]
