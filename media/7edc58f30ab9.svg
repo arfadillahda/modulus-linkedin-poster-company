@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top band: ~0 to 226px -->
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="44" text-anchor="end" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker -->
+  <text x="64" y="92" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.22em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="142" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators are the first</text>
+  <text x="64" y="200" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">design requirement.</text>
+
+  <!-- Accent underline under headline -->
+  <line x1="64" y1="213" x2="440" y2="213" stroke="#2D5BFF" stroke-width="2.5"/>
+
+  <!-- ===================== MIDDLE BAND: tiles ===================== -->
+  <!-- 4-point 2x2 grid layout -->
+  <!-- Grid area: y=240 to y=820, x=64 to x=960 -->
+  <!-- Each tile: width=(960-64-16)/2 = 440px, height=(820-240-16)/2 = 282px -->
+  <!-- Tile 01: x=64, y=240 | Tile 02: x=520, y=240 -->
+  <!-- Tile 03: x=64, y=538 | Tile 04: x=520, y=538 -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="240" width="440" height="282" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="300" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="96" y="344" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Top-Down Design Fails</text>
+  <text x="96" y="378" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">KPIs replace what operators</text>
+  <text x="96" y="398" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">actually need to work.</text>
+  <!-- decorative rule -->
+  <line x1="96" y1="430" x2="210" y2="430" stroke="#2D5BFF" stroke-width="1.5" opacity="0.35"/>
+  <text x="96" y="460" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Nobody asks the shift runner.</text>
+  <text x="96" y="480" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Bad spec → abandoned dashboard.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="240" width="440" height="282" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="300" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="552" y="344" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Real Refusal</text>
+  <text x="552" y="378" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators reject tools that don't</text>
+  <text x="552" y="398" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">close a workflow gap.</text>
+  <line x1="552" y1="430" x2="666" y2="430" stroke="#2D5BFF" stroke-width="1.5" opacity="0.35"/>
+  <text x="552" y="460" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Pen and paper persists when</text>
+  <text x="552" y="480" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the new tool adds no value.</text>
+
+  <!-- Tile 03 -->
+  <rect x="64" y="538" width="440" height="282" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="598" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="96" y="642" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map the Failure Mode First</text>
+  <text x="96" y="676" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Find the moment where slow</text>
+  <text x="96" y="696" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">information costs time or accuracy.</text>
+  <line x1="96" y1="728" x2="210" y2="728" stroke="#2D5BFF" stroke-width="1.5" opacity="0.35"/>
+  <text x="96" y="758" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">No architecture decisions before</text>
+  <text x="96" y="778" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the failure mode is named.</text>
+
+  <!-- Tile 04 -->
+  <rect x="520" y="538" width="440" height="282" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="598" font-size="48" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="552" y="642" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build Backward From Use</text>
+  <text x="552" y="676" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask: what data, at what frequency,</text>
+  <text x="552" y="696" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">changes this specific decision?</text>
+  <line x1="552" y1="728" x2="666" y2="728" stroke="#2D5BFF" stroke-width="1.5" opacity="0.35"/>
+  <text x="552" y="758" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Design for the person who</text>
+  <text x="552" y="778" font-size="13" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">has to live with the system.</text>
+
+  <!-- ===================== BOTTOM BAND ===================== -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="848" x2="960" y2="848" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="900" text-anchor="middle" font-size="18" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators aren't the last step — they're the first data requirement.</text>
+
+</svg>
