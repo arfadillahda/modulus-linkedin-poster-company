@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 09 Jul 2026 10:52:49 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 10:52:02 +0000</lastBuildDate>
+<item>
+<title>Why sustainability metrics stop moving after year one</title>
+<guid isPermaLink="false">caa5ffd67540</guid>
+<pubDate>Fri, 10 Jul 2026 10:51:35 +0000</pubDate>
+<description><![CDATA[Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.
+
+The problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.
+
+Operations doesn't stop moving. Neither should your baseline.
+
+The fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.
+
+This isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.
+
+Sustainability targets that don't move with your business aren't targets — they're just numbers that got old.]]></description>
+<content:encoded><![CDATA[Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.
+
+The problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.
+
+Operations doesn't stop moving. Neither should your baseline.
+
+The fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.
+
+This isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.
+
+Sustainability targets that don't move with your business aren't targets — they're just numbers that got old.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ship Systems That Drift Over Time</title>
 <guid isPermaLink="false">e1b171e6ce3a</guid>
@@ -1253,33 +1284,6 @@ The shift: stop asking "what were our emissions last month?" Start asking "which
 Emissions reduction happens in operations, not in reports.]]></content:encoded>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Build Features Nobody Actually Needs</title>
-<guid isPermaLink="false">4d709bb25edc</guid>
-<pubDate>Sat, 16 May 2026 09:28:43 +0000</pubDate>
-<description><![CDATA[We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.
-
-The mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.
-
-The reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.
-
-A classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.
-
-Align the model to the decision, not the decision to the model.]]></description>
-<content:encoded><![CDATA[We see teams spend months training models on the wrong signal. A plant manager asks for 'predictive maintenance,' the ML team builds a classifier, and three months later nobody uses it because the prediction window doesn't match how maintenance is actually scheduled.
-
-The mechanism is structural: AI teams optimize for model performance—accuracy, precision, F1 score. Operations teams optimize for something else entirely: reducing unplanned downtime, staying under budget, keeping staff utilized. These objectives don't align by accident.
-
-The reframe: stop thinking of AI as a modeling problem. Think of it as a decision problem. Before training anything, map the actual decision being made—who makes it, what information they need, how fast, what happens if it's wrong. Then work backward to what the model must output and when.
-
-A classifier that's 92% accurate is worthless if it predicts six hours before maintenance can actually happen. A 70%-accurate alert that shifts a maintenance call by two days is worth millions.
-
-Align the model to the decision, not the decision to the model.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4d709bb25edc.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

@@ -502,5 +502,14 @@
     "title": "Why AI Teams Ship Systems That Drift Over Time",
     "body": "You deploy an ML system in production. It works fine for three months. Then accuracy drops 8%. Then 15%. Your team scrambles — retraining, debugging, blaming data quality. But the real problem happened weeks before: you stopped measuring what matters.\n\nThis happens because ML teams build monitoring around training metrics (F1, AUC, whatever), not around the operational outcomes that actually move the needle for users. Training metrics measure 'does the model work on clean data.' They don't measure 'is the model helping operators make better decisions' or 'are we catching the failure modes that matter.' So drift goes unnoticed until business impact shows up.\n\nWe've started inverting this. Before we write a line of model code, we identify 2–3 operational metrics the system must influence: time to diagnosis, false alarm rate, or cost of a missed signal. Then we build monitoring for those first. The model metrics come second, as diagnostic tools only.\n\nThis isn't about collecting more data. It's about wiring feedback from the real world into your production loop before drift becomes a crisis.\n\nMeasure the outcome, not the mechanism.",
     "image_url": ""
+  },
+  {
+    "id": "caa5ffd67540",
+    "ts": "2026-07-10T10:51:35.582613+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability metrics stop moving after year one",
+    "body": "Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.\n\nThe problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.\n\nOperations doesn't stop moving. Neither should your baseline.\n\nThe fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.\n\nThis isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.\n\nSustainability targets that don't move with your business aren't targets — they're just numbers that got old.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png"
   }
 ]
