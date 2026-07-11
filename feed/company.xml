@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 10 Jul 2026 10:52:02 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 09:27:00 +0000</lastBuildDate>
+<item>
+<title>Why sustainability initiatives stall when ops teams don't own the math</title>
+<guid isPermaLink="false">4db7312ff450</guid>
+<pubDate>Sat, 11 Jul 2026 09:26:59 +0000</pubDate>
+<description><![CDATA[A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.
+
+This happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.
+
+We've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.
+
+When sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.
+
+Ownership lives where the work lives.]]></description>
+<content:encoded><![CDATA[A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.
+
+This happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.
+
+We've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.
+
+When sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.
+
+Ownership lives where the work lives.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability metrics stop moving after year one</title>
 <guid isPermaLink="false">caa5ffd67540</guid>
@@ -1258,31 +1283,6 @@ Digitalization doesn't fail because the technology is hard. It fails when we for
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" medium="image" type="image/png"/>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability software fails to scale past pilot</title>
-<guid isPermaLink="false">c4995fc3791a</guid>
-<pubDate>Sun, 17 May 2026 09:46:15 +0000</pubDate>
-<description><![CDATA[Most sustainability platforms collect data beautifully but can't answer the question that matters: "Did we actually reduce emissions in production, or just in the spreadsheet?"
-
-The gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.
-
-We've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.
-
-The shift: stop asking "what were our emissions last month?" Start asking "which 3 decisions today would reduce tomorrow's footprint by 2%." When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.
-
-Emissions reduction happens in operations, not in reports.]]></description>
-<content:encoded><![CDATA[Most sustainability platforms collect data beautifully but can't answer the question that matters: "Did we actually reduce emissions in production, or just in the spreadsheet?"
-
-The gap exists because sustainability tools are built for reporting, not for operational feedback loops. They snapshot carbon intensity once a quarter. But industrial ops change hourly—a furnace runs hotter, a supply chain reroutes, a process yields less. The software doesn't see it, so the insights lag reality by weeks.
-
-We've built systems that ingest real-time operational telemetry (equipment logs, energy meters, material throughput) and tie it directly to emissions data—not as separate tables, but as a unified schema that operators can query and act on within their existing workflows.
-
-The shift: stop asking "what were our emissions last month?" Start asking "which 3 decisions today would reduce tomorrow's footprint by 2%." When sustainability lives in the operational feedback loop instead of the compliance drawer, it actually sticks.
-
-Emissions reduction happens in operations, not in reports.]]></content:encoded>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>

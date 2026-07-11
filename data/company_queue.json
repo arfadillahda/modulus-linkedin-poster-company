@@ -511,5 +511,14 @@
     "title": "Why sustainability metrics stop moving after year one",
     "body": "Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.\n\nThe problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.\n\nOperations doesn't stop moving. Neither should your baseline.\n\nThe fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.\n\nThis isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.\n\nSustainability targets that don't move with your business aren't targets — they're just numbers that got old.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png"
+  },
+  {
+    "id": "4db7312ff450",
+    "ts": "2026-07-11T09:26:59.924226+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability initiatives stall when ops teams don't own the math",
+    "body": "A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.\n\nThis happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.\n\nWe've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.\n\nWhen sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.\n\nOwnership lives where the work lives.",
+    "image_url": ""
   }
 ]
