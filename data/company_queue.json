@@ -520,5 +520,14 @@
     "title": "Why sustainability initiatives stall when ops teams don't own the math",
     "body": "A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.\n\nThis happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.\n\nWe've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.\n\nWhen sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.\n\nOwnership lives where the work lives.",
     "image_url": ""
+  },
+  {
+    "id": "b236eb8e15b6",
+    "ts": "2026-07-12T09:49:01.571225+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Systems Fail When Humans Need to Override Them",
+    "body": "You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.\n\nThis happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.\n\nThe fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.\n\nWe've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.\n\nTrust isn't a sentiment. It's observability.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png"
   }
 ]

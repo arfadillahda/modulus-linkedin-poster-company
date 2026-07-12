@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band: ~0 to 226px -->
+
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="96" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="140" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">
+    <tspan x="64" dy="0">Override Behavior Is the</tspan>
+    <tspan x="64" dy="54">Real Signal You're Missing</tspan>
+  </text>
+
+  <!-- Accent underline under headline -->
+  <line x1="64" y1="208" x2="340" y2="208" stroke="#2D5BFF" stroke-width="2"/>
+
+  <!-- Middle Band: ~226 to 862px — 4-tile 2x2 grid -->
+  <!-- Gap: 16px, Outer padding: 64px, Available width: 1024-128=896, tile width: (896-16)/2=440 -->
+  <!-- Available height for tiles: 862-242=620, tile height: (620-16)/2=302 -->
+
+  <!-- Tile 01 — top-left: x=64, y=242, w=440, h=302 -->
+  <rect x="64" y="242" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="296" font-size="36" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">01</text>
+  <text x="92" y="334" font-size="18" font-weight="700" fill="#111111">Isolated Accuracy Fails</text>
+  <text x="92" y="362" font-size="13" font-weight="400" fill="#3A3A3A">Models trained to be right, not trustworthy in context</text>
+
+  <!-- Tile 02 — top-right: x=520, y=242, w=440, h=302 -->
+  <rect x="520" y="242" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="296" font-size="36" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">02</text>
+  <text x="548" y="334" font-size="18" font-weight="700" fill="#111111">No Override Feedback Loop</text>
+  <text x="548" y="362" font-size="13" font-weight="400" fill="#3A3A3A">System can't learn which overrides are signal or noise</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=560, w=440, h=302 -->
+  <rect x="64" y="560" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="614" font-size="36" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">03</text>
+  <text x="92" y="652" font-size="18" font-weight="700" fill="#111111">Capture Why Humans Reject</text>
+  <text x="92" y="680" font-size="13" font-weight="400" fill="#3A3A3A">Log override reasoning to close the human-model gap</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=560, w=440, h=302 -->
+  <rect x="520" y="560" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="614" font-size="36" font-weight="800" fill="#2D5BFF" letter-spacing="-0.01em">04</text>
+  <text x="548" y="652" font-size="18" font-weight="700" fill="#111111">Surface Model Blindspots</text>
+  <text x="548" y="680" font-size="13" font-weight="400" fill="#3A3A3A">Show technicians where and when predictions degrade</text>
+
+  <!-- Bottom Band: ~862 to 1024px -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="880" x2="960" y2="880" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="952" font-size="20" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" text-anchor="middle">Trust isn't a sentiment — it's observability.</text>
+
+</svg>

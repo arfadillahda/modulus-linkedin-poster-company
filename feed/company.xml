@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 11 Jul 2026 09:27:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 09:49:20 +0000</lastBuildDate>
+<item>
+<title>Why AI Systems Fail When Humans Need to Override Them</title>
+<guid isPermaLink="false">b236eb8e15b6</guid>
+<pubDate>Sun, 12 Jul 2026 09:49:01 +0000</pubDate>
+<description><![CDATA[You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.
+
+This happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.
+
+The fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.
+
+We've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.
+
+Trust isn't a sentiment. It's observability.]]></description>
+<content:encoded><![CDATA[You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.
+
+This happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.
+
+The fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.
+
+We've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.
+
+Trust isn't a sentiment. It's observability.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability initiatives stall when ops teams don't own the math</title>
 <guid isPermaLink="false">4db7312ff450</guid>
@@ -1261,29 +1288,6 @@ Operators aren't ignoring your process. They're solving a problem your process d
 Fix the process visibility first. Then scale the tool.]]></content:encoded>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization fails when operators can't find data</title>
-<guid isPermaLink="false">6edf09bdbdb5</guid>
-<pubDate>Mon, 18 May 2026 11:43:42 +0000</pubDate>
-<description><![CDATA[Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?
-
-This happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.
-
-We've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.
-
-Digitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.]]></description>
-<content:encoded><![CDATA[Industrial teams digitalize a process, build the dashboard, then discover: operators don't trust it because they can't trace where a number came from. A pump efficiency metric suddenly drops 12%. Which sensor reported it? Which calculation? Which timestamp zone?
-
-This happens because digitalization is planned around dashboards and databases, not around operator verification. We design flows for analysts and engineers, then hand them to people whose job is to act—not debug. Operators need audit trails baked into the data layer, not bolted on afterward. They need to click a value and see the chain: raw reading → transformation → storage → display. Without that, they'll keep the spreadsheet they understand.
-
-We've built this differently: a schema-validated data pipeline that treats traceability as a first-class requirement. Every value carries its lineage. Operators verify; confidence follows; adoption sticks.
-
-Digitalization doesn't fail because the technology is hard. It fails when we forget that adoption is a verification problem, not a UI problem.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/6edf09bdbdb5.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
