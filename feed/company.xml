@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 12 Jul 2026 09:49:20 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 10:58:52 +0000</lastBuildDate>
+<item>
+<title>Why digitalization feels like building two companies at once</title>
+<guid isPermaLink="false">20df139126fc</guid>
+<pubDate>Mon, 13 Jul 2026 10:58:52 +0000</pubDate>
+<description><![CDATA[Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.
+
+The real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.
+
+Here's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.
+
+When you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.]]></description>
+<content:encoded><![CDATA[Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.
+
+The real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.
+
+Here's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.
+
+When you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Systems Fail When Humans Need to Override Them</title>
 <guid isPermaLink="false">b236eb8e15b6</guid>
@@ -1262,31 +1283,6 @@ An accurate model no one trusts is just a research project.]]></content:encoded>
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization projects collapse during scaling</title>
-<guid isPermaLink="false">eae54cdf58d3</guid>
-<pubDate>Tue, 19 May 2026 11:16:37 +0000</pubDate>
-<description><![CDATA[You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.
-
-This happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.
-
-We've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.
-
-Operators aren't ignoring your process. They're solving a problem your process didn't account for.
-
-Fix the process visibility first. Then scale the tool.]]></description>
-<content:encoded><![CDATA[You pilot a new system with 20 operators. Data flows. Decision-making improves. Then you try to roll it out to 200 operators — and the whole thing fragments. Different sites interpret workflows differently. Data quality drops. Support tickets explode.
-
-This happens because digitalization is treated as a software implementation problem, not an operational one. You wire up the tool, assume the process follows. But processes don't. People adapt them. When you're small, friction is visible and manageable. At scale, invisible variations compound into chaos.
-
-We've found one heuristic that catches this early: before building or scaling, map the decision point, not the data point. For each critical operator action — a sign-off, a threshold check, a handoff — write down exactly when it happens, who makes it, what information they need, and what they actually use versus what they're supposed to use. The gaps between those are where your system will fail.
-
-Operators aren't ignoring your process. They're solving a problem your process didn't account for.
-
-Fix the process visibility first. Then scale the tool.]]></content:encoded>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>

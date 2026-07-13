@@ -529,5 +529,14 @@
     "title": "Why AI Systems Fail When Humans Need to Override Them",
     "body": "You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.\n\nThis happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.\n\nThe fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.\n\nWe've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.\n\nTrust isn't a sentiment. It's observability.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png"
+  },
+  {
+    "id": "20df139126fc",
+    "ts": "2026-07-13T10:58:52.627098+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization feels like building two companies at once",
+    "body": "Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.\n\nThe real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.\n\nHere's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.\n\nWhen you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.",
+    "image_url": ""
   }
 ]
