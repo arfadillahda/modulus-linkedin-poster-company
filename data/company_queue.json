@@ -538,5 +538,14 @@
     "title": "Why digitalization feels like building two companies at once",
     "body": "Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.\n\nThe real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.\n\nHere's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.\n\nWhen you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.",
     "image_url": ""
+  },
+  {
+    "id": "0d4eb122c6a9",
+    "ts": "2026-07-14T09:56:03.058783+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build Systems Nobody Can Debug",
+    "body": "Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.\n\nThis happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.\n\nThe fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.\n\nThat means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.\n\nWhen your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png"
   }
 ]

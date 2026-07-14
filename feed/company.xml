@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 13 Jul 2026 10:58:52 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 09:56:37 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Systems Nobody Can Debug</title>
+<guid isPermaLink="false">0d4eb122c6a9</guid>
+<pubDate>Tue, 14 Jul 2026 09:56:03 +0000</pubDate>
+<description><![CDATA[Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.
+
+This happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.
+
+The fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.
+
+That means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.
+
+When your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.]]></description>
+<content:encoded><![CDATA[Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.
+
+This happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.
+
+The fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.
+
+That means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.
+
+When your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization feels like building two companies at once</title>
 <guid isPermaLink="false">20df139126fc</guid>
@@ -1253,37 +1280,6 @@ This means embedding emissions intensity, water per unit, waste streams into the
 Targets don't change behavior. Visibility in the workflow does.]]></content:encoded>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Projects Stall When Teams Skip the Domain Layer</title>
-<guid isPermaLink="false">585f7cb77567</guid>
-<pubDate>Wed, 20 May 2026 10:49:33 +0000</pubDate>
-<description><![CDATA[You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.
-
-This happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.
-
-The fix: build a translation layer before you touch the model.
-
-We work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.
-
-It's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.
-
-An accurate model no one trusts is just a research project.]]></description>
-<content:encoded><![CDATA[You build an ML model. It validates. You deploy it. Then operators ignore it because it doesn't speak their language — literally or conceptually.
-
-This happens because AI teams and domain experts rarely share a working vocabulary. Engineers optimize for accuracy metrics. Operators care about actionability: Can I act on this in 30 seconds? Does it match how I already think about the problem? A model that's 94% accurate but outputs signals that contradict established domain logic gets shelved.
-
-The fix: build a translation layer before you touch the model.
-
-We work backward from domain workflow. What are the operator's actual decisions? What inputs do they already trust? What format makes sense in their world? Only then do we map model outputs to those constraints. Sometimes that means sacrificing raw accuracy for interpretability. Sometimes it means reframing the problem entirely.
-
-It's not about dumbing down AI. It's about building AI that actually lands in the hands of people who use it.
-
-An accurate model no one trusts is just a research project.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/585f7cb77567.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
