@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 14 Jul 2026 09:56:37 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 10:00:50 +0000</lastBuildDate>
+<item>
+<title>Why sustainability software breaks under operator schedule changes</title>
+<guid isPermaLink="false">7da4f50cef46</guid>
+<pubDate>Wed, 15 Jul 2026 10:00:50 +0000</pubDate>
+<description><![CDATA[A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.
+
+This happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.
+
+The fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.
+
+We built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.
+
+Operators own the math, sustainability owns the insight. That's when it actually sticks.]]></description>
+<content:encoded><![CDATA[A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.
+
+This happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.
+
+The fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.
+
+We built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.
+
+Operators own the math, sustainability owns the insight. That's when it actually sticks.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build Systems Nobody Can Debug</title>
 <guid isPermaLink="false">0d4eb122c6a9</guid>
@@ -1255,31 +1280,6 @@ When operator goals and sustainability goals are the same goal, the behavior sti
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/188a4222485c.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability targets ignore how operators actually work</title>
-<guid isPermaLink="false">dbb5c754438c</guid>
-<pubDate>Thu, 21 May 2026 11:22:14 +0000</pubDate>
-<description><![CDATA[Most industrial sustainability targets are built top-down: reduce emissions by 40% by 2030, cut water usage 25%, hit net-zero scope 3. They're mathematically sound. They're also divorced from how a plant floor actually runs.
-
-The gap exists because sustainability gets owned by strategy or compliance teams who measure in annual reports. Operations owns daily decisions—equipment runtime, shift scheduling, material flow—in minutes and hours. A target set 18 months ago doesn't account for the supplier that went offline last week or the unexpected demand spike. When there's friction between the target and operational reality, operations wins. It has to. The plant keeps running.
-
-The reframe: stop treating sustainability as a constraint on operations. Treat it as a signal inside operational decision-making. When you make a maintenance call, a throughput call, a staffing call—sustainability metrics should surface the trade-offs in real time, not after the decision's made.
-
-This means embedding emissions intensity, water per unit, waste streams into the same dashboards where operators see line pressure and cycle time. Not as audit fodder. As operational data.
-
-Targets don't change behavior. Visibility in the workflow does.]]></description>
-<content:encoded><![CDATA[Most industrial sustainability targets are built top-down: reduce emissions by 40% by 2030, cut water usage 25%, hit net-zero scope 3. They're mathematically sound. They're also divorced from how a plant floor actually runs.
-
-The gap exists because sustainability gets owned by strategy or compliance teams who measure in annual reports. Operations owns daily decisions—equipment runtime, shift scheduling, material flow—in minutes and hours. A target set 18 months ago doesn't account for the supplier that went offline last week or the unexpected demand spike. When there's friction between the target and operational reality, operations wins. It has to. The plant keeps running.
-
-The reframe: stop treating sustainability as a constraint on operations. Treat it as a signal inside operational decision-making. When you make a maintenance call, a throughput call, a staffing call—sustainability metrics should surface the trade-offs in real time, not after the decision's made.
-
-This means embedding emissions intensity, water per unit, waste streams into the same dashboards where operators see line pressure and cycle time. Not as audit fodder. As operational data.
-
-Targets don't change behavior. Visibility in the workflow does.]]></content:encoded>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

@@ -547,5 +547,14 @@
     "title": "Why AI Teams Build Systems Nobody Can Debug",
     "body": "Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.\n\nThis happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.\n\nThe fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.\n\nThat means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.\n\nWhen your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png"
+  },
+  {
+    "id": "7da4f50cef46",
+    "ts": "2026-07-15T10:00:50.055483+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software breaks under operator schedule changes",
+    "body": "A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.\n\nThis happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.\n\nThe fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.\n\nWe built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.\n\nOperators own the math, sustainability owns the insight. That's when it actually sticks.",
+    "image_url": ""
   }
 ]
