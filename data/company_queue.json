@@ -556,5 +556,14 @@
     "title": "Why sustainability software breaks under operator schedule changes",
     "body": "A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.\n\nThis happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.\n\nThe fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.\n\nWe built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.\n\nOperators own the math, sustainability owns the insight. That's when it actually sticks.",
     "image_url": ""
+  },
+  {
+    "id": "2b19679c8680",
+    "ts": "2026-07-16T10:06:47.796786+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization vendors can't ship operator software",
+    "body": "Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.\n\nThe gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.\n\nVendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.\n\nWe've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.\n\nDigitalization software that lives in the operator's workflow is digitalization software that gets used.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png"
   }
 ]

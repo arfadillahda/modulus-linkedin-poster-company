@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 15 Jul 2026 10:00:50 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 10:07:07 +0000</lastBuildDate>
+<item>
+<title>Why digitalization vendors can't ship operator software</title>
+<guid isPermaLink="false">2b19679c8680</guid>
+<pubDate>Thu, 16 Jul 2026 10:06:47 +0000</pubDate>
+<description><![CDATA[Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.
+
+The gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.
+
+Vendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.
+
+We've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.
+
+Digitalization software that lives in the operator's workflow is digitalization software that gets used.]]></description>
+<content:encoded><![CDATA[Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.
+
+The gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.
+
+Vendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.
+
+We've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.
+
+Digitalization software that lives in the operator's workflow is digitalization software that gets used.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability software breaks under operator schedule changes</title>
 <guid isPermaLink="false">7da4f50cef46</guid>
@@ -1249,37 +1276,6 @@ The fix is to build a filtering layer before inference: a lightweight schema val
 Your ML cost problem isn't a tuning problem. It's an architecture problem. Filter early, or pay later.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability KPIs disconnect from operator incentives</title>
-<guid isPermaLink="false">188a4222485c</guid>
-<pubDate>Sun, 24 May 2026 09:52:50 +0000</pubDate>
-<description><![CDATA[A plant hits its carbon reduction target on paper, then operations quietly reverts to the old process when audit pressure lifts. The KPI was real. The behavior change wasn't.
-
-This happens because sustainability metrics live in one incentive structure (corporate ESG reporting, regulatory compliance) while operators live in another (uptime, cost per unit, no surprises). When those two don't align, the operator wins every time—and rightfully so. They own the outcome.
-
-We've started asking a different question early: What does the operator actually need to *want* this change? Not why they should. Why they'd choose it.
-
-That usually means finding a win that matters to their day-to-day first—energy cost drop, scrap reduction, fewer changeovers—and *then* layering the sustainability story on top. The carbon reduction becomes a side effect of a choice they made for themselves.
-
-It's not about manipulation. It's about starting where the incentive already points.
-
-When operator goals and sustainability goals are the same goal, the behavior sticks.]]></description>
-<content:encoded><![CDATA[A plant hits its carbon reduction target on paper, then operations quietly reverts to the old process when audit pressure lifts. The KPI was real. The behavior change wasn't.
-
-This happens because sustainability metrics live in one incentive structure (corporate ESG reporting, regulatory compliance) while operators live in another (uptime, cost per unit, no surprises). When those two don't align, the operator wins every time—and rightfully so. They own the outcome.
-
-We've started asking a different question early: What does the operator actually need to *want* this change? Not why they should. Why they'd choose it.
-
-That usually means finding a win that matters to their day-to-day first—energy cost drop, scrap reduction, fewer changeovers—and *then* layering the sustainability story on top. The carbon reduction becomes a side effect of a choice they made for themselves.
-
-It's not about manipulation. It's about starting where the incentive already points.
-
-When operator goals and sustainability goals are the same goal, the behavior sticks.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/188a4222485c.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/188a4222485c.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
