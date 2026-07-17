@@ -565,5 +565,14 @@
     "title": "Why digitalization vendors can't ship operator software",
     "body": "Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.\n\nThe gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.\n\nVendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.\n\nWe've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.\n\nDigitalization software that lives in the operator's workflow is digitalization software that gets used.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png"
+  },
+  {
+    "id": "7544b5c44b52",
+    "ts": "2026-07-17T09:55:10.182839+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization roadmaps disconnect from operator reality",
+    "body": "You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.\n\nThis happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.\n\nWe've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.\n\nThen the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.\n\nOperators don't adopt technology—they adopt the practices that let them move faster.",
+    "image_url": ""
   }
 ]

@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 16 Jul 2026 10:07:07 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 09:55:10 +0000</lastBuildDate>
+<item>
+<title>Why digitalization roadmaps disconnect from operator reality</title>
+<guid isPermaLink="false">7544b5c44b52</guid>
+<pubDate>Fri, 17 Jul 2026 09:55:10 +0000</pubDate>
+<description><![CDATA[You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.
+
+This happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.
+
+We've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.
+
+Then the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.
+
+Operators don't adopt technology—they adopt the practices that let them move faster.]]></description>
+<content:encoded><![CDATA[You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.
+
+This happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.
+
+We've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.
+
+Then the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.
+
+Operators don't adopt technology—they adopt the practices that let them move faster.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization vendors can't ship operator software</title>
 <guid isPermaLink="false">2b19679c8680</guid>
@@ -1255,27 +1280,6 @@ The tools follow the logic, not the other way around.]]></content:encoded>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6ce962f243a.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Inference Costs Spiral in Production</title>
-<guid isPermaLink="false">4b5f6e3c47c3</guid>
-<pubDate>Mon, 25 May 2026 11:52:35 +0000</pubDate>
-<description><![CDATA[Your ML team ships a classifier that works great in eval. Six months later, inference is burning $40k/month and nobody can explain why.
-
-This happens because models don't degrade gracefully under real-world distribution shift. A classifier trained on pristine data encounters edge cases—unusual sensor readings, malformed inputs, novel patterns—and either halluccinates or runs expensive fallback logic. Each edge case triggers a retry, a longer inference window, a call to a larger model. The cost curve doesn't slope, it jumps.
-
-The fix is to build a filtering layer before inference: a lightweight schema validator that catches malformed inputs upstream, and a learned anomaly detector that quarantines out-of-distribution samples before they hit your expensive model. We've done this with industrial sensor data using a two-stage pipeline—a rule-based gate, then a trained OOD classifier—that cuts inference volume by 35–50% without touching the main model.
-
-Your ML cost problem isn't a tuning problem. It's an architecture problem. Filter early, or pay later.]]></description>
-<content:encoded><![CDATA[Your ML team ships a classifier that works great in eval. Six months later, inference is burning $40k/month and nobody can explain why.
-
-This happens because models don't degrade gracefully under real-world distribution shift. A classifier trained on pristine data encounters edge cases—unusual sensor readings, malformed inputs, novel patterns—and either halluccinates or runs expensive fallback logic. Each edge case triggers a retry, a longer inference window, a call to a larger model. The cost curve doesn't slope, it jumps.
-
-The fix is to build a filtering layer before inference: a lightweight schema validator that catches malformed inputs upstream, and a learned anomaly detector that quarantines out-of-distribution samples before they hit your expensive model. We've done this with industrial sensor data using a two-stage pipeline—a rule-based gate, then a trained OOD classifier—that cuts inference volume by 35–50% without touching the main model.
-
-Your ML cost problem isn't a tuning problem. It's an architecture problem. Filter early, or pay later.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
