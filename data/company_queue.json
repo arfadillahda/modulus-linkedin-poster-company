@@ -574,5 +574,14 @@
     "title": "Why digitalization roadmaps disconnect from operator reality",
     "body": "You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.\n\nThis happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.\n\nWe've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.\n\nThen the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.\n\nOperators don't adopt technology—they adopt the practices that let them move faster.",
     "image_url": ""
+  },
+  {
+    "id": "3e7c40639177",
+    "ts": "2026-07-18T09:22:55.207506+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ship Systems Nobody Actually Uses",
+    "body": "Teams build an AI classifier that runs perfectly in staging. Accuracy is 94%. F1 score is solid. Then it ships to operators on the floor, and adoption flatlines.\n\nWhy? Because the team optimized for the wrong metric. They trained on historical data that doesn't match the distribution operators actually encounter. Or the model flags edge cases so aggressively that users override it every time—defeating the whole point.\n\nThe gap exists because data scientists and operators live in different worlds. Data scientists optimize for statistical performance in isolation. Operators optimize for *friction in their actual workflow*. A model that's 2% less accurate but requires zero manual review beats a 96% classifier that demands human judgment on every fifth decision.\n\nWe approach this by front-loading operator input: before we touch a training pipeline, we watch the job being done. We map where humans currently make the call, what information they use, and what would actually make their day easier. Then we build the model *around that reality*, not around the dataset.\n\nAccuracy on a holdout set means nothing. Adoption on day one means everything.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png"
   }
 ]
