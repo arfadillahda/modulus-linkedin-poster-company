@@ -583,5 +583,14 @@
     "title": "Why AI Teams Ship Systems Nobody Actually Uses",
     "body": "Teams build an AI classifier that runs perfectly in staging. Accuracy is 94%. F1 score is solid. Then it ships to operators on the floor, and adoption flatlines.\n\nWhy? Because the team optimized for the wrong metric. They trained on historical data that doesn't match the distribution operators actually encounter. Or the model flags edge cases so aggressively that users override it every time—defeating the whole point.\n\nThe gap exists because data scientists and operators live in different worlds. Data scientists optimize for statistical performance in isolation. Operators optimize for *friction in their actual workflow*. A model that's 2% less accurate but requires zero manual review beats a 96% classifier that demands human judgment on every fifth decision.\n\nWe approach this by front-loading operator input: before we touch a training pipeline, we watch the job being done. We map where humans currently make the call, what information they use, and what would actually make their day easier. Then we build the model *around that reality*, not around the dataset.\n\nAccuracy on a holdout set means nothing. Adoption on day one means everything.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png"
+  },
+  {
+    "id": "2f95671c29c0",
+    "ts": "2026-07-19T09:50:01.129925+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability gets treated like compliance instead of operations",
+    "body": "Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.\n\nThe split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.\n\nThe reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.\n\nWhen you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.\n\nSustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.",
+    "image_url": ""
   }
 ]

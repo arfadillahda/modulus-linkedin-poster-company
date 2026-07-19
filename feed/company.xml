@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 18 Jul 2026 09:23:19 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 09:50:01 +0000</lastBuildDate>
+<item>
+<title>Why sustainability gets treated like compliance instead of operations</title>
+<guid isPermaLink="false">2f95671c29c0</guid>
+<pubDate>Sun, 19 Jul 2026 09:50:01 +0000</pubDate>
+<description><![CDATA[Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.
+
+The split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.
+
+The reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.
+
+When you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.
+
+Sustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.]]></description>
+<content:encoded><![CDATA[Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.
+
+The split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.
+
+The reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.
+
+When you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.
+
+Sustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.]]></content:encoded>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ship Systems Nobody Actually Uses</title>
 <guid isPermaLink="false">3e7c40639177</guid>
@@ -1251,35 +1276,6 @@ Operators don't need to care about sustainability targets. They need to see thei
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3343c37db34d.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Confuse Prediction Accuracy With Production Readiness</title>
-<guid isPermaLink="false">27490f98fc09</guid>
-<pubDate>Fri, 29 May 2026 11:27:47 +0000</pubDate>
-<description><![CDATA[Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.
-
-The confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.
-
-This gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.
-
-The reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?
-
-You'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.
-
-Accuracy is a prerequisite for trust. Usefulness is what builds it.]]></description>
-<content:encoded><![CDATA[Your model hits 94% accuracy in validation. It gets deployed. Six weeks later, operators are ignoring it because it flags the same non-issue every shift.
-
-The confusion starts early: we measure AI success in metrics (F1, RMSE, latency). But production doesn't care about metrics. Production cares whether the thing actually helps someone do their job faster, safer, or with fewer false starts.
-
-This gap exists because we've separated the statistical problem from the operational one. A model can be mathematically sound and still useless—if it triggers on edge cases no operator has seen, or if its recommendations land at the wrong time in the workflow, or if it requires five manual steps to act on.
-
-The reframe: treat accuracy as table stakes, not the goal. Before tuning hyperparameters, map how a prediction actually gets used. Who sees it? When? What's the cost of being wrong? What does right look like in their day, not in your confusion matrix?
-
-You'll often find the real win isn't a better model—it's putting the existing one in front of the right person at the right moment.
-
-Accuracy is a prerequisite for trust. Usefulness is what builds it.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
