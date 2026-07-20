@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 19 Jul 2026 09:50:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 10:50:19 +0000</lastBuildDate>
+<item>
+<title>Why sustainability gets orphaned between departments</title>
+<guid isPermaLink="false">8e6c382e5888</guid>
+<pubDate>Mon, 20 Jul 2026 10:49:49 +0000</pubDate>
+<description><![CDATA[The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.
+
+This happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.
+
+We've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.
+
+When ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.]]></description>
+<content:encoded><![CDATA[The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.
+
+This happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.
+
+We've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.
+
+When ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability gets treated like compliance instead of operations</title>
 <guid isPermaLink="false">2f95671c29c0</guid>
@@ -1248,33 +1271,6 @@ We've found that integrating alerts into existing ticketing systems, or piping i
 
 Digitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.]]></content:encoded>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability software stops talking to operators</title>
-<guid isPermaLink="false">3343c37db34d</guid>
-<pubDate>Sat, 30 May 2026 09:59:44 +0000</pubDate>
-<description><![CDATA[A sustainability platform launches with carbon accounting, scope 3 tracking, and beautiful dashboards. Six months in, operators ignore it entirely. They're not lazy—they're rational.
-
-Sustainability software treats the operator layer as a data entry point, not a feedback loop. A refinery technician has no mechanism to see how their shift decisions moved the needle on emissions. They report consumption metrics upstream, but never learn if that shift to a lower-temperature process actually cut carbon the way the sustainability team predicted. The system becomes one-directional: compliance data flows up, nothing flows back down to the people who actually control the dials.
-
-Without a closed loop, operators can't build intuition. They can't trust the model. And they certainly can't innovate on it.
-
-We've started embedding real-time feedback loops into operator dashboards—not as KPI theater, but as immediate cause-and-effect mirrors. When a technician adjusts a setpoint, they see the carbon impact within minutes, not in a quarterly report. The system becomes predictive and personal, not extractive.
-
-Operators don't need to care about sustainability targets. They need to see their work move something measurable in real time.]]></description>
-<content:encoded><![CDATA[A sustainability platform launches with carbon accounting, scope 3 tracking, and beautiful dashboards. Six months in, operators ignore it entirely. They're not lazy—they're rational.
-
-Sustainability software treats the operator layer as a data entry point, not a feedback loop. A refinery technician has no mechanism to see how their shift decisions moved the needle on emissions. They report consumption metrics upstream, but never learn if that shift to a lower-temperature process actually cut carbon the way the sustainability team predicted. The system becomes one-directional: compliance data flows up, nothing flows back down to the people who actually control the dials.
-
-Without a closed loop, operators can't build intuition. They can't trust the model. And they certainly can't innovate on it.
-
-We've started embedding real-time feedback loops into operator dashboards—not as KPI theater, but as immediate cause-and-effect mirrors. When a technician adjusts a setpoint, they see the carbon impact within minutes, not in a quarterly report. The system becomes predictive and personal, not extractive.
-
-Operators don't need to care about sustainability targets. They need to see their work move something measurable in real time.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3343c37db34d.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3343c37db34d.png" medium="image" type="image/png"/>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>

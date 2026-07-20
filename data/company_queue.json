@@ -592,5 +592,14 @@
     "title": "Why sustainability gets treated like compliance instead of operations",
     "body": "Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.\n\nThe split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.\n\nThe reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.\n\nWhen you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.\n\nSustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.",
     "image_url": ""
+  },
+  {
+    "id": "8e6c382e5888",
+    "ts": "2026-07-20T10:49:49.618506+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability gets orphaned between departments",
+    "body": "The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.\n\nThis happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.\n\nWe've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.\n\nWhen ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png"
   }
 ]
