@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 20 Jul 2026 10:50:19 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 10:23:20 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Systems That Silently Degrade</title>
+<guid isPermaLink="false">82a6b00b1b99</guid>
+<pubDate>Tue, 21 Jul 2026 10:23:20 +0000</pubDate>
+<description><![CDATA[Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.
+
+This happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.
+
+The fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.
+
+We've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.
+
+Operators trust systems that admit when they're uncertain, and degrade visibly instead of silently.]]></description>
+<content:encoded><![CDATA[Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.
+
+This happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.
+
+The fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.
+
+We've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.
+
+Operators trust systems that admit when they're uncertain, and degrade visibly instead of silently.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability gets orphaned between departments</title>
 <guid isPermaLink="false">8e6c382e5888</guid>
@@ -1243,35 +1268,6 @@ Sticky adoption isn't about better UX. It's about solving a problem the operator
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7a7adfdd2bed.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization audits miss the operator's actual bottleneck</title>
-<guid isPermaLink="false">45636ec35c03</guid>
-<pubDate>Sun, 31 May 2026 10:14:39 +0000</pubDate>
-<description><![CDATA[Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.
-
-We recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.
-
-This happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?
-
-The fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.
-
-We've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.
-
-Digitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.]]></description>
-<content:encoded><![CDATA[Most digitalization audits map data flows and systems. None ask whether operators can *act* on what gets digitized.
-
-We recently inherited a predictive maintenance system that collected bearing temperatures flawlessly. But the maintenance team received alerts through a dashboard they checked once a week. The system worked. The operator workflow didn't.
-
-This happens because digitalization projects treat the operator as a passive receiver of insights. Auditors ask: Is the data clean? Is the model trained? Can we display it? They rarely ask: Can the operator interrupt their day-to-day work to act on this without context-switching to a new tool?
-
-The fix is simpler than rebuilding the stack. Map the actual decision loop first. Where does the operator already look for similar information? What system do they trust to take action in? Then design the digital output to *meet them there*, not ask them to leave their workflow.
-
-We've found that integrating alerts into existing ticketing systems, or piping insights directly into operator logs, cuts response time by half compared to standalone dashboards.
-
-Digitalization fails not because data is messy. It fails because we didn't ask the operator where their attention already lives.]]></content:encoded>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

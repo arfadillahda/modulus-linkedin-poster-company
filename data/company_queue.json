@@ -601,5 +601,14 @@
     "title": "Why sustainability gets orphaned between departments",
     "body": "The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.\n\nThis happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.\n\nWe've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.\n\nWhen ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png"
+  },
+  {
+    "id": "82a6b00b1b99",
+    "ts": "2026-07-21T10:23:20.632027+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Teams Ship Systems That Silently Degrade",
+    "body": "Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.\n\nThis happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.\n\nThe fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.\n\nWe've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.\n\nOperators trust systems that admit when they're uncertain, and degrade visibly instead of silently.",
+    "image_url": ""
   }
 ]
