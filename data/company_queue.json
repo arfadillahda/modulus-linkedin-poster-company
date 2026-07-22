@@ -610,5 +610,14 @@
     "title": "Why AI Teams Ship Systems That Silently Degrade",
     "body": "Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.\n\nThis happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.\n\nThe fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.\n\nWe've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.\n\nOperators trust systems that admit when they're uncertain, and degrade visibly instead of silently.",
     "image_url": ""
+  },
+  {
+    "id": "723922ec0b2a",
+    "ts": "2026-07-22T10:23:40.728932+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization budgets get spent on the wrong problem",
+    "body": "Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.\n\nThis happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.\n\nThe reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.\n\nDigitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png"
   }
 ]

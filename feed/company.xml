@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 21 Jul 2026 10:23:20 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 10:24:09 +0000</lastBuildDate>
+<item>
+<title>Why digitalization budgets get spent on the wrong problem</title>
+<guid isPermaLink="false">723922ec0b2a</guid>
+<pubDate>Wed, 22 Jul 2026 10:23:40 +0000</pubDate>
+<description><![CDATA[Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.
+
+This happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.
+
+The reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.
+
+Digitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.]]></description>
+<content:encoded><![CDATA[Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.
+
+This happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.
+
+The reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.
+
+Digitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ship Systems That Silently Degrade</title>
 <guid isPermaLink="false">82a6b00b1b99</guid>
@@ -1236,37 +1259,6 @@ The model that reduces operator cognitive load by 20% ships faster and gets adop
 
 Start with workload, not with the algorithm.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization projects stall after the first win</title>
-<guid isPermaLink="false">7a7adfdd2bed</guid>
-<pubDate>Mon, 01 Jun 2026 13:35:33 +0000</pubDate>
-<description><![CDATA[You deploy a new system, it works for one shift, then adoption flatlines. The operators use it when supervisors watch. Everyone else papers over it with spreadsheets.
-
-This happens because digitalization gets treated as a technology problem instead of a workflow problem. You pick the tool, build the integration, declare victory. But you never mapped what the operator actually does before, during, and after the change. So the system solves a problem they didn't have, or creates friction they can't justify to their team.
-
-We approach this differently: before any tool talk, we run a three-step audit.
-
-First, observe the actual workflow under load—not the org chart version, the real one. Second, identify the friction point that costs time or creates rework. Third, design the digital intervention to remove that friction, not add features around it.
-
-The system becomes sticky because it saves someone's day, not because IT mandated it.
-
-Sticky adoption isn't about better UX. It's about solving a problem the operator already feels.]]></description>
-<content:encoded><![CDATA[You deploy a new system, it works for one shift, then adoption flatlines. The operators use it when supervisors watch. Everyone else papers over it with spreadsheets.
-
-This happens because digitalization gets treated as a technology problem instead of a workflow problem. You pick the tool, build the integration, declare victory. But you never mapped what the operator actually does before, during, and after the change. So the system solves a problem they didn't have, or creates friction they can't justify to their team.
-
-We approach this differently: before any tool talk, we run a three-step audit.
-
-First, observe the actual workflow under load—not the org chart version, the real one. Second, identify the friction point that costs time or creates rework. Third, design the digital intervention to remove that friction, not add features around it.
-
-The system becomes sticky because it saves someone's day, not because IT mandated it.
-
-Sticky adoption isn't about better UX. It's about solving a problem the operator already feels.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7a7adfdd2bed.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7a7adfdd2bed.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>
