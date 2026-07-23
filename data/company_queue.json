@@ -619,5 +619,14 @@
     "title": "Why digitalization budgets get spent on the wrong problem",
     "body": "Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.\n\nThis happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.\n\nThe reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.\n\nDigitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png"
+  },
+  {
+    "id": "e9215e57dd83",
+    "ts": "2026-07-23T10:21:02.427252+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Treat Accuracy Like It's The Only Metric",
+    "body": "We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.\n\nThe problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.\n\nWe optimize for what we can easily measure, not what the system needs to do in production.\n\nThe reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.\n\nAccuracy is table stakes. Everything else is engineering.",
+    "image_url": ""
   }
 ]

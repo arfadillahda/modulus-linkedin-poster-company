@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 22 Jul 2026 10:24:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 10:21:02 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Treat Accuracy Like It's The Only Metric</title>
+<guid isPermaLink="false">e9215e57dd83</guid>
+<pubDate>Thu, 23 Jul 2026 10:21:02 +0000</pubDate>
+<description><![CDATA[We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.
+
+The problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.
+
+We optimize for what we can easily measure, not what the system needs to do in production.
+
+The reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.
+
+Accuracy is table stakes. Everything else is engineering.]]></description>
+<content:encoded><![CDATA[We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.
+
+The problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.
+
+We optimize for what we can easily measure, not what the system needs to do in production.
+
+The reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.
+
+Accuracy is table stakes. Everything else is engineering.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization budgets get spent on the wrong problem</title>
 <guid isPermaLink="false">723922ec0b2a</guid>
@@ -1235,31 +1260,6 @@ When you stop asking operators to chase someone else's number and start asking w
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ab0005923f08.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Build Features That Don't Reduce Operator Workload</title>
-<guid isPermaLink="false">823073a88c91</guid>
-<pubDate>Tue, 02 Jun 2026 12:03:10 +0000</pubDate>
-<description><![CDATA[We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.
-
-This happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.
-
-We use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.
-
-The model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.
-
-Start with workload, not with the algorithm.]]></description>
-<content:encoded><![CDATA[We keep seeing teams ship AI features that technically work but don't actually change how operators spend their time. A model that catches anomalies 30% faster still makes operators click through 50 alerts to find the signal. The problem: most teams measure success against a test set, not against operator behavior.
-
-This happens because the gap between model accuracy and operator adoption is invisible in standard ML workflows. You hit 92% precision on validation data and declare victory. But precision means nothing if operators distrust the signal enough to verify it anyway—they've just added a step, not removed one.
-
-We use a simple heuristic: measure the feature by counting unnecessary human decisions it eliminates per shift. Not accuracy. Not latency. Decisions eliminated. Before you deploy, embed with two operators for a day and watch where they actually spend attention. Build for that friction point first.
-
-The model that reduces operator cognitive load by 20% ships faster and gets adopted. The 95%-accurate model that doesn't? Sits idle.
-
-Start with workload, not with the algorithm.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
