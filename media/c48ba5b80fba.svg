@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker label -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">SUSTAINABILITY</text>
+
+  <!-- Display headline -->
+  <text x="64" y="145" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Your Dashboard Measures</text>
+  <text x="64" y="196" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Plans, Not Reality</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="208" width="220" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text x="960" y="76" font-size="12" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="end" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- MIDDLE BAND: 4-tile 2x2 grid -->
+  <!-- Tile gap: 16px, outer padding: 64px -->
+  <!-- Grid area: x=64 to 960 (width=896), y=240 to 800 (height=560) -->
+  <!-- 2 columns, 2 rows: tile width=(896-16)/2=440, tile height=(560-16)/2=272 -->
+
+  <!-- Tile 01 — top-left: x=64, y=240, w=440, h=272 -->
+  <rect x="64" y="240" width="440" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="300" font-size="52" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="96" y="340" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Intended vs. Actual</text>
+  <text x="96" y="370" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Platforms measure planned state,</text>
+  <text x="96" y="390" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not what operators actually ran.</text>
+
+  <!-- Tile 02 — top-right: x=520, y=240, w=440, h=272 -->
+  <rect x="520" y="240" width="440" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="300" font-size="52" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="552" y="340" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Two Different Clocks</text>
+  <text x="552" y="370" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators run real time; dashboards</text>
+  <text x="552" y="390" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">run batch cycles. The gap is real.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=528, w=440, h=272 -->
+  <rect x="64" y="528" width="440" height="272" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="588" font-size="52" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="96" y="628" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Anomaly or Fact?</text>
+  <text x="96" y="658" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">A hotter furnace for six months</text>
+  <text x="96" y="678" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">is a decision — record it as fact.</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=528, w=440, h=272 -->
+  <rect x="520" y="528" width="440" height="272" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="588" font-size="52" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="552" y="628" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Fix: Executed Schedule</text>
+  <text x="552" y="658" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build your emissions model on</text>
+  <text x="552" y="678" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">what ran, validated against meters.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="838" x2="960" y2="838" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="890" font-size="18" font-weight="400" fill="#3A3A3A" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Matching compliance reports isn't the same as</text>
+  <text x="512" y="914" font-size="18" font-weight="400" fill="#3A3A3A" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">running a sustainable operation.</text>
+
+</svg>

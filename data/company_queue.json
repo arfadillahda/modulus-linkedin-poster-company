@@ -628,5 +628,14 @@
     "title": "Why AI Teams Treat Accuracy Like It's The Only Metric",
     "body": "We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.\n\nThe problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.\n\nWe optimize for what we can easily measure, not what the system needs to do in production.\n\nThe reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.\n\nAccuracy is table stakes. Everything else is engineering.",
     "image_url": ""
+  },
+  {
+    "id": "c48ba5b80fba",
+    "ts": "2026-07-24T10:14:32.824760+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability dashboards lie to operators",
+    "body": "Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.\n\nThe gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.\n\nOperators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.\n\nThe fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.\n\nIf your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png"
   }
 ]

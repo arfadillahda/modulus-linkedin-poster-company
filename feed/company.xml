@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 23 Jul 2026 10:21:02 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 10:14:57 +0000</lastBuildDate>
+<item>
+<title>Why sustainability dashboards lie to operators</title>
+<guid isPermaLink="false">c48ba5b80fba</guid>
+<pubDate>Fri, 24 Jul 2026 10:14:32 +0000</pubDate>
+<description><![CDATA[Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.
+
+The gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.
+
+Operators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.
+
+The fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.
+
+If your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.]]></description>
+<content:encoded><![CDATA[Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.
+
+The gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.
+
+Operators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.
+
+The fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.
+
+If your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Treat Accuracy Like It's The Only Metric</title>
 <guid isPermaLink="false">e9215e57dd83</guid>
@@ -1237,29 +1264,6 @@ We approach this differently: start with the operational calendar. Map major ass
 Sustainability timelines fail when they ignore how the plant actually changes.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability metrics ignore what operators actually see</title>
-<guid isPermaLink="false">ab0005923f08</guid>
-<pubDate>Wed, 03 Jun 2026 12:40:57 +0000</pubDate>
-<description><![CDATA[Most sustainability initiatives measure the wrong unit: they track corporate targets (tons of CO2, energy per dollar revenue) instead of what operators control on the job site. An operator can't move a needle on "company-wide emissions intensity." They can see a pressure gauge, a fuel tank, a maintenance interval.
-
-This gap exists because sustainability was built top-down. Finance sets the target. Engineering translates it into spec. Operations executes a spec that was never written in their language. The operator becomes a instrument, not a decision-maker.
-
-Reframe sustainability as a constraints problem, not a compliance problem. Instead of "reduce energy by 12%," ask: what's the smallest adjustment an operator can make to their daily workflow that moves the system toward your target? Not the fastest. The smallest. The thing that survives contact with reality.
-
-When you stop asking operators to chase someone else's number and start asking what they can actually adjust, the math changes. Your targets move. Your operators stay.]]></description>
-<content:encoded><![CDATA[Most sustainability initiatives measure the wrong unit: they track corporate targets (tons of CO2, energy per dollar revenue) instead of what operators control on the job site. An operator can't move a needle on "company-wide emissions intensity." They can see a pressure gauge, a fuel tank, a maintenance interval.
-
-This gap exists because sustainability was built top-down. Finance sets the target. Engineering translates it into spec. Operations executes a spec that was never written in their language. The operator becomes a instrument, not a decision-maker.
-
-Reframe sustainability as a constraints problem, not a compliance problem. Instead of "reduce energy by 12%," ask: what's the smallest adjustment an operator can make to their daily workflow that moves the system toward your target? Not the fastest. The smallest. The thing that survives contact with reality.
-
-When you stop asking operators to chase someone else's number and start asking what they can actually adjust, the math changes. Your targets move. Your operators stay.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ab0005923f08.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ab0005923f08.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
