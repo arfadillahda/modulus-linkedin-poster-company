@@ -637,5 +637,14 @@
     "title": "Why sustainability dashboards lie to operators",
     "body": "Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.\n\nThe gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.\n\nOperators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.\n\nThe fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.\n\nIf your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png"
+  },
+  {
+    "id": "718db2cf763b",
+    "ts": "2026-07-25T09:44:23.588273+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization data never matches operator reality",
+    "body": "You build a digital system that tracks production metrics. The vendor promises 99.2% uptime. Three months in, your operators are manually logging half the events because the sensor subnet drops without alerting. The data looks clean in your dashboards. Operators know it's fiction.\n\nThis happens because digital systems are built to sensor spec, not site topology. Vendors assume stable network connectivity and predictable data flow. Real sites have dead zones, intermittent GSM, offline-first workflows, and edge devices that vanish for days. The system collects what it can collect — not what matters.\n\nWe've solved this by inverting the design: start with operator-reported ground truth, then build the digital layer around what actually survives in-field. For one industrial client, this meant designing a schema where missing data is first-class (not an error state), and operators can locally validate events before sync. The reconciliation layer catches drift automatically.\n\nThe insight isn't new, but the execution is: digitalization only sticks when the system admits what the real world actually looks like.",
+    "image_url": ""
   }
 ]
