@@ -646,5 +646,14 @@
     "title": "Why digitalization data never matches operator reality",
     "body": "You build a digital system that tracks production metrics. The vendor promises 99.2% uptime. Three months in, your operators are manually logging half the events because the sensor subnet drops without alerting. The data looks clean in your dashboards. Operators know it's fiction.\n\nThis happens because digital systems are built to sensor spec, not site topology. Vendors assume stable network connectivity and predictable data flow. Real sites have dead zones, intermittent GSM, offline-first workflows, and edge devices that vanish for days. The system collects what it can collect — not what matters.\n\nWe've solved this by inverting the design: start with operator-reported ground truth, then build the digital layer around what actually survives in-field. For one industrial client, this meant designing a schema where missing data is first-class (not an error state), and operators can locally validate events before sync. The reconciliation layer catches drift automatically.\n\nThe insight isn't new, but the execution is: digitalization only sticks when the system admits what the real world actually looks like.",
     "image_url": ""
+  },
+  {
+    "id": "d6488576bb5a",
+    "ts": "2026-07-26T09:56:44.328186+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization pilots stay pilots forever",
+    "body": "A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.\n\nThe pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?\n\nWe've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that \"improves visibility\" is a pilot that dies. A pilot that \"keeps the shift supervisor from making a $50k mistake\" has a built-in stakeholder.\n\nStart by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.\n\nDigitalization scales when it solves a problem operators already know they have.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png"
   }
 ]

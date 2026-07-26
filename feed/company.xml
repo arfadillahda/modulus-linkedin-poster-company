@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 25 Jul 2026 09:44:23 +0000</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 09:57:08 +0000</lastBuildDate>
+<item>
+<title>Why digitalization pilots stay pilots forever</title>
+<guid isPermaLink="false">d6488576bb5a</guid>
+<pubDate>Sun, 26 Jul 2026 09:56:44 +0000</pubDate>
+<description><![CDATA[A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.
+
+The pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?
+
+We've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that "improves visibility" is a pilot that dies. A pilot that "keeps the shift supervisor from making a $50k mistake" has a built-in stakeholder.
+
+Start by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.
+
+Digitalization scales when it solves a problem operators already know they have.]]></description>
+<content:encoded><![CDATA[A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.
+
+The pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?
+
+We've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that "improves visibility" is a pilot that dies. A pilot that "keeps the shift supervisor from making a $50k mistake" has a built-in stakeholder.
+
+Start by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.
+
+Digitalization scales when it solves a problem operators already know they have.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization data never matches operator reality</title>
 <guid isPermaLink="false">718db2cf763b</guid>
@@ -1237,33 +1264,6 @@ Invert the sequence: start with the operator's actual decision. What do they dec
 Digitalization that works begins with a specific decision, not a data warehouse. Start there, and you'll ship something operators use within weeks instead of shipping something they ignore after months.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Ship Models That Fail on Real Operator Data</title>
-<guid isPermaLink="false">60430befc798</guid>
-<pubDate>Fri, 05 Jun 2026 11:27:21 +0000</pubDate>
-<description><![CDATA[Your model performs at 94% accuracy on the test set. It hits 61% accuracy on live operator logs from week one. The gap isn't noise—it's a schema mismatch.
-
-Most teams treat training data and production data as the same thing. They aren't. Operators use terminology inconsistently, submit forms with missing fields, enter timestamps in three different formats, and abbreviate equipment names in ways your training set never saw. The model learned a statistical pattern. Production threw an edge case—one that occurs maybe 8% of the time but breaks the entire pipeline.
-
-The mechanism: teams optimize for prediction accuracy in isolation, then bolt on schema validation as a cleanup step. That's backwards. You need to embed schema constraints into the training pipeline itself, so the model learns to work *within* the bounds of what operators actually produce.
-
-We build models with schema-aware loss functions that penalize predictions falling outside valid ranges or missing required context. The accuracy number drops slightly on paper. Real-world reliability jumps 30–40%.
-
-Train for the data you'll actually receive, not the data you wish you had.]]></description>
-<content:encoded><![CDATA[Your model performs at 94% accuracy on the test set. It hits 61% accuracy on live operator logs from week one. The gap isn't noise—it's a schema mismatch.
-
-Most teams treat training data and production data as the same thing. They aren't. Operators use terminology inconsistently, submit forms with missing fields, enter timestamps in three different formats, and abbreviate equipment names in ways your training set never saw. The model learned a statistical pattern. Production threw an edge case—one that occurs maybe 8% of the time but breaks the entire pipeline.
-
-The mechanism: teams optimize for prediction accuracy in isolation, then bolt on schema validation as a cleanup step. That's backwards. You need to embed schema constraints into the training pipeline itself, so the model learns to work *within* the bounds of what operators actually produce.
-
-We build models with schema-aware loss functions that penalize predictions falling outside valid ranges or missing required context. The accuracy number drops slightly on paper. Real-world reliability jumps 30–40%.
-
-Train for the data you'll actually receive, not the data you wish you had.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/60430befc798.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/60430befc798.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
