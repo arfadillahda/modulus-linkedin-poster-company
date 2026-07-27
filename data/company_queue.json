@@ -655,5 +655,14 @@
     "title": "Why digitalization pilots stay pilots forever",
     "body": "A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.\n\nThe pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?\n\nWe've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that \"improves visibility\" is a pilot that dies. A pilot that \"keeps the shift supervisor from making a $50k mistake\" has a built-in stakeholder.\n\nStart by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.\n\nDigitalization scales when it solves a problem operators already know they have.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png"
+  },
+  {
+    "id": "86e5deaabd87",
+    "ts": "2026-07-27T11:18:08.966094+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Defer the Hardest Integration Problem",
+    "body": "Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.\n\nA team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: \"The accuracy is good.\" The operator shrugs back: \"I'll just do it manually.\"\n\nThe problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.\n\nWe use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:\n1. When does the model's output stop matching the operator's ground truth? (label drift)\n2. What changes in the input data *before* accuracy tanks? (feature drift)\n3. What's the actual cost when the system is wrong in *this specific context*?\n\nThen we build monitoring around those three signals, not just a metrics dashboard.\n\nThe model isn't the product. The operator's ability to trust it is.",
+    "image_url": ""
   }
 ]

@@ -4,7 +4,42 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 26 Jul 2026 09:57:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 11:18:09 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Defer the Hardest Integration Problem</title>
+<guid isPermaLink="false">86e5deaabd87</guid>
+<pubDate>Mon, 27 Jul 2026 11:18:08 +0000</pubDate>
+<description><![CDATA[Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.
+
+A team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: "The accuracy is good." The operator shrugs back: "I'll just do it manually."
+
+The problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.
+
+We use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:
+1. When does the model's output stop matching the operator's ground truth? (label drift)
+2. What changes in the input data *before* accuracy tanks? (feature drift)
+3. What's the actual cost when the system is wrong in *this specific context*?
+
+Then we build monitoring around those three signals, not just a metrics dashboard.
+
+The model isn't the product. The operator's ability to trust it is.]]></description>
+<content:encoded><![CDATA[Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.
+
+A team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: "The accuracy is good." The operator shrugs back: "I'll just do it manually."
+
+The problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.
+
+We use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:
+1. When does the model's output stop matching the operator's ground truth? (label drift)
+2. What changes in the input data *before* accuracy tanks? (feature drift)
+3. What's the actual cost when the system is wrong in *this specific context*?
+
+Then we build monitoring around those three signals, not just a metrics dashboard.
+
+The model isn't the product. The operator's ability to trust it is.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization pilots stay pilots forever</title>
 <guid isPermaLink="false">d6488576bb5a</guid>
@@ -1242,27 +1277,6 @@ Accuracy is what the model learned. Value is what the operator gained.]]></conte
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization projects measure the wrong things</title>
-<guid isPermaLink="false">bd176b93b09d</guid>
-<pubDate>Sun, 07 Jun 2026 10:28:11 +0000</pubDate>
-<description><![CDATA[Most digitalization initiatives collapse because they treat data collection as the end goal. You build a system, pipe everything to a dashboard, and then ask operators what to do with it. Nothing happens.
-
-The failure mode is structural. We've been trained to think 'more data = better decisions.' So we digitalize first and strategy second. We assume that once operators see the numbers, the right action becomes obvious. But operators don't need prettier versions of what they already knew — they need to know what changed about the decision they make every day.
-
-Invert the sequence: start with the operator's actual decision. What do they decide right now? What information do they wish they had in that moment? What constraint stops them from deciding faster or better? Now ask which of those gaps can be closed with data you can actually collect.
-
-Digitalization that works begins with a specific decision, not a data warehouse. Start there, and you'll ship something operators use within weeks instead of shipping something they ignore after months.]]></description>
-<content:encoded><![CDATA[Most digitalization initiatives collapse because they treat data collection as the end goal. You build a system, pipe everything to a dashboard, and then ask operators what to do with it. Nothing happens.
-
-The failure mode is structural. We've been trained to think 'more data = better decisions.' So we digitalize first and strategy second. We assume that once operators see the numbers, the right action becomes obvious. But operators don't need prettier versions of what they already knew — they need to know what changed about the decision they make every day.
-
-Invert the sequence: start with the operator's actual decision. What do they decide right now? What information do they wish they had in that moment? What constraint stops them from deciding faster or better? Now ask which of those gaps can be closed with data you can actually collect.
-
-Digitalization that works begins with a specific decision, not a data warehouse. Start there, and you'll ship something operators use within weeks instead of shipping something they ignore after months.]]></content:encoded>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
