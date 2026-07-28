@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 27 Jul 2026 11:18:09 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 10:32:46 +0000</lastBuildDate>
+<item>
+<title>Why sustainability targets fail on the shop floor</title>
+<guid isPermaLink="false">50058b4dc0bb</guid>
+<pubDate>Tue, 28 Jul 2026 10:32:20 +0000</pubDate>
+<description><![CDATA[Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.
+
+This happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.
+
+The gap isn't bad faith. It's that sustainability lives upstream of operations reality.
+
+Instead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.
+
+Sustainability works when it's built on operator math, not planning math.]]></description>
+<content:encoded><![CDATA[Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.
+
+This happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.
+
+The gap isn't bad faith. It's that sustainability lives upstream of operations reality.
+
+Instead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.
+
+Sustainability works when it's built on operator math, not planning math.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Defer the Hardest Integration Problem</title>
 <guid isPermaLink="false">86e5deaabd87</guid>
@@ -1251,33 +1278,6 @@ We've built dashboards that thread emissions data through existing operational w
 Sustainability software fails when it asks operators to change; it wins when it shows them why they should.]]></content:encoded>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Measure Success in the Wrong Unit</title>
-<guid isPermaLink="false">49e17650fc6c</guid>
-<pubDate>Mon, 08 Jun 2026 12:27:21 +0000</pubDate>
-<description><![CDATA[Teams ship models that score 94% accuracy on test data and then wonder why operators ignore them in the field.
-
-The gap isn't usually the model. It's that accuracy measures prediction quality, not decision quality. A model that correctly predicts a fault 94% of the time still generates false alarms 6% of the time—and if an operator sees three false alarms in a shift, they stop trusting it entirely. Accuracy doesn't account for cost of action, cost of inaction, or how humans actually incorporate uncertainty into their workflow.
-
-Reframe the metric: instead of asking "How often is the model right?", ask "How much does this reduce operator effort per decision made?" A model that catches 60% of faults with zero false positives might be more valuable than one that catches 85% with constant noise. The second one creates work. The first one creates trust.
-
-Measure what operators actually optimize for: time saved per shift, confidence in the signal, and whether they use it on day thirty.
-
-Accuracy is what the model learned. Value is what the operator gained.]]></description>
-<content:encoded><![CDATA[Teams ship models that score 94% accuracy on test data and then wonder why operators ignore them in the field.
-
-The gap isn't usually the model. It's that accuracy measures prediction quality, not decision quality. A model that correctly predicts a fault 94% of the time still generates false alarms 6% of the time—and if an operator sees three false alarms in a shift, they stop trusting it entirely. Accuracy doesn't account for cost of action, cost of inaction, or how humans actually incorporate uncertainty into their workflow.
-
-Reframe the metric: instead of asking "How often is the model right?", ask "How much does this reduce operator effort per decision made?" A model that catches 60% of faults with zero false positives might be more valuable than one that catches 85% with constant noise. The second one creates work. The first one creates trust.
-
-Measure what operators actually optimize for: time saved per shift, confidence in the signal, and whether they use it on day thirty.
-
-Accuracy is what the model learned. Value is what the operator gained.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/49e17650fc6c.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

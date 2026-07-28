@@ -664,5 +664,14 @@
     "title": "Why AI Teams Defer the Hardest Integration Problem",
     "body": "Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.\n\nA team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: \"The accuracy is good.\" The operator shrugs back: \"I'll just do it manually.\"\n\nThe problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.\n\nWe use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:\n1. When does the model's output stop matching the operator's ground truth? (label drift)\n2. What changes in the input data *before* accuracy tanks? (feature drift)\n3. What's the actual cost when the system is wrong in *this specific context*?\n\nThen we build monitoring around those three signals, not just a metrics dashboard.\n\nThe model isn't the product. The operator's ability to trust it is.",
     "image_url": ""
+  },
+  {
+    "id": "50058b4dc0bb",
+    "ts": "2026-07-28T10:32:20.014072+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability targets fail on the shop floor",
+    "body": "Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.\n\nThis happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.\n\nThe gap isn't bad faith. It's that sustainability lives upstream of operations reality.\n\nInstead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.\n\nSustainability works when it's built on operator math, not planning math.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png"
   }
 ]
