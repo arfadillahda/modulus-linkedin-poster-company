@@ -673,5 +673,14 @@
     "title": "Why sustainability targets fail on the shop floor",
     "body": "Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.\n\nThis happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.\n\nThe gap isn't bad faith. It's that sustainability lives upstream of operations reality.\n\nInstead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.\n\nSustainability works when it's built on operator math, not planning math.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png"
+  },
+  {
+    "id": "d10261d117d5",
+    "ts": "2026-07-29T10:36:19.115303+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability metrics stop mattering after launch",
+    "body": "You measure energy per unit produced. Six months in, operators stop reporting it. The metric hasn't changed—they've just stopped caring.\n\nThis happens because sustainability gets treated as a separate KPI instead of embedded in the work itself. You ask operators to track it *in addition to* their real job. It lives in a different system, a different cadence, reported to a different boss. So when production gets tight, it's the first thing to slip.\n\nWe approach this differently: we ask what operators already measure, then add sustainability logic to that existing workflow. If they track cycle time per shift, we surface energy *within* that same report. If they optimize batch size for cost, we show carbon alongside the economics—not as a lecture, as data they already need.\n\nThe shift is architectural, not behavioral: make the sustainable choice the obvious choice inside work that's already happening.\n\nSustainability metrics stick when they're friction-free.",
+    "image_url": ""
   }
 ]

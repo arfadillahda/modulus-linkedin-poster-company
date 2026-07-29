@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 28 Jul 2026 10:32:46 +0000</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 10:36:19 +0000</lastBuildDate>
+<item>
+<title>Why sustainability metrics stop mattering after launch</title>
+<guid isPermaLink="false">d10261d117d5</guid>
+<pubDate>Wed, 29 Jul 2026 10:36:19 +0000</pubDate>
+<description><![CDATA[You measure energy per unit produced. Six months in, operators stop reporting it. The metric hasn't changed—they've just stopped caring.
+
+This happens because sustainability gets treated as a separate KPI instead of embedded in the work itself. You ask operators to track it *in addition to* their real job. It lives in a different system, a different cadence, reported to a different boss. So when production gets tight, it's the first thing to slip.
+
+We approach this differently: we ask what operators already measure, then add sustainability logic to that existing workflow. If they track cycle time per shift, we surface energy *within* that same report. If they optimize batch size for cost, we show carbon alongside the economics—not as a lecture, as data they already need.
+
+The shift is architectural, not behavioral: make the sustainable choice the obvious choice inside work that's already happening.
+
+Sustainability metrics stick when they're friction-free.]]></description>
+<content:encoded><![CDATA[You measure energy per unit produced. Six months in, operators stop reporting it. The metric hasn't changed—they've just stopped caring.
+
+This happens because sustainability gets treated as a separate KPI instead of embedded in the work itself. You ask operators to track it *in addition to* their real job. It lives in a different system, a different cadence, reported to a different boss. So when production gets tight, it's the first thing to slip.
+
+We approach this differently: we ask what operators already measure, then add sustainability logic to that existing workflow. If they track cycle time per shift, we surface energy *within* that same report. If they optimize batch size for cost, we show carbon alongside the economics—not as a lecture, as data they already need.
+
+The shift is architectural, not behavioral: make the sustainable choice the obvious choice inside work that's already happening.
+
+Sustainability metrics stick when they're friction-free.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability targets fail on the shop floor</title>
 <guid isPermaLink="false">50058b4dc0bb</guid>
@@ -1252,31 +1277,6 @@ Operators won't adopt systems they can't trust. Validation at the edge isn't a n
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/1e2febe3f263.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/1e2febe3f263.png" medium="image" type="image/png"/>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability software can't see what operators see</title>
-<guid isPermaLink="false">ae014b50410c</guid>
-<pubDate>Tue, 09 Jun 2026 10:59:05 +0000</pubDate>
-<description><![CDATA[Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.
-
-An operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.
-
-The fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.
-
-We've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.
-
-Sustainability software fails when it asks operators to change; it wins when it shows them why they should.]]></description>
-<content:encoded><![CDATA[Sustainability platforms measure what's easy to instrument: energy spend, waste tonnage, scope-3 emissions. They almost never measure what actually changes operator behavior—which is visibility into *their own work*.
-
-An operator optimizing for safety or uptime sees real-time pressure, temperature, cycle count. Add a sustainability metric that only updates monthly in a dashboard they never open, and it stays decorative. The software assumes operators will care because accountants care. They don't. Operators care about what moves the needle on their job.
-
-The fix isn't better UX. It's embedding sustainability data into the control points where operators already live. If you're asking an operator to reduce energy use, show them energy consumption *during the task they're deciding right now*—not in a separate report next week.
-
-We've built dashboards that thread emissions data through existing operational workflows instead of bolting it on top. The difference is stark: when operators can see the sustainability cost of their choice in real time, they actually optimize for it.
-
-Sustainability software fails when it asks operators to change; it wins when it shows them why they should.]]></content:encoded>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
