@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 29 Jul 2026 10:36:19 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 10:23:10 +0000</lastBuildDate>
+<item>
+<title>Why AI Systems Fail When Data Schemas Drift</title>
+<guid isPermaLink="false">4b505eb783ae</guid>
+<pubDate>Thu, 30 Jul 2026 10:22:47 +0000</pubDate>
+<description><![CDATA[Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.
+
+This happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.
+
+The fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.
+
+We've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.
+
+Schema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.]]></description>
+<content:encoded><![CDATA[Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.
+
+This happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.
+
+The fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.
+
+We've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.
+
+Schema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability metrics stop mattering after launch</title>
 <guid isPermaLink="false">d10261d117d5</guid>
@@ -1255,29 +1282,6 @@ We approach this differently. We treat adoption as a two-phase system: first, we
 Digitalization doesn't fail because operators resist change. It fails because we never gave them a reason to trust it.]]></content:encoded>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization breaks when operators can't validate inputs</title>
-<guid isPermaLink="false">1e2febe3f263</guid>
-<pubDate>Wed, 10 Jun 2026 11:37:51 +0000</pubDate>
-<description><![CDATA[A manufacturing plant installs a new production-tracking system. Within weeks, operators stop using the upstream data form — not because it's clunky, but because they can't verify what they're entering will be accepted downstream. They revert to paper, and the digital chain collapses.
-
-This happens because digitalization projects often treat data entry and validation as separate concerns. The operator's form sits isolated from the business logic that will actually consume the data. There's no live feedback loop. No schema contract. No way to know if what you're typing will break the next step.
-
-We've found that shipping a validated input layer — one that enforces the same rules the backend expects, in real time, at the point of entry — doesn't just prevent garbage data. It rebuilds operator trust in the system itself. When someone sees their entry accepted (or rejected with a clear reason) *before* they hit submit, they start believing the digital pipeline actually works.
-
-Operators won't adopt systems they can't trust. Validation at the edge isn't a nice-to-have—it's the entry price for any digital handoff that actually sticks.]]></description>
-<content:encoded><![CDATA[A manufacturing plant installs a new production-tracking system. Within weeks, operators stop using the upstream data form — not because it's clunky, but because they can't verify what they're entering will be accepted downstream. They revert to paper, and the digital chain collapses.
-
-This happens because digitalization projects often treat data entry and validation as separate concerns. The operator's form sits isolated from the business logic that will actually consume the data. There's no live feedback loop. No schema contract. No way to know if what you're typing will break the next step.
-
-We've found that shipping a validated input layer — one that enforces the same rules the backend expects, in real time, at the point of entry — doesn't just prevent garbage data. It rebuilds operator trust in the system itself. When someone sees their entry accepted (or rejected with a clear reason) *before* they hit submit, they start believing the digital pipeline actually works.
-
-Operators won't adopt systems they can't trust. Validation at the edge isn't a nice-to-have—it's the entry price for any digital handoff that actually sticks.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/1e2febe3f263.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/1e2febe3f263.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

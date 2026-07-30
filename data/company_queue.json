@@ -682,5 +682,14 @@
     "title": "Why sustainability metrics stop mattering after launch",
     "body": "You measure energy per unit produced. Six months in, operators stop reporting it. The metric hasn't changed—they've just stopped caring.\n\nThis happens because sustainability gets treated as a separate KPI instead of embedded in the work itself. You ask operators to track it *in addition to* their real job. It lives in a different system, a different cadence, reported to a different boss. So when production gets tight, it's the first thing to slip.\n\nWe approach this differently: we ask what operators already measure, then add sustainability logic to that existing workflow. If they track cycle time per shift, we surface energy *within* that same report. If they optimize batch size for cost, we show carbon alongside the economics—not as a lecture, as data they already need.\n\nThe shift is architectural, not behavioral: make the sustainable choice the obvious choice inside work that's already happening.\n\nSustainability metrics stick when they're friction-free.",
     "image_url": ""
+  },
+  {
+    "id": "4b505eb783ae",
+    "ts": "2026-07-30T10:22:47.449253+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Systems Fail When Data Schemas Drift",
+    "body": "Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.\n\nThis happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.\n\nThe fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.\n\nWe've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.\n\nSchema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png"
   }
 ]

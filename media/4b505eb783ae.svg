@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Wordmark top-right -->
+  <text x="960" y="76" text-anchor="end" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker -->
+  <text x="64" y="82" font-size="11.5" font-weight="600" fill="#2D5BFF" letter-spacing="0.22em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI</text>
+
+  <!-- Display Headline line 1 -->
+  <text x="64" y="136" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.025em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Silent Drift Kills</text>
+  <!-- Display Headline line 2 -->
+  <text x="64" y="196" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.025em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Models Quietly.</text>
+
+  <!-- Accent underline rule under headline -->
+  <rect x="64" y="210" width="180" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- MIDDLE BAND — 4 tiles in 2x2 grid -->
+  <!-- Tile layout: top-left origin y=242, outer padding 64px, gap 16px -->
+  <!-- Total width available: 1024 - 128 = 896px, 2 cols: (896-16)/2 = 440px each -->
+  <!-- Total height for tiles: approx 62% of 1024 = 634px, starting at ~242, ending ~640 -->
+  <!-- Row height: (634 - 16) / 2 = 309px each tile -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="242" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="298" font-size="54" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="342" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Silent Accuracy Loss</text>
+  <text x="92" y="373" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">3–5% weekly decay before</text>
+  <text x="92" y="393" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">monitoring even notices.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="242" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="298" font-size="54" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="342" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">No Data Contract</text>
+  <text x="548" y="373" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Training and live data treated</text>
+  <text x="548" y="393" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">as separate, unlinked problems.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="553" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="609" font-size="54" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="653" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Enforce the Schema</text>
+  <text x="92" y="684" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Define fields, types, nullability.</text>
+  <text x="92" y="704" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Validate every live record.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="553" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="609" font-size="54" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="653" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Catch Breaks in Hours</text>
+  <text x="548" y="684" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Visible schema errors surface</text>
+  <text x="548" y="704" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">drift before output degrades.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="876" x2="960" y2="876" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="924" text-anchor="middle" font-size="19" font-weight="400" fill="#3A3A3A" letter-spacing="-0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The schema is the contract. Make it visible. Make it mandatory.</text>
+
+</svg>
