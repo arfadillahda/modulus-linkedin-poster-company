@@ -691,5 +691,14 @@
     "title": "Why AI Systems Fail When Data Schemas Drift",
     "body": "Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.\n\nThis happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.\n\nThe fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.\n\nWe've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.\n\nSchema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png"
+  },
+  {
+    "id": "d7dee5c98912",
+    "ts": "2026-07-31T10:36:23.429457+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization fails when you treat data as the goal",
+    "body": "Most digitalization initiatives measure success by data collection volume: sensors deployed, records ingested, dashboards live. Then nothing changes on the floor.\n\nThe mechanism is simple. Data systems are built by teams optimizing for completeness and consistency — standardized schemas, clean pipelines, centralized repositories. Operators work in chaos: equipment fails differently each site, maintenance decisions hinge on gut feel and tribal knowledge, and yesterday's workaround becomes today's standard. When you force operator reality into a data model designed for perfection, you either get garbage data or operators who stop using the system.\n\nThe reframe: Stop treating digitalization as a data problem. Treat it as a decision problem.\n\nStart by mapping what decisions operators actually make and what information would change their mind. Not what data would be nice to have. What forces their hand in the real world — production loss, safety risk, equipment life extension. Then work backward to the minimal data required to inform that decision, collected in the way operators already work.\n\nData follows decision clarity. Not the other way around.",
+    "image_url": ""
   }
 ]

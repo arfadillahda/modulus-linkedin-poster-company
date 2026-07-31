@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 30 Jul 2026 10:23:10 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 10:36:23 +0000</lastBuildDate>
+<item>
+<title>Why digitalization fails when you treat data as the goal</title>
+<guid isPermaLink="false">d7dee5c98912</guid>
+<pubDate>Fri, 31 Jul 2026 10:36:23 +0000</pubDate>
+<description><![CDATA[Most digitalization initiatives measure success by data collection volume: sensors deployed, records ingested, dashboards live. Then nothing changes on the floor.
+
+The mechanism is simple. Data systems are built by teams optimizing for completeness and consistency — standardized schemas, clean pipelines, centralized repositories. Operators work in chaos: equipment fails differently each site, maintenance decisions hinge on gut feel and tribal knowledge, and yesterday's workaround becomes today's standard. When you force operator reality into a data model designed for perfection, you either get garbage data or operators who stop using the system.
+
+The reframe: Stop treating digitalization as a data problem. Treat it as a decision problem.
+
+Start by mapping what decisions operators actually make and what information would change their mind. Not what data would be nice to have. What forces their hand in the real world — production loss, safety risk, equipment life extension. Then work backward to the minimal data required to inform that decision, collected in the way operators already work.
+
+Data follows decision clarity. Not the other way around.]]></description>
+<content:encoded><![CDATA[Most digitalization initiatives measure success by data collection volume: sensors deployed, records ingested, dashboards live. Then nothing changes on the floor.
+
+The mechanism is simple. Data systems are built by teams optimizing for completeness and consistency — standardized schemas, clean pipelines, centralized repositories. Operators work in chaos: equipment fails differently each site, maintenance decisions hinge on gut feel and tribal knowledge, and yesterday's workaround becomes today's standard. When you force operator reality into a data model designed for perfection, you either get garbage data or operators who stop using the system.
+
+The reframe: Stop treating digitalization as a data problem. Treat it as a decision problem.
+
+Start by mapping what decisions operators actually make and what information would change their mind. Not what data would be nice to have. What forces their hand in the real world — production loss, safety risk, equipment life extension. Then work backward to the minimal data required to inform that decision, collected in the way operators already work.
+
+Data follows decision clarity. Not the other way around.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Systems Fail When Data Schemas Drift</title>
 <guid isPermaLink="false">4b505eb783ae</guid>
@@ -1260,27 +1285,6 @@ The question isn't whether your model is accurate. It's whether your operator ca
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/cf21e4b6eca1.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization budgets vanish before operators see ROI</title>
-<guid isPermaLink="false">ebcbe4606295</guid>
-<pubDate>Thu, 11 Jun 2026 12:09:14 +0000</pubDate>
-<description><![CDATA[Most digitalization projects fail not because the tech doesn't work, but because they treat adoption as a broadcast problem. You build the system, train people once, and assume it sticks. Six months in, adoption has flatlined and the project gets labeled a failure.
-
-The mechanism is simple: operators live in constraint. They have production targets, equipment that breaks unpredictably, and a dozen ways the new system can slow them down before it helps. Without ongoing feedback loops—not surveys, but real friction signals from the floor—the tool stays in the way rather than becoming part of the workflow.
-
-We approach this differently. We treat adoption as a two-phase system: first, we ship something minimal and measurable that solves a single, named bottleneck the operator team already feels. Then we build a feedback channel—weekly, low-friction—where operators surface blockers and we iterate in visible sprints. Not quarterly reviews. Weekly. The system earns its place in the workflow through repetition, not mandate.
-
-Digitalization doesn't fail because operators resist change. It fails because we never gave them a reason to trust it.]]></description>
-<content:encoded><![CDATA[Most digitalization projects fail not because the tech doesn't work, but because they treat adoption as a broadcast problem. You build the system, train people once, and assume it sticks. Six months in, adoption has flatlined and the project gets labeled a failure.
-
-The mechanism is simple: operators live in constraint. They have production targets, equipment that breaks unpredictably, and a dozen ways the new system can slow them down before it helps. Without ongoing feedback loops—not surveys, but real friction signals from the floor—the tool stays in the way rather than becoming part of the workflow.
-
-We approach this differently. We treat adoption as a two-phase system: first, we ship something minimal and measurable that solves a single, named bottleneck the operator team already feels. Then we build a feedback channel—weekly, low-friction—where operators surface blockers and we iterate in visible sprints. Not quarterly reviews. Weekly. The system earns its place in the workflow through repetition, not mandate.
-
-Digitalization doesn't fail because operators resist change. It fails because we never gave them a reason to trust it.]]></content:encoded>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>
