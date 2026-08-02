@@ -709,5 +709,14 @@
     "title": "Why AI Teams Confuse Prediction Accuracy With System Reliability",
     "body": "Teams optimize for model accuracy—F1 score, AUC, precision—then deploy into production where the system fails not because predictions are wrong, but because the pipeline breaks in ways the test set never showed.\n\nIt happens because accuracy measures a single moment in time. A model trained on last quarter's data assumes that distribution stays stable. It doesn't. User behavior shifts. Equipment degrades. Schemas change. The 94% accurate model becomes 62% accurate three months in, not because the code is bad, but because the real world moved and nobody was watching the frame rate of that movement.\n\nStart by separating prediction performance from system performance. Prediction performance is what your model does in a frozen dataset. System performance is what your model does when data drifts, when upstream dependencies fail, when you need to roll back, when you need to explain why it made this decision to an operator. These are different problems with different solutions.\n\nAccuracy is table stakes. Reliability is the architecture.\n\nBuilding for industrial use means designing systems that degrade gracefully, not catastrophically, when the world changes.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d58a4e10a843.png"
+  },
+  {
+    "id": "c00fd59b60ad",
+    "ts": "2026-08-02T09:54:35.168969+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability software fails on real hardware",
+    "body": "Most sustainability platforms measure what's easy to log, not what operators actually control. A plant reports 15% waste reduction through their new ERP — but the data comes from purchase orders and scrap weight tickets, not from the machines that prevent waste in the first place. The gap: sustainability software treats the factory as a reporting layer, not a production system.\n\nThis happens because sustainability architects and operations teams use different data models. Sustainability wants aggregated scope-3 metrics. Operations needs real-time machine state, material flow, and constraint mapping. When you bolt sustainability reporting on top of legacy OT systems, you get compliance theater: auditable numbers that don't reflect controllable levers.\n\nThe fix is schema alignment at the source. Model your sustainability goal (e.g., 'reduce energy per unit output') as a constraint in your production logic, not a post-hoc calculation. Make the machine's energy draw, material yield, and cycle time part of the same operational state that schedulers and operators see. Now your sustainability metrics aren't competing with production — they're embedded in how decisions get made.\n\nWhen sustainability data is operational data, reduction targets stop being aspirations and become dispatch problems.",
+    "image_url": ""
   }
 ]
