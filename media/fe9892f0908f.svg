@@ -1,0 +1,164 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- TOP BAND: ~0–225px -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="96"
+    font-size="12" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="96"
+    font-size="12" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="154"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators won't use software</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="214"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">that wasn't built for them.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="224" width="320" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- MIDDLE BAND: 4 tiles in 2×2 grid                          -->
+  <!-- Grid origin: y=252, outer padding 64px each side           -->
+  <!-- Total width: 1024-128=896, gap=16, tile w=(896-16)/2=440  -->
+  <!-- Tile height: ~240px, gap=16                                -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left: x=64, y=252, w=440, h=236 -->
+  <rect x="64" y="252" width="440" height="236" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Numeral -->
+  <text x="88" y="312" font-size="40" font-weight="800" fill="#2D5BFF"
+    letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+
+  <!-- Tile title -->
+  <text x="88" y="356" font-size="20" font-weight="700" fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Built for Procurement</text>
+
+  <!-- Caption -->
+  <text x="88" y="388" font-size="15" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Vendors demo to buyers, not shift supervisors.</text>
+
+  <!-- Hairline separator -->
+  <line x1="88" y1="410" x2="480" y2="410" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Sub-note -->
+  <text x="88" y="432" font-size="13" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators still log on paper six months later.</text>
+
+  <!-- ─────────────────────────────────────────────────────────── -->
+  <!-- TILE 02 — top-right: x=520, y=252, w=440, h=236 -->
+  <rect x="520" y="252" width="440" height="236" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="544" y="312" font-size="40" font-weight="800" fill="#2D5BFF"
+    letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+
+  <text x="544" y="356" font-size="20" font-weight="700" fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Docs vs. Workflows</text>
+
+  <text x="544" y="388" font-size="15" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Requirements say "capture downtime." Workflows don't.</text>
+
+  <line x1="544" y1="410" x2="936" y2="410" stroke="#11111122" stroke-width="1"/>
+
+  <text x="544" y="432" font-size="13" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Real constraints: dead zones, gloves, 2 a.m. pressure.</text>
+
+  <!-- ─────────────────────────────────────────────────────────── -->
+  <!-- TILE 03 — bottom-left: x=64, y=504, w=440, h=236 -->
+  <rect x="64" y="504" width="440" height="236" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="88" y="564" font-size="40" font-weight="800" fill="#2D5BFF"
+    letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+
+  <text x="88" y="608" font-size="20" font-weight="700" fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Embed Operator Reality</text>
+
+  <text x="88" y="640" font-size="15" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Structured observation — not surveys or workshops.</text>
+
+  <line x1="88" y1="662" x2="480" y2="662" stroke="#11111122" stroke-width="1"/>
+
+  <text x="88" y="684" font-size="13" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map constraints into the data model from day one.</text>
+
+  <!-- ─────────────────────────────────────────────────────────── -->
+  <!-- TILE 04 — bottom-right: x=520, y=504, w=440, h=236 -->
+  <rect x="520" y="504" width="440" height="236" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="544" y="564" font-size="40" font-weight="800" fill="#2D5BFF"
+    letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+
+  <text x="544" y="608" font-size="20" font-weight="700" fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Fail Fast on Mismatch</text>
+
+  <text x="544" y="640" font-size="15" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Staged schema validation catches gaps in days.</text>
+
+  <line x1="544" y1="662" x2="936" y2="662" stroke="#11111122" stroke-width="1"/>
+
+  <text x="544" y="684" font-size="13" font-weight="400" fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Not at deployment — before a line of code ships.</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM BAND: y≈760–1024 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule above closing line -->
+  <line x1="64" y1="790" x2="960" y2="790" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing takeaway -->
+  <text
+    x="512" y="876"
+    font-size="26" font-weight="700"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Resistance isn't the problem. The design is.</text>
+
+  <!-- Subtle bottom wordmark / domain -->
+  <text
+    x="512" y="960"
+    font-size="11" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="middle"
+    opacity="0.55"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1.IO</text>
+
+</svg>

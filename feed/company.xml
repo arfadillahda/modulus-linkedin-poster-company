@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 02 Aug 2026 09:54:35 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 11:20:18 +0000</lastBuildDate>
+<item>
+<title>Why digitalization software ships without operator sign-off</title>
+<guid isPermaLink="false">fe9892f0908f</guid>
+<pubDate>Mon, 03 Aug 2026 11:19:46 +0000</pubDate>
+<description><![CDATA[Most digitalization vendors build for the procurement team, not the shift supervisor. The vendor demos a dashboard, the customer approves the budget, and six months later the operators are still logging data on paper because the software doesn't match how they actually work.
+
+This happens because vendors design against requirements documents instead of workflows. A requirements doc says 'capture equipment downtime.' A workflow says 'I need to log why the pump stopped at 2 a.m. without killing my phone battery or leaving the control room.' Those aren't the same problem.
+
+We've found the fix: embed operator reality into the design loop before a single line of code ships. Not through surveys or workshops—through structured observation of the actual job. Map the constraints (network dead zones, gloved fingers, time pressure, lighting) into your data model and interface design from day one. We do this by building staged schema validation that operators can fail fast on, catching mismatch in days instead of deployment.
+
+The operator who refuses to use your software isn't resistant to change. You just built something they can't actually use.]]></description>
+<content:encoded><![CDATA[Most digitalization vendors build for the procurement team, not the shift supervisor. The vendor demos a dashboard, the customer approves the budget, and six months later the operators are still logging data on paper because the software doesn't match how they actually work.
+
+This happens because vendors design against requirements documents instead of workflows. A requirements doc says 'capture equipment downtime.' A workflow says 'I need to log why the pump stopped at 2 a.m. without killing my phone battery or leaving the control room.' Those aren't the same problem.
+
+We've found the fix: embed operator reality into the design loop before a single line of code ships. Not through surveys or workshops—through structured observation of the actual job. Map the constraints (network dead zones, gloved fingers, time pressure, lighting) into your data model and interface design from day one. We do this by building staged schema validation that operators can fail fast on, catching mismatch in days instead of deployment.
+
+The operator who refuses to use your software isn't resistant to change. You just built something they can't actually use.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fe9892f0908f.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fe9892f0908f.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability software fails on real hardware</title>
 <guid isPermaLink="false">c00fd59b60ad</guid>
@@ -1259,33 +1282,6 @@ We've found the real lever is continuous validation against live operator behavi
 Drift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability KPIs don't survive contact with operations</title>
-<guid isPermaLink="false">7181afa707fb</guid>
-<pubDate>Sun, 14 Jun 2026 10:48:19 +0000</pubDate>
-<description><![CDATA[You set a 30% emissions reduction target. Your sustainability team designs a beautiful roadmap. Six months in, ops reports they can't actually measure half of it — the equipment doesn't have sensors, the workflow data lives in three different systems, or the baseline itself was guessed.
-
-This happens because sustainability targets are often built from accounting upward, not from what operators can actually observe. The gap isn't malice. It's that sustainability teams work from annual reports and engineering specs, while operators work from shift logs and what they see on the floor. Two different information universes.
-
-We've found one heuristic that helps: start by mapping what your operators *already measure* — not what they should measure. Run a two-day audit with the people actually running the equipment. List every number they track today, however rough. Then build your sustainability framework *inside* that observable reality, not parallel to it.
-
-You lose some precision early. You gain sustainability that doesn't evaporate at handoff.
-
-Target your emissions to data your operators already own.]]></description>
-<content:encoded><![CDATA[You set a 30% emissions reduction target. Your sustainability team designs a beautiful roadmap. Six months in, ops reports they can't actually measure half of it — the equipment doesn't have sensors, the workflow data lives in three different systems, or the baseline itself was guessed.
-
-This happens because sustainability targets are often built from accounting upward, not from what operators can actually observe. The gap isn't malice. It's that sustainability teams work from annual reports and engineering specs, while operators work from shift logs and what they see on the floor. Two different information universes.
-
-We've found one heuristic that helps: start by mapping what your operators *already measure* — not what they should measure. Run a two-day audit with the people actually running the equipment. List every number they track today, however rough. Then build your sustainability framework *inside* that observable reality, not parallel to it.
-
-You lose some precision early. You gain sustainability that doesn't evaporate at handoff.
-
-Target your emissions to data your operators already own.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7181afa707fb.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7181afa707fb.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

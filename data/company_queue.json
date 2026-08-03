@@ -718,5 +718,14 @@
     "title": "Why sustainability software fails on real hardware",
     "body": "Most sustainability platforms measure what's easy to log, not what operators actually control. A plant reports 15% waste reduction through their new ERP — but the data comes from purchase orders and scrap weight tickets, not from the machines that prevent waste in the first place. The gap: sustainability software treats the factory as a reporting layer, not a production system.\n\nThis happens because sustainability architects and operations teams use different data models. Sustainability wants aggregated scope-3 metrics. Operations needs real-time machine state, material flow, and constraint mapping. When you bolt sustainability reporting on top of legacy OT systems, you get compliance theater: auditable numbers that don't reflect controllable levers.\n\nThe fix is schema alignment at the source. Model your sustainability goal (e.g., 'reduce energy per unit output') as a constraint in your production logic, not a post-hoc calculation. Make the machine's energy draw, material yield, and cycle time part of the same operational state that schedulers and operators see. Now your sustainability metrics aren't competing with production — they're embedded in how decisions get made.\n\nWhen sustainability data is operational data, reduction targets stop being aspirations and become dispatch problems.",
     "image_url": ""
+  },
+  {
+    "id": "fe9892f0908f",
+    "ts": "2026-08-03T11:19:46.967043+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization software ships without operator sign-off",
+    "body": "Most digitalization vendors build for the procurement team, not the shift supervisor. The vendor demos a dashboard, the customer approves the budget, and six months later the operators are still logging data on paper because the software doesn't match how they actually work.\n\nThis happens because vendors design against requirements documents instead of workflows. A requirements doc says 'capture equipment downtime.' A workflow says 'I need to log why the pump stopped at 2 a.m. without killing my phone battery or leaving the control room.' Those aren't the same problem.\n\nWe've found the fix: embed operator reality into the design loop before a single line of code ships. Not through surveys or workshops—through structured observation of the actual job. Map the constraints (network dead zones, gloved fingers, time pressure, lighting) into your data model and interface design from day one. We do this by building staged schema validation that operators can fail fast on, catching mismatch in days instead of deployment.\n\nThe operator who refuses to use your software isn't resistant to change. You just built something they can't actually use.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fe9892f0908f.png"
   }
 ]
