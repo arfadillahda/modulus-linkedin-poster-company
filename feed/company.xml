@@ -4,7 +4,44 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 03 Aug 2026 11:20:18 +0000</lastBuildDate>
+<lastBuildDate>Tue, 04 Aug 2026 10:36:11 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects skip the messy middle</title>
+<guid isPermaLink="false">2bbbeb18c4ad</guid>
+<pubDate>Tue, 04 Aug 2026 10:36:11 +0000</pubDate>
+<description><![CDATA[You inherit a spreadsheet-based operation. Leadership approves budget for 'digital transformation.' Six months later you're demoing software that solves a problem nobody actually had — and operators won't touch it.
+
+This happens because digitalization gets compressed into two phases: assessment and implementation. Assessment tells you what *should* happen. Implementation ships what the assessment said. The gap between those two is where real work lives — and it's where most projects fail.
+
+We've started treating digitalization as a three-phase problem:
+
+1. **Map the actual state** — not the org chart version, but how operators *really* sequence work when things break.
+
+2. **Find the friction point** — one concrete thing that costs time or causes errors right now. Not five. One.
+
+3. **Solve that friction first** — then measure if operators changed behavior. If they didn't, the problem wasn't actually solved.
+
+It's slower than the spreadsheet-to-software jump. It's also the difference between a tool that gets used and software that gathers dust.
+
+Don't digitalize the operation. Digitalize the specific problem operators are already trying to solve.]]></description>
+<content:encoded><![CDATA[You inherit a spreadsheet-based operation. Leadership approves budget for 'digital transformation.' Six months later you're demoing software that solves a problem nobody actually had — and operators won't touch it.
+
+This happens because digitalization gets compressed into two phases: assessment and implementation. Assessment tells you what *should* happen. Implementation ships what the assessment said. The gap between those two is where real work lives — and it's where most projects fail.
+
+We've started treating digitalization as a three-phase problem:
+
+1. **Map the actual state** — not the org chart version, but how operators *really* sequence work when things break.
+
+2. **Find the friction point** — one concrete thing that costs time or causes errors right now. Not five. One.
+
+3. **Solve that friction first** — then measure if operators changed behavior. If they didn't, the problem wasn't actually solved.
+
+It's slower than the spreadsheet-to-software jump. It's also the difference between a tool that gets used and software that gathers dust.
+
+Don't digitalize the operation. Digitalize the specific problem operators are already trying to solve.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization software ships without operator sign-off</title>
 <guid isPermaLink="false">fe9892f0908f</guid>
@@ -1257,31 +1294,6 @@ The operator's workflow should drive the digital architecture, not the reverse.]
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Models Drift Hardest in the First Month</title>
-<guid isPermaLink="false">a35d4cc8b088</guid>
-<pubDate>Mon, 15 Jun 2026 13:53:29 +0000</pubDate>
-<description><![CDATA[Your model performs well in staging. Two weeks in production, it starts failing on edge cases nobody predicted. By week four, operators stop using it entirely.
-
-This happens because production data is never stationary. Seasonal shifts, new equipment, operator behavior changes, regulatory updates—they all arrive in waves. A model trained on historical data enters a domain it's never seen, and its confidence intervals collapse silently.
-
-Most teams treat drift as a monitoring problem. They add dashboards. They watch for metric decay. But by then, the gap between training and reality is already wide enough that operators have already lost trust.
-
-We've found the real lever is continuous validation against live operator behavior, not abstract statistical thresholds. Build a lightweight feedback loop that compares model predictions to what operators actually do with the output. Not through surveys—through logged actions. This tells you within days whether the model is still reducing friction or just producing confident-sounding noise.
-
-Drift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.]]></description>
-<content:encoded><![CDATA[Your model performs well in staging. Two weeks in production, it starts failing on edge cases nobody predicted. By week four, operators stop using it entirely.
-
-This happens because production data is never stationary. Seasonal shifts, new equipment, operator behavior changes, regulatory updates—they all arrive in waves. A model trained on historical data enters a domain it's never seen, and its confidence intervals collapse silently.
-
-Most teams treat drift as a monitoring problem. They add dashboards. They watch for metric decay. But by then, the gap between training and reality is already wide enough that operators have already lost trust.
-
-We've found the real lever is continuous validation against live operator behavior, not abstract statistical thresholds. Build a lightweight feedback loop that compares model predictions to what operators actually do with the output. Not through surveys—through logged actions. This tells you within days whether the model is still reducing friction or just producing confident-sounding noise.
-
-Drift isn't a metrics problem. It's a gap between what you measured and what's actually happening in the field.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

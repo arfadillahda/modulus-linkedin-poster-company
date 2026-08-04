@@ -727,5 +727,14 @@
     "title": "Why digitalization software ships without operator sign-off",
     "body": "Most digitalization vendors build for the procurement team, not the shift supervisor. The vendor demos a dashboard, the customer approves the budget, and six months later the operators are still logging data on paper because the software doesn't match how they actually work.\n\nThis happens because vendors design against requirements documents instead of workflows. A requirements doc says 'capture equipment downtime.' A workflow says 'I need to log why the pump stopped at 2 a.m. without killing my phone battery or leaving the control room.' Those aren't the same problem.\n\nWe've found the fix: embed operator reality into the design loop before a single line of code ships. Not through surveys or workshops—through structured observation of the actual job. Map the constraints (network dead zones, gloved fingers, time pressure, lighting) into your data model and interface design from day one. We do this by building staged schema validation that operators can fail fast on, catching mismatch in days instead of deployment.\n\nThe operator who refuses to use your software isn't resistant to change. You just built something they can't actually use.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fe9892f0908f.png"
+  },
+  {
+    "id": "2bbbeb18c4ad",
+    "ts": "2026-08-04T10:36:11.632386+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects skip the messy middle",
+    "body": "You inherit a spreadsheet-based operation. Leadership approves budget for 'digital transformation.' Six months later you're demoing software that solves a problem nobody actually had — and operators won't touch it.\n\nThis happens because digitalization gets compressed into two phases: assessment and implementation. Assessment tells you what *should* happen. Implementation ships what the assessment said. The gap between those two is where real work lives — and it's where most projects fail.\n\nWe've started treating digitalization as a three-phase problem:\n\n1. **Map the actual state** — not the org chart version, but how operators *really* sequence work when things break.\n\n2. **Find the friction point** — one concrete thing that costs time or causes errors right now. Not five. One.\n\n3. **Solve that friction first** — then measure if operators changed behavior. If they didn't, the problem wasn't actually solved.\n\nIt's slower than the spreadsheet-to-software jump. It's also the difference between a tool that gets used and software that gathers dust.\n\nDon't digitalize the operation. Digitalize the specific problem operators are already trying to solve.",
+    "image_url": ""
   }
 ]
