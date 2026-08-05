@@ -736,5 +736,14 @@
     "title": "Why digitalization projects skip the messy middle",
     "body": "You inherit a spreadsheet-based operation. Leadership approves budget for 'digital transformation.' Six months later you're demoing software that solves a problem nobody actually had — and operators won't touch it.\n\nThis happens because digitalization gets compressed into two phases: assessment and implementation. Assessment tells you what *should* happen. Implementation ships what the assessment said. The gap between those two is where real work lives — and it's where most projects fail.\n\nWe've started treating digitalization as a three-phase problem:\n\n1. **Map the actual state** — not the org chart version, but how operators *really* sequence work when things break.\n\n2. **Find the friction point** — one concrete thing that costs time or causes errors right now. Not five. One.\n\n3. **Solve that friction first** — then measure if operators changed behavior. If they didn't, the problem wasn't actually solved.\n\nIt's slower than the spreadsheet-to-software jump. It's also the difference between a tool that gets used and software that gathers dust.\n\nDon't digitalize the operation. Digitalize the specific problem operators are already trying to solve.",
     "image_url": ""
+  },
+  {
+    "id": "8dfe00ae30e0",
+    "ts": "2026-08-05T10:31:47.245929+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ship Models That Work in Notebooks",
+    "body": "We watch teams build models that score 94% accuracy in Jupyter, then fail silently in production because they never stress-tested against real operator behavior.\n\nThe gap isn't about the model. It's about environment. A notebook is a closed system—clean data, controlled inputs, zero latency constraints. Production is a live network of systems, schema changes, stale caches, and users who do things the training set never saw. The model itself is fine. The integration assumptions were never tested.\n\nWe use a simple framework: before any deployment, run your model against three failure modes that will definitely happen: (1) missing or null fields in your input, (2) data arriving out of order or delayed, (3) the upstream system changing its schema without telling you. Don't theorize. Build synthetic test cases that mirror each one. Your model doesn't need to be robust to all of them—it just needs to fail loudly and safely when they occur.\n\nThe teams that ship reliable systems treat the gap between notebook and production as a design problem, not a deployment problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8dfe00ae30e0.png"
   }
 ]

@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 04 Aug 2026 10:36:11 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 10:32:18 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Models That Work in Notebooks</title>
+<guid isPermaLink="false">8dfe00ae30e0</guid>
+<pubDate>Wed, 05 Aug 2026 10:31:47 +0000</pubDate>
+<description><![CDATA[We watch teams build models that score 94% accuracy in Jupyter, then fail silently in production because they never stress-tested against real operator behavior.
+
+The gap isn't about the model. It's about environment. A notebook is a closed system—clean data, controlled inputs, zero latency constraints. Production is a live network of systems, schema changes, stale caches, and users who do things the training set never saw. The model itself is fine. The integration assumptions were never tested.
+
+We use a simple framework: before any deployment, run your model against three failure modes that will definitely happen: (1) missing or null fields in your input, (2) data arriving out of order or delayed, (3) the upstream system changing its schema without telling you. Don't theorize. Build synthetic test cases that mirror each one. Your model doesn't need to be robust to all of them—it just needs to fail loudly and safely when they occur.
+
+The teams that ship reliable systems treat the gap between notebook and production as a design problem, not a deployment problem.]]></description>
+<content:encoded><![CDATA[We watch teams build models that score 94% accuracy in Jupyter, then fail silently in production because they never stress-tested against real operator behavior.
+
+The gap isn't about the model. It's about environment. A notebook is a closed system—clean data, controlled inputs, zero latency constraints. Production is a live network of systems, schema changes, stale caches, and users who do things the training set never saw. The model itself is fine. The integration assumptions were never tested.
+
+We use a simple framework: before any deployment, run your model against three failure modes that will definitely happen: (1) missing or null fields in your input, (2) data arriving out of order or delayed, (3) the upstream system changing its schema without telling you. Don't theorize. Build synthetic test cases that mirror each one. Your model doesn't need to be robust to all of them—it just needs to fail loudly and safely when they occur.
+
+The teams that ship reliable systems treat the gap between notebook and production as a design problem, not a deployment problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8dfe00ae30e0.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8dfe00ae30e0.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects skip the messy middle</title>
 <guid isPermaLink="false">2bbbeb18c4ad</guid>
@@ -1262,37 +1285,6 @@ This shifts the entire development lens. You stop tuning hyperparameters and sta
 
 Accuracy is an engineering constraint, not the goal.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization fails when you skip the operator</title>
-<guid isPermaLink="false">94df945a1d25</guid>
-<pubDate>Tue, 16 Jun 2026 12:52:00 +0000</pubDate>
-<description><![CDATA[Most digitalization projects treat operators as end-users. They're not. They're domain experts being asked to validate a system built without them.
-
-This happens because digitalization gets framed as a technical problem: move data from paper to software, connect systems, automate workflows. So engineering and IT own it. The operator gets consulted in week eight, after architecture is locked. By then, the system doesn't match how work actually flows—how materials move, where decisions actually happen, what signals matter.
-
-The operator knows this stuff cold. They've optimized around constraints for years. But they weren't in the room when the data model was designed or the workflow sequence was decided.
-
-Reframe digitalization as an operator translation problem, not a software problem. Start by asking: what is the operator trying to accomplish each shift? What information do they need to accomplish it? What decisions do they make, in what order, with what certainty? Only then design the system.
-
-You'll spend more time upfront and less time reworking after launch.
-
-The operator's workflow should drive the digital architecture, not the reverse.]]></description>
-<content:encoded><![CDATA[Most digitalization projects treat operators as end-users. They're not. They're domain experts being asked to validate a system built without them.
-
-This happens because digitalization gets framed as a technical problem: move data from paper to software, connect systems, automate workflows. So engineering and IT own it. The operator gets consulted in week eight, after architecture is locked. By then, the system doesn't match how work actually flows—how materials move, where decisions actually happen, what signals matter.
-
-The operator knows this stuff cold. They've optimized around constraints for years. But they weren't in the room when the data model was designed or the workflow sequence was decided.
-
-Reframe digitalization as an operator translation problem, not a software problem. Start by asking: what is the operator trying to accomplish each shift? What information do they need to accomplish it? What decisions do they make, in what order, with what certainty? Only then design the system.
-
-You'll spend more time upfront and less time reworking after launch.
-
-The operator's workflow should drive the digital architecture, not the reverse.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/94df945a1d25.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
