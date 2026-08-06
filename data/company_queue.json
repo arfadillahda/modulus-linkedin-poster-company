@@ -745,5 +745,14 @@
     "title": "Why AI Teams Ship Models That Work in Notebooks",
     "body": "We watch teams build models that score 94% accuracy in Jupyter, then fail silently in production because they never stress-tested against real operator behavior.\n\nThe gap isn't about the model. It's about environment. A notebook is a closed system—clean data, controlled inputs, zero latency constraints. Production is a live network of systems, schema changes, stale caches, and users who do things the training set never saw. The model itself is fine. The integration assumptions were never tested.\n\nWe use a simple framework: before any deployment, run your model against three failure modes that will definitely happen: (1) missing or null fields in your input, (2) data arriving out of order or delayed, (3) the upstream system changing its schema without telling you. Don't theorize. Build synthetic test cases that mirror each one. Your model doesn't need to be robust to all of them—it just needs to fail loudly and safely when they occur.\n\nThe teams that ship reliable systems treat the gap between notebook and production as a design problem, not a deployment problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8dfe00ae30e0.png"
+  },
+  {
+    "id": "4d9eb36183ae",
+    "ts": "2026-08-06T10:35:57.301938+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability becomes a cost center instead of operational design",
+    "body": "Most industrial operations treat sustainability as a compliance layer bolted onto existing processes. You measure what you already do, find it's bad, then pay to make it slightly less bad. The cost goes up. The operation stays fundamentally the same.\n\nThis happens because sustainability gets framed as a constraint—something that reduces throughput or margin. Engineering teams optimize for speed and yield first, then sustainability auditors arrive to measure the damage. By then, the system is locked in.\n\nThe reframe: sustainability isn't a constraint on the operation. It's information about how well the operation actually works.\n\nA process that wastes energy, material, or water is telling you something about inefficiency, poor control loops, or oversizing. When you chase down why a system burns fuel or rejects material, you're often uncovering the same root causes that hurt latency, quality, or uptime.\n\nOperators who see sustainability as operational diagnostics—not penalties—start finding the same efficiency gains that cut costs and reduce environmental load together.\n\nStart by asking: what does this waste tell us about how the machine actually runs?",
+    "image_url": ""
   }
 ]
