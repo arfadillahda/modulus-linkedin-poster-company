@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 06 Aug 2026 10:35:57 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 08:57:20 +0000</lastBuildDate>
+<item>
+<title>Why sustainability gets worse when you automate it</title>
+<guid isPermaLink="false">dc721ab9041f</guid>
+<pubDate>Fri, 07 Aug 2026 08:56:59 +0000</pubDate>
+<description><![CDATA[You build a system to track energy per unit. It works in the pilot. Three months in production, operators bypass it because the sensor lags, the readout doesn't match their floor experience, and it adds 20 seconds to changeover.
+
+The problem isn't the sensor. It's that sustainability data usually flows upward—designed for executives and auditors, not the people running the line. Operators see it as surveillance or bureaucracy, not a tool that makes their job easier or safer. So they work around it.
+
+Here's the heuristic we keep using: sustainability systems have to solve an immediate operator problem first. Not eventually. Not as a secondary feature.
+
+Before you measure energy consumption, measure downtime. Before you track waste, track changeover time. Build the dashboard that helps a team run faster or more reliably. Then layer sustainability visibility on top of those metrics they already care about.
+
+Operators don't resist good data. They resist data that doesn't help them.
+
+When sustainability is embedded in daily operations—not bolted on—compliance and environmental gains follow naturally.]]></description>
+<content:encoded><![CDATA[You build a system to track energy per unit. It works in the pilot. Three months in production, operators bypass it because the sensor lags, the readout doesn't match their floor experience, and it adds 20 seconds to changeover.
+
+The problem isn't the sensor. It's that sustainability data usually flows upward—designed for executives and auditors, not the people running the line. Operators see it as surveillance or bureaucracy, not a tool that makes their job easier or safer. So they work around it.
+
+Here's the heuristic we keep using: sustainability systems have to solve an immediate operator problem first. Not eventually. Not as a secondary feature.
+
+Before you measure energy consumption, measure downtime. Before you track waste, track changeover time. Build the dashboard that helps a team run faster or more reliably. Then layer sustainability visibility on top of those metrics they already care about.
+
+Operators don't resist good data. They resist data that doesn't help them.
+
+When sustainability is embedded in daily operations—not bolted on—compliance and environmental gains follow naturally.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/dc721ab9041f.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/dc721ab9041f.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability becomes a cost center instead of operational design</title>
 <guid isPermaLink="false">4d9eb36183ae</guid>
@@ -1262,33 +1293,6 @@ Trust the data source, and the operator trusts the recommendation.
 
 Without lineage, no amount of algorithmic sophistication moves the needle.]]></content:encoded>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability software fails at the meter</title>
-<guid isPermaLink="false">368ca10d36cd</guid>
-<pubDate>Thu, 18 Jun 2026 11:49:47 +0000</pubDate>
-<description><![CDATA[Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.
-
-This happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.
-
-The fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.
-
-We've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.
-
-You can't sustain what you can't see at the point of action.]]></description>
-<content:encoded><![CDATA[Most sustainability platforms aggregate data at the facility level. A plant manager reports 15% energy reduction. The operators running the compressors see no change in what they control day-to-day. The software is measuring the right thing; it's just measuring it at the wrong layer.
-
-This happens because sustainability tools are built top-down. Engineers write schemas for annual rollups and board dashboards. Nobody asks the person managing steam pressure or chiller cycles what they actually need to see. So operators ignore the software. Sustainability teams get no feedback about what's working. Investment dries up.
-
-The fix is measurement delegation. Push the meter down to the equipment that matters—not the facility aggregate. Let operators see their own contribution in real time, in units they control (kWh per ton of product, not percentage change). When a compressor operator can see that switching off standby cycles saves 3 kW right now, the behavior sticks.
-
-We've built interfaces that bind sustainability KPIs to equipment state in live time. The data still rolls up to the board. But operators get a reason to care first.
-
-You can't sustain what you can't see at the point of action.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/368ca10d36cd.png" medium="image" type="image/png"/>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>

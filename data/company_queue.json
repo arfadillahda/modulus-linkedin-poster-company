@@ -754,5 +754,14 @@
     "title": "Why sustainability becomes a cost center instead of operational design",
     "body": "Most industrial operations treat sustainability as a compliance layer bolted onto existing processes. You measure what you already do, find it's bad, then pay to make it slightly less bad. The cost goes up. The operation stays fundamentally the same.\n\nThis happens because sustainability gets framed as a constraint—something that reduces throughput or margin. Engineering teams optimize for speed and yield first, then sustainability auditors arrive to measure the damage. By then, the system is locked in.\n\nThe reframe: sustainability isn't a constraint on the operation. It's information about how well the operation actually works.\n\nA process that wastes energy, material, or water is telling you something about inefficiency, poor control loops, or oversizing. When you chase down why a system burns fuel or rejects material, you're often uncovering the same root causes that hurt latency, quality, or uptime.\n\nOperators who see sustainability as operational diagnostics—not penalties—start finding the same efficiency gains that cut costs and reduce environmental load together.\n\nStart by asking: what does this waste tell us about how the machine actually runs?",
     "image_url": ""
+  },
+  {
+    "id": "dc721ab9041f",
+    "ts": "2026-08-07T08:56:59.903279+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability gets worse when you automate it",
+    "body": "You build a system to track energy per unit. It works in the pilot. Three months in production, operators bypass it because the sensor lags, the readout doesn't match their floor experience, and it adds 20 seconds to changeover.\n\nThe problem isn't the sensor. It's that sustainability data usually flows upward—designed for executives and auditors, not the people running the line. Operators see it as surveillance or bureaucracy, not a tool that makes their job easier or safer. So they work around it.\n\nHere's the heuristic we keep using: sustainability systems have to solve an immediate operator problem first. Not eventually. Not as a secondary feature.\n\nBefore you measure energy consumption, measure downtime. Before you track waste, track changeover time. Build the dashboard that helps a team run faster or more reliably. Then layer sustainability visibility on top of those metrics they already care about.\n\nOperators don't resist good data. They resist data that doesn't help them.\n\nWhen sustainability is embedded in daily operations—not bolted on—compliance and environmental gains follow naturally.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/dc721ab9041f.png"
   }
 ]
