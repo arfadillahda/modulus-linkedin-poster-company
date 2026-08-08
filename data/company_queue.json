@@ -763,5 +763,14 @@
     "title": "Why sustainability gets worse when you automate it",
     "body": "You build a system to track energy per unit. It works in the pilot. Three months in production, operators bypass it because the sensor lags, the readout doesn't match their floor experience, and it adds 20 seconds to changeover.\n\nThe problem isn't the sensor. It's that sustainability data usually flows upward—designed for executives and auditors, not the people running the line. Operators see it as surveillance or bureaucracy, not a tool that makes their job easier or safer. So they work around it.\n\nHere's the heuristic we keep using: sustainability systems have to solve an immediate operator problem first. Not eventually. Not as a secondary feature.\n\nBefore you measure energy consumption, measure downtime. Before you track waste, track changeover time. Build the dashboard that helps a team run faster or more reliably. Then layer sustainability visibility on top of those metrics they already care about.\n\nOperators don't resist good data. They resist data that doesn't help them.\n\nWhen sustainability is embedded in daily operations—not bolted on—compliance and environmental gains follow naturally.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/dc721ab9041f.png"
+  },
+  {
+    "id": "78eeaf178c0a",
+    "ts": "2026-08-08T08:38:06.636348+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Models Fail When Operators Actually Use Them",
+    "body": "An ML team ships a predictive maintenance model with 94% validation accuracy. Three weeks in production, operators ignore it because it flags the same equipment twice a day and never surfaces the one failure that actually matters. The model isn't wrong — it's noisy.\n\nThis happens because training data reflects historical patterns, not operator workflow. The model optimizes for statistical accuracy, not decision utility. It learns to predict every anomaly; operators need to act on the few that require immediate attention. The gap between precision and signal-to-noise is where most AI projects stall.\n\nWe solve this by treating the operator's decision threshold as a first-class design constraint, not a downstream tuning problem. Before we train, we map the cost of false positives against the cost of missed detection *in that specific domain*. Then we build a lightweight feedback loop: operators rate predictions as actionable or noise within their existing interface. The model retrains on those labels, not on raw accuracy.\n\nAI fails in production when we optimize for metrics instead of for whether someone will actually use it.",
+    "image_url": ""
   }
 ]
