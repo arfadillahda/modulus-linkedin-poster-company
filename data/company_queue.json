@@ -772,5 +772,14 @@
     "title": "Why AI Models Fail When Operators Actually Use Them",
     "body": "An ML team ships a predictive maintenance model with 94% validation accuracy. Three weeks in production, operators ignore it because it flags the same equipment twice a day and never surfaces the one failure that actually matters. The model isn't wrong — it's noisy.\n\nThis happens because training data reflects historical patterns, not operator workflow. The model optimizes for statistical accuracy, not decision utility. It learns to predict every anomaly; operators need to act on the few that require immediate attention. The gap between precision and signal-to-noise is where most AI projects stall.\n\nWe solve this by treating the operator's decision threshold as a first-class design constraint, not a downstream tuning problem. Before we train, we map the cost of false positives against the cost of missed detection *in that specific domain*. Then we build a lightweight feedback loop: operators rate predictions as actionable or noise within their existing interface. The model retrains on those labels, not on raw accuracy.\n\nAI fails in production when we optimize for metrics instead of for whether someone will actually use it.",
     "image_url": ""
+  },
+  {
+    "id": "600b9793c94e",
+    "ts": "2026-08-09T08:39:07.833515+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization projects measure the wrong thing",
+    "body": "Most digitalization initiatives treat success as 'all systems connected.' They buy platforms, standardize schemas, integrate databases—then wonder why operators still don't trust the data.\n\nThe problem isn't connectivity. It's that we've been measuring digitalization from the top down. Finance wants audit trails. IT wants uptime. Compliance wants records. But the operator on the floor still can't tell you why production dropped at 2pm, because the digital system tells her something different from what she felt happen.\n\nWhen you optimize for institutional accountability instead of operational clarity, you build systems operators learn to work around, not with.\n\nReframe this: digitalization succeeds when it makes the next decision faster and more certain than the last one. That's it. Not completeness. Not compliance coverage. Not integrated dashboards.\n\nIf your digitalization project can't articulate how it shortens the feedback loop between action and consequence for the person doing the actual work, it's measuring the wrong thing.\n\nStart there. Everything else follows.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/600b9793c94e.png"
   }
 ]
