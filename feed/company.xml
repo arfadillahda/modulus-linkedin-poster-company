@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 09 Aug 2026 08:39:26 +0000</lastBuildDate>
+<lastBuildDate>Mon, 10 Aug 2026 09:17:30 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Systems That Only Work for Themselves</title>
+<guid isPermaLink="false">bffc6bafec9c</guid>
+<pubDate>Mon, 10 Aug 2026 09:17:30 +0000</pubDate>
+<description><![CDATA[We keep shipping AI systems that perform brilliantly in controlled settings, then fail the moment an operator uses them differently than we expected. The model accuracy looks good. The test set validation passes. But in production, the system either ignores what the operator actually needs or demands data inputs they can't reliably provide.
+
+This happens because we optimize for the happy path: clean data, predictable workflows, inputs that match our training distribution. We build for ourselves—the engineers who know how the system should be used. Operators, by contrast, work under pressure, with incomplete information, and with constraints we never modeled. They improvise. They skip steps. They feed the system edge cases we never saw.
+
+The reframe: stop treating operator behavior as noise to be engineered away. Treat it as the ground truth. Design AI systems around what operators actually do—their shortcuts, their judgment calls, their constraints—not around what we wish they'd do. This means building in graceful degradation, transparent reasoning operators can verify, and feedback loops that let the system adapt when reality diverges from our assumptions.
+
+Operator-centered AI systems fail less often because they're designed for the world as it is, not the world we imagined.]]></description>
+<content:encoded><![CDATA[We keep shipping AI systems that perform brilliantly in controlled settings, then fail the moment an operator uses them differently than we expected. The model accuracy looks good. The test set validation passes. But in production, the system either ignores what the operator actually needs or demands data inputs they can't reliably provide.
+
+This happens because we optimize for the happy path: clean data, predictable workflows, inputs that match our training distribution. We build for ourselves—the engineers who know how the system should be used. Operators, by contrast, work under pressure, with incomplete information, and with constraints we never modeled. They improvise. They skip steps. They feed the system edge cases we never saw.
+
+The reframe: stop treating operator behavior as noise to be engineered away. Treat it as the ground truth. Design AI systems around what operators actually do—their shortcuts, their judgment calls, their constraints—not around what we wish they'd do. This means building in graceful degradation, transparent reasoning operators can verify, and feedback loops that let the system adapt when reality diverges from our assumptions.
+
+Operator-centered AI systems fail less often because they're designed for the world as it is, not the world we imagined.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization projects measure the wrong thing</title>
 <guid isPermaLink="false">600b9793c94e</guid>
@@ -1265,31 +1286,6 @@ Operators optimize for what they measure. Give them the right measurement, and s
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/70a5c5f418f7.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Build Systems That Only Work in Notebooks</title>
-<guid isPermaLink="false">b610eba0fbb2</guid>
-<pubDate>Sun, 21 Jun 2026 11:14:45 +0000</pubDate>
-<description><![CDATA[You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.
-
-This happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.
-
-Here's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.
-
-We call this "workflow-first modeling." It's not new. But it's the difference between a model that scores well and a model that gets used.
-
-Statistical performance means nothing if the system never ships to a human who can act on it.]]></description>
-<content:encoded><![CDATA[You train a model on historical data. It scores well in cross-validation. You deploy it to production. Three weeks later, operators stop using it because the predictions don't match what they see on the floor.
-
-This happens because most AI teams optimize for statistical performance in isolation. They tune F1, reduce RMSE, validate on holdout sets—all while the model lives in a sandbox. The real failure mode isn't the math. It's that nobody connected the model's outputs to actual operator workflows, constraints, or decision latency.
-
-Here's how we approach it: before you touch any model, map the human decision it's meant to augment. What does the operator do today? How long do they have? What can they actually change? Then build your model to fit that constraint, not the other way around. Your feature engineering, your output format, your update cadence—all flow from the operator's reality, not from what your training data affords.
-
-We call this "workflow-first modeling." It's not new. But it's the difference between a model that scores well and a model that gets used.
-
-Statistical performance means nothing if the system never ships to a human who can act on it.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

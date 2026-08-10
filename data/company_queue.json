@@ -781,5 +781,14 @@
     "title": "Why digitalization projects measure the wrong thing",
     "body": "Most digitalization initiatives treat success as 'all systems connected.' They buy platforms, standardize schemas, integrate databases—then wonder why operators still don't trust the data.\n\nThe problem isn't connectivity. It's that we've been measuring digitalization from the top down. Finance wants audit trails. IT wants uptime. Compliance wants records. But the operator on the floor still can't tell you why production dropped at 2pm, because the digital system tells her something different from what she felt happen.\n\nWhen you optimize for institutional accountability instead of operational clarity, you build systems operators learn to work around, not with.\n\nReframe this: digitalization succeeds when it makes the next decision faster and more certain than the last one. That's it. Not completeness. Not compliance coverage. Not integrated dashboards.\n\nIf your digitalization project can't articulate how it shortens the feedback loop between action and consequence for the person doing the actual work, it's measuring the wrong thing.\n\nStart there. Everything else follows.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/600b9793c94e.png"
+  },
+  {
+    "id": "bffc6bafec9c",
+    "ts": "2026-08-10T09:17:30.611327+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build Systems That Only Work for Themselves",
+    "body": "We keep shipping AI systems that perform brilliantly in controlled settings, then fail the moment an operator uses them differently than we expected. The model accuracy looks good. The test set validation passes. But in production, the system either ignores what the operator actually needs or demands data inputs they can't reliably provide.\n\nThis happens because we optimize for the happy path: clean data, predictable workflows, inputs that match our training distribution. We build for ourselves—the engineers who know how the system should be used. Operators, by contrast, work under pressure, with incomplete information, and with constraints we never modeled. They improvise. They skip steps. They feed the system edge cases we never saw.\n\nThe reframe: stop treating operator behavior as noise to be engineered away. Treat it as the ground truth. Design AI systems around what operators actually do—their shortcuts, their judgment calls, their constraints—not around what we wish they'd do. This means building in graceful degradation, transparent reasoning operators can verify, and feedback loops that let the system adapt when reality diverges from our assumptions.\n\nOperator-centered AI systems fail less often because they're designed for the world as it is, not the world we imagined.",
+    "image_url": ""
   }
 ]
