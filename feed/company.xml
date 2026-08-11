@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 10 Aug 2026 09:17:30 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 08:52:37 +0000</lastBuildDate>
+<item>
+<title>Why sustainability dashboards lie about scope 3 emissions</title>
+<guid isPermaLink="false">f99097ff902a</guid>
+<pubDate>Tue, 11 Aug 2026 08:52:17 +0000</pubDate>
+<description><![CDATA[A plant manager pulls up their sustainability platform on Monday morning. It shows a 12% reduction in Scope 3 emissions month-over-month. By Wednesday, their logistics partner confirms they just switched vendors to cut costs—and the new vendor uses older trucks. The dashboard hasn't updated. The metric is already fiction.
+
+This happens because most sustainability software treats Scope 3 as a static data import problem. You pull supplier emissions declarations once, build a dashboard, declare victory. But supplier data changes constantly—contracts shift, routes change, energy grids decarbonize at different rates. If your system doesn't actively validate external data sources against ground truth (actual shipping manifests, real-time grid carbon intensity, current supplier certifications), you're reporting a lagging snapshot as if it's real-time performance.
+
+We've started building schema-validated data pipelines that treat external sustainability claims as hypotheses. They get cross-checked against operational data—purchase orders, shipment records, facility power feeds—and flag when the story stops matching reality. Not to shame suppliers, but to know when your assumptions are stale.
+
+Accurate Scope 3 reporting requires treating it as a continuous verification problem, not a one-time calculation.]]></description>
+<content:encoded><![CDATA[A plant manager pulls up their sustainability platform on Monday morning. It shows a 12% reduction in Scope 3 emissions month-over-month. By Wednesday, their logistics partner confirms they just switched vendors to cut costs—and the new vendor uses older trucks. The dashboard hasn't updated. The metric is already fiction.
+
+This happens because most sustainability software treats Scope 3 as a static data import problem. You pull supplier emissions declarations once, build a dashboard, declare victory. But supplier data changes constantly—contracts shift, routes change, energy grids decarbonize at different rates. If your system doesn't actively validate external data sources against ground truth (actual shipping manifests, real-time grid carbon intensity, current supplier certifications), you're reporting a lagging snapshot as if it's real-time performance.
+
+We've started building schema-validated data pipelines that treat external sustainability claims as hypotheses. They get cross-checked against operational data—purchase orders, shipment records, facility power feeds—and flag when the story stops matching reality. Not to shame suppliers, but to know when your assumptions are stale.
+
+Accurate Scope 3 reporting requires treating it as a continuous verification problem, not a one-time calculation.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f99097ff902a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f99097ff902a.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build Systems That Only Work for Themselves</title>
 <guid isPermaLink="false">bffc6bafec9c</guid>
@@ -1263,29 +1286,6 @@ We've found one pattern that changes this: anchor sustainability to something op
 Sustainability sticks when it reduces friction, not when it creates a second job.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability becomes a compliance tax instead of an operational lever</title>
-<guid isPermaLink="false">70a5c5f418f7</guid>
-<pubDate>Mon, 22 Jun 2026 13:33:24 +0000</pubDate>
-<description><![CDATA[Most sustainability initiatives treat operators as obstacles to compliance rather than sources of insight. A plant manager knows exactly where energy bleeds, where steam condenses unused, where motors run at half capacity. But sustainability plans are built by consultants in conference rooms, handed to ops as a checklist, and fail within six months because they ignore how the site actually runs.
-
-The mechanism is structural: sustainability gets bolted onto operations as a separate mandate, not woven into the economics of running the asset. When a sustainability goal conflicts with uptime, meeting schedule, or cost per unit—which it always does—operators choose the metric their bonus depends on. The plan doesn't lose; it was never real.
-
-The reframe: stop asking operators to comply with sustainability. Start asking them what they'd change if they owned the energy bill. The constraints are already there. The knowledge is already distributed across the floor. Sustainability becomes real when it aligns with how operators think—efficiency, reliability, cost—not when it's imposed as penance.
-
-Operators optimize for what they measure. Give them the right measurement, and sustainability stops being a separate burden.]]></description>
-<content:encoded><![CDATA[Most sustainability initiatives treat operators as obstacles to compliance rather than sources of insight. A plant manager knows exactly where energy bleeds, where steam condenses unused, where motors run at half capacity. But sustainability plans are built by consultants in conference rooms, handed to ops as a checklist, and fail within six months because they ignore how the site actually runs.
-
-The mechanism is structural: sustainability gets bolted onto operations as a separate mandate, not woven into the economics of running the asset. When a sustainability goal conflicts with uptime, meeting schedule, or cost per unit—which it always does—operators choose the metric their bonus depends on. The plan doesn't lose; it was never real.
-
-The reframe: stop asking operators to comply with sustainability. Start asking them what they'd change if they owned the energy bill. The constraints are already there. The knowledge is already distributed across the floor. Sustainability becomes real when it aligns with how operators think—efficiency, reliability, cost—not when it's imposed as penance.
-
-Operators optimize for what they measure. Give them the right measurement, and sustainability stops being a separate burden.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/70a5c5f418f7.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/70a5c5f418f7.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
