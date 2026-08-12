@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 11 Aug 2026 08:52:37 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 09:08:58 +0000</lastBuildDate>
+<item>
+<title>Why digitalization software breaks on the shop floor</title>
+<guid isPermaLink="false">204ff8bae1c2</guid>
+<pubDate>Wed, 12 Aug 2026 09:08:58 +0000</pubDate>
+<description><![CDATA[We shipped a sustainability reporting system for a cement plant last year. It worked in staging. In production, operators wouldn't use it—not because it was hard, but because it required 40 new data points they had no way to collect from legacy kiln controllers.
+
+This is the real digitalization bottleneck: software assumes data exists. It doesn't. Industrial sites run on decades of custom instrumentation, spreadsheets, and tribal knowledge. You can't retrofit a data model that doesn't match what's actually available on the floor.
+
+We solved it by inverting the design: start with what operators *can* measure today (often 6–8 points), model the sustainability impact from those constraints, then define the minimal instrumentation gap needed to improve reporting. No fantasy data pipelines. No gold-plating. Ship with what works, expand the sensor strategy in parallel.
+
+The result? Adoption on day one, plus a credible roadmap to better data—not a five-year wish list.
+
+Digitalization succeeds when you design for scarcity, not abundance.]]></description>
+<content:encoded><![CDATA[We shipped a sustainability reporting system for a cement plant last year. It worked in staging. In production, operators wouldn't use it—not because it was hard, but because it required 40 new data points they had no way to collect from legacy kiln controllers.
+
+This is the real digitalization bottleneck: software assumes data exists. It doesn't. Industrial sites run on decades of custom instrumentation, spreadsheets, and tribal knowledge. You can't retrofit a data model that doesn't match what's actually available on the floor.
+
+We solved it by inverting the design: start with what operators *can* measure today (often 6–8 points), model the sustainability impact from those constraints, then define the minimal instrumentation gap needed to improve reporting. No fantasy data pipelines. No gold-plating. Ship with what works, expand the sensor strategy in parallel.
+
+The result? Adoption on day one, plus a credible roadmap to better data—not a five-year wish list.
+
+Digitalization succeeds when you design for scarcity, not abundance.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability dashboards lie about scope 3 emissions</title>
 <guid isPermaLink="false">f99097ff902a</guid>
@@ -1265,27 +1290,6 @@ Control the shape of your data before you control the math.]]></content:encoded>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability initiatives stall after the first quarter</title>
-<guid isPermaLink="false">b2443ef8e5c7</guid>
-<pubDate>Tue, 23 Jun 2026 11:14:22 +0000</pubDate>
-<description><![CDATA[Most sustainability rollouts lose momentum six weeks in. The team launches with energy, baseline metrics look good, then adoption flatlines across sites. Operations ignores the new process. Finance sees no cost reduction. The project gets marked as 'ongoing' and drifts.
-
-This happens because sustainability is treated as a parallel system instead of a modification to how people already work. You ask operators to log data in a new portal. You ask schedulers to optimize for carbon instead of throughput. You ask finance to track invisible savings. All of it sits on top of their actual job, competing for attention.
-
-We've found one pattern that changes this: anchor sustainability to something operators already measure and care about. If your facility tracks equipment runtime, make carbon visible *inside* runtime reporting—not as a separate metric. If dispatch optimizes for uptime, show how the efficient route saves both fuel and downtime. Reframe the input, not the interface.
-
-Sustainability sticks when it reduces friction, not when it creates a second job.]]></description>
-<content:encoded><![CDATA[Most sustainability rollouts lose momentum six weeks in. The team launches with energy, baseline metrics look good, then adoption flatlines across sites. Operations ignores the new process. Finance sees no cost reduction. The project gets marked as 'ongoing' and drifts.
-
-This happens because sustainability is treated as a parallel system instead of a modification to how people already work. You ask operators to log data in a new portal. You ask schedulers to optimize for carbon instead of throughput. You ask finance to track invisible savings. All of it sits on top of their actual job, competing for attention.
-
-We've found one pattern that changes this: anchor sustainability to something operators already measure and care about. If your facility tracks equipment runtime, make carbon visible *inside* runtime reporting—not as a separate metric. If dispatch optimizes for uptime, show how the efficient route saves both fuel and downtime. Reframe the input, not the interface.
-
-Sustainability sticks when it reduces friction, not when it creates a second job.]]></content:encoded>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

@@ -799,5 +799,14 @@
     "title": "Why sustainability dashboards lie about scope 3 emissions",
     "body": "A plant manager pulls up their sustainability platform on Monday morning. It shows a 12% reduction in Scope 3 emissions month-over-month. By Wednesday, their logistics partner confirms they just switched vendors to cut costs—and the new vendor uses older trucks. The dashboard hasn't updated. The metric is already fiction.\n\nThis happens because most sustainability software treats Scope 3 as a static data import problem. You pull supplier emissions declarations once, build a dashboard, declare victory. But supplier data changes constantly—contracts shift, routes change, energy grids decarbonize at different rates. If your system doesn't actively validate external data sources against ground truth (actual shipping manifests, real-time grid carbon intensity, current supplier certifications), you're reporting a lagging snapshot as if it's real-time performance.\n\nWe've started building schema-validated data pipelines that treat external sustainability claims as hypotheses. They get cross-checked against operational data—purchase orders, shipment records, facility power feeds—and flag when the story stops matching reality. Not to shame suppliers, but to know when your assumptions are stale.\n\nAccurate Scope 3 reporting requires treating it as a continuous verification problem, not a one-time calculation.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f99097ff902a.png"
+  },
+  {
+    "id": "204ff8bae1c2",
+    "ts": "2026-08-12T09:08:58.209872+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization software breaks on the shop floor",
+    "body": "We shipped a sustainability reporting system for a cement plant last year. It worked in staging. In production, operators wouldn't use it—not because it was hard, but because it required 40 new data points they had no way to collect from legacy kiln controllers.\n\nThis is the real digitalization bottleneck: software assumes data exists. It doesn't. Industrial sites run on decades of custom instrumentation, spreadsheets, and tribal knowledge. You can't retrofit a data model that doesn't match what's actually available on the floor.\n\nWe solved it by inverting the design: start with what operators *can* measure today (often 6–8 points), model the sustainability impact from those constraints, then define the minimal instrumentation gap needed to improve reporting. No fantasy data pipelines. No gold-plating. Ship with what works, expand the sensor strategy in parallel.\n\nThe result? Adoption on day one, plus a credible roadmap to better data—not a five-year wish list.\n\nDigitalization succeeds when you design for scarcity, not abundance.",
+    "image_url": ""
   }
 ]
