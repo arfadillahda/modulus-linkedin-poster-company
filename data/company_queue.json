@@ -808,5 +808,14 @@
     "title": "Why digitalization software breaks on the shop floor",
     "body": "We shipped a sustainability reporting system for a cement plant last year. It worked in staging. In production, operators wouldn't use it—not because it was hard, but because it required 40 new data points they had no way to collect from legacy kiln controllers.\n\nThis is the real digitalization bottleneck: software assumes data exists. It doesn't. Industrial sites run on decades of custom instrumentation, spreadsheets, and tribal knowledge. You can't retrofit a data model that doesn't match what's actually available on the floor.\n\nWe solved it by inverting the design: start with what operators *can* measure today (often 6–8 points), model the sustainability impact from those constraints, then define the minimal instrumentation gap needed to improve reporting. No fantasy data pipelines. No gold-plating. Ship with what works, expand the sensor strategy in parallel.\n\nThe result? Adoption on day one, plus a credible roadmap to better data—not a five-year wish list.\n\nDigitalization succeeds when you design for scarcity, not abundance.",
     "image_url": ""
+  },
+  {
+    "id": "2ff0b8c112e2",
+    "ts": "2026-08-13T09:09:15.813231+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization roadmaps fracture between IT and operations",
+    "body": "Most digitalization roadmaps split into two incompatible visions: IT builds what's technically clean. Operations needs what's operationally possible. By month four, they're shipping features the floor won't adopt.\n\nThis happens because digitalization gets handed off at the architecture phase. IT specifies the system, operations receives it. No feedback loop in the middle. The software that emerges solves a problem IT understood, not the one operators actually face. By then, rework costs more than the original build.\n\nWe've found one heuristic that cuts through this: early, mandatory integration of the person who owns the day-to-day failure mode. Not a stakeholder interview. Not a requirements document signed in Q1. A person embedded in design scrums, pushing back on assumptions in real time.\n\nWhen operations has decision weight during build, not after, the roadmap doesn't fracture. You ship software that actually gets used.\n\nOperators and IT don't need better communication. They need shared ownership of what works.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2ff0b8c112e2.png"
   }
 ]

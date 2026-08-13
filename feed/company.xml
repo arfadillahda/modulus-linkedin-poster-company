@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 12 Aug 2026 09:08:58 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 09:09:44 +0000</lastBuildDate>
+<item>
+<title>Why digitalization roadmaps fracture between IT and operations</title>
+<guid isPermaLink="false">2ff0b8c112e2</guid>
+<pubDate>Thu, 13 Aug 2026 09:09:15 +0000</pubDate>
+<description><![CDATA[Most digitalization roadmaps split into two incompatible visions: IT builds what's technically clean. Operations needs what's operationally possible. By month four, they're shipping features the floor won't adopt.
+
+This happens because digitalization gets handed off at the architecture phase. IT specifies the system, operations receives it. No feedback loop in the middle. The software that emerges solves a problem IT understood, not the one operators actually face. By then, rework costs more than the original build.
+
+We've found one heuristic that cuts through this: early, mandatory integration of the person who owns the day-to-day failure mode. Not a stakeholder interview. Not a requirements document signed in Q1. A person embedded in design scrums, pushing back on assumptions in real time.
+
+When operations has decision weight during build, not after, the roadmap doesn't fracture. You ship software that actually gets used.
+
+Operators and IT don't need better communication. They need shared ownership of what works.]]></description>
+<content:encoded><![CDATA[Most digitalization roadmaps split into two incompatible visions: IT builds what's technically clean. Operations needs what's operationally possible. By month four, they're shipping features the floor won't adopt.
+
+This happens because digitalization gets handed off at the architecture phase. IT specifies the system, operations receives it. No feedback loop in the middle. The software that emerges solves a problem IT understood, not the one operators actually face. By then, rework costs more than the original build.
+
+We've found one heuristic that cuts through this: early, mandatory integration of the person who owns the day-to-day failure mode. Not a stakeholder interview. Not a requirements document signed in Q1. A person embedded in design scrums, pushing back on assumptions in real time.
+
+When operations has decision weight during build, not after, the roadmap doesn't fracture. You ship software that actually gets used.
+
+Operators and IT don't need better communication. They need shared ownership of what works.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2ff0b8c112e2.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2ff0b8c112e2.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization software breaks on the shop floor</title>
 <guid isPermaLink="false">204ff8bae1c2</guid>
@@ -1263,33 +1290,6 @@ The reframe: start where decisions actually happen. Sit with the operator for a 
 Digitalization succeeds when you design for the person making the call, not the person measuring the call.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Systems Fail at the Data Boundary</title>
-<guid isPermaLink="false">423b5f3aadbf</guid>
-<pubDate>Wed, 24 Jun 2026 10:48:08 +0000</pubDate>
-<description><![CDATA[Your ML team trained a model on clean historical data. It shipped. Then operators fed it real field readings—timestamps with gaps, sensor drift, unit conversions nobody documented—and the model's confidence collapsed.
-
-This happens because training pipelines and production pipelines are built by different people with different constraints. The training team optimizes for signal-to-noise ratio. The ops team optimizes for "whatever the field equipment sends." Nobody owns the contract between them. So models train on data that doesn't exist in production, then fail silently when they meet it.
-
-We've solved this by building a data schema layer that lives upstream of both training and inference. Not a fancy framework—a boring, versioned specification that describes what the data actually is: units, null semantics, acceptable ranges, transformation rules. Training data gets validated against it. Production data gets validated against it. When ops changes a sensor, the schema version bumps and everyone sees it.
-
-The model doesn't fail in the field. It fails in CI, where you can actually do something about it.
-
-Control the shape of your data before you control the math.]]></description>
-<content:encoded><![CDATA[Your ML team trained a model on clean historical data. It shipped. Then operators fed it real field readings—timestamps with gaps, sensor drift, unit conversions nobody documented—and the model's confidence collapsed.
-
-This happens because training pipelines and production pipelines are built by different people with different constraints. The training team optimizes for signal-to-noise ratio. The ops team optimizes for "whatever the field equipment sends." Nobody owns the contract between them. So models train on data that doesn't exist in production, then fail silently when they meet it.
-
-We've solved this by building a data schema layer that lives upstream of both training and inference. Not a fancy framework—a boring, versioned specification that describes what the data actually is: units, null semantics, acceptable ranges, transformation rules. Training data gets validated against it. Production data gets validated against it. When ops changes a sensor, the schema version bumps and everyone sees it.
-
-The model doesn't fail in the field. It fails in CI, where you can actually do something about it.
-
-Control the shape of your data before you control the math.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/423b5f3aadbf.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

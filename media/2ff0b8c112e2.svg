@@ -1,0 +1,115 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="cp-canvas">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       TOP BAND (~22% → 0–225px)
+  ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="96"
+    font-size="13" font-weight="600" fill="#2D5BFF"
+    letter-spacing="0.18em" text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Accent underline under headline -->
+  <line x1="64" y1="178" x2="220" y2="178" stroke="#2D5BFF" stroke-width="2.5"/>
+
+  <!-- Display headline -->
+  <text
+    x="64" y="145"
+    font-size="46" font-weight="800" fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">IT and Ops need shared</text>
+  <text
+    x="64" y="200"
+    font-size="46" font-weight="800" fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">ownership, not alignment.</text>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="42"
+    font-size="12" font-weight="600" fill="#2D5BFF"
+    letter-spacing="0.18em" text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       MIDDLE BAND — 4-tile 2×2 grid
+       Canvas inner width: 1024 - 128 = 896
+       2 cols × gap=16 → tile width = (896-16)/2 = 440
+       Band starts y=232, height≈570
+       2 rows × gap=16 → tile height = (570-16)/2 = 277
+  ═══════════════════════════════════════════════════════════ -->
+
+  <!-- ROW 1 ──────────────────────────────────────────────── -->
+
+  <!-- Tile 01 (col1, row1) x=64 y=232 w=440 h=277 -->
+  <rect x="64" y="232" width="440" height="277" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="298" font-size="52" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="340" font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Handoff Problem</text>
+  <text x="92" y="370" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">IT specifies. Ops receives. No loop</text>
+  <text x="92" y="390" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">in the middle.</text>
+
+  <!-- Tile 02 (col2, row1) x=520 y=232 w=440 h=277 -->
+  <rect x="520" y="232" width="440" height="277" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="298" font-size="52" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="340" font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Wrong Problem Solved</text>
+  <text x="548" y="370" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Software fixes IT's model, not the</text>
+  <text x="548" y="390" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">operator's actual failure mode.</text>
+
+  <!-- ROW 2 ──────────────────────────────────────────────── -->
+
+  <!-- Tile 03 (col1, row2) x=64 y=525 w=440 h=277 -->
+  <rect x="64" y="525" width="440" height="277" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="591" font-size="52" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="633" font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Embed, Don't Interview</text>
+  <text x="92" y="663" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Put the person who owns failure</text>
+  <text x="92" y="683" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">inside design scrums, in real time.</text>
+
+  <!-- Tile 04 (col2, row2) x=520 y=525 w=440 h=277 -->
+  <rect x="520" y="525" width="440" height="277" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="591" font-size="52" font-weight="800" fill="#2D5BFF"
+        letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="633" font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Decision Weight Matters</text>
+  <text x="548" y="663" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ops with vote during build means</text>
+  <text x="548" y="683" font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">software that actually gets used.</text>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       BOTTOM BAND (~16% → 832–1024px)
+  ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="848" x2="960" y2="848" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="912"
+    font-size="22" font-weight="700" fill="#3A3A3A"
+    text-anchor="middle" letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Shared ownership ships software floors actually use.</text>
+
+</svg>
