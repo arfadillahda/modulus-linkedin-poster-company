@@ -817,5 +817,14 @@
     "title": "Why digitalization roadmaps fracture between IT and operations",
     "body": "Most digitalization roadmaps split into two incompatible visions: IT builds what's technically clean. Operations needs what's operationally possible. By month four, they're shipping features the floor won't adopt.\n\nThis happens because digitalization gets handed off at the architecture phase. IT specifies the system, operations receives it. No feedback loop in the middle. The software that emerges solves a problem IT understood, not the one operators actually face. By then, rework costs more than the original build.\n\nWe've found one heuristic that cuts through this: early, mandatory integration of the person who owns the day-to-day failure mode. Not a stakeholder interview. Not a requirements document signed in Q1. A person embedded in design scrums, pushing back on assumptions in real time.\n\nWhen operations has decision weight during build, not after, the roadmap doesn't fracture. You ship software that actually gets used.\n\nOperators and IT don't need better communication. They need shared ownership of what works.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2ff0b8c112e2.png"
+  },
+  {
+    "id": "43a263bbb124",
+    "ts": "2026-08-14T09:04:38.999776+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Measure the Wrong Metric for Operational Systems",
+    "body": "We watch teams optimize for model accuracy while their AI system fails silently in production. A model hits 94% precision on validation data, ships, then produces nonsense outputs 30% of the time in live operator workflows. The gap always comes from the same place: they're measuring lab performance instead of system failure modes.\n\nAccuracy metrics don't tell you what breaks first. They don't surface edge cases operators actually hit—missing sensor streams, delayed batch ingestion, schema creep in upstream data. A model can be statistically correct while systematically failing on the inputs that matter most to your users.\n\nWe measure differently. Before shipping, we ask three questions: (1) What happens when inputs degrade? (2) What's the cost if the system is silently wrong vs. loudly failing? (3) Which failure modes does the operator need to detect and handle themselves?\n\nThen we test those specific modes, not overall accuracy. A model that breaks gracefully beats a model that's accurate but opaque.\n\nSystem reliability and statistical accuracy are not the same problem.",
+    "image_url": ""
   }
 ]

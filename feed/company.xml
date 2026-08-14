@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 13 Aug 2026 09:09:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 09:04:39 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Measure the Wrong Metric for Operational Systems</title>
+<guid isPermaLink="false">43a263bbb124</guid>
+<pubDate>Fri, 14 Aug 2026 09:04:38 +0000</pubDate>
+<description><![CDATA[We watch teams optimize for model accuracy while their AI system fails silently in production. A model hits 94% precision on validation data, ships, then produces nonsense outputs 30% of the time in live operator workflows. The gap always comes from the same place: they're measuring lab performance instead of system failure modes.
+
+Accuracy metrics don't tell you what breaks first. They don't surface edge cases operators actually hit—missing sensor streams, delayed batch ingestion, schema creep in upstream data. A model can be statistically correct while systematically failing on the inputs that matter most to your users.
+
+We measure differently. Before shipping, we ask three questions: (1) What happens when inputs degrade? (2) What's the cost if the system is silently wrong vs. loudly failing? (3) Which failure modes does the operator need to detect and handle themselves?
+
+Then we test those specific modes, not overall accuracy. A model that breaks gracefully beats a model that's accurate but opaque.
+
+System reliability and statistical accuracy are not the same problem.]]></description>
+<content:encoded><![CDATA[We watch teams optimize for model accuracy while their AI system fails silently in production. A model hits 94% precision on validation data, ships, then produces nonsense outputs 30% of the time in live operator workflows. The gap always comes from the same place: they're measuring lab performance instead of system failure modes.
+
+Accuracy metrics don't tell you what breaks first. They don't surface edge cases operators actually hit—missing sensor streams, delayed batch ingestion, schema creep in upstream data. A model can be statistically correct while systematically failing on the inputs that matter most to your users.
+
+We measure differently. Before shipping, we ask three questions: (1) What happens when inputs degrade? (2) What's the cost if the system is silently wrong vs. loudly failing? (3) Which failure modes does the operator need to detect and handle themselves?
+
+Then we test those specific modes, not overall accuracy. A model that breaks gracefully beats a model that's accurate but opaque.
+
+System reliability and statistical accuracy are not the same problem.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization roadmaps fracture between IT and operations</title>
 <guid isPermaLink="false">2ff0b8c112e2</guid>
@@ -1264,31 +1289,6 @@ Accuracy is table stakes. Utility is what ships.]]></content:encoded>
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization fails before the first line of code</title>
-<guid isPermaLink="false">7f7e98fc0676</guid>
-<pubDate>Thu, 25 Jun 2026 10:40:31 +0000</pubDate>
-<description><![CDATA[Most digitalization projects collapse not because the technology is wrong, but because teams design for the wrong user.
-
-You build a dashboard. Operations doesn't use it. You assume they're resistant to change. Actually, the dashboard answers questions nobody asked. It was built for compliance, finance, or engineering — not for the person running the machine at 6 a.m. trying to diagnose why throughput dropped.
-
-This happens because digitalization gets treated as a data problem, not a workflow problem. You map your IT architecture first, then bolt on a UI. Operators become an afterthought. The interface speaks in system logic, not operational reality.
-
-The reframe: start where decisions actually happen. Sit with the operator for a full shift. Watch what they check, what they worry about, what takes them longer than it should. Document the real workflow — not the org chart version, the actual version. Only then design the system around how they work, not how you think they should work.
-
-Digitalization succeeds when you design for the person making the call, not the person measuring the call.]]></description>
-<content:encoded><![CDATA[Most digitalization projects collapse not because the technology is wrong, but because teams design for the wrong user.
-
-You build a dashboard. Operations doesn't use it. You assume they're resistant to change. Actually, the dashboard answers questions nobody asked. It was built for compliance, finance, or engineering — not for the person running the machine at 6 a.m. trying to diagnose why throughput dropped.
-
-This happens because digitalization gets treated as a data problem, not a workflow problem. You map your IT architecture first, then bolt on a UI. Operators become an afterthought. The interface speaks in system logic, not operational reality.
-
-The reframe: start where decisions actually happen. Sit with the operator for a full shift. Watch what they check, what they worry about, what takes them longer than it should. Document the real workflow — not the org chart version, the actual version. Only then design the system around how they work, not how you think they should work.
-
-Digitalization succeeds when you design for the person making the call, not the person measuring the call.]]></content:encoded>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
