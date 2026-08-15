@@ -1,0 +1,207 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND (~22% = 0–225px)
+  ═══════════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="96"
+    font-size="13"
+    font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="start"
+  >SUSTAINABILITY</text>
+
+  <!-- Headline -->
+  <text
+    x="64" y="148"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="start"
+  >Specs don't fail in boardrooms.</text>
+  <text
+    x="64" y="208"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="start"
+  >They fail on the floor.</text>
+
+  <!-- Accent underline under headline -->
+  <line x1="64" y1="220" x2="560" y2="220" stroke="#1F5C3D" stroke-width="2"/>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="58"
+    font-size="12"
+    font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="end"
+  >MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND — 4 tiles in 2×2 grid
+       Top of grid: y=250, bottom: ~766
+       Each tile: ~343w × 240h, gap 16px, pad 64px sides
+  ═══════════════════════════════════════════ -->
+
+  <!-- Tile 01 — top-left: x=64, y=250, w=443, h=240 -->
+  <rect x="64" y="250" width="443" height="240" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="92" y="310"
+    font-size="48"
+    font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >01</text>
+  <text
+    x="92" y="356"
+    font-size="22"
+    font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >The Spec-Reality Gap</text>
+  <text
+    x="92" y="390"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Operators hit constraints nobody ever modeled.</text>
+  <text
+    x="92" y="412"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >The spec becomes noise.</text>
+
+  <!-- Tile 02 — top-right: x=523, y=250, w=437, h=240 -->
+  <rect x="523" y="250" width="437" height="240" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="551" y="310"
+    font-size="48"
+    font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >02</text>
+  <text
+    x="551" y="356"
+    font-size="22"
+    font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Separate Narratives</text>
+  <text
+    x="551" y="390"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Operations and sustainability aren't</text>
+  <text
+    x="551" y="412"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >talking to each other.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=506, w=443, h=240 -->
+  <rect x="64" y="506" width="443" height="240" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="92" y="566"
+    font-size="48"
+    font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >03</text>
+  <text
+    x="92" y="612"
+    font-size="22"
+    font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >The Reframe</text>
+  <text
+    x="92" y="646"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Treat sustainability like voltage margin —</text>
+  <text
+    x="92" y="668"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >a hard design input, not a layer.</text>
+
+  <!-- Tile 04 — bottom-right: x=523, y=506, w=437, h=240 -->
+  <rect x="523" y="506" width="437" height="240" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="551" y="566"
+    font-size="48"
+    font-weight="800"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >04</text>
+  <text
+    x="551" y="612"
+    font-size="22"
+    font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Early Tradeoffs Stick</text>
+  <text
+    x="551" y="646"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >Planning-phase decisions are cheap to absorb.</text>
+  <text
+    x="551" y="668"
+    font-size="15"
+    font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+  >That's when real reduction sticks.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND (~16% = 766–1024)
+  ═══════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="790" x2="960" y2="790" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="870"
+    font-size="24"
+    font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="middle"
+  >Sustainability that conflicts with real work doesn't scale.</text>
+
+</svg>

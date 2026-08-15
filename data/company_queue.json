@@ -826,5 +826,14 @@
     "title": "Why AI Teams Measure the Wrong Metric for Operational Systems",
     "body": "We watch teams optimize for model accuracy while their AI system fails silently in production. A model hits 94% precision on validation data, ships, then produces nonsense outputs 30% of the time in live operator workflows. The gap always comes from the same place: they're measuring lab performance instead of system failure modes.\n\nAccuracy metrics don't tell you what breaks first. They don't surface edge cases operators actually hit—missing sensor streams, delayed batch ingestion, schema creep in upstream data. A model can be statistically correct while systematically failing on the inputs that matter most to your users.\n\nWe measure differently. Before shipping, we ask three questions: (1) What happens when inputs degrade? (2) What's the cost if the system is silently wrong vs. loudly failing? (3) Which failure modes does the operator need to detect and handle themselves?\n\nThen we test those specific modes, not overall accuracy. A model that breaks gracefully beats a model that's accurate but opaque.\n\nSystem reliability and statistical accuracy are not the same problem.",
     "image_url": ""
+  },
+  {
+    "id": "07859cfa0d77",
+    "ts": "2026-08-15T08:24:33.418728+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability specs fail on the factory floor",
+    "body": "Most sustainability requirements get written by people who've never watched them fail in production. A supplier commits to a 40% emissions reduction by 2028. Engineering builds to it. Then the actual operators — the ones running the equipment eight hours a day — hit constraints nobody modeled: thermal headroom, cycle time, material compatibility. The spec becomes noise.\n\nThis happens because sustainability lives in a separate narrative from operations. It's treated as a compliance layer, bolted on after the core logic is locked. Operations optimizes for throughput and margin. Sustainability optimizes for carbon or waste reduction. They're not talking to each other.\n\nThe reframe: treat sustainability as an operational constraint, the way you treat voltage margin or thermal budget. Not a nice-to-have that gets deprioritized. Not a reporting exercise. A hard design input alongside latency and cost.\n\nWhen operators and engineers see sustainability as part of the base spec — not a footnote — the tradeoffs get made early, in the planning phase where they're cheap to absorb. That's when real reduction sticks.\n\nSustainability that conflicts with how work actually happens doesn't scale.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/07859cfa0d77.png"
   }
 ]

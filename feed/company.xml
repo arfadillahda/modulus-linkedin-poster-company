@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 14 Aug 2026 09:04:39 +0000</lastBuildDate>
+<lastBuildDate>Sat, 15 Aug 2026 08:25:00 +0000</lastBuildDate>
+<item>
+<title>Why sustainability specs fail on the factory floor</title>
+<guid isPermaLink="false">07859cfa0d77</guid>
+<pubDate>Sat, 15 Aug 2026 08:24:33 +0000</pubDate>
+<description><![CDATA[Most sustainability requirements get written by people who've never watched them fail in production. A supplier commits to a 40% emissions reduction by 2028. Engineering builds to it. Then the actual operators — the ones running the equipment eight hours a day — hit constraints nobody modeled: thermal headroom, cycle time, material compatibility. The spec becomes noise.
+
+This happens because sustainability lives in a separate narrative from operations. It's treated as a compliance layer, bolted on after the core logic is locked. Operations optimizes for throughput and margin. Sustainability optimizes for carbon or waste reduction. They're not talking to each other.
+
+The reframe: treat sustainability as an operational constraint, the way you treat voltage margin or thermal budget. Not a nice-to-have that gets deprioritized. Not a reporting exercise. A hard design input alongside latency and cost.
+
+When operators and engineers see sustainability as part of the base spec — not a footnote — the tradeoffs get made early, in the planning phase where they're cheap to absorb. That's when real reduction sticks.
+
+Sustainability that conflicts with how work actually happens doesn't scale.]]></description>
+<content:encoded><![CDATA[Most sustainability requirements get written by people who've never watched them fail in production. A supplier commits to a 40% emissions reduction by 2028. Engineering builds to it. Then the actual operators — the ones running the equipment eight hours a day — hit constraints nobody modeled: thermal headroom, cycle time, material compatibility. The spec becomes noise.
+
+This happens because sustainability lives in a separate narrative from operations. It's treated as a compliance layer, bolted on after the core logic is locked. Operations optimizes for throughput and margin. Sustainability optimizes for carbon or waste reduction. They're not talking to each other.
+
+The reframe: treat sustainability as an operational constraint, the way you treat voltage margin or thermal budget. Not a nice-to-have that gets deprioritized. Not a reporting exercise. A hard design input alongside latency and cost.
+
+When operators and engineers see sustainability as part of the base spec — not a footnote — the tradeoffs get made early, in the planning phase where they're cheap to absorb. That's when real reduction sticks.
+
+Sustainability that conflicts with how work actually happens doesn't scale.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/07859cfa0d77.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/07859cfa0d77.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Measure the Wrong Metric for Operational Systems</title>
 <guid isPermaLink="false">43a263bbb124</guid>
@@ -1267,29 +1294,6 @@ When a sustainability target becomes a real-time input to maintenance scheduling
 Sustainability that doesn't speak operations language is just reporting.]]></content:encoded>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Treat Accuracy Like It's the Entire Job</title>
-<guid isPermaLink="false">88f04bcde216</guid>
-<pubDate>Fri, 26 Jun 2026 10:49:50 +0000</pubDate>
-<description><![CDATA[We watch teams spend months optimizing model F1 scores, then ship systems that operators ignore because the model's answers don't align with how real work actually gets done.
-
-The mechanism is simple: accuracy is measurable. It's clean. You can plot it, compare runs, write it in a paper. But accuracy measures what the model predicts against a static test set—not whether those predictions matter when a human operator needs to make a decision under time pressure with incomplete context. A model can be 94% accurate and still useless if it fails on the 6% that shows up in production, or if it can't explain itself, or if it asks for input the operator doesn't have.
-
-The reframe: stop optimizing for accuracy in isolation. Optimize for *utility*—does this prediction change what an operator actually does, and can they trust it enough to act on it? That means involving operators early, understanding their workflow, testing not just on accuracy but on calibration (how often is the model right when it says it's right?), and building systems where the model admits uncertainty instead of confidently guessing.
-
-Accuracy is table stakes. Utility is what ships.]]></description>
-<content:encoded><![CDATA[We watch teams spend months optimizing model F1 scores, then ship systems that operators ignore because the model's answers don't align with how real work actually gets done.
-
-The mechanism is simple: accuracy is measurable. It's clean. You can plot it, compare runs, write it in a paper. But accuracy measures what the model predicts against a static test set—not whether those predictions matter when a human operator needs to make a decision under time pressure with incomplete context. A model can be 94% accurate and still useless if it fails on the 6% that shows up in production, or if it can't explain itself, or if it asks for input the operator doesn't have.
-
-The reframe: stop optimizing for accuracy in isolation. Optimize for *utility*—does this prediction change what an operator actually does, and can they trust it enough to act on it? That means involving operators early, understanding their workflow, testing not just on accuracy but on calibration (how often is the model right when it says it's right?), and building systems where the model admits uncertainty instead of confidently guessing.
-
-Accuracy is table stakes. Utility is what ships.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/88f04bcde216.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
