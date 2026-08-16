@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 15 Aug 2026 08:25:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 16 Aug 2026 08:26:01 +0000</lastBuildDate>
+<item>
+<title>Why sustainability targets fail when disconnected from production schedules</title>
+<guid isPermaLink="false">fb308461acc6</guid>
+<pubDate>Sun, 16 Aug 2026 08:26:01 +0000</pubDate>
+<description><![CDATA[You set a 20% energy reduction target. Six months later, you've hit 8%. The sustainability team blames operations for not switching to off-peak production. Operations blames sustainability for not understanding bottleneck constraints. Neither is wrong—they're just optimizing different systems.
+
+This happens because sustainability targets are usually built top-down: carbon budget first, then work backward to find where to cut. Production schedules, meanwhile, are built from demand, lead time, and equipment constraints. When those two planning systems don't talk, the sustainability goal becomes an externality that operations absorbs as cost or burden.
+
+We've found one way to reverse this: start with production's hard constraints—shift schedules, equipment maintenance windows, batch sizes—then ask where energy optimization actually fits within that reality. Don't ask "how do we cut 20% energy." Ask "given this week's production line, where can we drop 8% without touching margin or delivery."
+
+It's slower to plan. It gets smaller numbers. But those numbers actually happen.
+
+Sustainability gains credibility the moment they stop competing with operations and start borrowing its constraints.]]></description>
+<content:encoded><![CDATA[You set a 20% energy reduction target. Six months later, you've hit 8%. The sustainability team blames operations for not switching to off-peak production. Operations blames sustainability for not understanding bottleneck constraints. Neither is wrong—they're just optimizing different systems.
+
+This happens because sustainability targets are usually built top-down: carbon budget first, then work backward to find where to cut. Production schedules, meanwhile, are built from demand, lead time, and equipment constraints. When those two planning systems don't talk, the sustainability goal becomes an externality that operations absorbs as cost or burden.
+
+We've found one way to reverse this: start with production's hard constraints—shift schedules, equipment maintenance windows, batch sizes—then ask where energy optimization actually fits within that reality. Don't ask "how do we cut 20% energy." Ask "given this week's production line, where can we drop 8% without touching margin or delivery."
+
+It's slower to plan. It gets smaller numbers. But those numbers actually happen.
+
+Sustainability gains credibility the moment they stop competing with operations and start borrowing its constraints.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability specs fail on the factory floor</title>
 <guid isPermaLink="false">07859cfa0d77</guid>
@@ -1268,31 +1293,6 @@ Your digitalization software succeeds when it speaks the operator's language bef
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" medium="image" type="image/png"/>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability dashboards don't talk to maintenance systems</title>
-<guid isPermaLink="false">9448bb54d919</guid>
-<pubDate>Sat, 27 Jun 2026 10:06:32 +0000</pubDate>
-<description><![CDATA[A plant manager sees a 12% energy reduction target on the sustainability dashboard. The maintenance team doesn't see it. Three months later, a compressor runs unscheduled 600 hours over summer because nobody flagged the thermal drift that would have cost 40 kWh/day to prevent.
-
-Sustainability software lives in isolation because it's built to report up, not to integrate down. The dashboard speaks KPI language. The SCADA speaks sensor language. Maintenance speaks downtime language. Each system optimizes locally—and they conflict.
-
-We've learned that closing this gap requires a shared data model that translates between operational intent and equipment state. Not a new platform. Not a mega-integration. A normalized schema that lets sustainability constraints talk to maintenance priorities without requiring three translation layers.
-
-When a sustainability target becomes a real-time input to maintenance scheduling—not an afterthought in spreadsheet form—operators can actually use it. The compressor gets serviced before drift accelerates. The target becomes achievable instead of aspirational.
-
-Sustainability that doesn't speak operations language is just reporting.]]></description>
-<content:encoded><![CDATA[A plant manager sees a 12% energy reduction target on the sustainability dashboard. The maintenance team doesn't see it. Three months later, a compressor runs unscheduled 600 hours over summer because nobody flagged the thermal drift that would have cost 40 kWh/day to prevent.
-
-Sustainability software lives in isolation because it's built to report up, not to integrate down. The dashboard speaks KPI language. The SCADA speaks sensor language. Maintenance speaks downtime language. Each system optimizes locally—and they conflict.
-
-We've learned that closing this gap requires a shared data model that translates between operational intent and equipment state. Not a new platform. Not a mega-integration. A normalized schema that lets sustainability constraints talk to maintenance priorities without requiring three translation layers.
-
-When a sustainability target becomes a real-time input to maintenance scheduling—not an afterthought in spreadsheet form—operators can actually use it. The compressor gets serviced before drift accelerates. The target becomes achievable instead of aspirational.
-
-Sustainability that doesn't speak operations language is just reporting.]]></content:encoded>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
