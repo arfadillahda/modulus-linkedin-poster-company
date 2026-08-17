@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 16 Aug 2026 08:26:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 08:40:21 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Models That Fail on Day One</title>
+<guid isPermaLink="false">296748f27bce</guid>
+<pubDate>Mon, 17 Aug 2026 08:39:56 +0000</pubDate>
+<description><![CDATA[Your model hits 94% accuracy in testing. Production drops to 67%. The gap isn't measurement error—it's schema drift.
+
+AI teams validate performance against clean, labeled datasets. Real operator data arrives malformed: missing fields, unexpected enums, timestamps in three different formats from three different sensors. The model was never trained to handle it.
+
+Why this happens: most teams treat data validation as a deployment checkbox, not a core part of the training pipeline. They write one schema upfront, assume the world complies, and move on. When operators feed live data through, silent failures compound. The model doesn't crash; it just predicts garbage quietly.
+
+The fix: bake schema validation into every training iteration. Every inference call should validate inputs against a versioned schema before it reaches the model. When validation fails, log it as a separate metric—not as model error, but as a signal that your assumptions about the world were wrong. Use that signal to retrain.
+
+We've built systems that do this automatically: they catch schema violations at ingestion time, flag drifts before they tank accuracy, and separate operator error from model failure.
+
+Schema discipline is the difference between a demo that works and a system that ships.]]></description>
+<content:encoded><![CDATA[Your model hits 94% accuracy in testing. Production drops to 67%. The gap isn't measurement error—it's schema drift.
+
+AI teams validate performance against clean, labeled datasets. Real operator data arrives malformed: missing fields, unexpected enums, timestamps in three different formats from three different sensors. The model was never trained to handle it.
+
+Why this happens: most teams treat data validation as a deployment checkbox, not a core part of the training pipeline. They write one schema upfront, assume the world complies, and move on. When operators feed live data through, silent failures compound. The model doesn't crash; it just predicts garbage quietly.
+
+The fix: bake schema validation into every training iteration. Every inference call should validate inputs against a versioned schema before it reaches the model. When validation fails, log it as a separate metric—not as model error, but as a signal that your assumptions about the world were wrong. Use that signal to retrain.
+
+We've built systems that do this automatically: they catch schema violations at ingestion time, flag drifts before they tank accuracy, and separate operator error from model failure.
+
+Schema discipline is the difference between a demo that works and a system that ships.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/296748f27bce.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/296748f27bce.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability targets fail when disconnected from production schedules</title>
 <guid isPermaLink="false">fb308461acc6</guid>
@@ -1267,33 +1298,6 @@ We've moved toward a different rhythm: ship a small module, run it live for 30 d
 The best digitalization roadmap isn't airtight — it's porous enough to bend without breaking.]]></content:encoded>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization software ships with zero operator context</title>
-<guid isPermaLink="false">fc3eab570f4f</guid>
-<pubDate>Sun, 28 Jun 2026 10:26:20 +0000</pubDate>
-<description><![CDATA[A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.
-
-This happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.
-
-The mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.
-
-We've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.
-
-Your digitalization software succeeds when it speaks the operator's language before the first interface loads.]]></description>
-<content:encoded><![CDATA[A common failure: you build a fleet-monitoring dashboard, ship it to 50 sites, and discover operators are logging back into their old system because your dashboard doesn't know what 'unplanned downtime' means at *their* facility.
-
-This happens because digitalization vendors design for the *average* operator. They standardize on one definition of a maintenance event, one alarm hierarchy, one shift pattern. But a paper mill's downtime taxonomy looks nothing like a mine's. A utility's asset criticality system has no parallel in food manufacturing.
-
-The mechanism: without early context capture—the specific names, thresholds, and workflows operators actually use—you're forced to choose between rigid software that ignores local reality or a customization nightmare that never ships.
-
-We've solved this by building context-aware schema generation. Early in deployment, we capture the operator's actual data structure (their terminology, their validation rules, their dependencies) and generate the software's internal models from that. The system adapts to *them*, not the reverse.
-
-Your digitalization software succeeds when it speaks the operator's language before the first interface loads.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fc3eab570f4f.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

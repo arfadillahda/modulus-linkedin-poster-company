@@ -844,5 +844,14 @@
     "title": "Why sustainability targets fail when disconnected from production schedules",
     "body": "You set a 20% energy reduction target. Six months later, you've hit 8%. The sustainability team blames operations for not switching to off-peak production. Operations blames sustainability for not understanding bottleneck constraints. Neither is wrong—they're just optimizing different systems.\n\nThis happens because sustainability targets are usually built top-down: carbon budget first, then work backward to find where to cut. Production schedules, meanwhile, are built from demand, lead time, and equipment constraints. When those two planning systems don't talk, the sustainability goal becomes an externality that operations absorbs as cost or burden.\n\nWe've found one way to reverse this: start with production's hard constraints—shift schedules, equipment maintenance windows, batch sizes—then ask where energy optimization actually fits within that reality. Don't ask \"how do we cut 20% energy.\" Ask \"given this week's production line, where can we drop 8% without touching margin or delivery.\"\n\nIt's slower to plan. It gets smaller numbers. But those numbers actually happen.\n\nSustainability gains credibility the moment they stop competing with operations and start borrowing its constraints.",
     "image_url": ""
+  },
+  {
+    "id": "296748f27bce",
+    "ts": "2026-08-17T08:39:56.183805+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Teams Ship Models That Fail on Day One",
+    "body": "Your model hits 94% accuracy in testing. Production drops to 67%. The gap isn't measurement error—it's schema drift.\n\nAI teams validate performance against clean, labeled datasets. Real operator data arrives malformed: missing fields, unexpected enums, timestamps in three different formats from three different sensors. The model was never trained to handle it.\n\nWhy this happens: most teams treat data validation as a deployment checkbox, not a core part of the training pipeline. They write one schema upfront, assume the world complies, and move on. When operators feed live data through, silent failures compound. The model doesn't crash; it just predicts garbage quietly.\n\nThe fix: bake schema validation into every training iteration. Every inference call should validate inputs against a versioned schema before it reaches the model. When validation fails, log it as a separate metric—not as model error, but as a signal that your assumptions about the world were wrong. Use that signal to retrain.\n\nWe've built systems that do this automatically: they catch schema violations at ingestion time, flag drifts before they tank accuracy, and separate operator error from model failure.\n\nSchema discipline is the difference between a demo that works and a system that ships.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/296748f27bce.png"
   }
 ]
