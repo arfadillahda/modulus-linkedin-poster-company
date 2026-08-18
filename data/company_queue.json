@@ -853,5 +853,14 @@
     "title": "Why AI Teams Ship Models That Fail on Day One",
     "body": "Your model hits 94% accuracy in testing. Production drops to 67%. The gap isn't measurement error—it's schema drift.\n\nAI teams validate performance against clean, labeled datasets. Real operator data arrives malformed: missing fields, unexpected enums, timestamps in three different formats from three different sensors. The model was never trained to handle it.\n\nWhy this happens: most teams treat data validation as a deployment checkbox, not a core part of the training pipeline. They write one schema upfront, assume the world complies, and move on. When operators feed live data through, silent failures compound. The model doesn't crash; it just predicts garbage quietly.\n\nThe fix: bake schema validation into every training iteration. Every inference call should validate inputs against a versioned schema before it reaches the model. When validation fails, log it as a separate metric—not as model error, but as a signal that your assumptions about the world were wrong. Use that signal to retrain.\n\nWe've built systems that do this automatically: they catch schema violations at ingestion time, flag drifts before they tank accuracy, and separate operator error from model failure.\n\nSchema discipline is the difference between a demo that works and a system that ships.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/296748f27bce.png"
+  },
+  {
+    "id": "df2c44e9ac4e",
+    "ts": "2026-08-18T08:33:42.123343+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Digitalization fails when you treat data as the endpoint",
+    "body": "We see digitalization projects stall because teams build data systems first, then ask operators what to do with them. The assumption is: capture everything, and insight will follow.\n\nIt doesn't. Why? Because operators don't think in data streams. They think in decisions: Am I running the right setpoint? Where's the bottleneck today? Is this batch trending toward scrap? Those questions are contextual, immediate, and tied to specific equipment states.\n\nWhen digitalization starts with infrastructure instead of decision, you end up with 50 dashboards and zero adoption.\n\nThe reframe: invert the sequence. Begin by mapping the actual decisions operators and planners make each shift. Name them. List the information each decision needs—and *only* that information. Then build the data architecture backward from those requirements.\n\nThis approach eliminates dashboard bloat, keeps systems scoped, and ensures every data point serves a real workflow instead of feeding a lake.\n\nData infrastructure matters. But it's never the starting point—it's the consequence of understanding work.",
+    "image_url": ""
   }
 ]

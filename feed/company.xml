@@ -4,7 +4,36 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 17 Aug 2026 08:40:21 +0000</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 08:33:42 +0000</lastBuildDate>
+<item>
+<title>Digitalization fails when you treat data as the endpoint</title>
+<guid isPermaLink="false">df2c44e9ac4e</guid>
+<pubDate>Tue, 18 Aug 2026 08:33:42 +0000</pubDate>
+<description><![CDATA[We see digitalization projects stall because teams build data systems first, then ask operators what to do with them. The assumption is: capture everything, and insight will follow.
+
+It doesn't. Why? Because operators don't think in data streams. They think in decisions: Am I running the right setpoint? Where's the bottleneck today? Is this batch trending toward scrap? Those questions are contextual, immediate, and tied to specific equipment states.
+
+When digitalization starts with infrastructure instead of decision, you end up with 50 dashboards and zero adoption.
+
+The reframe: invert the sequence. Begin by mapping the actual decisions operators and planners make each shift. Name them. List the information each decision needs—and *only* that information. Then build the data architecture backward from those requirements.
+
+This approach eliminates dashboard bloat, keeps systems scoped, and ensures every data point serves a real workflow instead of feeding a lake.
+
+Data infrastructure matters. But it's never the starting point—it's the consequence of understanding work.]]></description>
+<content:encoded><![CDATA[We see digitalization projects stall because teams build data systems first, then ask operators what to do with them. The assumption is: capture everything, and insight will follow.
+
+It doesn't. Why? Because operators don't think in data streams. They think in decisions: Am I running the right setpoint? Where's the bottleneck today? Is this batch trending toward scrap? Those questions are contextual, immediate, and tied to specific equipment states.
+
+When digitalization starts with infrastructure instead of decision, you end up with 50 dashboards and zero adoption.
+
+The reframe: invert the sequence. Begin by mapping the actual decisions operators and planners make each shift. Name them. List the information each decision needs—and *only* that information. Then build the data architecture backward from those requirements.
+
+This approach eliminates dashboard bloat, keeps systems scoped, and ensures every data point serves a real workflow instead of feeding a lake.
+
+Data infrastructure matters. But it's never the starting point—it's the consequence of understanding work.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ship Models That Fail on Day One</title>
 <guid isPermaLink="false">296748f27bce</guid>
@@ -1276,27 +1305,6 @@ Your AI system is only as reliable as the worst case you actually tested for.]]>
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization roadmaps don't survive first contact</title>
-<guid isPermaLink="false">1ae36ea89a46</guid>
-<pubDate>Mon, 29 Jun 2026 12:31:10 +0000</pubDate>
-<description><![CDATA[We see a pattern: a manufacturer maps out a 18-month digitalization roadmap, sites get excited, then month four hits and the priorities shift. A process owner realizes the data they're collecting isn't what they actually need. A line manager says the new workflow doesn't fit how their team actually works. The roadmap becomes ornamental.
-
-It happens because roadmaps are built on assumptions about process stability. We assume what works in the planning meeting will still make sense when operators are six months into it. We assume we know which data matters. But industrial operations are concrete — operators discover friction in real time that no stakeholder meeting could predict.
-
-We've moved toward a different rhythm: ship a small module, run it live for 30 days, interview the people using it daily, then decide what comes next. The roadmap becomes a direction, not a mandate. Priorities shift based on what operators actually tell you they need, not what leadership imagined they'd need.
-
-The best digitalization roadmap isn't airtight — it's porous enough to bend without breaking.]]></description>
-<content:encoded><![CDATA[We see a pattern: a manufacturer maps out a 18-month digitalization roadmap, sites get excited, then month four hits and the priorities shift. A process owner realizes the data they're collecting isn't what they actually need. A line manager says the new workflow doesn't fit how their team actually works. The roadmap becomes ornamental.
-
-It happens because roadmaps are built on assumptions about process stability. We assume what works in the planning meeting will still make sense when operators are six months into it. We assume we know which data matters. But industrial operations are concrete — operators discover friction in real time that no stakeholder meeting could predict.
-
-We've moved toward a different rhythm: ship a small module, run it live for 30 days, interview the people using it daily, then decide what comes next. The roadmap becomes a direction, not a mandate. Priorities shift based on what operators actually tell you they need, not what leadership imagined they'd need.
-
-The best digitalization roadmap isn't airtight — it's porous enough to bend without breaking.]]></content:encoded>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>
