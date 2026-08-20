@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 18 Aug 2026 08:33:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 08:35:28 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Treat Operators as Edge Cases</title>
+<guid isPermaLink="false">ec4344e73808</guid>
+<pubDate>Thu, 20 Aug 2026 08:35:11 +0000</pubDate>
+<description><![CDATA[Teams building AI systems for industrial operators often treat field variability as noise to be eliminated—when it's actually the signal that matters most.
+
+Here's the mechanism: engineers optimize models against clean datasets, measure success on held-out test sets, then hand the system off to ops. Operators immediately encounter things the training data never saw: sensor drift, undocumented workflows, seasonal patterns, corrupted inputs. The team's response is usually "that's not supposed to happen." But to the operator running a shift, it happens every week.
+
+The misalignment isn't technical—it's structural. AI builders optimize for statistical performance. Operators optimize for uptime and safety. Those aren't the same goal.
+
+Reframe it this way: operators aren't exceptions to design for. They're your primary constraint. Build the system assuming that half of what an operator encounters will be outside the model's training distribution. Design for graceful degradation, not perfect accuracy. Instrument for what actually breaks in the field, not what your validation set predicts. The model becomes a tool inside a human system, not a replacement for one.
+
+Operators don't want perfect predictions. They want predictable failure modes.]]></description>
+<content:encoded><![CDATA[Teams building AI systems for industrial operators often treat field variability as noise to be eliminated—when it's actually the signal that matters most.
+
+Here's the mechanism: engineers optimize models against clean datasets, measure success on held-out test sets, then hand the system off to ops. Operators immediately encounter things the training data never saw: sensor drift, undocumented workflows, seasonal patterns, corrupted inputs. The team's response is usually "that's not supposed to happen." But to the operator running a shift, it happens every week.
+
+The misalignment isn't technical—it's structural. AI builders optimize for statistical performance. Operators optimize for uptime and safety. Those aren't the same goal.
+
+Reframe it this way: operators aren't exceptions to design for. They're your primary constraint. Build the system assuming that half of what an operator encounters will be outside the model's training distribution. Design for graceful degradation, not perfect accuracy. Instrument for what actually breaks in the field, not what your validation set predicts. The model becomes a tool inside a human system, not a replacement for one.
+
+Operators don't want perfect predictions. They want predictable failure modes.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec4344e73808.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec4344e73808.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Digitalization fails when you treat data as the endpoint</title>
 <guid isPermaLink="false">df2c44e9ac4e</guid>
@@ -1279,33 +1306,6 @@ The shift: treat sustainability as part of the decision constraint from the star
 Sustainability stops being a tax when it's woven into how you run the thing.]]></content:encoded>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Ship Systems That Only Work for Happy Paths</title>
-<guid isPermaLink="false">edd684f9789d</guid>
-<pubDate>Tue, 30 Jun 2026 10:55:33 +0000</pubDate>
-<description><![CDATA[You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.
-
-This happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.
-
-We flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.
-
-This means your first build isn't about accuracy. It's about failure visibility.
-
-Your AI system is only as reliable as the worst case you actually tested for.]]></description>
-<content:encoded><![CDATA[You build an AI system that works beautifully on clean data. Deploy it to production. Three weeks in, it fails on an edge case no one expected—a malformed input, a seasonal shift, a user behavior your training set never saw. Then you're firefighting instead of shipping.
-
-This happens because teams optimize for the median case. They tune models on representative data, validate on test sets that look like training, and call it done. The system works until it encounters the 5% of real-world inputs that violate those assumptions. No one planned for it.
-
-We flip this: start by mapping the failure modes first, before you touch the model. Ask: what goes wrong, and how badly? Then build your system around detecting and handling those specific breaks—not preventing them (you can't), but catching them when they happen. Add guard rails, fallback paths, clear logging at the boundary where your assumptions crack.
-
-This means your first build isn't about accuracy. It's about failure visibility.
-
-Your AI system is only as reliable as the worst case you actually tested for.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/edd684f9789d.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

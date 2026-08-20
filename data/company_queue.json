@@ -862,5 +862,14 @@
     "title": "Digitalization fails when you treat data as the endpoint",
     "body": "We see digitalization projects stall because teams build data systems first, then ask operators what to do with them. The assumption is: capture everything, and insight will follow.\n\nIt doesn't. Why? Because operators don't think in data streams. They think in decisions: Am I running the right setpoint? Where's the bottleneck today? Is this batch trending toward scrap? Those questions are contextual, immediate, and tied to specific equipment states.\n\nWhen digitalization starts with infrastructure instead of decision, you end up with 50 dashboards and zero adoption.\n\nThe reframe: invert the sequence. Begin by mapping the actual decisions operators and planners make each shift. Name them. List the information each decision needs—and *only* that information. Then build the data architecture backward from those requirements.\n\nThis approach eliminates dashboard bloat, keeps systems scoped, and ensures every data point serves a real workflow instead of feeding a lake.\n\nData infrastructure matters. But it's never the starting point—it's the consequence of understanding work.",
     "image_url": ""
+  },
+  {
+    "id": "ec4344e73808",
+    "ts": "2026-08-20T08:35:11.169657+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Treat Operators as Edge Cases",
+    "body": "Teams building AI systems for industrial operators often treat field variability as noise to be eliminated—when it's actually the signal that matters most.\n\nHere's the mechanism: engineers optimize models against clean datasets, measure success on held-out test sets, then hand the system off to ops. Operators immediately encounter things the training data never saw: sensor drift, undocumented workflows, seasonal patterns, corrupted inputs. The team's response is usually \"that's not supposed to happen.\" But to the operator running a shift, it happens every week.\n\nThe misalignment isn't technical—it's structural. AI builders optimize for statistical performance. Operators optimize for uptime and safety. Those aren't the same goal.\n\nReframe it this way: operators aren't exceptions to design for. They're your primary constraint. Build the system assuming that half of what an operator encounters will be outside the model's training distribution. Design for graceful degradation, not perfect accuracy. Instrument for what actually breaks in the field, not what your validation set predicts. The model becomes a tool inside a human system, not a replacement for one.\n\nOperators don't want perfect predictions. They want predictable failure modes.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec4344e73808.png"
   }
 ]

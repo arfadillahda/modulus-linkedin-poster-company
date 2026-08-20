@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker label -->
+  <text x="64" y="100" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="100" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- Display headline -->
+  <text x="64" y="148" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Field Variability Is</text>
+  <text x="64" y="204" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">the Signal, Not the Noise</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="216" width="320" height="3" fill="#2D5BFF" rx="1.5"/>
+
+  <!-- MIDDLE BAND: 2x2 grid of 4 tiles -->
+  <!-- Tile dimensions: ~432px wide, ~260px tall, 16px gap, starting at y=248 -->
+
+  <!-- Tile 01 — top left -->
+  <rect x="64" y="248" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="308" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">01</text>
+  <text x="92" y="348" font-size="20" font-weight="700" fill="#111111">Clean Data, Broken Field</text>
+  <text x="92" y="378" font-size="15" font-weight="400" fill="#3A3A3A">Models train clean; operators face sensor drift weekly.</text>
+
+  <!-- Tile 02 — top right -->
+  <rect x="512" y="248" width="448" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="540" y="308" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">02</text>
+  <text x="540" y="348" font-size="20" font-weight="700" fill="#111111">Misaligned Goals</text>
+  <text x="540" y="378" font-size="15" font-weight="400" fill="#3A3A3A">AI optimizes accuracy; operators optimize for uptime.</text>
+
+  <!-- Tile 03 — bottom left -->
+  <rect x="64" y="524" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="584" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">03</text>
+  <text x="92" y="624" font-size="20" font-weight="700" fill="#111111">Operators Are the Constraint</text>
+  <text x="92" y="654" font-size="15" font-weight="400" fill="#3A3A3A">Half of field inputs fall outside training distribution.</text>
+
+  <!-- Tile 04 — bottom right -->
+  <rect x="512" y="524" width="448" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="540" y="584" font-size="52" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">04</text>
+  <text x="540" y="624" font-size="20" font-weight="700" fill="#111111">Design for Degradation</text>
+  <text x="540" y="654" font-size="15" font-weight="400" fill="#3A3A3A">Graceful failure beats perfect accuracy every shift.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="830" x2="960" y2="830" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="896" font-size="22" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Operators don't want perfect predictions — they want predictable failure modes.</text>
+
+</svg>
