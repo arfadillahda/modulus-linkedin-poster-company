@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 20 Aug 2026 08:35:28 +0000</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 08:37:20 +0000</lastBuildDate>
+<item>
+<title>Why sustainability APIs fail at the operator level</title>
+<guid isPermaLink="false">3ce79080bc70</guid>
+<pubDate>Fri, 21 Aug 2026 08:37:20 +0000</pubDate>
+<description><![CDATA[Most sustainability platforms expose APIs that work perfectly in staging and fall apart on the factory floor. A plant manager needs real-time emissions data from their kiln, but the API expects 15 minutes of normalized historical telemetry before it returns a single number. By then the shift has changed.
+
+The gap exists because sustainability software is built around periodic reporting (quarterly, annual). The schema assumes clean data arrival in batches. Operators work in continuous, messy streams. A sensor drops out. A fuel supplier changes. The API either blocks or returns stale answers.
+
+The solution: build sustainability integrations around event streams, not batch models. Emit compliance signals the moment conditions change, not after post-processing. Use schema validation at the edge—not to reject bad data, but to flag it immediately so operators can see what's degraded and respond in real time.
+
+We've built this into how we structure emissions schemas for industrial clients. The shift from batch-first to stream-first changes everything about whether sustainability data actually informs decisions or just fills reports.
+
+Sustainability only sticks when operators trust it moves faster than their operations.]]></description>
+<content:encoded><![CDATA[Most sustainability platforms expose APIs that work perfectly in staging and fall apart on the factory floor. A plant manager needs real-time emissions data from their kiln, but the API expects 15 minutes of normalized historical telemetry before it returns a single number. By then the shift has changed.
+
+The gap exists because sustainability software is built around periodic reporting (quarterly, annual). The schema assumes clean data arrival in batches. Operators work in continuous, messy streams. A sensor drops out. A fuel supplier changes. The API either blocks or returns stale answers.
+
+The solution: build sustainability integrations around event streams, not batch models. Emit compliance signals the moment conditions change, not after post-processing. Use schema validation at the edge—not to reject bad data, but to flag it immediately so operators can see what's degraded and respond in real time.
+
+We've built this into how we structure emissions schemas for industrial clients. The shift from batch-first to stream-first changes everything about whether sustainability data actually informs decisions or just fills reports.
+
+Sustainability only sticks when operators trust it moves faster than their operations.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Treat Operators as Edge Cases</title>
 <guid isPermaLink="false">ec4344e73808</guid>
@@ -1281,31 +1306,6 @@ When sustainability lives in the operational workflow, the targets stay relevant
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5a95178c5728.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability is treated like a cost center, not an asset</title>
-<guid isPermaLink="false">76a5fef6ed2f</guid>
-<pubDate>Wed, 01 Jul 2026 11:22:06 +0000</pubDate>
-<description><![CDATA[Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.
-
-The reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.
-
-This isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.
-
-The shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.
-
-Sustainability stops being a tax when it's woven into how you run the thing.]]></description>
-<content:encoded><![CDATA[Most industrial ops teams treat sustainability as a line item that competes with uptime and throughput. It loses that fight every time.
-
-The reason: sustainability gets measured separately from the system it's supposed to improve. A plant tracks energy per ton, water per batch, emissions per shift — but those metrics live in a different reporting layer than the one operators actually see. When something breaks, operators optimize for speed and cost. The sustainability number gets recalculated later, treated as output rather than input.
-
-This isn't operator apathy. It's structural. The person running the process doesn't see the sustainability impact of a decision in real time. They see maintenance cost, cycle time, risk. Sustainability becomes archaeology — you measure what happened, not what's happening.
-
-The shift: treat sustainability as part of the decision constraint from the start. Not a separate audit. Same operational visibility. When a technician sees that a replacement bearing choice affects both mean time between failure AND energy draw, they can actually optimize instead of guess.
-
-Sustainability stops being a tax when it's woven into how you run the thing.]]></content:encoded>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
