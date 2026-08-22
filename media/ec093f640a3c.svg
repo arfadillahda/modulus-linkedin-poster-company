@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ── TOP BAND ── -->
+
+  <!-- Wordmark top-right -->
+  <text x="1012" y="44" text-anchor="end" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Display headline -->
+  <text x="64" y="152" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators reject data</text>
+  <text x="64" y="210" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">they can't reason with</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="222" width="480" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ── MIDDLE BAND — 4 tiles, 2×2 grid ── -->
+  <!-- Tile dimensions: col width = (1024 - 64 - 64 - 16) / 2 = 440, row height = (638 - 16) / 2 = 311  -->
+  <!-- Grid origin x=64, y=248 -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="248" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="308" font-size="56" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="96" y="354" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Schema wins,</text>
+  <text x="96" y="382" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">operators lose</text>
+  <text x="96" y="422" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Clean data separated from</text>
+  <text x="96" y="442" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">context hides the real failure.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="248" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="308" font-size="56" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="552" y="354" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Machine-readable</text>
+  <text x="552" y="382" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">≠ cognitively sound</text>
+  <text x="552" y="422" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Teams optimize for systems,</text>
+  <text x="552" y="442" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not for the person at the panel.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="559" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="619" font-size="56" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="96" y="665" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Narrative-first</text>
+  <text x="96" y="693" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">schema design</text>
+  <text x="96" y="733" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Capture events as coherent stories,</text>
+  <text x="96" y="753" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">then normalize for the system.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="559" width="440" height="295" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="619" font-size="56" font-weight="800" fill="#2D5BFF" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="552" y="665" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Adoption arrives</text>
+  <text x="552" y="693" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">3–4 months earlier</text>
+  <text x="552" y="733" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators engage when data mirrors</text>
+  <text x="552" y="753" font-size="15.5" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">how they reason about failure.</text>
+
+  <!-- ── BOTTOM BAND ── -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="885" x2="960" y2="885" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="942" text-anchor="middle" font-size="20" font-weight="400" fill="#3A3A3A" letter-spacing="-0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators need data that matches how they think.</text>
+
+</svg>

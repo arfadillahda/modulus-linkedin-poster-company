@@ -880,5 +880,14 @@
     "title": "Why sustainability APIs fail at the operator level",
     "body": "Most sustainability platforms expose APIs that work perfectly in staging and fall apart on the factory floor. A plant manager needs real-time emissions data from their kiln, but the API expects 15 minutes of normalized historical telemetry before it returns a single number. By then the shift has changed.\n\nThe gap exists because sustainability software is built around periodic reporting (quarterly, annual). The schema assumes clean data arrival in batches. Operators work in continuous, messy streams. A sensor drops out. A fuel supplier changes. The API either blocks or returns stale answers.\n\nThe solution: build sustainability integrations around event streams, not batch models. Emit compliance signals the moment conditions change, not after post-processing. Use schema validation at the edge—not to reject bad data, but to flag it immediately so operators can see what's degraded and respond in real time.\n\nWe've built this into how we structure emissions schemas for industrial clients. The shift from batch-first to stream-first changes everything about whether sustainability data actually informs decisions or just fills reports.\n\nSustainability only sticks when operators trust it moves faster than their operations.",
     "image_url": ""
+  },
+  {
+    "id": "ec093f640a3c",
+    "ts": "2026-08-22T08:26:35.482186+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization stalls when operators can't read the data",
+    "body": "Plant managers reject the shiny new digital system six weeks in. Not because it's broken. Because the data format doesn't match how they think about the work.\n\nA steel mill digitizes their furnace logs into a normalized database. Perfect schema, clean timestamps, validated enums. The control room staff still can't answer \"why did we lose temperature hold at 14:23?\" because the digital record separates sensor readings from operator notes from equipment state — but the actual failure mode lives in how those three layers intersected. The database won the normalization game and lost the sense-making one.\n\nThis happens because digitalization teams optimize for machine readability, not operator readability. A relational model is mathematically sound. It's not cognitively sound for someone standing in front of a problem.\n\nThe fix: design your digital schema around the operator's diagnostic narrative, not the engineer's data model. Capture the event as a coherent story first — sensor readings with their context, decision points, outcomes — then normalize it for the system. We've built this both ways. The narrative-first approach surfaces adoption 3-4 months earlier.\n\nOperators don't need perfect data. They need data that matches how they reason about failure.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec093f640a3c.png"
   }
 ]

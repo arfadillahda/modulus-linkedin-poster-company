@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 21 Aug 2026 08:37:20 +0000</lastBuildDate>
+<lastBuildDate>Sat, 22 Aug 2026 08:26:59 +0000</lastBuildDate>
+<item>
+<title>Why digitalization stalls when operators can't read the data</title>
+<guid isPermaLink="false">ec093f640a3c</guid>
+<pubDate>Sat, 22 Aug 2026 08:26:35 +0000</pubDate>
+<description><![CDATA[Plant managers reject the shiny new digital system six weeks in. Not because it's broken. Because the data format doesn't match how they think about the work.
+
+A steel mill digitizes their furnace logs into a normalized database. Perfect schema, clean timestamps, validated enums. The control room staff still can't answer "why did we lose temperature hold at 14:23?" because the digital record separates sensor readings from operator notes from equipment state — but the actual failure mode lives in how those three layers intersected. The database won the normalization game and lost the sense-making one.
+
+This happens because digitalization teams optimize for machine readability, not operator readability. A relational model is mathematically sound. It's not cognitively sound for someone standing in front of a problem.
+
+The fix: design your digital schema around the operator's diagnostic narrative, not the engineer's data model. Capture the event as a coherent story first — sensor readings with their context, decision points, outcomes — then normalize it for the system. We've built this both ways. The narrative-first approach surfaces adoption 3-4 months earlier.
+
+Operators don't need perfect data. They need data that matches how they reason about failure.]]></description>
+<content:encoded><![CDATA[Plant managers reject the shiny new digital system six weeks in. Not because it's broken. Because the data format doesn't match how they think about the work.
+
+A steel mill digitizes their furnace logs into a normalized database. Perfect schema, clean timestamps, validated enums. The control room staff still can't answer "why did we lose temperature hold at 14:23?" because the digital record separates sensor readings from operator notes from equipment state — but the actual failure mode lives in how those three layers intersected. The database won the normalization game and lost the sense-making one.
+
+This happens because digitalization teams optimize for machine readability, not operator readability. A relational model is mathematically sound. It's not cognitively sound for someone standing in front of a problem.
+
+The fix: design your digital schema around the operator's diagnostic narrative, not the engineer's data model. Capture the event as a coherent story first — sensor readings with their context, decision points, outcomes — then normalize it for the system. We've built this both ways. The narrative-first approach surfaces adoption 3-4 months earlier.
+
+Operators don't need perfect data. They need data that matches how they reason about failure.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec093f640a3c.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/ec093f640a3c.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability APIs fail at the operator level</title>
 <guid isPermaLink="false">3ce79080bc70</guid>
@@ -1279,33 +1306,6 @@ We've solved this by embedding inference closer to the operator—running models
 Offline-first isn't a feature. It's how you ship AI that actually works in the field.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability KPIs drift from operations mid-year</title>
-<guid isPermaLink="false">5a95178c5728</guid>
-<pubDate>Thu, 02 Jul 2026 10:36:38 +0000</pubDate>
-<description><![CDATA[You set carbon or water targets in Q1. By Q3, they're no longer connected to the decisions your operators actually make.
-
-This happens because sustainability lives in a separate system—a spreadsheet, a SaaS dashboard, a reporting layer—disconnected from the real-time data that drives dispatch, maintenance, and production planning. Your operators optimize for throughput or uptime. Your sustainability team optimizes for metrics. They win when the other loses.
-
-We solve this by embedding sustainability outcomes directly into operational trade-offs, not as a parallel goal. Instead of asking 'did we hit our carbon target,' we ask: 'which energy cost decision in this maintenance schedule actually moves the needle?' Then we surface that trade-off at the point of decision—the maintenance ticket, the equipment swap, the shift plan—with real context about what the choice costs in carbon or water.
-
-It's not about better reporting. It's about making sustainability a constraint in the same problem your operations team is already solving.
-
-When sustainability lives in the operational workflow, the targets stay relevant.]]></description>
-<content:encoded><![CDATA[You set carbon or water targets in Q1. By Q3, they're no longer connected to the decisions your operators actually make.
-
-This happens because sustainability lives in a separate system—a spreadsheet, a SaaS dashboard, a reporting layer—disconnected from the real-time data that drives dispatch, maintenance, and production planning. Your operators optimize for throughput or uptime. Your sustainability team optimizes for metrics. They win when the other loses.
-
-We solve this by embedding sustainability outcomes directly into operational trade-offs, not as a parallel goal. Instead of asking 'did we hit our carbon target,' we ask: 'which energy cost decision in this maintenance schedule actually moves the needle?' Then we surface that trade-off at the point of decision—the maintenance ticket, the equipment swap, the shift plan—with real context about what the choice costs in carbon or water.
-
-It's not about better reporting. It's about making sustainability a constraint in the same problem your operations team is already solving.
-
-When sustainability lives in the operational workflow, the targets stay relevant.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5a95178c5728.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5a95178c5728.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
