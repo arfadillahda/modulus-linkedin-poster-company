@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 22 Aug 2026 08:26:59 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 08:26:46 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects stall after go-live</title>
+<guid isPermaLink="false">846f0763b424</guid>
+<pubDate>Sun, 23 Aug 2026 08:26:46 +0000</pubDate>
+<description><![CDATA[We see the same failure mode repeatedly: a digitalization project ships, the team declares success, and six months later operators are logging data manually because the system doesn't match how work actually flows.
+
+The mechanism is simple. During implementation, the software gets bent to fit the *current* process. Operators describe their work, consultants configure screens, and it works in pilot. But real work isn't static. A machine breaks and the operator improvises. A shift gets compressed. A customer demand changes the sequence. The digital system has no capacity to absorb these variations — it's a blueprint masquerading as a tool.
+
+We approach this differently: we separate *the system design* from *the operating model*. During discovery, we don't ask operators to describe their ideal workflow. We ask: where do you deviate from the standard? What triggers those deviations? Which ones are noise, and which are permanent adaptations?
+
+Then we build slack into the system — not as feature creep, but as deliberate flexibility at points we know will flex. The software becomes a container for work, not a cage.
+
+Digitalization doesn't fail because operators resist change. It fails because the change was never designed for the reality it would encounter.]]></description>
+<content:encoded><![CDATA[We see the same failure mode repeatedly: a digitalization project ships, the team declares success, and six months later operators are logging data manually because the system doesn't match how work actually flows.
+
+The mechanism is simple. During implementation, the software gets bent to fit the *current* process. Operators describe their work, consultants configure screens, and it works in pilot. But real work isn't static. A machine breaks and the operator improvises. A shift gets compressed. A customer demand changes the sequence. The digital system has no capacity to absorb these variations — it's a blueprint masquerading as a tool.
+
+We approach this differently: we separate *the system design* from *the operating model*. During discovery, we don't ask operators to describe their ideal workflow. We ask: where do you deviate from the standard? What triggers those deviations? Which ones are noise, and which are permanent adaptations?
+
+Then we build slack into the system — not as feature creep, but as deliberate flexibility at points we know will flex. The software becomes a container for work, not a cage.
+
+Digitalization doesn't fail because operators resist change. It fails because the change was never designed for the reality it would encounter.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization stalls when operators can't read the data</title>
 <guid isPermaLink="false">ec093f640a3c</guid>
@@ -1281,31 +1306,6 @@ You can't automate what you don't understand. You can only document it different
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Systems Fail When Users Go Offline</title>
-<guid isPermaLink="false">e5c3d5f4f6b4</guid>
-<pubDate>Fri, 03 Jul 2026 10:33:44 +0000</pubDate>
-<description><![CDATA[Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.
-
-This happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.
-
-The gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.
-
-We've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.
-
-Offline-first isn't a feature. It's how you ship AI that actually works in the field.]]></description>
-<content:encoded><![CDATA[Your AI model performs at 94% accuracy in the lab. In the field, operators work without connectivity for hours. The system halts.
-
-This happens because most AI teams design for the happy path: continuous data flow, always-on inference, real-time feedback loops. Connectivity, power, and latency are afterthoughts. But industrial and operator-facing software doesn't get those luxuries. A crane operator, a maintenance tech, a field surveyor—they work in zones where the network drops, where battery life matters, where a 500ms inference call costs them money.
-
-The gap exists because building for offline-first requires rearchitecting inference itself. You can't just call a remote API. You need edge inference, graceful degradation, local state management, and clear UX about what the system can and cannot do without connection. Most teams treat these as DevOps problems. They're not. They're product design problems.
-
-We've solved this by embedding inference closer to the operator—running models locally where bandwidth is limited, building fallback heuristics that work when the model can't run, and designing forms and workflows that queue decisions until connectivity returns. The system doesn't fail. It degrades predictably.
-
-Offline-first isn't a feature. It's how you ship AI that actually works in the field.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
