@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 23 Aug 2026 08:26:46 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 08:44:56 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ship Models Nobody Actually Calibrates</title>
+<guid isPermaLink="false">131165756e9e</guid>
+<pubDate>Mon, 24 Aug 2026 08:44:23 +0000</pubDate>
+<description><![CDATA[Most AI teams treat model confidence scores as a given. You train on historical data, evaluate on a holdout set, ship the model, and assume the probability estimates mean something in production.
+
+Then operators start ignoring the model's high-confidence predictions. Not because the model is wrong—because the confidence doesn't match what actually happens on the floor. A 92% prediction fails half the time. A 65% prediction succeeds. The model learned patterns from your data, but the calibration curve drifted the moment it hit a different operating regime.
+
+This happens because teams don't separate model accuracy from model calibration. You can nail precision-recall and still ship miscalibrated confidence. Operators rightfully distrust it.
+
+We approach this differently: after live deployment, we run a weekly calibration audit. We bucket predictions by reported confidence, measure actual success rate within each bucket, and flag when the curve breaks. It takes two engineers and three SQL queries. When miscalibration emerges—and it will—you catch it before operators learn to ignore the model entirely.
+
+Calibration isn't polish. It's how operators actually learn to trust what you built.]]></description>
+<content:encoded><![CDATA[Most AI teams treat model confidence scores as a given. You train on historical data, evaluate on a holdout set, ship the model, and assume the probability estimates mean something in production.
+
+Then operators start ignoring the model's high-confidence predictions. Not because the model is wrong—because the confidence doesn't match what actually happens on the floor. A 92% prediction fails half the time. A 65% prediction succeeds. The model learned patterns from your data, but the calibration curve drifted the moment it hit a different operating regime.
+
+This happens because teams don't separate model accuracy from model calibration. You can nail precision-recall and still ship miscalibrated confidence. Operators rightfully distrust it.
+
+We approach this differently: after live deployment, we run a weekly calibration audit. We bucket predictions by reported confidence, measure actual success rate within each bucket, and flag when the curve breaks. It takes two engineers and three SQL queries. When miscalibration emerges—and it will—you catch it before operators learn to ignore the model entirely.
+
+Calibration isn't polish. It's how operators actually learn to trust what you built.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/131165756e9e.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/131165756e9e.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization projects stall after go-live</title>
 <guid isPermaLink="false">846f0763b424</guid>
@@ -1278,33 +1305,6 @@ The reframe: stop asking "does our model predict this?" Start asking "do we unde
 
 Accuracy on a test set tells you how well you read the past. Causality tells you if you'll survive the future.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization fails when you treat it as software</title>
-<guid isPermaLink="false">fbb80e0cd901</guid>
-<pubDate>Sat, 04 Jul 2026 10:08:06 +0000</pubDate>
-<description><![CDATA[Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.
-
-When a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.
-
-The mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.
-
-Reframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.
-
-You can't automate what you don't understand. You can only document it differently.]]></description>
-<content:encoded><![CDATA[Most digitalization projects treat the problem as a software problem. They're not. They're operator problems wearing a software costume.
-
-When a mill or plant buys a digitalization platform, the vendor optimizes for data capture, dashboards, and integration APIs. Clean architecture. Scalable infrastructure. But operators don't live in dashboards. They live in shift handovers, maintenance logs, production targets, and tribal knowledge that never made it to a database. Software that ignores this gap ships to an environment where it immediately becomes noise.
-
-The mechanism is simple: digitalization is treated as a technology adoption problem when it's actually a work redesign problem. You can't digitalize what you haven't first understood.
-
-Reframe digitalization as operator-first documentation. Before you touch code, map what operators actually decide, when they decide it, and what information they reach for. Build your digital system around that rhythm, not against it. The software follows the work, not the other way around.
-
-You can't automate what you don't understand. You can only document it differently.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/fbb80e0cd901.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>

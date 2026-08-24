@@ -898,5 +898,14 @@
     "title": "Why digitalization projects stall after go-live",
     "body": "We see the same failure mode repeatedly: a digitalization project ships, the team declares success, and six months later operators are logging data manually because the system doesn't match how work actually flows.\n\nThe mechanism is simple. During implementation, the software gets bent to fit the *current* process. Operators describe their work, consultants configure screens, and it works in pilot. But real work isn't static. A machine breaks and the operator improvises. A shift gets compressed. A customer demand changes the sequence. The digital system has no capacity to absorb these variations — it's a blueprint masquerading as a tool.\n\nWe approach this differently: we separate *the system design* from *the operating model*. During discovery, we don't ask operators to describe their ideal workflow. We ask: where do you deviate from the standard? What triggers those deviations? Which ones are noise, and which are permanent adaptations?\n\nThen we build slack into the system — not as feature creep, but as deliberate flexibility at points we know will flex. The software becomes a container for work, not a cage.\n\nDigitalization doesn't fail because operators resist change. It fails because the change was never designed for the reality it would encounter.",
     "image_url": ""
+  },
+  {
+    "id": "131165756e9e",
+    "ts": "2026-08-24T08:44:23.710726+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ship Models Nobody Actually Calibrates",
+    "body": "Most AI teams treat model confidence scores as a given. You train on historical data, evaluate on a holdout set, ship the model, and assume the probability estimates mean something in production.\n\nThen operators start ignoring the model's high-confidence predictions. Not because the model is wrong—because the confidence doesn't match what actually happens on the floor. A 92% prediction fails half the time. A 65% prediction succeeds. The model learned patterns from your data, but the calibration curve drifted the moment it hit a different operating regime.\n\nThis happens because teams don't separate model accuracy from model calibration. You can nail precision-recall and still ship miscalibrated confidence. Operators rightfully distrust it.\n\nWe approach this differently: after live deployment, we run a weekly calibration audit. We bucket predictions by reported confidence, measure actual success rate within each bucket, and flag when the curve breaks. It takes two engineers and three SQL queries. When miscalibration emerges—and it will—you catch it before operators learn to ignore the model entirely.\n\nCalibration isn't polish. It's how operators actually learn to trust what you built.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/131165756e9e.png"
   }
 ]
