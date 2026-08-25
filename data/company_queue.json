@@ -907,5 +907,14 @@
     "title": "Why AI Teams Ship Models Nobody Actually Calibrates",
     "body": "Most AI teams treat model confidence scores as a given. You train on historical data, evaluate on a holdout set, ship the model, and assume the probability estimates mean something in production.\n\nThen operators start ignoring the model's high-confidence predictions. Not because the model is wrong—because the confidence doesn't match what actually happens on the floor. A 92% prediction fails half the time. A 65% prediction succeeds. The model learned patterns from your data, but the calibration curve drifted the moment it hit a different operating regime.\n\nThis happens because teams don't separate model accuracy from model calibration. You can nail precision-recall and still ship miscalibrated confidence. Operators rightfully distrust it.\n\nWe approach this differently: after live deployment, we run a weekly calibration audit. We bucket predictions by reported confidence, measure actual success rate within each bucket, and flag when the curve breaks. It takes two engineers and three SQL queries. When miscalibration emerges—and it will—you catch it before operators learn to ignore the model entirely.\n\nCalibration isn't polish. It's how operators actually learn to trust what you built.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/131165756e9e.png"
+  },
+  {
+    "id": "a416457edcc2",
+    "ts": "2026-08-25T08:39:10.518815+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability programs fail at handoff",
+    "body": "Sustainability targets get set in the boardroom. Then they hit the factory floor and die.\n\nThe gap isn't incompetence. It's that sustainability is treated as a compliance layer bolted onto existing operations, not as a constraint embedded in how work actually gets done. A plant manager optimizes for throughput and cost. A sustainability team optimizes for emissions. They speak different languages about the same machine.\n\nWhen those two systems don't talk to each other — when sustainability lives in a spreadsheet and production lives in the real world — operators choose the incentive they see every day. The target becomes a forecast that won't be met, not a design principle.\n\nThe reframe: sustainability isn't a separate program to report. It's a production parameter, like yield or defect rate. It belongs in the same daily standup, the same constraint solver, the same feedback loop that keeps operations running. When an operator sees that a slower line speeds up your timeline *and* cuts emissions, it stops being a trade-off.\n\nThe gap between intent and execution closes when sustainability becomes operational, not aspirational.",
+    "image_url": ""
   }
 ]
