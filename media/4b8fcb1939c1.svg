@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- TOP BAND -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="48" text-anchor="end" font-size="12" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker label -->
+  <text x="64" y="84" font-size="11" font-weight="600" fill="#1F5C3D" letter-spacing="0.22em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">SUSTAINABILITY</text>
+
+  <!-- Display headline line 1 -->
+  <text x="64" y="140" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sustainability dies at</text>
+  <!-- Display headline line 2 -->
+  <text x="64" y="200" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the handoff to ops.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="212" width="320" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- MIDDLE BAND — 2×2 grid of 4 tiles + 1 wide tile = 5 tiles -->
+  <!-- Layout: row1: tile01 + tile02, row2: tile03 + tile04,      -->
+  <!-- row3: tile05 full width                                     -->
+  <!-- We'll do top row of 2 tall, bottom row of 3 short          -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Grid math:
+       Outer padding: 64px each side → usable width = 1024 - 128 = 896px
+       Top band ends ~225px. Middle band starts ~238px, ends ~806px → height ~568px
+       Row1 (2 tall tiles): y=238, height=250
+       Row2 (3 short tiles): y=504, height=230
+       Gap: 16px
+       
+       Row1: tile width = (896 - 16) / 2 = 440px
+       Row2: tile width = (896 - 32) / 3 = 288px
+  -->
+
+  <!-- ── TILE 01 ── top-left -->
+  <rect x="64" y="238" width="440" height="250" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="290" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="88" y="334" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Two Mental Models</text>
+  <text x="88" y="368" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Annual targets vs. shift-by-shift</text>
+  <text x="88" y="388" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">asset-level decisions never align.</text>
+
+  <!-- ── TILE 02 ── top-right -->
+  <rect x="520" y="238" width="440" height="250" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="290" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="544" y="334" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Lost in Translation</text>
+  <text x="544" y="368" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">'Reduce idle time' becomes</text>
+  <text x="544" y="388" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">'run hotter'—emissions go up.</text>
+
+  <!-- ── TILE 03 ── bottom-left -->
+  <rect x="64" y="504" width="288" height="230" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="552" font-size="44" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="88" y="592" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Work Backward</text>
+  <text x="88" y="620" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask which decision the metric</text>
+  <text x="88" y="640" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">actually changes on Tuesday.</text>
+
+  <!-- ── TILE 04 ── bottom-center -->
+  <rect x="368" y="504" width="288" height="230" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="392" y="552" font-size="44" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="392" y="592" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Tie to a Lever</text>
+  <text x="392" y="620" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Cycle time, temperature, material</text>
+  <text x="392" y="640" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">choice—vague targets don't move.</text>
+
+  <!-- ── TILE 05 ── bottom-right -->
+  <rect x="672" y="504" width="288" height="230" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="696" y="552" font-size="44" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">05</text>
+  <text x="696" y="592" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Speak Ops Language</text>
+  <text x="696" y="620" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Specific, measurable, operator-ready</text>
+  <text x="696" y="640" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">directives replace abstract goals.</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM BAND                                                 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="782" x2="960" y2="782" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="836" text-anchor="middle" font-size="22" font-weight="700" fill="#3A3A3A" letter-spacing="-0.01em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sustainability works when it speaks operations.</text>
+
+  <!-- Footer micro-line -->
+  <text x="512" y="890" text-anchor="middle" font-size="12" font-weight="400" fill="#3A3A3A" letter-spacing="0.04em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">modulus1.com</text>
+
+</svg>

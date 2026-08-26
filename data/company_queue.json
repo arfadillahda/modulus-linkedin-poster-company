@@ -916,5 +916,14 @@
     "title": "Why sustainability programs fail at handoff",
     "body": "Sustainability targets get set in the boardroom. Then they hit the factory floor and die.\n\nThe gap isn't incompetence. It's that sustainability is treated as a compliance layer bolted onto existing operations, not as a constraint embedded in how work actually gets done. A plant manager optimizes for throughput and cost. A sustainability team optimizes for emissions. They speak different languages about the same machine.\n\nWhen those two systems don't talk to each other — when sustainability lives in a spreadsheet and production lives in the real world — operators choose the incentive they see every day. The target becomes a forecast that won't be met, not a design principle.\n\nThe reframe: sustainability isn't a separate program to report. It's a production parameter, like yield or defect rate. It belongs in the same daily standup, the same constraint solver, the same feedback loop that keeps operations running. When an operator sees that a slower line speeds up your timeline *and* cuts emissions, it stops being a trade-off.\n\nThe gap between intent and execution closes when sustainability becomes operational, not aspirational.",
     "image_url": ""
+  },
+  {
+    "id": "4b8fcb1939c1",
+    "ts": "2026-08-26T08:39:58.421191+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability initiatives fail at the handoff between planning and operations",
+    "body": "Your sustainability team commits to a 20% emissions reduction. Manufacturing nods. Three months in, nothing's changed on the floor.\n\nThe problem isn't the target. It's that sustainability decisions live in one mental model—annual, portfolio-wide, abstracted—while operations lives in another: shift-by-shift, asset-by-asset, immediate.\n\nWhen a sustainability mandate reaches the plant, it gets translated by whoever's standing there. A 'reduce idle time' directive becomes 'run hotter, cleaner later'—which might actually increase emissions per unit. No malice. Just two frameworks talking past each other.\n\nWe've started working backward: before setting a sustainability metric, we ask which operating decisions it actually changes. Not 'what does the target sound like' but 'what does the operator do differently on Tuesday?' If the metric doesn't tie to a specific operational lever—cycle time, material choice, equipment selection, sequencing—it won't move.\n\nThis forces clarity early. A vague reduction target becomes 'lower press temperature during cure, accept slightly longer cycle times.' Now operations has something to measure against, and sustainability has something real to track.\n\nSustainability works when it speaks the language of operations, not when operations has to translate it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b8fcb1939c1.png"
   }
 ]

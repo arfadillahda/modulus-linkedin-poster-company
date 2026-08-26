@@ -4,7 +4,38 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 25 Aug 2026 08:39:10 +0000</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 08:40:27 +0000</lastBuildDate>
+<item>
+<title>Why sustainability initiatives fail at the handoff between planning and operations</title>
+<guid isPermaLink="false">4b8fcb1939c1</guid>
+<pubDate>Wed, 26 Aug 2026 08:39:58 +0000</pubDate>
+<description><![CDATA[Your sustainability team commits to a 20% emissions reduction. Manufacturing nods. Three months in, nothing's changed on the floor.
+
+The problem isn't the target. It's that sustainability decisions live in one mental model—annual, portfolio-wide, abstracted—while operations lives in another: shift-by-shift, asset-by-asset, immediate.
+
+When a sustainability mandate reaches the plant, it gets translated by whoever's standing there. A 'reduce idle time' directive becomes 'run hotter, cleaner later'—which might actually increase emissions per unit. No malice. Just two frameworks talking past each other.
+
+We've started working backward: before setting a sustainability metric, we ask which operating decisions it actually changes. Not 'what does the target sound like' but 'what does the operator do differently on Tuesday?' If the metric doesn't tie to a specific operational lever—cycle time, material choice, equipment selection, sequencing—it won't move.
+
+This forces clarity early. A vague reduction target becomes 'lower press temperature during cure, accept slightly longer cycle times.' Now operations has something to measure against, and sustainability has something real to track.
+
+Sustainability works when it speaks the language of operations, not when operations has to translate it.]]></description>
+<content:encoded><![CDATA[Your sustainability team commits to a 20% emissions reduction. Manufacturing nods. Three months in, nothing's changed on the floor.
+
+The problem isn't the target. It's that sustainability decisions live in one mental model—annual, portfolio-wide, abstracted—while operations lives in another: shift-by-shift, asset-by-asset, immediate.
+
+When a sustainability mandate reaches the plant, it gets translated by whoever's standing there. A 'reduce idle time' directive becomes 'run hotter, cleaner later'—which might actually increase emissions per unit. No malice. Just two frameworks talking past each other.
+
+We've started working backward: before setting a sustainability metric, we ask which operating decisions it actually changes. Not 'what does the target sound like' but 'what does the operator do differently on Tuesday?' If the metric doesn't tie to a specific operational lever—cycle time, material choice, equipment selection, sequencing—it won't move.
+
+This forces clarity early. A vague reduction target becomes 'lower press temperature during cure, accept slightly longer cycle times.' Now operations has something to measure against, and sustainability has something real to track.
+
+Sustainability works when it speaks the language of operations, not when operations has to translate it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b8fcb1939c1.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b8fcb1939c1.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability programs fail at handoff</title>
 <guid isPermaLink="false">a416457edcc2</guid>
@@ -1282,33 +1313,6 @@ We've started embedding operator-native data models into the systems we ship —
 
 Your data architecture is irrelevant if the people holding the wrench can't reason about it.]]></content:encoded>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability reporting breaks when operators change the plan</title>
-<guid isPermaLink="false">66f18d24d2e2</guid>
-<pubDate>Mon, 06 Jul 2026 12:03:21 +0000</pubDate>
-<description><![CDATA[A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.
-
-Sustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.
-
-The fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.
-
-We've built this into several industrial deployments: sustainability reporting that survives maintenance windows.
-
-Operations change. Your measurement should too.]]></description>
-<content:encoded><![CDATA[A pulp mill reports 12% waste reduction in Q1. By Q3, the number hasn't moved—not because the reduction stopped, but because maintenance swapped out three compressors mid-year and nobody updated the baseline.
-
-Sustainability software assumes a static operational footprint. The moment equipment changes, production lines shift, or a facility reorganizes, the schema holding your baseline snaps. You're not measuring worse outcomes; you're measuring against a target that no longer exists. Most platforms treat this as a data-quality problem. It's not. It's an architecture problem.
-
-The fix: build sustainability metrics as derived views of operational state, not independent datasets. Every time a pump is replaced, a shift schedule changes, or a process parameter adjusts, your sustainability KPI recalculates against the new reality—not the old one. The baseline updates with the plant, not against it.
-
-We've built this into several industrial deployments: sustainability reporting that survives maintenance windows.
-
-Operations change. Your measurement should too.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/66f18d24d2e2.png" medium="image" type="image/png"/>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
