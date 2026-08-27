@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 26 Aug 2026 08:40:27 +0000</lastBuildDate>
+<lastBuildDate>Thu, 27 Aug 2026 18:49:50 +0000</lastBuildDate>
+<item>
+<title>Why AI Models Fail When Operators Can't Verify the Logic</title>
+<guid isPermaLink="false">c5ad3e4045a3</guid>
+<pubDate>Thu, 27 Aug 2026 18:49:50 +0000</pubDate>
+<description><![CDATA[A predictive maintenance model tells a plant manager that a compressor will fail in 72 hours. The manager asks: why? The data scientist points to a correlation in the training set. The manager shuts it down anyway — not because he distrusts AI, but because he can't explain the decision to his team or justify the downtime to his boss.
+
+This happens because most AI teams build models that work as black boxes. The engineer optimizes for accuracy. The operator needs explainability. These aren't compatible goals if they're separate conversations.
+
+We've learned that shipping AI into industrial environments means building the *reasoning path* into the model, not bolting explanation on afterward. That means schema-validated outputs where each prediction carries its inputs, thresholds, and decision rules — all in a format the operator's tools can read and audit.
+
+When a model hands over a decision with visible premises, the operator becomes a participant, not a skeptic.
+
+Trust scales when reasoning is transparent by design.]]></description>
+<content:encoded><![CDATA[A predictive maintenance model tells a plant manager that a compressor will fail in 72 hours. The manager asks: why? The data scientist points to a correlation in the training set. The manager shuts it down anyway — not because he distrusts AI, but because he can't explain the decision to his team or justify the downtime to his boss.
+
+This happens because most AI teams build models that work as black boxes. The engineer optimizes for accuracy. The operator needs explainability. These aren't compatible goals if they're separate conversations.
+
+We've learned that shipping AI into industrial environments means building the *reasoning path* into the model, not bolting explanation on afterward. That means schema-validated outputs where each prediction carries its inputs, thresholds, and decision rules — all in a format the operator's tools can read and audit.
+
+When a model hands over a decision with visible premises, the operator becomes a participant, not a skeptic.
+
+Trust scales when reasoning is transparent by design.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability initiatives fail at the handoff between planning and operations</title>
 <guid isPermaLink="false">4b8fcb1939c1</guid>
@@ -1293,27 +1318,6 @@ Operators aren't the last step in digitalization; they're the first data require
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7edc58f30ab9.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why your digitalization data won't survive handoff to operations</title>
-<guid isPermaLink="false">9512fd6a7ec6</guid>
-<pubDate>Tue, 07 Jul 2026 10:53:31 +0000</pubDate>
-<description><![CDATA[You've shipped a beautiful digital system. Six months in, operators are running parallel processes because the system doesn't speak their language — literally. Field engineers see sensor data in JSON. They need thresholds, alarm sequences, and decision trees. The schema is clean. The mappings are documented. The system is unusable.
-
-This happens because digitalization software is built in isolation from how operators actually work. Engineers optimize for data correctness and API cleanliness. Operators optimize for speed and pattern recognition under uncertainty. These are different problems, and schema alone doesn't bridge them.
-
-We've started embedding operator-native data models into the systems we ship — not as UI gloss, but as first-class schema. When a maintenance technician queries the system, they get answers structured around their decision loop, not our data model. Same underlying truth. Different shape for different eyes.
-
-Your data architecture is irrelevant if the people holding the wrench can't reason about it.]]></description>
-<content:encoded><![CDATA[You've shipped a beautiful digital system. Six months in, operators are running parallel processes because the system doesn't speak their language — literally. Field engineers see sensor data in JSON. They need thresholds, alarm sequences, and decision trees. The schema is clean. The mappings are documented. The system is unusable.
-
-This happens because digitalization software is built in isolation from how operators actually work. Engineers optimize for data correctness and API cleanliness. Operators optimize for speed and pattern recognition under uncertainty. These are different problems, and schema alone doesn't bridge them.
-
-We've started embedding operator-native data models into the systems we ship — not as UI gloss, but as first-class schema. When a maintenance technician queries the system, they get answers structured around their decision loop, not our data model. Same underlying truth. Different shape for different eyes.
-
-Your data architecture is irrelevant if the people holding the wrench can't reason about it.]]></content:encoded>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

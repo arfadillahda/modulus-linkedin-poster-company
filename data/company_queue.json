@@ -925,5 +925,14 @@
     "title": "Why sustainability initiatives fail at the handoff between planning and operations",
     "body": "Your sustainability team commits to a 20% emissions reduction. Manufacturing nods. Three months in, nothing's changed on the floor.\n\nThe problem isn't the target. It's that sustainability decisions live in one mental model—annual, portfolio-wide, abstracted—while operations lives in another: shift-by-shift, asset-by-asset, immediate.\n\nWhen a sustainability mandate reaches the plant, it gets translated by whoever's standing there. A 'reduce idle time' directive becomes 'run hotter, cleaner later'—which might actually increase emissions per unit. No malice. Just two frameworks talking past each other.\n\nWe've started working backward: before setting a sustainability metric, we ask which operating decisions it actually changes. Not 'what does the target sound like' but 'what does the operator do differently on Tuesday?' If the metric doesn't tie to a specific operational lever—cycle time, material choice, equipment selection, sequencing—it won't move.\n\nThis forces clarity early. A vague reduction target becomes 'lower press temperature during cure, accept slightly longer cycle times.' Now operations has something to measure against, and sustainability has something real to track.\n\nSustainability works when it speaks the language of operations, not when operations has to translate it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b8fcb1939c1.png"
+  },
+  {
+    "id": "c5ad3e4045a3",
+    "ts": "2026-08-27T18:49:50.444192+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Models Fail When Operators Can't Verify the Logic",
+    "body": "A predictive maintenance model tells a plant manager that a compressor will fail in 72 hours. The manager asks: why? The data scientist points to a correlation in the training set. The manager shuts it down anyway — not because he distrusts AI, but because he can't explain the decision to his team or justify the downtime to his boss.\n\nThis happens because most AI teams build models that work as black boxes. The engineer optimizes for accuracy. The operator needs explainability. These aren't compatible goals if they're separate conversations.\n\nWe've learned that shipping AI into industrial environments means building the *reasoning path* into the model, not bolting explanation on afterward. That means schema-validated outputs where each prediction carries its inputs, thresholds, and decision rules — all in a format the operator's tools can read and audit.\n\nWhen a model hands over a decision with visible premises, the operator becomes a participant, not a skeptic.\n\nTrust scales when reasoning is transparent by design.",
+    "image_url": ""
   }
 ]
