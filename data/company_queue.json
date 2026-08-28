@@ -934,5 +934,14 @@
     "title": "Why AI Models Fail When Operators Can't Verify the Logic",
     "body": "A predictive maintenance model tells a plant manager that a compressor will fail in 72 hours. The manager asks: why? The data scientist points to a correlation in the training set. The manager shuts it down anyway — not because he distrusts AI, but because he can't explain the decision to his team or justify the downtime to his boss.\n\nThis happens because most AI teams build models that work as black boxes. The engineer optimizes for accuracy. The operator needs explainability. These aren't compatible goals if they're separate conversations.\n\nWe've learned that shipping AI into industrial environments means building the *reasoning path* into the model, not bolting explanation on afterward. That means schema-validated outputs where each prediction carries its inputs, thresholds, and decision rules — all in a format the operator's tools can read and audit.\n\nWhen a model hands over a decision with visible premises, the operator becomes a participant, not a skeptic.\n\nTrust scales when reasoning is transparent by design.",
     "image_url": ""
+  },
+  {
+    "id": "9acb063f47dc",
+    "ts": "2026-08-28T19:53:28.364855+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization projects measure the wrong baseline",
+    "body": "Most digitalization efforts fail at measurement, not execution. Teams spend months collecting data, building dashboards, and declaring success when sensors are live. But they're measuring whether the system works, not whether it changes behavior.\n\nThis happens because digitalization gets framed as a technology problem. You install software, plug in sensors, push data to the cloud. Success looks like uptime and data freshness. The real work—convincing operators to change how they respond to that data—gets treated as a separate, softer problem. It isn't.\n\nThe mechanism is simple: operators have decades of muscle memory. A new metric on a screen doesn't rewire that overnight. If you measure success by data availability instead of by adoption velocity and behavioral shift, you'll ship a working system that nobody actually uses.\n\nReframe digitalization as an adoption problem, not a data problem. Design backwards from the decision operators need to make, then ask what signals they need to make it better. Measure whether your system changed their confidence in that decision, not whether your historian is storing records.\n\nYour system's value lives in the operators' hands, not in your infrastructure.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9acb063f47dc.png"
   }
 ]

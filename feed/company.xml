@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 27 Aug 2026 18:49:50 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 19:53:55 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects measure the wrong baseline</title>
+<guid isPermaLink="false">9acb063f47dc</guid>
+<pubDate>Fri, 28 Aug 2026 19:53:28 +0000</pubDate>
+<description><![CDATA[Most digitalization efforts fail at measurement, not execution. Teams spend months collecting data, building dashboards, and declaring success when sensors are live. But they're measuring whether the system works, not whether it changes behavior.
+
+This happens because digitalization gets framed as a technology problem. You install software, plug in sensors, push data to the cloud. Success looks like uptime and data freshness. The real work—convincing operators to change how they respond to that data—gets treated as a separate, softer problem. It isn't.
+
+The mechanism is simple: operators have decades of muscle memory. A new metric on a screen doesn't rewire that overnight. If you measure success by data availability instead of by adoption velocity and behavioral shift, you'll ship a working system that nobody actually uses.
+
+Reframe digitalization as an adoption problem, not a data problem. Design backwards from the decision operators need to make, then ask what signals they need to make it better. Measure whether your system changed their confidence in that decision, not whether your historian is storing records.
+
+Your system's value lives in the operators' hands, not in your infrastructure.]]></description>
+<content:encoded><![CDATA[Most digitalization efforts fail at measurement, not execution. Teams spend months collecting data, building dashboards, and declaring success when sensors are live. But they're measuring whether the system works, not whether it changes behavior.
+
+This happens because digitalization gets framed as a technology problem. You install software, plug in sensors, push data to the cloud. Success looks like uptime and data freshness. The real work—convincing operators to change how they respond to that data—gets treated as a separate, softer problem. It isn't.
+
+The mechanism is simple: operators have decades of muscle memory. A new metric on a screen doesn't rewire that overnight. If you measure success by data availability instead of by adoption velocity and behavioral shift, you'll ship a working system that nobody actually uses.
+
+Reframe digitalization as an adoption problem, not a data problem. Design backwards from the decision operators need to make, then ask what signals they need to make it better. Measure whether your system changed their confidence in that decision, not whether your historian is storing records.
+
+Your system's value lives in the operators' hands, not in your infrastructure.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9acb063f47dc.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9acb063f47dc.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Models Fail When Operators Can't Verify the Logic</title>
 <guid isPermaLink="false">c5ad3e4045a3</guid>
@@ -1286,37 +1313,6 @@ This isn't about collecting more data. It's about wiring feedback from the real 
 
 Measure the outcome, not the mechanism.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization projects stall at the operator handoff</title>
-<guid isPermaLink="false">7edc58f30ab9</guid>
-<pubDate>Wed, 08 Jul 2026 10:14:50 +0000</pubDate>
-<description><![CDATA[We keep seeing the same pattern: a company builds a slick dashboard, deploys it to the plant floor, and within weeks operators are back to pen and paper. The system captured what management wanted to measure — not what operators actually need to work.
-
-This happens because digitalization gets designed top-down. Executives specify KPIs. Engineers build to those specs. Nobody asks the person running the shift: "What decision do you make right now that's slowed by bad information?"
-
-Operators aren't refusing new tools. They're refusing tools that don't close a gap in their actual workflow.
-
-Here's the reframe we use: before any architecture decision, map the operator's current failure mode — the specific moment where incomplete or slow information costs them time or accuracy. Then ask: what data shape, at what frequency, at what point in their routine, would change that decision? Build backward from there.
-
-It's not revolutionary. It's just designing for the person who has to live with it.
-
-Operators aren't the last step in digitalization; they're the first data requirement.]]></description>
-<content:encoded><![CDATA[We keep seeing the same pattern: a company builds a slick dashboard, deploys it to the plant floor, and within weeks operators are back to pen and paper. The system captured what management wanted to measure — not what operators actually need to work.
-
-This happens because digitalization gets designed top-down. Executives specify KPIs. Engineers build to those specs. Nobody asks the person running the shift: "What decision do you make right now that's slowed by bad information?"
-
-Operators aren't refusing new tools. They're refusing tools that don't close a gap in their actual workflow.
-
-Here's the reframe we use: before any architecture decision, map the operator's current failure mode — the specific moment where incomplete or slow information costs them time or accuracy. Then ask: what data shape, at what frequency, at what point in their routine, would change that decision? Build backward from there.
-
-It's not revolutionary. It's just designing for the person who has to live with it.
-
-Operators aren't the last step in digitalization; they're the first data requirement.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7edc58f30ab9.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/7edc58f30ab9.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>

@@ -1,0 +1,169 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND  (0 – 225px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="88"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="88"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Display Headline — line 1 -->
+  <text
+    x="64" y="148"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">You're measuring the system,</text>
+
+  <!-- Display Headline — line 2 -->
+  <text
+    x="64" y="208"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not the behavior.</text>
+
+  <!-- Accent underline beneath headline -->
+  <rect x="64" y="218" width="320" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND — 4-tile 2×2 grid (240 – 820px)
+       Outer padding 64px. Gap 18px.
+       Two columns: each 441px wide.
+       Row 1: y=248, h=272
+       Row 2: y=538, h=272
+  ════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left (x=64, y=248, w=441, h=272) -->
+  <rect x="64" y="248" width="441" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="96" y="308"
+    font-size="42" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+
+  <text x="96" y="356"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Wrong Success Metric</text>
+
+  <text x="96" y="392"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Uptime and data freshness</text>
+  <text x="96" y="412"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">aren't adoption.</text>
+
+  <!-- TILE 02 — top-right (x=523, y=248, w=441, h=272) -->
+  <rect x="523" y="248" width="441" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="555" y="308"
+    font-size="42" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+
+  <text x="555" y="356"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Muscle Memory Problem</text>
+
+  <text x="555" y="392"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">A new screen doesn't rewire</text>
+  <text x="555" y="412"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">decades of operator habit.</text>
+
+  <!-- TILE 03 — bottom-left (x=64, y=538, w=441, h=272) -->
+  <rect x="64" y="538" width="441" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="96" y="598"
+    font-size="42" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+
+  <text x="96" y="646"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Reframe the Problem</text>
+
+  <text x="96" y="682"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Treat digitalization as an</text>
+  <text x="96" y="702"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">adoption problem, not data.</text>
+
+  <!-- TILE 04 — bottom-right (x=523, y=538, w=441, h=272) -->
+  <rect x="523" y="538" width="441" height="272" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="555" y="598"
+    font-size="42" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.02em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+
+  <text x="555" y="646"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Design for the Decision</text>
+
+  <text x="555" y="682"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Measure operator confidence,</text>
+  <text x="555" y="702"
+    font-size="15.5" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not historian record count.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND  (~840 – 960px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="852" x2="960" y2="852" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="916"
+    font-size="21" font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="-0.005em"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Value lives in operators' hands, not your infrastructure.</text>
+
+</svg>
