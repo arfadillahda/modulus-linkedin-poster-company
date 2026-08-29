@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 28 Aug 2026 19:53:55 +0000</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 13:37:01 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build for the Wrong Operator</title>
+<guid isPermaLink="false">93ab96b50b00</guid>
+<pubDate>Sat, 29 Aug 2026 13:37:01 +0000</pubDate>
+<description><![CDATA[Most AI projects for industrial systems start by asking: what data do we have? They should start by asking: who has to live with this?
+
+We see it constantly. A team trains a model on six months of historical data, ships it to operators, and watches adoption flatline. The model works fine in notebooks. It fails the moment someone has to act on it in real time—because the team never checked whether operators could actually understand or trust the output, let alone integrate it into their existing workflow.
+
+Why does this happen? Because building AI for operators is treated as a deployment problem, not a design problem. The team optimizes for statistical accuracy. The operator needs something else: interpretability, latency that matches their decision speed, and integration that doesn't require rewiring their process.
+
+The reframe: treat the operator's cognitive load and workflow constraints as first-class requirements from day one, not post-hoc validation. Ask operators what they need to *see* and *do* before you touch model architecture. The best model is useless if the person holding the keyboard can't act on it in the moment that matters.
+
+You can't optimize your way out of a design mistake.]]></description>
+<content:encoded><![CDATA[Most AI projects for industrial systems start by asking: what data do we have? They should start by asking: who has to live with this?
+
+We see it constantly. A team trains a model on six months of historical data, ships it to operators, and watches adoption flatline. The model works fine in notebooks. It fails the moment someone has to act on it in real time—because the team never checked whether operators could actually understand or trust the output, let alone integrate it into their existing workflow.
+
+Why does this happen? Because building AI for operators is treated as a deployment problem, not a design problem. The team optimizes for statistical accuracy. The operator needs something else: interpretability, latency that matches their decision speed, and integration that doesn't require rewiring their process.
+
+The reframe: treat the operator's cognitive load and workflow constraints as first-class requirements from day one, not post-hoc validation. Ask operators what they need to *see* and *do* before you touch model architecture. The best model is useless if the person holding the keyboard can't act on it in the moment that matters.
+
+You can't optimize your way out of a design mistake.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization projects measure the wrong baseline</title>
 <guid isPermaLink="false">9acb063f47dc</guid>
@@ -1289,31 +1314,6 @@ Sustainability targets that don't move with your business aren't targets — the
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Ship Systems That Drift Over Time</title>
-<guid isPermaLink="false">e1b171e6ce3a</guid>
-<pubDate>Thu, 09 Jul 2026 10:52:49 +0000</pubDate>
-<description><![CDATA[You deploy an ML system in production. It works fine for three months. Then accuracy drops 8%. Then 15%. Your team scrambles — retraining, debugging, blaming data quality. But the real problem happened weeks before: you stopped measuring what matters.
-
-This happens because ML teams build monitoring around training metrics (F1, AUC, whatever), not around the operational outcomes that actually move the needle for users. Training metrics measure 'does the model work on clean data.' They don't measure 'is the model helping operators make better decisions' or 'are we catching the failure modes that matter.' So drift goes unnoticed until business impact shows up.
-
-We've started inverting this. Before we write a line of model code, we identify 2–3 operational metrics the system must influence: time to diagnosis, false alarm rate, or cost of a missed signal. Then we build monitoring for those first. The model metrics come second, as diagnostic tools only.
-
-This isn't about collecting more data. It's about wiring feedback from the real world into your production loop before drift becomes a crisis.
-
-Measure the outcome, not the mechanism.]]></description>
-<content:encoded><![CDATA[You deploy an ML system in production. It works fine for three months. Then accuracy drops 8%. Then 15%. Your team scrambles — retraining, debugging, blaming data quality. But the real problem happened weeks before: you stopped measuring what matters.
-
-This happens because ML teams build monitoring around training metrics (F1, AUC, whatever), not around the operational outcomes that actually move the needle for users. Training metrics measure 'does the model work on clean data.' They don't measure 'is the model helping operators make better decisions' or 'are we catching the failure modes that matter.' So drift goes unnoticed until business impact shows up.
-
-We've started inverting this. Before we write a line of model code, we identify 2–3 operational metrics the system must influence: time to diagnosis, false alarm rate, or cost of a missed signal. Then we build monitoring for those first. The model metrics come second, as diagnostic tools only.
-
-This isn't about collecting more data. It's about wiring feedback from the real world into your production loop before drift becomes a crisis.
-
-Measure the outcome, not the mechanism.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

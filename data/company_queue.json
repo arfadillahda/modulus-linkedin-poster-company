@@ -943,5 +943,14 @@
     "title": "Why digitalization projects measure the wrong baseline",
     "body": "Most digitalization efforts fail at measurement, not execution. Teams spend months collecting data, building dashboards, and declaring success when sensors are live. But they're measuring whether the system works, not whether it changes behavior.\n\nThis happens because digitalization gets framed as a technology problem. You install software, plug in sensors, push data to the cloud. Success looks like uptime and data freshness. The real work—convincing operators to change how they respond to that data—gets treated as a separate, softer problem. It isn't.\n\nThe mechanism is simple: operators have decades of muscle memory. A new metric on a screen doesn't rewire that overnight. If you measure success by data availability instead of by adoption velocity and behavioral shift, you'll ship a working system that nobody actually uses.\n\nReframe digitalization as an adoption problem, not a data problem. Design backwards from the decision operators need to make, then ask what signals they need to make it better. Measure whether your system changed their confidence in that decision, not whether your historian is storing records.\n\nYour system's value lives in the operators' hands, not in your infrastructure.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/9acb063f47dc.png"
+  },
+  {
+    "id": "93ab96b50b00",
+    "ts": "2026-08-29T13:37:01.406783+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build for the Wrong Operator",
+    "body": "Most AI projects for industrial systems start by asking: what data do we have? They should start by asking: who has to live with this?\n\nWe see it constantly. A team trains a model on six months of historical data, ships it to operators, and watches adoption flatline. The model works fine in notebooks. It fails the moment someone has to act on it in real time—because the team never checked whether operators could actually understand or trust the output, let alone integrate it into their existing workflow.\n\nWhy does this happen? Because building AI for operators is treated as a deployment problem, not a design problem. The team optimizes for statistical accuracy. The operator needs something else: interpretability, latency that matches their decision speed, and integration that doesn't require rewiring their process.\n\nThe reframe: treat the operator's cognitive load and workflow constraints as first-class requirements from day one, not post-hoc validation. Ask operators what they need to *see* and *do* before you touch model architecture. The best model is useless if the person holding the keyboard can't act on it in the moment that matters.\n\nYou can't optimize your way out of a design mistake.",
+    "image_url": ""
   }
 ]
