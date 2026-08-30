@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 29 Aug 2026 13:37:01 +0000</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2026 13:32:38 +0000</lastBuildDate>
+<item>
+<title>Why sustainability dashboards show green while plants burn coal</title>
+<guid isPermaLink="false">e8746310e1f7</guid>
+<pubDate>Sun, 30 Aug 2026 13:32:08 +0000</pubDate>
+<description><![CDATA[Sustainability software almost always measures what's easy to report, not what actually moves the needle. A mill reports CO₂ per ton of output—a clean metric—but that number stays static while the fuel mix shifts from gas to coal because nobody's reading the boiler logs in real time. The dashboard doesn't break.
+
+The mechanism is simple: sustainability platforms aggregate data at reporting intervals (quarterly, annual). Operations moves at shift intervals. When a production spike hits Tuesday afternoon and the plant burns backup fuel, that decision happens in minutes. The sustainability system sees it three months later, if ever.
+
+We've built schemas that ingest operator decisions—fuel selection, line speed, equipment routing—as they happen, not as summaries. A mill can now see the actual carbon cost of a scheduling choice before the shift starts, not after the quarter closes. The metric stays honest because it's tied to the moment the choice was made.
+
+Sustainability reporting that lags operations is just accounting theater.]]></description>
+<content:encoded><![CDATA[Sustainability software almost always measures what's easy to report, not what actually moves the needle. A mill reports CO₂ per ton of output—a clean metric—but that number stays static while the fuel mix shifts from gas to coal because nobody's reading the boiler logs in real time. The dashboard doesn't break.
+
+The mechanism is simple: sustainability platforms aggregate data at reporting intervals (quarterly, annual). Operations moves at shift intervals. When a production spike hits Tuesday afternoon and the plant burns backup fuel, that decision happens in minutes. The sustainability system sees it three months later, if ever.
+
+We've built schemas that ingest operator decisions—fuel selection, line speed, equipment routing—as they happen, not as summaries. A mill can now see the actual carbon cost of a scheduling choice before the shift starts, not after the quarter closes. The metric stays honest because it's tied to the moment the choice was made.
+
+Sustainability reporting that lags operations is just accounting theater.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e8746310e1f7.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e8746310e1f7.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build for the Wrong Operator</title>
 <guid isPermaLink="false">93ab96b50b00</guid>
@@ -1283,37 +1306,6 @@ When sustainability becomes a byproduct of how operators already run the line, i
 Ownership lives where the work lives.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability metrics stop moving after year one</title>
-<guid isPermaLink="false">caa5ffd67540</guid>
-<pubDate>Fri, 10 Jul 2026 10:51:35 +0000</pubDate>
-<description><![CDATA[Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.
-
-The problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.
-
-Operations doesn't stop moving. Neither should your baseline.
-
-The fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.
-
-This isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.
-
-Sustainability targets that don't move with your business aren't targets — they're just numbers that got old.]]></description>
-<content:encoded><![CDATA[Most industrial teams treat sustainability like a compliance checkbox: set a target, measure it, report it. Then the target stays flat for three years while operations actually change.
-
-The problem isn't laziness. It's that sustainability metrics are built on a static baseline — a snapshot of how you ran things in 2023. The moment your production mix shifts, your facility footprint changes, or you swap suppliers, that baseline becomes disconnected from reality. You're measuring against a ghost.
-
-Operations doesn't stop moving. Neither should your baseline.
-
-The fix is to treat sustainability metrics like you treat production KPIs: as living measures tied to what you're actually doing right now. Not a fixed target that drifts, but a dynamic reference point that moves with your operation. When you add a line, change a process, or retire equipment, your baseline recalibrates. Your metric stays honest.
-
-This isn't about better sensors or fancier dashboards. It's about building metrics that survive contact with reality instead of freezing in place and hoping nothing changes.
-
-Sustainability targets that don't move with your business aren't targets — they're just numbers that got old.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/caa5ffd67540.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

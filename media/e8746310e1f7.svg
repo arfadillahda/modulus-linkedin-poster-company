@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Subtle background texture lines -->
+  <line x1="0" y1="226" x2="1024" y2="226" stroke="#11111110" stroke-width="1"/>
+  <line x1="0" y1="860" x2="1024" y2="860" stroke="#11111110" stroke-width="1"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- TOP BAND -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Kicker label -->
+  <text x="64" y="96"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="600"
+    font-size="13"
+    letter-spacing="0.18em"
+    fill="#1F5C3D"
+    text-anchor="start">SUSTAINABILITY</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="176" width="72" height="3" fill="#1F5C3D" rx="1.5"/>
+
+  <!-- Display headline -->
+  <text x="64" y="148"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="48"
+    letter-spacing="-0.02em"
+    fill="#111111"
+    text-anchor="start">
+    <tspan x="64" dy="0">Dashboards show green.</tspan>
+    <tspan x="64" dy="56">Plants burn coal.</tspan>
+  </text>
+
+  <!-- MODULUS1 wordmark top-right -->
+  <text x="960" y="80"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="600"
+    font-size="12"
+    letter-spacing="0.18em"
+    fill="#1F5C3D"
+    text-anchor="end">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- MIDDLE BAND — 2×2 grid of 4 tiles -->
+  <!-- Grid starts at y=246, height ~590, outer pad 64px -->
+  <!-- 2 cols, 2 rows, gap 16px -->
+  <!-- col width = (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- row height = (590 - 16) / 2 = 287 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left: x=64, y=246, w=440, h=287 -->
+  <rect x="64" y="246" width="440" height="287" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Numeral 01 -->
+  <text x="96" y="322"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="52"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">01</text>
+
+  <!-- Tile title -->
+  <text x="96" y="360"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">Reporting measures the easy</text>
+  <text x="96" y="384"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">metrics, not the real ones</text>
+
+  <!-- Caption -->
+  <text x="96" y="426"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="15"
+    fill="#3A3A3A">CO₂ per ton looks clean while fuel mix quietly shifts.</text>
+
+  <!-- TILE 02 — top-right: x=520, y=246, w=440, h=287 -->
+  <rect x="520" y="246" width="440" height="287" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Numeral 02 -->
+  <text x="552" y="322"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="52"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">02</text>
+
+  <!-- Tile title -->
+  <text x="552" y="360"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">Quarterly lag hides shift-level</text>
+  <text x="552" y="384"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">decisions from view</text>
+
+  <!-- Caption -->
+  <text x="552" y="426"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="15"
+    fill="#3A3A3A">A backup fuel call takes minutes. Reporting sees it in months.</text>
+
+  <!-- TILE 03 — bottom-left: x=64, y=549, w=440, h=287 -->
+  <rect x="64" y="549" width="440" height="287" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Numeral 03 -->
+  <text x="96" y="625"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="52"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">03</text>
+
+  <!-- Tile title -->
+  <text x="96" y="663"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">Operator decisions are the</text>
+  <text x="96" y="687"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">real carbon signal</text>
+
+  <!-- Caption -->
+  <text x="96" y="729"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="15"
+    fill="#3A3A3A">Fuel selection, line speed, routing — logged as they happen.</text>
+
+  <!-- TILE 04 — bottom-right: x=520, y=549, w=440, h=287 -->
+  <rect x="520" y="549" width="440" height="287" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Numeral 04 -->
+  <text x="552" y="625"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="52"
+    fill="#1F5C3D"
+    letter-spacing="-0.02em">04</text>
+
+  <!-- Tile title -->
+  <text x="552" y="663"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">Real-time schemas let you see</text>
+  <text x="552" y="687"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="20"
+    fill="#111111"
+    letter-spacing="-0.01em">cost before the shift starts</text>
+
+  <!-- Caption -->
+  <text x="552" y="729"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="15"
+    fill="#3A3A3A">Carbon cost tied to the moment the choice was made.</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM BAND -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="874" x2="960" y2="874" stroke="#11111120" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="920"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="22"
+    letter-spacing="-0.01em"
+    fill="#3A3A3A"
+    text-anchor="middle">Sustainability reporting that lags operations is accounting theater.</text>
+
+</svg>

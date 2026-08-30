@@ -952,5 +952,14 @@
     "title": "Why AI Teams Build for the Wrong Operator",
     "body": "Most AI projects for industrial systems start by asking: what data do we have? They should start by asking: who has to live with this?\n\nWe see it constantly. A team trains a model on six months of historical data, ships it to operators, and watches adoption flatline. The model works fine in notebooks. It fails the moment someone has to act on it in real time—because the team never checked whether operators could actually understand or trust the output, let alone integrate it into their existing workflow.\n\nWhy does this happen? Because building AI for operators is treated as a deployment problem, not a design problem. The team optimizes for statistical accuracy. The operator needs something else: interpretability, latency that matches their decision speed, and integration that doesn't require rewiring their process.\n\nThe reframe: treat the operator's cognitive load and workflow constraints as first-class requirements from day one, not post-hoc validation. Ask operators what they need to *see* and *do* before you touch model architecture. The best model is useless if the person holding the keyboard can't act on it in the moment that matters.\n\nYou can't optimize your way out of a design mistake.",
     "image_url": ""
+  },
+  {
+    "id": "e8746310e1f7",
+    "ts": "2026-08-30T13:32:08.076598+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability dashboards show green while plants burn coal",
+    "body": "Sustainability software almost always measures what's easy to report, not what actually moves the needle. A mill reports CO₂ per ton of output—a clean metric—but that number stays static while the fuel mix shifts from gas to coal because nobody's reading the boiler logs in real time. The dashboard doesn't break.\n\nThe mechanism is simple: sustainability platforms aggregate data at reporting intervals (quarterly, annual). Operations moves at shift intervals. When a production spike hits Tuesday afternoon and the plant burns backup fuel, that decision happens in minutes. The sustainability system sees it three months later, if ever.\n\nWe've built schemas that ingest operator decisions—fuel selection, line speed, equipment routing—as they happen, not as summaries. A mill can now see the actual carbon cost of a scheduling choice before the shift starts, not after the quarter closes. The metric stays honest because it's tied to the moment the choice was made.\n\nSustainability reporting that lags operations is just accounting theater.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e8746310e1f7.png"
   }
 ]
