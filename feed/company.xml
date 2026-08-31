@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 30 Aug 2026 13:32:38 +0000</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 15:50:14 +0000</lastBuildDate>
+<item>
+<title>Why digitalization stalls when operators reject the UI</title>
+<guid isPermaLink="false">e5cb65716ff4</guid>
+<pubDate>Mon, 31 Aug 2026 15:50:14 +0000</pubDate>
+<description><![CDATA[Operators kill digitalization projects not because they resist change, but because the software was designed without them. We've watched this play out: a control room team gets a shiny new dashboard. They use it once. Then they go back to their phone, their clipboard, their muscle memory—because the digital tool doesn't fit how they actually work.
+
+Why? Most digitalization software is built by people who've never stood in a control room for eight hours. The UI assumes operator behaviour is a problem to be solved, not a constraint to be understood. A critical alarm buried three clicks deep feels logical to a designer. To an operator running a process, it's dead weight.
+
+The fix isn't prettier design. It's co-development. We build with operators in the room—not as consultants, but as design partners who own the outcome. When they shape the interaction model early, adoption stops being a change-management project and becomes inevitable. The software becomes tool-shaped instead of software-shaped.
+
+Digitalization succeeds when the operator's first instinct and the system's first response are the same thing.]]></description>
+<content:encoded><![CDATA[Operators kill digitalization projects not because they resist change, but because the software was designed without them. We've watched this play out: a control room team gets a shiny new dashboard. They use it once. Then they go back to their phone, their clipboard, their muscle memory—because the digital tool doesn't fit how they actually work.
+
+Why? Most digitalization software is built by people who've never stood in a control room for eight hours. The UI assumes operator behaviour is a problem to be solved, not a constraint to be understood. A critical alarm buried three clicks deep feels logical to a designer. To an operator running a process, it's dead weight.
+
+The fix isn't prettier design. It's co-development. We build with operators in the room—not as consultants, but as design partners who own the outcome. When they shape the interaction model early, adoption stops being a change-management project and becomes inevitable. The software becomes tool-shaped instead of software-shaped.
+
+Digitalization succeeds when the operator's first instinct and the system's first response are the same thing.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability dashboards show green while plants burn coal</title>
 <guid isPermaLink="false">e8746310e1f7</guid>
@@ -1281,31 +1302,6 @@ Trust isn't a sentiment. It's observability.]]></content:encoded>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability initiatives stall when ops teams don't own the math</title>
-<guid isPermaLink="false">4db7312ff450</guid>
-<pubDate>Sat, 11 Jul 2026 09:26:59 +0000</pubDate>
-<description><![CDATA[A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.
-
-This happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.
-
-We've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.
-
-When sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.
-
-Ownership lives where the work lives.]]></description>
-<content:encoded><![CDATA[A plant hits its carbon target in year one. By year three, nobody can explain which process change actually drove it—or whether it'll stick when the shift supervisor rotates out.
-
-This happens because sustainability gets handed to compliance or HSE, while operations keeps running the actual levers. The two teams measure differently, report on different cadences, and when something breaks, they blame each other's data instead of fixing the root cause together.
-
-We've found one heuristic that cuts through it: make operators the primary audience for sustainability metrics, not regulators. Not instead of—*before*. Pick 2-3 metrics that ops crews use weekly to tune their processes. Embed them in the same dashboards they already watch for yield, throughput, cost. No separate portal. No monthly PDF.
-
-When sustainability becomes a byproduct of how operators already run the line, it survives personnel changes, budget cuts, and strategy pivots.
-
-Ownership lives where the work lives.]]></content:encoded>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

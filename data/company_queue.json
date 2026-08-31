@@ -961,5 +961,14 @@
     "title": "Why sustainability dashboards show green while plants burn coal",
     "body": "Sustainability software almost always measures what's easy to report, not what actually moves the needle. A mill reports CO₂ per ton of output—a clean metric—but that number stays static while the fuel mix shifts from gas to coal because nobody's reading the boiler logs in real time. The dashboard doesn't break.\n\nThe mechanism is simple: sustainability platforms aggregate data at reporting intervals (quarterly, annual). Operations moves at shift intervals. When a production spike hits Tuesday afternoon and the plant burns backup fuel, that decision happens in minutes. The sustainability system sees it three months later, if ever.\n\nWe've built schemas that ingest operator decisions—fuel selection, line speed, equipment routing—as they happen, not as summaries. A mill can now see the actual carbon cost of a scheduling choice before the shift starts, not after the quarter closes. The metric stays honest because it's tied to the moment the choice was made.\n\nSustainability reporting that lags operations is just accounting theater.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e8746310e1f7.png"
+  },
+  {
+    "id": "e5cb65716ff4",
+    "ts": "2026-08-31T15:50:14.816429+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why digitalization stalls when operators reject the UI",
+    "body": "Operators kill digitalization projects not because they resist change, but because the software was designed without them. We've watched this play out: a control room team gets a shiny new dashboard. They use it once. Then they go back to their phone, their clipboard, their muscle memory—because the digital tool doesn't fit how they actually work.\n\nWhy? Most digitalization software is built by people who've never stood in a control room for eight hours. The UI assumes operator behaviour is a problem to be solved, not a constraint to be understood. A critical alarm buried three clicks deep feels logical to a designer. To an operator running a process, it's dead weight.\n\nThe fix isn't prettier design. It's co-development. We build with operators in the room—not as consultants, but as design partners who own the outcome. When they shape the interaction model early, adoption stops being a change-management project and becomes inevitable. The software becomes tool-shaped instead of software-shaped.\n\nDigitalization succeeds when the operator's first instinct and the system's first response are the same thing.",
+    "image_url": ""
   }
 ]
