@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 31 Aug 2026 15:50:14 +0000</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 13:05:20 +0000</lastBuildDate>
+<item>
+<title>Why digitalization stalls when you build without operator input</title>
+<guid isPermaLink="false">32ed94e2aeb9</guid>
+<pubDate>Tue, 01 Sep 2026 13:04:58 +0000</pubDate>
+<description><![CDATA[We see this constantly: a manufacturer digitizes a workflow, deploys it, and operators work around it. Not because the system is wrong—because it was built without them.
+
+The mechanism is simple. Engineers and consultants design systems based on process documentation and stakeholder interviews. That's not operator knowledge. An operator knows friction points, workarounds, edge cases, and which "standard procedures" nobody actually follows. A spreadsheet or a diagram doesn't capture that. So the system solves the documented problem, not the real one.
+
+Here's the heuristic we use: before any build, we run a working session with 2–3 operators doing the actual job. Not asking what they do. Watching them do it for a shift, noting where they slow down, where they reach for a calculator or a sticky note, where they make judgment calls the process doesn't account for.
+
+Then we design around that. The system becomes something they recognize, not something imposed on them.
+
+Operators don't reject digitalization because it's new—they reject it because it ignores how work actually happens.]]></description>
+<content:encoded><![CDATA[We see this constantly: a manufacturer digitizes a workflow, deploys it, and operators work around it. Not because the system is wrong—because it was built without them.
+
+The mechanism is simple. Engineers and consultants design systems based on process documentation and stakeholder interviews. That's not operator knowledge. An operator knows friction points, workarounds, edge cases, and which "standard procedures" nobody actually follows. A spreadsheet or a diagram doesn't capture that. So the system solves the documented problem, not the real one.
+
+Here's the heuristic we use: before any build, we run a working session with 2–3 operators doing the actual job. Not asking what they do. Watching them do it for a shift, noting where they slow down, where they reach for a calculator or a sticky note, where they make judgment calls the process doesn't account for.
+
+Then we design around that. The system becomes something they recognize, not something imposed on them.
+
+Operators don't reject digitalization because it's new—they reject it because it ignores how work actually happens.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/32ed94e2aeb9.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/32ed94e2aeb9.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization stalls when operators reject the UI</title>
 <guid isPermaLink="false">e5cb65716ff4</guid>
@@ -1275,33 +1302,6 @@ Here's the reframe: stop thinking of digitalization as a project with an end dat
 When you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Systems Fail When Humans Need to Override Them</title>
-<guid isPermaLink="false">b236eb8e15b6</guid>
-<pubDate>Sun, 12 Jul 2026 09:49:01 +0000</pubDate>
-<description><![CDATA[You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.
-
-This happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.
-
-The fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.
-
-We've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.
-
-Trust isn't a sentiment. It's observability.]]></description>
-<content:encoded><![CDATA[You deploy an ML model that flags equipment anomalies with 94% precision. Three months in, a technician ignores its alert because they've learned the model fires false positives under specific load patterns. The system stops working the moment human judgment reasserts control.
-
-This happens because we train AI systems to be right in isolation, not to be *trustworthy in context*. The model has no visibility into why a technician would override it. There's no feedback loop that teaches the system which override patterns are signal and which are noise. The human and the algorithm operate in separate universes.
-
-The fix isn't better accuracy—it's baking override reasoning into the system design. Capture *why* humans reject predictions. Build a second model that predicts when human judgment should win. Tag the conditions under which your primary model degrades. Then surface those conditions explicitly, so technicians see the system acknowledging its own blindspots.
-
-We've built this into anomaly detection work for industrial operators. The result: humans stop fighting the AI and start partnering with it.
-
-Trust isn't a sentiment. It's observability.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/b236eb8e15b6.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

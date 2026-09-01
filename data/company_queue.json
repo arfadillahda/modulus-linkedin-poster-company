@@ -970,5 +970,14 @@
     "title": "Why digitalization stalls when operators reject the UI",
     "body": "Operators kill digitalization projects not because they resist change, but because the software was designed without them. We've watched this play out: a control room team gets a shiny new dashboard. They use it once. Then they go back to their phone, their clipboard, their muscle memory—because the digital tool doesn't fit how they actually work.\n\nWhy? Most digitalization software is built by people who've never stood in a control room for eight hours. The UI assumes operator behaviour is a problem to be solved, not a constraint to be understood. A critical alarm buried three clicks deep feels logical to a designer. To an operator running a process, it's dead weight.\n\nThe fix isn't prettier design. It's co-development. We build with operators in the room—not as consultants, but as design partners who own the outcome. When they shape the interaction model early, adoption stops being a change-management project and becomes inevitable. The software becomes tool-shaped instead of software-shaped.\n\nDigitalization succeeds when the operator's first instinct and the system's first response are the same thing.",
     "image_url": ""
+  },
+  {
+    "id": "32ed94e2aeb9",
+    "ts": "2026-09-01T13:04:58.048684+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization stalls when you build without operator input",
+    "body": "We see this constantly: a manufacturer digitizes a workflow, deploys it, and operators work around it. Not because the system is wrong—because it was built without them.\n\nThe mechanism is simple. Engineers and consultants design systems based on process documentation and stakeholder interviews. That's not operator knowledge. An operator knows friction points, workarounds, edge cases, and which \"standard procedures\" nobody actually follows. A spreadsheet or a diagram doesn't capture that. So the system solves the documented problem, not the real one.\n\nHere's the heuristic we use: before any build, we run a working session with 2–3 operators doing the actual job. Not asking what they do. Watching them do it for a shift, noting where they slow down, where they reach for a calculator or a sticky note, where they make judgment calls the process doesn't account for.\n\nThen we design around that. The system becomes something they recognize, not something imposed on them.\n\nOperators don't reject digitalization because it's new—they reject it because it ignores how work actually happens.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/32ed94e2aeb9.png"
   }
 ]

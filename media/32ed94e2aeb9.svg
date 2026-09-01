@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="92" font-size="11" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">DIGITALIZATION</text>
+
+  <!-- Headline -->
+  <text x="64" y="138" font-size="44" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Operators know what</text>
+  <text x="64" y="188" font-size="44" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">documentation doesn't.</text>
+
+  <!-- Accent underline -->
+  <rect x="64" y="200" width="320" height="2" fill="#2D5BFF" rx="1"/>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="92" font-size="12" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- MIDDLE BAND: 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: width=(1024-64-64-16)/2 = 440, height=270 -->
+  <!-- Row 1 top: y=232, Row 2 top: y=232+270+16=518 -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="232" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="290" font-size="48" font-weight="800" fill="#2D5BFF">01</text>
+  <text x="92" y="330" font-size="20" font-weight="700" fill="#111111">Designed around docs,</text>
+  <text x="92" y="356" font-size="20" font-weight="700" fill="#111111">not reality</text>
+  <text x="92" y="398" font-size="14" font-weight="400" fill="#3A3A3A">Systems solve documented problems, not real ones.</text>
+  <!-- Subtle divider -->
+  <rect x="92" y="420" width="40" height="1" fill="#2D5BFF" opacity="0.5"/>
+  <text x="92" y="452" font-size="13" font-weight="400" fill="#3A3A3A">Docs capture steps. Operators</text>
+  <text x="92" y="469" font-size="13" font-weight="400" fill="#3A3A3A">capture friction.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="232" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="290" font-size="48" font-weight="800" fill="#2D5BFF">02</text>
+  <text x="548" y="330" font-size="20" font-weight="700" fill="#111111">Hidden workarounds</text>
+  <text x="548" y="356" font-size="20" font-weight="700" fill="#111111">signal real process</text>
+  <text x="548" y="398" font-size="14" font-weight="400" fill="#3A3A3A">Edge cases and sticky notes reveal true work.</text>
+  <rect x="548" y="420" width="40" height="1" fill="#2D5BFF" opacity="0.5"/>
+  <text x="548" y="452" font-size="13" font-weight="400" fill="#3A3A3A">No standard procedure covers</text>
+  <text x="548" y="469" font-size="13" font-weight="400" fill="#3A3A3A">every judgment call.</text>
+
+  <!-- Tile 03 -->
+  <rect x="64" y="518" width="440" height="270" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="576" font-size="48" font-weight="800" fill="#2D5BFF">03</text>
+  <text x="92" y="616" font-size="20" font-weight="700" fill="#111111">Watch before you</text>
+  <text x="92" y="642" font-size="20" font-weight="700" fill="#111111">build</text>
+  <text x="92" y="684" font-size="14" font-weight="400" fill="#3A3A3A">Run a working session with 2–3 operators first.</text>
+  <rect x="92" y="706" width="40" height="1" fill="#2D5BFF" opacity="0.5"/>
+  <text x="92" y="738" font-size="13" font-weight="400" fill="#3A3A3A">Watch for slowdowns, calculators,</text>
+  <text x="92" y="755" font-size="13" font-weight="400" fill="#3A3A3A">and sticky notes.</text>
+
+  <!-- Tile 04 -->
+  <rect x="520" y="518" width="440" height="270" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="576" font-size="48" font-weight="800" fill="#2D5BFF">04</text>
+  <text x="548" y="616" font-size="20" font-weight="700" fill="#111111">Recognition beats</text>
+  <text x="548" y="642" font-size="20" font-weight="700" fill="#111111">imposition</text>
+  <text x="548" y="684" font-size="14" font-weight="400" fill="#3A3A3A">Operators adopt systems they recognize as theirs.</text>
+  <rect x="548" y="706" width="40" height="1" fill="#2D5BFF" opacity="0.5"/>
+  <text x="548" y="738" font-size="13" font-weight="400" fill="#3A3A3A">Rejection isn't resistance to change—</text>
+  <text x="548" y="755" font-size="13" font-weight="400" fill="#3A3A3A">it's ignored knowledge.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <rect x="64" y="832" width="896" height="1" fill="#11111130"/>
+
+  <!-- Closing line -->
+  <text x="512" y="890" font-size="18" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">Build around how work actually happens, not how it's documented.</text>
+
+</svg>
