@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 01 Sep 2026 13:05:20 +0000</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 12:32:22 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Ignore the Operator's Mental Model</title>
+<guid isPermaLink="false">8527a18585e2</guid>
+<pubDate>Wed, 02 Sep 2026 12:32:22 +0000</pubDate>
+<description><![CDATA[Most AI projects fail because engineers build what the data says, not what the operator needs to *believe*.
+
+An operator watching a model make a decision needs to know not just that it's accurate—they need to understand the logic chain well enough to catch when it's wrong. But AI teams ship black-box confidence scores. The operator can't verify it. Can't debug it. Can't override it with domain knowledge. So they don't trust it, the model sits unused, and everyone calls it a pilot that didn't scale.
+
+This happens because we treat "accuracy" and "explainability" as separate problems. They're not. A model that makes sense to the operator IS more accurate in production, because operators actually use it and flag failures early.
+
+Here's what we do: before we touch the model, we map the operator's existing mental model—the heuristics, shortcuts, and edge cases they already use to make the decision. Then we build the model *around* that frame. Same inputs they're already watching. Same output structure. Same failure modes they already recognize. The model becomes a *tool they already know how to use*, not a black box they're forced to trust.
+
+Operators don't need AI they understand. They need AI that works the way they already think.]]></description>
+<content:encoded><![CDATA[Most AI projects fail because engineers build what the data says, not what the operator needs to *believe*.
+
+An operator watching a model make a decision needs to know not just that it's accurate—they need to understand the logic chain well enough to catch when it's wrong. But AI teams ship black-box confidence scores. The operator can't verify it. Can't debug it. Can't override it with domain knowledge. So they don't trust it, the model sits unused, and everyone calls it a pilot that didn't scale.
+
+This happens because we treat "accuracy" and "explainability" as separate problems. They're not. A model that makes sense to the operator IS more accurate in production, because operators actually use it and flag failures early.
+
+Here's what we do: before we touch the model, we map the operator's existing mental model—the heuristics, shortcuts, and edge cases they already use to make the decision. Then we build the model *around* that frame. Same inputs they're already watching. Same output structure. Same failure modes they already recognize. The model becomes a *tool they already know how to use*, not a black box they're forced to trust.
+
+Operators don't need AI they understand. They need AI that works the way they already think.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization stalls when you build without operator input</title>
 <guid isPermaLink="false">32ed94e2aeb9</guid>
@@ -1280,27 +1305,6 @@ When your AI fails, you should be able to debug it. That's not a nice-to-have. T
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization feels like building two companies at once</title>
-<guid isPermaLink="false">20df139126fc</guid>
-<pubDate>Mon, 13 Jul 2026 10:58:52 +0000</pubDate>
-<description><![CDATA[Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.
-
-The real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.
-
-Here's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.
-
-When you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.]]></description>
-<content:encoded><![CDATA[Most digitalization projects fail because they're run as software initiatives instead of organizational ones. The team picks a platform, builds workflows, deploys it—and operators ignore it because it doesn't match how they actually work.
-
-The real problem: digitalization gets treated as a technology problem when it's actually a coordination problem. You're not just installing software. You're running two parallel operations—the old way and the new way—until the new one is actually better. That costs money, attention, and political capital. Most budgets assume a flip-switch cutover. Reality is messier.
-
-Here's the reframe: stop thinking of digitalization as a project with an end date. Think of it as building a second way of working that has to outcompete the first one for operator mindshare every single day. That means your measurement isn't 'system adoption'—it's 'which workflow saves time or reduces risk.' Speed, clarity, and visibility on that trade-off matter more than UI polish or feature count.
-
-When you measure against actual work, not compliance, digitalization stops feeling like overhead and starts feeling like a tool worth using.]]></content:encoded>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>

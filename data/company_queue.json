@@ -979,5 +979,14 @@
     "title": "Why digitalization stalls when you build without operator input",
     "body": "We see this constantly: a manufacturer digitizes a workflow, deploys it, and operators work around it. Not because the system is wrong—because it was built without them.\n\nThe mechanism is simple. Engineers and consultants design systems based on process documentation and stakeholder interviews. That's not operator knowledge. An operator knows friction points, workarounds, edge cases, and which \"standard procedures\" nobody actually follows. A spreadsheet or a diagram doesn't capture that. So the system solves the documented problem, not the real one.\n\nHere's the heuristic we use: before any build, we run a working session with 2–3 operators doing the actual job. Not asking what they do. Watching them do it for a shift, noting where they slow down, where they reach for a calculator or a sticky note, where they make judgment calls the process doesn't account for.\n\nThen we design around that. The system becomes something they recognize, not something imposed on them.\n\nOperators don't reject digitalization because it's new—they reject it because it ignores how work actually happens.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/32ed94e2aeb9.png"
+  },
+  {
+    "id": "8527a18585e2",
+    "ts": "2026-09-02T12:32:22.453958+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ignore the Operator's Mental Model",
+    "body": "Most AI projects fail because engineers build what the data says, not what the operator needs to *believe*.\n\nAn operator watching a model make a decision needs to know not just that it's accurate—they need to understand the logic chain well enough to catch when it's wrong. But AI teams ship black-box confidence scores. The operator can't verify it. Can't debug it. Can't override it with domain knowledge. So they don't trust it, the model sits unused, and everyone calls it a pilot that didn't scale.\n\nThis happens because we treat \"accuracy\" and \"explainability\" as separate problems. They're not. A model that makes sense to the operator IS more accurate in production, because operators actually use it and flag failures early.\n\nHere's what we do: before we touch the model, we map the operator's existing mental model—the heuristics, shortcuts, and edge cases they already use to make the decision. Then we build the model *around* that frame. Same inputs they're already watching. Same output structure. Same failure modes they already recognize. The model becomes a *tool they already know how to use*, not a black box they're forced to trust.\n\nOperators don't need AI they understand. They need AI that works the way they already think.",
+    "image_url": ""
   }
 ]
