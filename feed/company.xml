@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 02 Sep 2026 12:32:22 +0000</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 12:36:32 +0000</lastBuildDate>
+<item>
+<title>Why sustainability metrics collapse under real operating conditions</title>
+<guid isPermaLink="false">c3baa8bdde30</guid>
+<pubDate>Thu, 03 Sep 2026 12:36:08 +0000</pubDate>
+<description><![CDATA[Most sustainability programs measure what's easy to count, not what actually moves the needle. A plant reports 15% energy reduction because the meter says so. Two weeks later, operators bypass the efficiency logic because it conflicts with a production deadline. The metric never updates.
+
+The problem isn't the target. It's that sustainability gets designed as a constraint layer bolted onto existing workflows, not as part of how work actually gets done. Operators face a choice between hitting their shift goals or hitting a sustainability benchmark. They choose the thing they're accountable for. The metric becomes fiction.
+
+Stop treating sustainability as a compliance surface. Embed it into the operating model itself—not as a rule, but as a parameter. Ask: what does efficiency look like when you factor in maintenance windows, demand swings, and actual crew handoffs? Build sustainability into how you sequence work, not on top of it.
+
+When sustainability is baked into operations, not bolted on top, the numbers hold up in real time.]]></description>
+<content:encoded><![CDATA[Most sustainability programs measure what's easy to count, not what actually moves the needle. A plant reports 15% energy reduction because the meter says so. Two weeks later, operators bypass the efficiency logic because it conflicts with a production deadline. The metric never updates.
+
+The problem isn't the target. It's that sustainability gets designed as a constraint layer bolted onto existing workflows, not as part of how work actually gets done. Operators face a choice between hitting their shift goals or hitting a sustainability benchmark. They choose the thing they're accountable for. The metric becomes fiction.
+
+Stop treating sustainability as a compliance surface. Embed it into the operating model itself—not as a rule, but as a parameter. Ask: what does efficiency look like when you factor in maintenance windows, demand swings, and actual crew handoffs? Build sustainability into how you sequence work, not on top of it.
+
+When sustainability is baked into operations, not bolted on top, the numbers hold up in real time.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c3baa8bdde30.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c3baa8bdde30.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Teams Ignore the Operator's Mental Model</title>
 <guid isPermaLink="false">8527a18585e2</guid>
@@ -1279,33 +1302,6 @@ We built this into a recent project by wiring sustainability calculations direct
 Operators own the math, sustainability owns the insight. That's when it actually sticks.]]></content:encoded>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Build Systems Nobody Can Debug</title>
-<guid isPermaLink="false">0d4eb122c6a9</guid>
-<pubDate>Tue, 14 Jul 2026 09:56:03 +0000</pubDate>
-<description><![CDATA[Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.
-
-This happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.
-
-The fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.
-
-That means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.
-
-When your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.]]></description>
-<content:encoded><![CDATA[Most AI systems fail in production not because the model is weak, but because nobody on the ops team can trace why it made a decision. A classifier rejects a legitimate claim. A recommendation engine surfaces garbage. And the only response is: retrain the model.
-
-This happens because we've treated AI as a black box optimization problem instead of an engineering system. We ship statistical outputs without the instrumentation, logging, or decision trails that make industrial software reliable. A traditional system that crashes leaves logs. An AI system that fails leaves a probability score.
-
-The fix isn't better models or more data. It's building AI systems like we build everything else: with observable, auditable decision pipelines.
-
-That means logging the features that actually influenced a decision. Recording which training data shaped a prediction. Exposing where uncertainty lives. Building systems where a human investigator—not a data scientist—can walk through what the model saw and why it acted.
-
-When your AI fails, you should be able to debug it. That's not a nice-to-have. That's infrastructure.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/0d4eb122c6a9.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

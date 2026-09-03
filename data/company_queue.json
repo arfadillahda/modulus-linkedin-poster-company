@@ -988,5 +988,14 @@
     "title": "Why AI Teams Ignore the Operator's Mental Model",
     "body": "Most AI projects fail because engineers build what the data says, not what the operator needs to *believe*.\n\nAn operator watching a model make a decision needs to know not just that it's accurate—they need to understand the logic chain well enough to catch when it's wrong. But AI teams ship black-box confidence scores. The operator can't verify it. Can't debug it. Can't override it with domain knowledge. So they don't trust it, the model sits unused, and everyone calls it a pilot that didn't scale.\n\nThis happens because we treat \"accuracy\" and \"explainability\" as separate problems. They're not. A model that makes sense to the operator IS more accurate in production, because operators actually use it and flag failures early.\n\nHere's what we do: before we touch the model, we map the operator's existing mental model—the heuristics, shortcuts, and edge cases they already use to make the decision. Then we build the model *around* that frame. Same inputs they're already watching. Same output structure. Same failure modes they already recognize. The model becomes a *tool they already know how to use*, not a black box they're forced to trust.\n\nOperators don't need AI they understand. They need AI that works the way they already think.",
     "image_url": ""
+  },
+  {
+    "id": "c3baa8bdde30",
+    "ts": "2026-09-03T12:36:08.579248+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability metrics collapse under real operating conditions",
+    "body": "Most sustainability programs measure what's easy to count, not what actually moves the needle. A plant reports 15% energy reduction because the meter says so. Two weeks later, operators bypass the efficiency logic because it conflicts with a production deadline. The metric never updates.\n\nThe problem isn't the target. It's that sustainability gets designed as a constraint layer bolted onto existing workflows, not as part of how work actually gets done. Operators face a choice between hitting their shift goals or hitting a sustainability benchmark. They choose the thing they're accountable for. The metric becomes fiction.\n\nStop treating sustainability as a compliance surface. Embed it into the operating model itself—not as a rule, but as a parameter. Ask: what does efficiency look like when you factor in maintenance windows, demand swings, and actual crew handoffs? Build sustainability into how you sequence work, not on top of it.\n\nWhen sustainability is baked into operations, not bolted on top, the numbers hold up in real time.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c3baa8bdde30.png"
   }
 ]
