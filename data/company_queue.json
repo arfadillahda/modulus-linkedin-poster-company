@@ -997,5 +997,14 @@
     "title": "Why sustainability metrics collapse under real operating conditions",
     "body": "Most sustainability programs measure what's easy to count, not what actually moves the needle. A plant reports 15% energy reduction because the meter says so. Two weeks later, operators bypass the efficiency logic because it conflicts with a production deadline. The metric never updates.\n\nThe problem isn't the target. It's that sustainability gets designed as a constraint layer bolted onto existing workflows, not as part of how work actually gets done. Operators face a choice between hitting their shift goals or hitting a sustainability benchmark. They choose the thing they're accountable for. The metric becomes fiction.\n\nStop treating sustainability as a compliance surface. Embed it into the operating model itself—not as a rule, but as a parameter. Ask: what does efficiency look like when you factor in maintenance windows, demand swings, and actual crew handoffs? Build sustainability into how you sequence work, not on top of it.\n\nWhen sustainability is baked into operations, not bolted on top, the numbers hold up in real time.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c3baa8bdde30.png"
+  },
+  {
+    "id": "89e974db2add",
+    "ts": "2026-09-04T12:29:53.152921+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability KPIs drift from actual plant behavior",
+    "body": "You've built a solid sustainability target: reduce energy consumption 15% by 2026. Six months in, your dashboard shows 12% progress. Your plant reports compliance. Then your utility bill arrives and nothing has moved.\n\nThe gap exists because most sustainability frameworks measure at the wrong abstraction level. You're tracking aggregated metrics—total kWh, average emissions per unit—that mask what operators actually do hour-to-hour. A compressor runs inefficiently. A steam trap leaks for three days. These don't show up in monthly KPI rollups; they just erode your target.\n\nWe approach this by separating the measure from the act. Build your KPI on outcomes (energy per product, emissions intensity). But wire your operations team to anomalies—the granular, real-time signals that precede those outcomes. A 2-degree rise in condenser temperature today becomes your 15% gap in three months if nobody sees it.\n\nThe framework: state your target in business terms, measure it monthly. Instrument the plant in technical terms, alert on daily deviations. One feeds strategy. The other feeds behavior.\n\nIf your KPI and your operator incentives point in different directions, your KPI loses.",
+    "image_url": ""
   }
 ]

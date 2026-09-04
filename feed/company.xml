@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 03 Sep 2026 12:36:32 +0000</lastBuildDate>
+<lastBuildDate>Fri, 04 Sep 2026 12:29:53 +0000</lastBuildDate>
+<item>
+<title>Why sustainability KPIs drift from actual plant behavior</title>
+<guid isPermaLink="false">89e974db2add</guid>
+<pubDate>Fri, 04 Sep 2026 12:29:53 +0000</pubDate>
+<description><![CDATA[You've built a solid sustainability target: reduce energy consumption 15% by 2026. Six months in, your dashboard shows 12% progress. Your plant reports compliance. Then your utility bill arrives and nothing has moved.
+
+The gap exists because most sustainability frameworks measure at the wrong abstraction level. You're tracking aggregated metrics—total kWh, average emissions per unit—that mask what operators actually do hour-to-hour. A compressor runs inefficiently. A steam trap leaks for three days. These don't show up in monthly KPI rollups; they just erode your target.
+
+We approach this by separating the measure from the act. Build your KPI on outcomes (energy per product, emissions intensity). But wire your operations team to anomalies—the granular, real-time signals that precede those outcomes. A 2-degree rise in condenser temperature today becomes your 15% gap in three months if nobody sees it.
+
+The framework: state your target in business terms, measure it monthly. Instrument the plant in technical terms, alert on daily deviations. One feeds strategy. The other feeds behavior.
+
+If your KPI and your operator incentives point in different directions, your KPI loses.]]></description>
+<content:encoded><![CDATA[You've built a solid sustainability target: reduce energy consumption 15% by 2026. Six months in, your dashboard shows 12% progress. Your plant reports compliance. Then your utility bill arrives and nothing has moved.
+
+The gap exists because most sustainability frameworks measure at the wrong abstraction level. You're tracking aggregated metrics—total kWh, average emissions per unit—that mask what operators actually do hour-to-hour. A compressor runs inefficiently. A steam trap leaks for three days. These don't show up in monthly KPI rollups; they just erode your target.
+
+We approach this by separating the measure from the act. Build your KPI on outcomes (energy per product, emissions intensity). But wire your operations team to anomalies—the granular, real-time signals that precede those outcomes. A 2-degree rise in condenser temperature today becomes your 15% gap in three months if nobody sees it.
+
+The framework: state your target in business terms, measure it monthly. Instrument the plant in technical terms, alert on daily deviations. One feeds strategy. The other feeds behavior.
+
+If your KPI and your operator incentives point in different directions, your KPI loses.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability metrics collapse under real operating conditions</title>
 <guid isPermaLink="false">c3baa8bdde30</guid>
@@ -1276,31 +1301,6 @@ Digitalization software that lives in the operator's workflow is digitalization 
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" medium="image" type="image/png"/>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability software breaks under operator schedule changes</title>
-<guid isPermaLink="false">7da4f50cef46</guid>
-<pubDate>Wed, 15 Jul 2026 10:00:50 +0000</pubDate>
-<description><![CDATA[A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.
-
-This happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.
-
-The fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.
-
-We built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.
-
-Operators own the math, sustainability owns the insight. That's when it actually sticks.]]></description>
-<content:encoded><![CDATA[A plant adjusts maintenance windows mid-quarter. The sustainability software still reports emissions against the old baseline. Nobody notices until month-end reconciliation, when the number doesn't match operations' actual work log.
-
-This happens because most sustainability platforms assume a static operational model. They're built around a single submitted plan. When operators deviate—and they always do—the software either reports stale data or forces manual recalculation, which kills adoption.
-
-The fix is to treat sustainability metrics as live calculations tied to actual operational events, not submitted targets. When maintenance reschedules, when a line goes down, when throughput shifts, the baseline shifts with it. The metric updates automatically without losing historical context.
-
-We built this into a recent project by wiring sustainability calculations directly to the operations schema—the same source that drives scheduling and logging. No ETL lag. No weekly manual reviews. The sustainability team watches real work, not a forecast.
-
-Operators own the math, sustainability owns the insight. That's when it actually sticks.]]></content:encoded>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
