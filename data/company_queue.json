@@ -1006,5 +1006,14 @@
     "title": "Why sustainability KPIs drift from actual plant behavior",
     "body": "You've built a solid sustainability target: reduce energy consumption 15% by 2026. Six months in, your dashboard shows 12% progress. Your plant reports compliance. Then your utility bill arrives and nothing has moved.\n\nThe gap exists because most sustainability frameworks measure at the wrong abstraction level. You're tracking aggregated metrics—total kWh, average emissions per unit—that mask what operators actually do hour-to-hour. A compressor runs inefficiently. A steam trap leaks for three days. These don't show up in monthly KPI rollups; they just erode your target.\n\nWe approach this by separating the measure from the act. Build your KPI on outcomes (energy per product, emissions intensity). But wire your operations team to anomalies—the granular, real-time signals that precede those outcomes. A 2-degree rise in condenser temperature today becomes your 15% gap in three months if nobody sees it.\n\nThe framework: state your target in business terms, measure it monthly. Instrument the plant in technical terms, alert on daily deviations. One feeds strategy. The other feeds behavior.\n\nIf your KPI and your operator incentives point in different directions, your KPI loses.",
     "image_url": ""
+  },
+  {
+    "id": "41d6abc306db",
+    "ts": "2026-09-05T11:38:11.617109+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Systems Fail When Operators Can't Reproduce the Failure",
+    "body": "A machine learning model flags a tank pressure anomaly in production. The operator acknowledges the alert, investigates, finds nothing wrong, silences it. Three weeks later, the same anomaly fires again—same response. By month two, the operator has stopped looking. The model works fine. The operator's trust died.\n\nThis happens because the model was trained on aggregate patterns across hundreds of sites, but it surfaces predictions without the local context the operator needs to act. The operator sees a number go red. They don't see the three related measurements that would explain it, or the maintenance log entry from yesterday, or the seasonal pattern unique to their facility. They're asked to trust a black box that doesn't speak their language.\n\nWe've solved this by baking operator-verifiable logic into the alert layer itself. Not just predictions—explanations tied to the specific measurements and thresholds the operator monitors daily. When the anomaly fires, it shows which gauges moved and why the system thinks it matters. The operator can now validate the reasoning against what they know about their equipment.\n\nAn alert without context is just noise wearing a confidence interval.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/41d6abc306db.png"
   }
 ]

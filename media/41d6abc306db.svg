@@ -1,0 +1,172 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND (~22% = 0–225px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI</text>
+
+  <!-- Display Headline -->
+  <text
+    x="64" y="148"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators Can't Trust</text>
+  <text
+    x="64" y="210"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">What They Can't Verify</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="220" width="220" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="40"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="end"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND — 4 tiles in 2×2 grid
+       Top-left tile corner: x=64, y=252
+       Tile width: (1024 - 64 - 64 - 16) / 2 = 440
+       Tile height: (640 - 16) / 2 = 312  → let's set to 292
+       Grid: rows at y=252 and y=560, cols at x=64 and x=520
+  ════════════════════════════════════════════ -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="252" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="92" y="316"
+    font-size="56" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text
+    x="92" y="362"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Alert Without Context</text>
+  <text
+    x="92" y="396"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">A red number tells operators nothing useful.</text>
+  <text
+    x="92" y="416"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Noise wearing a confidence interval.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="252" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="548" y="316"
+    font-size="56" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text
+    x="548" y="362"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Trust Erodes Silently</text>
+  <text
+    x="548" y="396"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ignored alerts become invisible alerts.</text>
+  <text
+    x="548" y="416"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The model works. The operator has stopped looking.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="560" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="92" y="624"
+    font-size="56" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text
+    x="92" y="670"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Missing Local Context</text>
+  <text
+    x="92" y="704"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Aggregate patterns miss your facility's</text>
+  <text
+    x="92" y="724"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">seasonal quirks and maintenance history.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="560" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text
+    x="548" y="624"
+    font-size="56" font-weight="800"
+    fill="#2D5BFF"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text
+    x="548" y="670"
+    font-size="22" font-weight="700"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Verifiable Explanations</text>
+  <text
+    x="548" y="704"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Show which gauges moved and why.</text>
+  <text
+    x="548" y="724"
+    font-size="16" font-weight="400"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators validate against what they know.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND (~16% = 868–1024px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="878" x2="960" y2="878" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="942"
+    font-size="22" font-weight="400"
+    fill="#3A3A3A"
+    text-anchor="middle"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Predictions without explanation aren't intelligence — they're noise.</text>
+
+</svg>

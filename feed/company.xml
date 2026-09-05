@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 04 Sep 2026 12:29:53 +0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 11:38:38 +0000</lastBuildDate>
+<item>
+<title>Why AI Systems Fail When Operators Can't Reproduce the Failure</title>
+<guid isPermaLink="false">41d6abc306db</guid>
+<pubDate>Sat, 05 Sep 2026 11:38:11 +0000</pubDate>
+<description><![CDATA[A machine learning model flags a tank pressure anomaly in production. The operator acknowledges the alert, investigates, finds nothing wrong, silences it. Three weeks later, the same anomaly fires again—same response. By month two, the operator has stopped looking. The model works fine. The operator's trust died.
+
+This happens because the model was trained on aggregate patterns across hundreds of sites, but it surfaces predictions without the local context the operator needs to act. The operator sees a number go red. They don't see the three related measurements that would explain it, or the maintenance log entry from yesterday, or the seasonal pattern unique to their facility. They're asked to trust a black box that doesn't speak their language.
+
+We've solved this by baking operator-verifiable logic into the alert layer itself. Not just predictions—explanations tied to the specific measurements and thresholds the operator monitors daily. When the anomaly fires, it shows which gauges moved and why the system thinks it matters. The operator can now validate the reasoning against what they know about their equipment.
+
+An alert without context is just noise wearing a confidence interval.]]></description>
+<content:encoded><![CDATA[A machine learning model flags a tank pressure anomaly in production. The operator acknowledges the alert, investigates, finds nothing wrong, silences it. Three weeks later, the same anomaly fires again—same response. By month two, the operator has stopped looking. The model works fine. The operator's trust died.
+
+This happens because the model was trained on aggregate patterns across hundreds of sites, but it surfaces predictions without the local context the operator needs to act. The operator sees a number go red. They don't see the three related measurements that would explain it, or the maintenance log entry from yesterday, or the seasonal pattern unique to their facility. They're asked to trust a black box that doesn't speak their language.
+
+We've solved this by baking operator-verifiable logic into the alert layer itself. Not just predictions—explanations tied to the specific measurements and thresholds the operator monitors daily. When the anomaly fires, it shows which gauges moved and why the system thinks it matters. The operator can now validate the reasoning against what they know about their equipment.
+
+An alert without context is just noise wearing a confidence interval.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/41d6abc306db.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/41d6abc306db.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability KPIs drift from actual plant behavior</title>
 <guid isPermaLink="false">89e974db2add</guid>
@@ -1275,33 +1298,6 @@ Then the roadmap becomes a staged delivery of decision support, not a feature li
 Operators don't adopt technology—they adopt the practices that let them move faster.]]></content:encoded>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization vendors can't ship operator software</title>
-<guid isPermaLink="false">2b19679c8680</guid>
-<pubDate>Thu, 16 Jul 2026 10:06:47 +0000</pubDate>
-<description><![CDATA[Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.
-
-The gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.
-
-Vendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.
-
-We've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.
-
-Digitalization software that lives in the operator's workflow is digitalization software that gets used.]]></description>
-<content:encoded><![CDATA[Most AI platforms fail at the operator layer because they're built by teams who've never had to explain a feature to someone in a hardhat without a laptop.
-
-The gap isn't technical—it's perceptual. A digitalization vendor optimizes for data completeness and model accuracy. An operator optimizes for speed and fault tolerance. When a sensor goes down, the operator doesn't need a confidence interval; they need to know whether to trust the system's fallback or go manual. When a form takes 45 seconds instead of 12, the operator has already abandoned it for a clipboard.
-
-Vendors treat this as a UI problem. It's not. It's a design contract problem. The software needs to be built around operator constraints—latency, attention, cognitive load, failure modes—from the schema up.
-
-We've learned this the hard way: building one data model for engineers and another for operators is a half-measure. The only way to ship is to design from the operator's decision point backward, bake fault tolerance into the API layer, and keep interfaces honest about what the system actually knows.
-
-Digitalization software that lives in the operator's workflow is digitalization software that gets used.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/2b19679c8680.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
