@@ -1015,5 +1015,14 @@
     "title": "Why AI Systems Fail When Operators Can't Reproduce the Failure",
     "body": "A machine learning model flags a tank pressure anomaly in production. The operator acknowledges the alert, investigates, finds nothing wrong, silences it. Three weeks later, the same anomaly fires again—same response. By month two, the operator has stopped looking. The model works fine. The operator's trust died.\n\nThis happens because the model was trained on aggregate patterns across hundreds of sites, but it surfaces predictions without the local context the operator needs to act. The operator sees a number go red. They don't see the three related measurements that would explain it, or the maintenance log entry from yesterday, or the seasonal pattern unique to their facility. They're asked to trust a black box that doesn't speak their language.\n\nWe've solved this by baking operator-verifiable logic into the alert layer itself. Not just predictions—explanations tied to the specific measurements and thresholds the operator monitors daily. When the anomaly fires, it shows which gauges moved and why the system thinks it matters. The operator can now validate the reasoning against what they know about their equipment.\n\nAn alert without context is just noise wearing a confidence interval.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/41d6abc306db.png"
+  },
+  {
+    "id": "70ada6c24265",
+    "ts": "2026-09-06T11:57:32.364907+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization fails when you digitize the wrong process",
+    "body": "Most digitalization projects start by automating what exists. A paper form becomes a mobile app. A logbook becomes a database. A spreadsheet becomes a dashboard. Six months in, adoption stalls because you've just made the broken process faster.\n\nThe real trap: we assume the current workflow is correct because it's familiar. Operators have adapted to it. Managers report against it. But adaptation isn't validation. The workflow often exists because of constraints that no longer apply—outdated equipment, limited communication, manual workarounds that became standard practice.\n\nDigitalization should be the forcing function to ask: why do we do this step at all? Not how do we automate it. A superintendent working with a clipboard has accepted certain friction. Removing the clipboard without removing the friction just creates digital resentment.\n\nBefore you design the system, spend time on the actual problem you're solving. Not the current process. The problem underneath it. Then build backward from there.\n\nDigitalization works when it simplifies the core task, not when it digitizes the workaround.",
+    "image_url": ""
   }
 ]

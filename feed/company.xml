@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 05 Sep 2026 11:38:38 +0000</lastBuildDate>
+<lastBuildDate>Sun, 06 Sep 2026 11:57:32 +0000</lastBuildDate>
+<item>
+<title>Why digitalization fails when you digitize the wrong process</title>
+<guid isPermaLink="false">70ada6c24265</guid>
+<pubDate>Sun, 06 Sep 2026 11:57:32 +0000</pubDate>
+<description><![CDATA[Most digitalization projects start by automating what exists. A paper form becomes a mobile app. A logbook becomes a database. A spreadsheet becomes a dashboard. Six months in, adoption stalls because you've just made the broken process faster.
+
+The real trap: we assume the current workflow is correct because it's familiar. Operators have adapted to it. Managers report against it. But adaptation isn't validation. The workflow often exists because of constraints that no longer apply—outdated equipment, limited communication, manual workarounds that became standard practice.
+
+Digitalization should be the forcing function to ask: why do we do this step at all? Not how do we automate it. A superintendent working with a clipboard has accepted certain friction. Removing the clipboard without removing the friction just creates digital resentment.
+
+Before you design the system, spend time on the actual problem you're solving. Not the current process. The problem underneath it. Then build backward from there.
+
+Digitalization works when it simplifies the core task, not when it digitizes the workaround.]]></description>
+<content:encoded><![CDATA[Most digitalization projects start by automating what exists. A paper form becomes a mobile app. A logbook becomes a database. A spreadsheet becomes a dashboard. Six months in, adoption stalls because you've just made the broken process faster.
+
+The real trap: we assume the current workflow is correct because it's familiar. Operators have adapted to it. Managers report against it. But adaptation isn't validation. The workflow often exists because of constraints that no longer apply—outdated equipment, limited communication, manual workarounds that became standard practice.
+
+Digitalization should be the forcing function to ask: why do we do this step at all? Not how do we automate it. A superintendent working with a clipboard has accepted certain friction. Removing the clipboard without removing the friction just creates digital resentment.
+
+Before you design the system, spend time on the actual problem you're solving. Not the current process. The problem underneath it. Then build backward from there.
+
+Digitalization works when it simplifies the core task, not when it digitizes the workaround.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Systems Fail When Operators Can't Reproduce the Failure</title>
 <guid isPermaLink="false">41d6abc306db</guid>
@@ -1272,31 +1297,6 @@ Accuracy on a holdout set means nothing. Adoption on day one means everything.]]
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization roadmaps disconnect from operator reality</title>
-<guid isPermaLink="false">7544b5c44b52</guid>
-<pubDate>Fri, 17 Jul 2026 09:55:10 +0000</pubDate>
-<description><![CDATA[You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.
-
-This happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.
-
-We've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.
-
-Then the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.
-
-Operators don't adopt technology—they adopt the practices that let them move faster.]]></description>
-<content:encoded><![CDATA[You build a digitalization roadmap, get stakeholder buy-in, then hand it to the team responsible for actually shipping—and suddenly the priorities don't align with how work actually flows on the floor.
-
-This happens because roadmaps are built top-down: business outcomes, technology capabilities, organizational dependencies. Operators live bottom-up: their constraints are immediate (downtime costs money right now), their workflows are adaptive (procedures change based on equipment state), and their information hierarchy doesn't match the software architecture you designed.
-
-We've started flipping the order. Before the roadmap gets locked, we run a structured operator interview cycle—not to collect wishes, but to map the actual sequence of decisions operators make under pressure. We call it a decision cascade: which scenarios do they face first, what information do they actually need when they need it, what breaks their workflow if it's missing.
-
-Then the roadmap becomes a staged delivery of decision support, not a feature list. Priorities shift. Early wins become operational, not architectural.
-
-Operators don't adopt technology—they adopt the practices that let them move faster.]]></content:encoded>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>
