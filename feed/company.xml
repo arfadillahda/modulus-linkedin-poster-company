@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 06 Sep 2026 11:57:32 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 13:58:30 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Systems Nobody Wants to Use</title>
+<guid isPermaLink="false">794da3028685</guid>
+<pubDate>Mon, 07 Sep 2026 13:58:09 +0000</pubDate>
+<description><![CDATA[We keep seeing AI teams optimize for model accuracy while operators optimize for *not breaking their shift*. The gap between those two metrics kills adoption faster than any technical flaw.
+
+It happens because accuracy lives in a lab. You can measure it. You can publish it. You can tune it endlessly. But the operator's real constraint—"Can I trust this enough to act on it, or do I need a human double-check?"—doesn't fit neatly into an ROC curve. So teams build systems that are statistically sound but operationally unusable.
+
+The reframe: stop measuring AI as a replacement for human judgment. Measure it as a *reduction in cognitive load*. Ask: does this system make the operator's existing decision faster or more confident, or does it just add another thing to verify?
+
+When you optimize for that, you design differently. You surface uncertainty, not hide it. You make the reasoning legible. You accept lower accuracy if it means the operator actually uses it.
+
+AI adoption isn't a model problem. It's a trust problem.]]></description>
+<content:encoded><![CDATA[We keep seeing AI teams optimize for model accuracy while operators optimize for *not breaking their shift*. The gap between those two metrics kills adoption faster than any technical flaw.
+
+It happens because accuracy lives in a lab. You can measure it. You can publish it. You can tune it endlessly. But the operator's real constraint—"Can I trust this enough to act on it, or do I need a human double-check?"—doesn't fit neatly into an ROC curve. So teams build systems that are statistically sound but operationally unusable.
+
+The reframe: stop measuring AI as a replacement for human judgment. Measure it as a *reduction in cognitive load*. Ask: does this system make the operator's existing decision faster or more confident, or does it just add another thing to verify?
+
+When you optimize for that, you design differently. You surface uncertainty, not hide it. You make the reasoning legible. You accept lower accuracy if it means the operator actually uses it.
+
+AI adoption isn't a model problem. It's a trust problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/794da3028685.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/794da3028685.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization fails when you digitize the wrong process</title>
 <guid isPermaLink="false">70ada6c24265</guid>
@@ -1271,33 +1298,6 @@ When you model them together, you stop treating sustainability as something that
 Sustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.]]></content:encoded>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Ship Systems Nobody Actually Uses</title>
-<guid isPermaLink="false">3e7c40639177</guid>
-<pubDate>Sat, 18 Jul 2026 09:22:55 +0000</pubDate>
-<description><![CDATA[Teams build an AI classifier that runs perfectly in staging. Accuracy is 94%. F1 score is solid. Then it ships to operators on the floor, and adoption flatlines.
-
-Why? Because the team optimized for the wrong metric. They trained on historical data that doesn't match the distribution operators actually encounter. Or the model flags edge cases so aggressively that users override it every time—defeating the whole point.
-
-The gap exists because data scientists and operators live in different worlds. Data scientists optimize for statistical performance in isolation. Operators optimize for *friction in their actual workflow*. A model that's 2% less accurate but requires zero manual review beats a 96% classifier that demands human judgment on every fifth decision.
-
-We approach this by front-loading operator input: before we touch a training pipeline, we watch the job being done. We map where humans currently make the call, what information they use, and what would actually make their day easier. Then we build the model *around that reality*, not around the dataset.
-
-Accuracy on a holdout set means nothing. Adoption on day one means everything.]]></description>
-<content:encoded><![CDATA[Teams build an AI classifier that runs perfectly in staging. Accuracy is 94%. F1 score is solid. Then it ships to operators on the floor, and adoption flatlines.
-
-Why? Because the team optimized for the wrong metric. They trained on historical data that doesn't match the distribution operators actually encounter. Or the model flags edge cases so aggressively that users override it every time—defeating the whole point.
-
-The gap exists because data scientists and operators live in different worlds. Data scientists optimize for statistical performance in isolation. Operators optimize for *friction in their actual workflow*. A model that's 2% less accurate but requires zero manual review beats a 96% classifier that demands human judgment on every fifth decision.
-
-We approach this by front-loading operator input: before we touch a training pipeline, we watch the job being done. We map where humans currently make the call, what information they use, and what would actually make their day easier. Then we build the model *around that reality*, not around the dataset.
-
-Accuracy on a holdout set means nothing. Adoption on day one means everything.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3e7c40639177.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

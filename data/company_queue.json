@@ -1024,5 +1024,14 @@
     "title": "Why digitalization fails when you digitize the wrong process",
     "body": "Most digitalization projects start by automating what exists. A paper form becomes a mobile app. A logbook becomes a database. A spreadsheet becomes a dashboard. Six months in, adoption stalls because you've just made the broken process faster.\n\nThe real trap: we assume the current workflow is correct because it's familiar. Operators have adapted to it. Managers report against it. But adaptation isn't validation. The workflow often exists because of constraints that no longer apply—outdated equipment, limited communication, manual workarounds that became standard practice.\n\nDigitalization should be the forcing function to ask: why do we do this step at all? Not how do we automate it. A superintendent working with a clipboard has accepted certain friction. Removing the clipboard without removing the friction just creates digital resentment.\n\nBefore you design the system, spend time on the actual problem you're solving. Not the current process. The problem underneath it. Then build backward from there.\n\nDigitalization works when it simplifies the core task, not when it digitizes the workaround.",
     "image_url": ""
+  },
+  {
+    "id": "794da3028685",
+    "ts": "2026-09-07T13:58:09.320156+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build Systems Nobody Wants to Use",
+    "body": "We keep seeing AI teams optimize for model accuracy while operators optimize for *not breaking their shift*. The gap between those two metrics kills adoption faster than any technical flaw.\n\nIt happens because accuracy lives in a lab. You can measure it. You can publish it. You can tune it endlessly. But the operator's real constraint—\"Can I trust this enough to act on it, or do I need a human double-check?\"—doesn't fit neatly into an ROC curve. So teams build systems that are statistically sound but operationally unusable.\n\nThe reframe: stop measuring AI as a replacement for human judgment. Measure it as a *reduction in cognitive load*. Ask: does this system make the operator's existing decision faster or more confident, or does it just add another thing to verify?\n\nWhen you optimize for that, you design differently. You surface uncertainty, not hide it. You make the reasoning legible. You accept lower accuracy if it means the operator actually uses it.\n\nAI adoption isn't a model problem. It's a trust problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/794da3028685.png"
   }
 ]
