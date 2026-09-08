@@ -4,7 +4,28 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 07 Sep 2026 13:58:30 +0000</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 12:37:13 +0000</lastBuildDate>
+<item>
+<title>Why your carbon accounting software talks to nobody</title>
+<guid isPermaLink="false">0d748c8103be</guid>
+<pubDate>Tue, 08 Sep 2026 12:37:13 +0000</pubDate>
+<description><![CDATA[A major industrial operator built a carbon tracking system that calculated Scope 1, 2, and 3 emissions with precision. Six months in, the data didn't move. Why? Because the software lived in an isolated data warehouse. It ingested monthly utility bills, but plant operators still logged energy consumption in three separate spreadsheets. Accounting couldn't reconcile. Operations ignored it.
+
+The root cause: sustainability software treats data as read-only. It assumes a clean pipeline from sensor to dashboard. Industrial reality is messier. You have legacy SCADA systems, manual logs, third-party invoicing, and upstream supplier reports—none of them talk to each other natively. A carbon platform that can't integrate with existing operational workflows becomes a regulatory checkbox, not a decision tool.
+
+The fix is bidirectional schema binding. Treat your carbon model as a live data contract between systems, not a reporting layer on top. We built this for a manufacturer: a validated JSON-LD schema that operators could extend for their own instruments, that accounting systems could pull from without manual export, that compliance audits could verify against source data in real time.
+
+Sustainability software that doesn't integrate is just expensive noise.]]></description>
+<content:encoded><![CDATA[A major industrial operator built a carbon tracking system that calculated Scope 1, 2, and 3 emissions with precision. Six months in, the data didn't move. Why? Because the software lived in an isolated data warehouse. It ingested monthly utility bills, but plant operators still logged energy consumption in three separate spreadsheets. Accounting couldn't reconcile. Operations ignored it.
+
+The root cause: sustainability software treats data as read-only. It assumes a clean pipeline from sensor to dashboard. Industrial reality is messier. You have legacy SCADA systems, manual logs, third-party invoicing, and upstream supplier reports—none of them talk to each other natively. A carbon platform that can't integrate with existing operational workflows becomes a regulatory checkbox, not a decision tool.
+
+The fix is bidirectional schema binding. Treat your carbon model as a live data contract between systems, not a reporting layer on top. We built this for a manufacturer: a validated JSON-LD schema that operators could extend for their own instruments, that accounting systems could pull from without manual export, that compliance audits could verify against source data in real time.
+
+Sustainability software that doesn't integrate is just expensive noise.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build Systems Nobody Wants to Use</title>
 <guid isPermaLink="false">794da3028685</guid>
@@ -1273,31 +1294,6 @@ When ops optimizes the schedule, they're also optimizing for your sustainability
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability gets treated like compliance instead of operations</title>
-<guid isPermaLink="false">2f95671c29c0</guid>
-<pubDate>Sun, 19 Jul 2026 09:50:01 +0000</pubDate>
-<description><![CDATA[Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.
-
-The split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.
-
-The reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.
-
-When you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.
-
-Sustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.]]></description>
-<content:encoded><![CDATA[Most industrial teams treat sustainability as a separate track — a compliance checkbox that runs parallel to production planning, never touching it. Then they wonder why carbon targets clash with schedule, and why ops teams ignore the goals.
-
-The split exists because sustainability lives in EHS or strategy, while operations owns the actual levers: shift timing, equipment selection, material routing, downtime windows. Each team optimizes independently. Sustainability hits a carbon target on paper. Operations hits throughput targets in reality. When they conflict, operations always wins — because that's where the business watches.
-
-The reframe: sustainability isn't a constraint bolted onto operations. It's an operating parameter that belongs in the same decision loop as cost and throughput. A unit's carbon footprint per output should sit next to its cycle time and margin in the same planning layer.
-
-When you model them together, you stop treating sustainability as something that *costs* production. You start finding where lower-carbon choices actually improve efficiency.
-
-Sustainability that ops teams ignore isn't broken because the targets are soft — it's broken because nobody asked the people who control the actual work to own the math.]]></content:encoded>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

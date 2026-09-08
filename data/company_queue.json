@@ -1033,5 +1033,14 @@
     "title": "Why AI Teams Build Systems Nobody Wants to Use",
     "body": "We keep seeing AI teams optimize for model accuracy while operators optimize for *not breaking their shift*. The gap between those two metrics kills adoption faster than any technical flaw.\n\nIt happens because accuracy lives in a lab. You can measure it. You can publish it. You can tune it endlessly. But the operator's real constraint—\"Can I trust this enough to act on it, or do I need a human double-check?\"—doesn't fit neatly into an ROC curve. So teams build systems that are statistically sound but operationally unusable.\n\nThe reframe: stop measuring AI as a replacement for human judgment. Measure it as a *reduction in cognitive load*. Ask: does this system make the operator's existing decision faster or more confident, or does it just add another thing to verify?\n\nWhen you optimize for that, you design differently. You surface uncertainty, not hide it. You make the reasoning legible. You accept lower accuracy if it means the operator actually uses it.\n\nAI adoption isn't a model problem. It's a trust problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/794da3028685.png"
+  },
+  {
+    "id": "0d748c8103be",
+    "ts": "2026-09-08T12:37:13.714463+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your carbon accounting software talks to nobody",
+    "body": "A major industrial operator built a carbon tracking system that calculated Scope 1, 2, and 3 emissions with precision. Six months in, the data didn't move. Why? Because the software lived in an isolated data warehouse. It ingested monthly utility bills, but plant operators still logged energy consumption in three separate spreadsheets. Accounting couldn't reconcile. Operations ignored it.\n\nThe root cause: sustainability software treats data as read-only. It assumes a clean pipeline from sensor to dashboard. Industrial reality is messier. You have legacy SCADA systems, manual logs, third-party invoicing, and upstream supplier reports—none of them talk to each other natively. A carbon platform that can't integrate with existing operational workflows becomes a regulatory checkbox, not a decision tool.\n\nThe fix is bidirectional schema binding. Treat your carbon model as a live data contract between systems, not a reporting layer on top. We built this for a manufacturer: a validated JSON-LD schema that operators could extend for their own instruments, that accounting systems could pull from without manual export, that compliance audits could verify against source data in real time.\n\nSustainability software that doesn't integrate is just expensive noise.",
+    "image_url": ""
   }
 ]
