@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ─────────────────────────────────────────
+       TOP BAND (~22% = 0–225px)
+       ───────────────────────────────────────── -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="13" font-weight="600"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    fill="#C24A1F"
+    text-decoration="none">DIGITALIZATION</text>
+
+  <!-- Headline -->
+  <text
+    x="64" y="148"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="52" font-weight="800"
+    letter-spacing="-0.02em"
+    fill="#111111">
+    <tspan x="64" dy="0">Schema drift kills</tspan>
+    <tspan x="64" dy="60">your data handoff.</tspan>
+  </text>
+
+  <!-- Accent underline under headline -->
+  <line x1="64" y1="222" x2="360" y2="222" stroke="#C24A1F" stroke-width="2"/>
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="36"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="13" font-weight="600"
+    letter-spacing="0.18em"
+    text-anchor="end"
+    fill="#C24A1F">MODULUS1</text>
+
+  <!-- ─────────────────────────────────────────
+       MIDDLE BAND (~62% = 245–880px)
+       4 tiles in 2×2 grid
+       gutter=16, pad=64
+       tile w = (1024 - 64*2 - 16) / 2 = 440
+       tile h = (635 - 16) / 2 = 309.5 → 309
+       col1 x=64, col2 x=64+440+16=520
+       row1 y=245, row2 y=245+309+16=570
+       ───────────────────────────────────────── -->
+
+  <!-- Tile 01 — top-left -->
+  <rect x="64" y="248" width="440" height="309" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="314" font-size="72" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" letter-spacing="-0.02em">01</text>
+  <text x="92" y="356" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Built for, not with</text>
+  <text x="92" y="390" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Digitalization tools ignore operators' existing data reality.</text>
+
+  <!-- Tile 02 — top-right -->
+  <rect x="520" y="248" width="440" height="309" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="314" font-size="72" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" letter-spacing="-0.02em">02</text>
+  <text x="548" y="356" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Drift happens fast</text>
+  <text x="548" y="390" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators add columns, skip fields, repurpose your schema.</text>
+
+  <!-- Tile 03 — bottom-left -->
+  <rect x="64" y="573" width="440" height="309" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="639" font-size="72" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" letter-spacing="-0.02em">03</text>
+  <text x="92" y="681" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Design backwards</text>
+  <text x="92" y="715" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Start with what operators capture, then extend it.</text>
+
+  <!-- Tile 04 — bottom-right -->
+  <rect x="520" y="573" width="440" height="309" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="639" font-size="72" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" letter-spacing="-0.02em">04</text>
+  <text x="548" y="681" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Schemas that bend</text>
+  <text x="548" y="715" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Versioned, warn-not-block structures survive operator ownership.</text>
+
+  <!-- ─────────────────────────────────────────
+       BOTTOM BAND (~16% = 898–1024px)
+       ───────────────────────────────────────── -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="906" x2="960" y2="906" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="972"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22" font-weight="400"
+    letter-spacing="-0.01em"
+    text-anchor="middle"
+    fill="#3A3A3A">Data durability is about schemas that bend without snapping.</text>
+
+</svg>

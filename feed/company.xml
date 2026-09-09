@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 08 Sep 2026 12:37:13 +0000</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 12:44:09 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization data won't survive handoff to operations</title>
+<guid isPermaLink="false">3c6a906514a5</guid>
+<pubDate>Wed, 09 Sep 2026 12:43:45 +0000</pubDate>
+<description><![CDATA[You ship a digital system. The pilot runs clean. Then operations inherits it, and within six months the data model has drifted so far from your schema that your analytics break.
+
+This happens because digitalization software is usually built *for* operators, not *with* operators' existing data infrastructure. You design the ideal schema. Operators have a decade of spreadsheets, manual workarounds, and tribal knowledge about which fields actually matter. When they take ownership, they rationalize it—add columns you didn't predict, stop filling fields that don't map to their daily work, repurpose fields for things you never intended.
+
+The fix isn't stricter governance. It's building your data model backwards: start with what operators already capture, then design your schema to extend it without breaking it. That means versioned, backward-compatible data structures from day one. Validators that warn, not block. A clear path for operators to evolve the data without needing engineering.
+
+We've built systems where operators can reshape the schema and the system stays queryable. It looks permissive until you realize it's just respecting how work actually gets done.
+
+Data durability isn't about perfect schemas—it's about schemas that bend without snapping.]]></description>
+<content:encoded><![CDATA[You ship a digital system. The pilot runs clean. Then operations inherits it, and within six months the data model has drifted so far from your schema that your analytics break.
+
+This happens because digitalization software is usually built *for* operators, not *with* operators' existing data infrastructure. You design the ideal schema. Operators have a decade of spreadsheets, manual workarounds, and tribal knowledge about which fields actually matter. When they take ownership, they rationalize it—add columns you didn't predict, stop filling fields that don't map to their daily work, repurpose fields for things you never intended.
+
+The fix isn't stricter governance. It's building your data model backwards: start with what operators already capture, then design your schema to extend it without breaking it. That means versioned, backward-compatible data structures from day one. Validators that warn, not block. A clear path for operators to evolve the data without needing engineering.
+
+We've built systems where operators can reshape the schema and the system stays queryable. It looks permissive until you realize it's just respecting how work actually gets done.
+
+Data durability isn't about perfect schemas—it's about schemas that bend without snapping.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3c6a906514a5.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3c6a906514a5.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your carbon accounting software talks to nobody</title>
 <guid isPermaLink="false">0d748c8103be</guid>
@@ -1271,29 +1298,6 @@ We've built systems that log every override, cluster them by failure type, and s
 Operators trust systems that admit when they're uncertain, and degrade visibly instead of silently.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why sustainability gets orphaned between departments</title>
-<guid isPermaLink="false">8e6c382e5888</guid>
-<pubDate>Mon, 20 Jul 2026 10:49:49 +0000</pubDate>
-<description><![CDATA[The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.
-
-This happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.
-
-We've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.
-
-When ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.]]></description>
-<content:encoded><![CDATA[The sustainability team owns the target. Operations owns the schedule. Finance owns the budget. Nobody owns whether the target is actually achievable given real constraints — so it gets treated as a wishlist instead of a problem to solve.
-
-This happens because sustainability is treated as a separate function. It sits in strategy or compliance, disconnected from the people who actually move throughput, energy, or waste. When ops hits a constraint, they optimize for throughput. Sustainability sits on the call and watches it happen.
-
-We've found one heuristic works: reverse-index from operations. Start by asking the ops team: what's your constraint this quarter? Throughput, labor, equipment availability, material cost? Build the sustainability goal inside that constraint, not around it. Make the sustainability engineer a cost and throughput variable in the dispatch problem itself.
-
-When ops optimizes the schedule, they're also optimizing for your sustainability metric — because you've made it the same equation. Targets stop getting orphaned when they're embedded in the real work, not bolted on top of it.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/8e6c382e5888.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
