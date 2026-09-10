@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 09 Sep 2026 12:44:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 12:42:01 +0000</lastBuildDate>
+<item>
+<title>Why digitalization stalls when you skip the handoff plan</title>
+<guid isPermaLink="false">482e45adb4a1</guid>
+<pubDate>Thu, 10 Sep 2026 12:42:01 +0000</pubDate>
+<description><![CDATA[You build the system. It works in staging. Operations takes over and it dies in three weeks.
+
+This happens because digitalization teams and ops teams optimize for different things. Engineers optimize for feature completeness and data accuracy. Operators optimize for throughput and not having things break mid-shift. When you hand over a system without explicitly designing how ops will *actually run it*, you're handing them a Ferrari they need to drive like a forklift.
+
+Here's the heuristic we use: before you ship, map the three failure modes ops will hit first—the ones that will make them reach for the old process. Run a dry run where ops executes your system under realistic pressure. Don't observe. Let them fail. Document what they do instead of what you told them to do.
+
+Then redesign for that behavior, not against it.
+
+Your digitalization lives or dies in the gap between what you shipped and what ops actually runs.]]></description>
+<content:encoded><![CDATA[You build the system. It works in staging. Operations takes over and it dies in three weeks.
+
+This happens because digitalization teams and ops teams optimize for different things. Engineers optimize for feature completeness and data accuracy. Operators optimize for throughput and not having things break mid-shift. When you hand over a system without explicitly designing how ops will *actually run it*, you're handing them a Ferrari they need to drive like a forklift.
+
+Here's the heuristic we use: before you ship, map the three failure modes ops will hit first—the ones that will make them reach for the old process. Run a dry run where ops executes your system under realistic pressure. Don't observe. Let them fail. Document what they do instead of what you told them to do.
+
+Then redesign for that behavior, not against it.
+
+Your digitalization lives or dies in the gap between what you shipped and what ops actually runs.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digitalization data won't survive handoff to operations</title>
 <guid isPermaLink="false">3c6a906514a5</guid>
@@ -1273,31 +1298,6 @@ Digitalization wins when the operator reaches for it because it makes their day 
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Ship Systems That Silently Degrade</title>
-<guid isPermaLink="false">82a6b00b1b99</guid>
-<pubDate>Tue, 21 Jul 2026 10:23:20 +0000</pubDate>
-<description><![CDATA[Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.
-
-This happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.
-
-The fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.
-
-We've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.
-
-Operators trust systems that admit when they're uncertain, and degrade visibly instead of silently.]]></description>
-<content:encoded><![CDATA[Your ML model trains on last month's data. It validates at 94% accuracy. Three weeks into production, operators stop trusting its recommendations because edge cases — rare, but real — started appearing. Nobody's monitoring for them.
-
-This happens because teams optimize for training metrics, not for the failure modes that matter in live operations. A model can be statistically sound and operationally useless if it degrades on unseen patterns without raising a flag.
-
-The fix is drift detection that watches operator behavior, not just data distribution. When users bypass your system's recommendations at a rate that diverges from baseline, that's signal. When a specific input class starts producing outputs operators reject, that's actionable. You need observability tied to human override patterns — the thing that actually tells you the system is breaking.
-
-We've built systems that log every override, cluster them by failure type, and surface which subsets of your input space have started degrading. That gives you signal weeks before accuracy metrics show it.
-
-Operators trust systems that admit when they're uncertain, and degrade visibly instead of silently.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

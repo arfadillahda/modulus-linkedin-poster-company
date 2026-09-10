@@ -1051,5 +1051,14 @@
     "title": "Why your digitalization data won't survive handoff to operations",
     "body": "You ship a digital system. The pilot runs clean. Then operations inherits it, and within six months the data model has drifted so far from your schema that your analytics break.\n\nThis happens because digitalization software is usually built *for* operators, not *with* operators' existing data infrastructure. You design the ideal schema. Operators have a decade of spreadsheets, manual workarounds, and tribal knowledge about which fields actually matter. When they take ownership, they rationalize it—add columns you didn't predict, stop filling fields that don't map to their daily work, repurpose fields for things you never intended.\n\nThe fix isn't stricter governance. It's building your data model backwards: start with what operators already capture, then design your schema to extend it without breaking it. That means versioned, backward-compatible data structures from day one. Validators that warn, not block. A clear path for operators to evolve the data without needing engineering.\n\nWe've built systems where operators can reshape the schema and the system stays queryable. It looks permissive until you realize it's just respecting how work actually gets done.\n\nData durability isn't about perfect schemas—it's about schemas that bend without snapping.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/3c6a906514a5.png"
+  },
+  {
+    "id": "482e45adb4a1",
+    "ts": "2026-09-10T12:42:01.292848+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization stalls when you skip the handoff plan",
+    "body": "You build the system. It works in staging. Operations takes over and it dies in three weeks.\n\nThis happens because digitalization teams and ops teams optimize for different things. Engineers optimize for feature completeness and data accuracy. Operators optimize for throughput and not having things break mid-shift. When you hand over a system without explicitly designing how ops will *actually run it*, you're handing them a Ferrari they need to drive like a forklift.\n\nHere's the heuristic we use: before you ship, map the three failure modes ops will hit first—the ones that will make them reach for the old process. Run a dry run where ops executes your system under realistic pressure. Don't observe. Let them fail. Document what they do instead of what you told them to do.\n\nThen redesign for that behavior, not against it.\n\nYour digitalization lives or dies in the gap between what you shipped and what ops actually runs.",
+    "image_url": ""
   }
 ]
