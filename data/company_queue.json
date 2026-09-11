@@ -1060,5 +1060,14 @@
     "title": "Why digitalization stalls when you skip the handoff plan",
     "body": "You build the system. It works in staging. Operations takes over and it dies in three weeks.\n\nThis happens because digitalization teams and ops teams optimize for different things. Engineers optimize for feature completeness and data accuracy. Operators optimize for throughput and not having things break mid-shift. When you hand over a system without explicitly designing how ops will *actually run it*, you're handing them a Ferrari they need to drive like a forklift.\n\nHere's the heuristic we use: before you ship, map the three failure modes ops will hit first—the ones that will make them reach for the old process. Run a dry run where ops executes your system under realistic pressure. Don't observe. Let them fail. Document what they do instead of what you told them to do.\n\nThen redesign for that behavior, not against it.\n\nYour digitalization lives or dies in the gap between what you shipped and what ops actually runs.",
     "image_url": ""
+  },
+  {
+    "id": "5e5de573ee19",
+    "ts": "2026-09-11T12:36:32.594757+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Projects Stall After the First Demo",
+    "body": "Your AI model works in the notebook. Accuracy looks good. Then you show it to the operator, and they say: 'It doesn't match how we actually decide.' Development stops.\n\nThis happens because we build AI systems against idealized workflows, not real ones. Operators rarely follow the clean data paths we assume. They make judgment calls, skip steps, circle back. The model was trained on sanitized historical data—not the messy, context-dependent decisions that actually happen on the floor.\n\nHere's the framework we use to dodge this: Before training anything, we spend time watching operators work in their environment—not asking how they *should* work. We document the decision gates they actually hit. Then we ask: which of these can the model legitimately improve? Not all of them. Some need human judgment. Some need domain context we can't encode.\n\nThen we design the model to augment those specific gates, not replace the workflow.\n\nThe gap between 'what works mathematically' and 'what works operationally' is usually just incomplete problem framing early on.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5e5de573ee19.png"
   }
 ]

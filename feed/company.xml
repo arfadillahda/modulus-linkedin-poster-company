@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Thu, 10 Sep 2026 12:42:01 +0000</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 12:36:59 +0000</lastBuildDate>
+<item>
+<title>Why AI Projects Stall After the First Demo</title>
+<guid isPermaLink="false">5e5de573ee19</guid>
+<pubDate>Fri, 11 Sep 2026 12:36:32 +0000</pubDate>
+<description><![CDATA[Your AI model works in the notebook. Accuracy looks good. Then you show it to the operator, and they say: 'It doesn't match how we actually decide.' Development stops.
+
+This happens because we build AI systems against idealized workflows, not real ones. Operators rarely follow the clean data paths we assume. They make judgment calls, skip steps, circle back. The model was trained on sanitized historical data—not the messy, context-dependent decisions that actually happen on the floor.
+
+Here's the framework we use to dodge this: Before training anything, we spend time watching operators work in their environment—not asking how they *should* work. We document the decision gates they actually hit. Then we ask: which of these can the model legitimately improve? Not all of them. Some need human judgment. Some need domain context we can't encode.
+
+Then we design the model to augment those specific gates, not replace the workflow.
+
+The gap between 'what works mathematically' and 'what works operationally' is usually just incomplete problem framing early on.]]></description>
+<content:encoded><![CDATA[Your AI model works in the notebook. Accuracy looks good. Then you show it to the operator, and they say: 'It doesn't match how we actually decide.' Development stops.
+
+This happens because we build AI systems against idealized workflows, not real ones. Operators rarely follow the clean data paths we assume. They make judgment calls, skip steps, circle back. The model was trained on sanitized historical data—not the messy, context-dependent decisions that actually happen on the floor.
+
+Here's the framework we use to dodge this: Before training anything, we spend time watching operators work in their environment—not asking how they *should* work. We document the decision gates they actually hit. Then we ask: which of these can the model legitimately improve? Not all of them. Some need human judgment. Some need domain context we can't encode.
+
+Then we design the model to augment those specific gates, not replace the workflow.
+
+The gap between 'what works mathematically' and 'what works operationally' is usually just incomplete problem framing early on.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5e5de573ee19.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/5e5de573ee19.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why digitalization stalls when you skip the handoff plan</title>
 <guid isPermaLink="false">482e45adb4a1</guid>
@@ -1274,29 +1301,6 @@ The reframe: stop thinking of accuracy as the finish line. Start thinking of it 
 
 Accuracy is table stakes. Everything else is engineering.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why digitalization budgets get spent on the wrong problem</title>
-<guid isPermaLink="false">723922ec0b2a</guid>
-<pubDate>Wed, 22 Jul 2026 10:23:40 +0000</pubDate>
-<description><![CDATA[Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.
-
-This happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.
-
-The reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.
-
-Digitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.]]></description>
-<content:encoded><![CDATA[Most digitalization initiatives treat the operator's existing workflow as a constraint to work around. They build new systems, then ask operators to adapt. The result: expensive software that sits unused because it solved for what management wanted to measure, not what the operator needed to do.
-
-This happens because digitalization teams and operations teams speak different languages. Digitalization teams optimize for data capture and visibility. Operations teams optimize for throughput, safety, and not breaking what already works. Neither is wrong — they're just measuring different things. When you build without bridging that gap, you end up with a system nobody asked for.
-
-The reframe: Start by asking what the operator's actual constraint is right now. Not what you think it should be — what it actually is. Is it a decision they can't make fast enough? A handoff that always fails the same way? A piece of information that lives in someone's head? Build toward removing that specific friction first. Then layer data capture on top of a workflow people already want to use.
-
-Digitalization wins when the operator reaches for it because it makes their day easier, not because management mandated it.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/723922ec0b2a.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
