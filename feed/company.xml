@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 11 Sep 2026 12:36:59 +0000</lastBuildDate>
+<lastBuildDate>Sat, 12 Sep 2026 11:58:13 +0000</lastBuildDate>
+<item>
+<title>Why sustainability gets designed out of operations</title>
+<guid isPermaLink="false">62fd5176d91e</guid>
+<pubDate>Sat, 12 Sep 2026 11:58:13 +0000</pubDate>
+<description><![CDATA[Most sustainability programs die the moment they hit the plant floor. Not because operators don't care — because sustainability was designed by people who don't run anything.
+
+Here's the mechanism: sustainability gets architected in spreadsheets by procurement, compliance, or strategy teams. They set targets for energy, waste, emissions. Sound. But they don't model the actual tradeoffs an operator faces. Cut steam pressure to save gas? That slows throughput and breaks margin. Reduce batch size for efficiency? Scheduling chaos follows. The operator isn't anti-green — they're just solving a different equation than the one sustainability was optimized for.
+
+So what happens: operators meet neither the production goal nor the sustainability goal. Both miss. Both get blamed.
+
+The reframe is structural. Sustainability targets can't be bolted onto production planning — they have to be designed *into* the operating envelope from the start. That means the people who understand production constraints, sequencing logic, and real equipment behavior need a seat at the table when those targets are set, not when they're already cast in policy.
+
+Build sustainability for operators, not around them, and the targets start to stick.]]></description>
+<content:encoded><![CDATA[Most sustainability programs die the moment they hit the plant floor. Not because operators don't care — because sustainability was designed by people who don't run anything.
+
+Here's the mechanism: sustainability gets architected in spreadsheets by procurement, compliance, or strategy teams. They set targets for energy, waste, emissions. Sound. But they don't model the actual tradeoffs an operator faces. Cut steam pressure to save gas? That slows throughput and breaks margin. Reduce batch size for efficiency? Scheduling chaos follows. The operator isn't anti-green — they're just solving a different equation than the one sustainability was optimized for.
+
+So what happens: operators meet neither the production goal nor the sustainability goal. Both miss. Both get blamed.
+
+The reframe is structural. Sustainability targets can't be bolted onto production planning — they have to be designed *into* the operating envelope from the start. That means the people who understand production constraints, sequencing logic, and real equipment behavior need a seat at the table when those targets are set, not when they're already cast in policy.
+
+Build sustainability for operators, not around them, and the targets start to stick.]]></content:encoded>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Projects Stall After the First Demo</title>
 <guid isPermaLink="false">5e5de573ee19</guid>
@@ -1277,31 +1302,6 @@ If your sustainability metrics don't match what the control room remembers, you'
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why AI Teams Treat Accuracy Like It's The Only Metric</title>
-<guid isPermaLink="false">e9215e57dd83</guid>
-<pubDate>Thu, 23 Jul 2026 10:21:02 +0000</pubDate>
-<description><![CDATA[We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.
-
-The problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.
-
-We optimize for what we can easily measure, not what the system needs to do in production.
-
-The reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.
-
-Accuracy is table stakes. Everything else is engineering.]]></description>
-<content:encoded><![CDATA[We keep building AI systems optimized for a single number—F1 score, AUC, whatever—then deploy them into industrial environments where that number stops mattering the moment someone needs to act on the prediction.
-
-The problem: accuracy in isolation is an abstraction. A model that's 94% correct on a test set looks great until you realize it fails silently on the 3% of edge cases your operators actually encounter. Or it's right 99% of the time but wrong in ways that cost $50k per mistake. Or it's accurate but so opaque that the person using it has no idea whether to trust it.
-
-We optimize for what we can easily measure, not what the system needs to do in production.
-
-The reframe: stop thinking of accuracy as the finish line. Start thinking of it as one input into a larger question—*how will this system fail, and what happens when it does?* That shifts the conversation from 'how correct is it' to 'how do we operate it safely when it's wrong.' That's when you start designing for interpretability, calibration, graceful degradation. When you build monitoring that catches drift before it matters. When you document the actual failure modes instead of pretending there aren't any.
-
-Accuracy is table stakes. Everything else is engineering.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
