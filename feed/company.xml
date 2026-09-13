@@ -4,7 +4,30 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sat, 12 Sep 2026 11:58:13 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 13:06:34 +0000</lastBuildDate>
+<item>
+<title>Why sustainability retrofits fail on day one of operation</title>
+<guid isPermaLink="false">d081cdace17a</guid>
+<pubDate>Sun, 13 Sep 2026 13:06:06 +0000</pubDate>
+<description><![CDATA[A plant installs new emissions controls. The system works in testing. On shift one, operators bypass it because it breaks their production schedule. The retrofit dies in the field.
+
+This isn't operator sabotage. It's a design problem. Sustainability projects are almost always built by people who don't live in the operational constraint set. They optimize for the audit trail, not for the operator standing in front of a choice: hit your tonnage target or run the new system. Those constraints rarely align on day one.
+
+We've stopped treating sustainability as a bolt-on. Instead, we map the actual decision tree operators face — the real trade-offs between throughput, quality, compliance, and cost — *before* we design anything. Then we build the sustainability intervention into that tree, not alongside it.
+
+The question isn't "how do we make this greener?" It's "how do we make this greener *and* easier to choose?" Sustainability that survives first contact with operations gets designed into the workflow, not imposed on top of it.]]></description>
+<content:encoded><![CDATA[A plant installs new emissions controls. The system works in testing. On shift one, operators bypass it because it breaks their production schedule. The retrofit dies in the field.
+
+This isn't operator sabotage. It's a design problem. Sustainability projects are almost always built by people who don't live in the operational constraint set. They optimize for the audit trail, not for the operator standing in front of a choice: hit your tonnage target or run the new system. Those constraints rarely align on day one.
+
+We've stopped treating sustainability as a bolt-on. Instead, we map the actual decision tree operators face — the real trade-offs between throughput, quality, compliance, and cost — *before* we design anything. Then we build the sustainability intervention into that tree, not alongside it.
+
+The question isn't "how do we make this greener?" It's "how do we make this greener *and* easier to choose?" Sustainability that survives first contact with operations gets designed into the workflow, not imposed on top of it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d081cdace17a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d081cdace17a.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why sustainability gets designed out of operations</title>
 <guid isPermaLink="false">62fd5176d91e</guid>
@@ -1274,33 +1297,6 @@ We've solved this by inverting the design: start with operator-reported ground t
 
 The insight isn't new, but the execution is: digitalization only sticks when the system admits what the real world actually looks like.]]></content:encoded>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why sustainability dashboards lie to operators</title>
-<guid isPermaLink="false">c48ba5b80fba</guid>
-<pubDate>Fri, 24 Jul 2026 10:14:32 +0000</pubDate>
-<description><![CDATA[Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.
-
-The gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.
-
-Operators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.
-
-The fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.
-
-If your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.]]></description>
-<content:encoded><![CDATA[Sustainability software reports a 40% emissions reduction. Operations says the plant never ran that way. One of them is right, and it's usually neither.
-
-The gap exists because most platforms measure *intended* state, not *actual* state. They aggregate scope 2 calculations from utility bills, or they ingest baseline assumptions coded during implementation. When a furnace runs 20% hotter for six months because of a supply chain constraint—a choice operators made—the dashboard either doesn't know it happened or flags it as an anomaly instead of recording it as fact.
-
-Operators live in real time. Dashboards live in batch cycles. When those two clocks don't sync, sustainability becomes a reporting problem, not an operational one.
-
-The fix: treat the operator's actual production log as the source of truth. Build your emissions model *on top* of the schedule that got executed, not the one that was planned. Validate it against meter data weekly. When reality diverges from the model, that's not noise—that's the insight that lets ops teams actually change behavior.
-
-If your sustainability metrics don't match what the control room remembers, you're measuring compliance, not operations.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c48ba5b80fba.png" medium="image" type="image/png"/>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>

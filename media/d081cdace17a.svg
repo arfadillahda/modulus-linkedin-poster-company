@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ── TOP BAND ── -->
+
+  <!-- Kicker -->
+  <text x="64" y="88" font-size="11" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+  <!-- Accent underline rule under headline -->
+  <line x1="64" y1="168" x2="180" y2="168" stroke="#1F5C3D" stroke-width="2"/>
+
+  <!-- Display headline -->
+  <text x="64" y="138" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em">
+    <tspan x="64" dy="0">Green retrofits fail</tspan>
+  </text>
+  <text x="64" y="158" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em">
+    <tspan x="64" dy="0">when operators aren't the client.</tspan>
+  </text>
+
+  <!-- Wordmark top-right -->
+  <text x="960" y="50" font-size="12" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="end">MODULUS1</text>
+
+  <!-- ── MIDDLE BAND: 2x2 grid of tiles ── -->
+  <!-- Grid: 4 tiles, 2 columns × 2 rows -->
+  <!-- Column positions: col1 x=64, col2 x=548 -->
+  <!-- Row positions: row1 y=192, row2 y=576 -->
+  <!-- Tile width: (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- Tile height: (192 to 192+340)=340, gap 16 -->
+
+  <!-- TILE 01 -->
+  <rect x="64" y="192" width="440" height="340" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="248" font-size="52" font-weight="800" fill="#1F5C3D">01</text>
+  <text x="88" y="288" font-size="22" font-weight="700" fill="#111111">Testing ≠ Operations</text>
+  <text x="88" y="322" font-size="15" font-weight="400" fill="#3A3A3A">Systems pass tests; then shift one breaks them.</text>
+  <!-- Decorative thin rule -->
+  <line x1="88" y1="340" x2="464" y2="340" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="370" font-size="14" font-weight="400" fill="#3A3A3A">Operators bypass new controls when production</text>
+  <text x="88" y="390" font-size="14" font-weight="400" fill="#3A3A3A">targets conflict with compliance procedures.</text>
+  <text x="88" y="418" font-size="13" font-weight="400" fill="#3A3A3A" opacity="0.7">→ Field failure, not operator sabotage.</text>
+
+  <!-- TILE 02 -->
+  <rect x="520" y="192" width="440" height="340" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="248" font-size="52" font-weight="800" fill="#1F5C3D">02</text>
+  <text x="544" y="288" font-size="22" font-weight="700" fill="#111111">The Design Gap</text>
+  <text x="544" y="322" font-size="15" font-weight="400" fill="#3A3A3A">Designers never live inside the operator's constraints.</text>
+  <line x1="544" y1="340" x2="920" y2="340" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="544" y="370" font-size="14" font-weight="400" fill="#3A3A3A">Sustainability projects optimise for the audit trail,</text>
+  <text x="544" y="390" font-size="14" font-weight="400" fill="#3A3A3A">not for real trade-offs: tonnage, quality, cost.</text>
+  <text x="544" y="418" font-size="13" font-weight="400" fill="#3A3A3A" opacity="0.7">→ Bolt-on sustainability doesn't survive contact.</text>
+
+  <!-- TILE 03 -->
+  <rect x="64" y="548" width="440" height="340" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="604" font-size="52" font-weight="800" fill="#1F5C3D">03</text>
+  <text x="88" y="644" font-size="22" font-weight="700" fill="#111111">Map the Decision Tree</text>
+  <text x="88" y="678" font-size="15" font-weight="400" fill="#3A3A3A">Model real operator choices before designing anything.</text>
+  <line x1="88" y1="696" x2="464" y2="696" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="726" font-size="14" font-weight="400" fill="#3A3A3A">Throughput vs. compliance vs. quality — every</text>
+  <text x="88" y="746" font-size="14" font-weight="400" fill="#3A3A3A">trade-off must be visible before the solution forms.</text>
+  <text x="88" y="774" font-size="13" font-weight="400" fill="#3A3A3A" opacity="0.7">→ Interventions built into the workflow, not over it.</text>
+
+  <!-- TILE 04 -->
+  <rect x="520" y="548" width="440" height="340" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="604" font-size="52" font-weight="800" fill="#1F5C3D">04</text>
+  <text x="544" y="644" font-size="22" font-weight="700" fill="#111111">Easier to Choose</text>
+  <text x="544" y="678" font-size="15" font-weight="400" fill="#3A3A3A">Green must also be the path of least resistance.</text>
+  <line x1="544" y1="696" x2="920" y2="696" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="544" y="726" font-size="14" font-weight="400" fill="#3A3A3A">The right question: how do we make this greener</text>
+  <text x="544" y="746" font-size="14" font-weight="400" fill="#3A3A3A">and easier to choose on day one of operation?</text>
+  <text x="544" y="774" font-size="13" font-weight="400" fill="#3A3A3A" opacity="0.7">→ Designed in, not imposed on top.</text>
+
+  <!-- ── BOTTOM BAND ── -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="920" x2="960" y2="920" stroke="#111111" stroke-width="1" opacity="0.15"/>
+
+  <!-- Closing line -->
+  <text x="512" y="966" font-size="18" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">
+    Sustainability survives operations when it's designed into the workflow.
+  </text>
+
+</svg>

@@ -1078,5 +1078,14 @@
     "title": "Why sustainability gets designed out of operations",
     "body": "Most sustainability programs die the moment they hit the plant floor. Not because operators don't care — because sustainability was designed by people who don't run anything.\n\nHere's the mechanism: sustainability gets architected in spreadsheets by procurement, compliance, or strategy teams. They set targets for energy, waste, emissions. Sound. But they don't model the actual tradeoffs an operator faces. Cut steam pressure to save gas? That slows throughput and breaks margin. Reduce batch size for efficiency? Scheduling chaos follows. The operator isn't anti-green — they're just solving a different equation than the one sustainability was optimized for.\n\nSo what happens: operators meet neither the production goal nor the sustainability goal. Both miss. Both get blamed.\n\nThe reframe is structural. Sustainability targets can't be bolted onto production planning — they have to be designed *into* the operating envelope from the start. That means the people who understand production constraints, sequencing logic, and real equipment behavior need a seat at the table when those targets are set, not when they're already cast in policy.\n\nBuild sustainability for operators, not around them, and the targets start to stick.",
     "image_url": ""
+  },
+  {
+    "id": "d081cdace17a",
+    "ts": "2026-09-13T13:06:06.624041+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why sustainability retrofits fail on day one of operation",
+    "body": "A plant installs new emissions controls. The system works in testing. On shift one, operators bypass it because it breaks their production schedule. The retrofit dies in the field.\n\nThis isn't operator sabotage. It's a design problem. Sustainability projects are almost always built by people who don't live in the operational constraint set. They optimize for the audit trail, not for the operator standing in front of a choice: hit your tonnage target or run the new system. Those constraints rarely align on day one.\n\nWe've stopped treating sustainability as a bolt-on. Instead, we map the actual decision tree operators face — the real trade-offs between throughput, quality, compliance, and cost — *before* we design anything. Then we build the sustainability intervention into that tree, not alongside it.\n\nThe question isn't \"how do we make this greener?\" It's \"how do we make this greener *and* easier to choose?\" Sustainability that survives first contact with operations gets designed into the workflow, not imposed on top of it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d081cdace17a.png"
   }
 ]
