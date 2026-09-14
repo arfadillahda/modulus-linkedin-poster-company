@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Sun, 13 Sep 2026 13:06:34 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 14:43:12 +0000</lastBuildDate>
+<item>
+<title>Why AI Predictions Fail When Operators Can't Validate Them</title>
+<guid isPermaLink="false">784ff2208863</guid>
+<pubDate>Mon, 14 Sep 2026 14:43:12 +0000</pubDate>
+<description><![CDATA[An AI system predicts equipment failure 72 hours out. The operator sees the alert, runs diagnostics, finds nothing wrong, and stops trusting the system entirely. Six months later, it's disabled.
+
+This happens because prediction confidence scores aren't enough. Operators need to see *which signals* triggered the alert—temperature trend, vibration spike, acoustic anomaly—and compare them against their own experience. Without that transparency, the model becomes a black box that contradicts their judgment.
+
+The fix: build AI outputs around operator validation, not just accuracy metrics. Show the decision tree. Surface the raw sensor data that fed the prediction. Let them mark false positives as training feedback. When an operator can trace why the system said what it said, they move from skepticism to collaboration.
+
+We've built this into industrial monitoring systems by structuring predictions as annotated sensor narratives—not scores. The result: operators actually use the alerts, and the system improves from real feedback instead of drifting toward irrelevance.
+
+AI adoption isn't about prediction accuracy. It's about giving operators a reason to believe it.]]></description>
+<content:encoded><![CDATA[An AI system predicts equipment failure 72 hours out. The operator sees the alert, runs diagnostics, finds nothing wrong, and stops trusting the system entirely. Six months later, it's disabled.
+
+This happens because prediction confidence scores aren't enough. Operators need to see *which signals* triggered the alert—temperature trend, vibration spike, acoustic anomaly—and compare them against their own experience. Without that transparency, the model becomes a black box that contradicts their judgment.
+
+The fix: build AI outputs around operator validation, not just accuracy metrics. Show the decision tree. Surface the raw sensor data that fed the prediction. Let them mark false positives as training feedback. When an operator can trace why the system said what it said, they move from skepticism to collaboration.
+
+We've built this into industrial monitoring systems by structuring predictions as annotated sensor narratives—not scores. The result: operators actually use the alerts, and the system improves from real feedback instead of drifting toward irrelevance.
+
+AI adoption isn't about prediction accuracy. It's about giving operators a reason to believe it.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why sustainability retrofits fail on day one of operation</title>
 <guid isPermaLink="false">d081cdace17a</guid>
@@ -1277,27 +1302,6 @@ Digitalization scales when it solves a problem operators already know they have.
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why digitalization data never matches operator reality</title>
-<guid isPermaLink="false">718db2cf763b</guid>
-<pubDate>Sat, 25 Jul 2026 09:44:23 +0000</pubDate>
-<description><![CDATA[You build a digital system that tracks production metrics. The vendor promises 99.2% uptime. Three months in, your operators are manually logging half the events because the sensor subnet drops without alerting. The data looks clean in your dashboards. Operators know it's fiction.
-
-This happens because digital systems are built to sensor spec, not site topology. Vendors assume stable network connectivity and predictable data flow. Real sites have dead zones, intermittent GSM, offline-first workflows, and edge devices that vanish for days. The system collects what it can collect — not what matters.
-
-We've solved this by inverting the design: start with operator-reported ground truth, then build the digital layer around what actually survives in-field. For one industrial client, this meant designing a schema where missing data is first-class (not an error state), and operators can locally validate events before sync. The reconciliation layer catches drift automatically.
-
-The insight isn't new, but the execution is: digitalization only sticks when the system admits what the real world actually looks like.]]></description>
-<content:encoded><![CDATA[You build a digital system that tracks production metrics. The vendor promises 99.2% uptime. Three months in, your operators are manually logging half the events because the sensor subnet drops without alerting. The data looks clean in your dashboards. Operators know it's fiction.
-
-This happens because digital systems are built to sensor spec, not site topology. Vendors assume stable network connectivity and predictable data flow. Real sites have dead zones, intermittent GSM, offline-first workflows, and edge devices that vanish for days. The system collects what it can collect — not what matters.
-
-We've solved this by inverting the design: start with operator-reported ground truth, then build the digital layer around what actually survives in-field. For one industrial client, this meant designing a schema where missing data is first-class (not an error state), and operators can locally validate events before sync. The reconciliation layer catches drift automatically.
-
-The insight isn't new, but the execution is: digitalization only sticks when the system admits what the real world actually looks like.]]></content:encoded>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

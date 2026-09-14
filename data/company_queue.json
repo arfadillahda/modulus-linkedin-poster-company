@@ -1087,5 +1087,14 @@
     "title": "Why sustainability retrofits fail on day one of operation",
     "body": "A plant installs new emissions controls. The system works in testing. On shift one, operators bypass it because it breaks their production schedule. The retrofit dies in the field.\n\nThis isn't operator sabotage. It's a design problem. Sustainability projects are almost always built by people who don't live in the operational constraint set. They optimize for the audit trail, not for the operator standing in front of a choice: hit your tonnage target or run the new system. Those constraints rarely align on day one.\n\nWe've stopped treating sustainability as a bolt-on. Instead, we map the actual decision tree operators face — the real trade-offs between throughput, quality, compliance, and cost — *before* we design anything. Then we build the sustainability intervention into that tree, not alongside it.\n\nThe question isn't \"how do we make this greener?\" It's \"how do we make this greener *and* easier to choose?\" Sustainability that survives first contact with operations gets designed into the workflow, not imposed on top of it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d081cdace17a.png"
+  },
+  {
+    "id": "784ff2208863",
+    "ts": "2026-09-14T14:43:12.103507+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why AI Predictions Fail When Operators Can't Validate Them",
+    "body": "An AI system predicts equipment failure 72 hours out. The operator sees the alert, runs diagnostics, finds nothing wrong, and stops trusting the system entirely. Six months later, it's disabled.\n\nThis happens because prediction confidence scores aren't enough. Operators need to see *which signals* triggered the alert—temperature trend, vibration spike, acoustic anomaly—and compare them against their own experience. Without that transparency, the model becomes a black box that contradicts their judgment.\n\nThe fix: build AI outputs around operator validation, not just accuracy metrics. Show the decision tree. Surface the raw sensor data that fed the prediction. Let them mark false positives as training feedback. When an operator can trace why the system said what it said, they move from skepticism to collaboration.\n\nWe've built this into industrial monitoring systems by structuring predictions as annotated sensor narratives—not scores. The result: operators actually use the alerts, and the system improves from real feedback instead of drifting toward irrelevance.\n\nAI adoption isn't about prediction accuracy. It's about giving operators a reason to believe it.",
+    "image_url": ""
   }
 ]
