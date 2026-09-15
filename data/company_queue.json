@@ -1096,5 +1096,14 @@
     "title": "Why AI Predictions Fail When Operators Can't Validate Them",
     "body": "An AI system predicts equipment failure 72 hours out. The operator sees the alert, runs diagnostics, finds nothing wrong, and stops trusting the system entirely. Six months later, it's disabled.\n\nThis happens because prediction confidence scores aren't enough. Operators need to see *which signals* triggered the alert—temperature trend, vibration spike, acoustic anomaly—and compare them against their own experience. Without that transparency, the model becomes a black box that contradicts their judgment.\n\nThe fix: build AI outputs around operator validation, not just accuracy metrics. Show the decision tree. Surface the raw sensor data that fed the prediction. Let them mark false positives as training feedback. When an operator can trace why the system said what it said, they move from skepticism to collaboration.\n\nWe've built this into industrial monitoring systems by structuring predictions as annotated sensor narratives—not scores. The result: operators actually use the alerts, and the system improves from real feedback instead of drifting toward irrelevance.\n\nAI adoption isn't about prediction accuracy. It's about giving operators a reason to believe it.",
     "image_url": ""
+  },
+  {
+    "id": "c2e2e3e7ce98",
+    "ts": "2026-09-15T13:08:18.047688+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why digitalization projects measure the wrong outcomes",
+    "body": "Most digitalization initiatives track adoption rates and system uptime. Then they fail anyway, six months in, because adoption was never the real metric.\n\nThe root cause: we measure what's easy to instrument (logins, data entries, dashboards viewed) instead of what actually moves the needle for operators. A system can be adopted, performant, and still solve zero problems on the plant floor. Operators see it as extra work layered onto their actual job.\n\nHere's the reframe: measure the problem you claim to be solving. Not the system. If you're digitizing maintenance scheduling, the metric isn't \"maintenance logs created.\" It's \"unplanned downtime reduction\" or \"mean time between failures.\" If you're centralizing operator handoffs, it's not \"messages sent through the app.\" It's \"rework incidents traced back to missed handoff context.\"\n\nWhen you tie the system directly to operational outcomes — not adoption theater — two things happen. First, operators see the immediate value in their workflow. Second, you know within two weeks whether the tool actually matters.\n\nMeasure the outcome, not the tool adoption.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c2e2e3e7ce98.png"
   }
 ]

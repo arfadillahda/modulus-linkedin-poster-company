@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Mon, 14 Sep 2026 14:43:12 +0000</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 13:08:42 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects measure the wrong outcomes</title>
+<guid isPermaLink="false">c2e2e3e7ce98</guid>
+<pubDate>Tue, 15 Sep 2026 13:08:18 +0000</pubDate>
+<description><![CDATA[Most digitalization initiatives track adoption rates and system uptime. Then they fail anyway, six months in, because adoption was never the real metric.
+
+The root cause: we measure what's easy to instrument (logins, data entries, dashboards viewed) instead of what actually moves the needle for operators. A system can be adopted, performant, and still solve zero problems on the plant floor. Operators see it as extra work layered onto their actual job.
+
+Here's the reframe: measure the problem you claim to be solving. Not the system. If you're digitizing maintenance scheduling, the metric isn't "maintenance logs created." It's "unplanned downtime reduction" or "mean time between failures." If you're centralizing operator handoffs, it's not "messages sent through the app." It's "rework incidents traced back to missed handoff context."
+
+When you tie the system directly to operational outcomes — not adoption theater — two things happen. First, operators see the immediate value in their workflow. Second, you know within two weeks whether the tool actually matters.
+
+Measure the outcome, not the tool adoption.]]></description>
+<content:encoded><![CDATA[Most digitalization initiatives track adoption rates and system uptime. Then they fail anyway, six months in, because adoption was never the real metric.
+
+The root cause: we measure what's easy to instrument (logins, data entries, dashboards viewed) instead of what actually moves the needle for operators. A system can be adopted, performant, and still solve zero problems on the plant floor. Operators see it as extra work layered onto their actual job.
+
+Here's the reframe: measure the problem you claim to be solving. Not the system. If you're digitizing maintenance scheduling, the metric isn't "maintenance logs created." It's "unplanned downtime reduction" or "mean time between failures." If you're centralizing operator handoffs, it's not "messages sent through the app." It's "rework incidents traced back to missed handoff context."
+
+When you tie the system directly to operational outcomes — not adoption theater — two things happen. First, operators see the immediate value in their workflow. Second, you know within two weeks whether the tool actually matters.
+
+Measure the outcome, not the tool adoption.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c2e2e3e7ce98.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c2e2e3e7ce98.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why AI Predictions Fail When Operators Can't Validate Them</title>
 <guid isPermaLink="false">784ff2208863</guid>
@@ -1274,33 +1301,6 @@ Then we build monitoring around those three signals, not just a metrics dashboar
 
 The model isn't the product. The operator's ability to trust it is.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>MOF</category>
-</item>
-<item>
-<title>Why digitalization pilots stay pilots forever</title>
-<guid isPermaLink="false">d6488576bb5a</guid>
-<pubDate>Sun, 26 Jul 2026 09:56:44 +0000</pubDate>
-<description><![CDATA[A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.
-
-The pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?
-
-We've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that "improves visibility" is a pilot that dies. A pilot that "keeps the shift supervisor from making a $50k mistake" has a built-in stakeholder.
-
-Start by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.
-
-Digitalization scales when it solves a problem operators already know they have.]]></description>
-<content:encoded><![CDATA[A manufacturing plant runs a six-month pilot on a new digital system. It works. Management sees the proof. Then nothing happens for two years.
-
-The pilot succeeded because it was small, had dedicated resources, and operators knew it was temporary. The moment you try to scale it across ten sites with rotating staff and real production pressure, the system breaks. Not technically—operationally. The pilot never answered: who owns this when it's live? Who maintains the data? What happens when the vendor's support lag hits four hours and you're bleeding throughput?
-
-We've found one heuristic that actually moves pilots forward: ask *operators* to nominate the failure mode the system must prevent—not the feature it should enable. A pilot that "improves visibility" is a pilot that dies. A pilot that "keeps the shift supervisor from making a $50k mistake" has a built-in stakeholder.
-
-Start by asking: what's the one breakdown this system cannot let happen? Design for that. Everything else is secondary.
-
-Digitalization scales when it solves a problem operators already know they have.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/d6488576bb5a.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>MOF</category>
 </item>
 </channel>
