@@ -4,7 +4,32 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Tue, 15 Sep 2026 13:08:42 +0000</lastBuildDate>
+<lastBuildDate>Wed, 16 Sep 2026 13:07:42 +0000</lastBuildDate>
+<item>
+<title>Why AI Teams Build Systems That Drift From Reality</title>
+<guid isPermaLink="false">dc59474dd1e8</guid>
+<pubDate>Wed, 16 Sep 2026 13:07:41 +0000</pubDate>
+<description><![CDATA[AI projects often fail because they optimize for metric improvement in isolation, not for what actually happens when the system runs in production. A model trains beautifully on historical data, accuracy climbs, and then operators find it useless because it drifts on the specific cases that matter to their work.
+
+This happens because AI teams and operations teams measure success differently. AI measures: does the model predict better than baseline? Operations measures: does this change how I work, and does it make my job easier or just add friction?
+
+The gap widens because AI is built in a controlled environment—clean datasets, static conditions, known failure modes. But operators work in a world where edge cases are frequent, data quality varies hourly, and context shifts. A model trained on "normal" behavior becomes useless the moment conditions change.
+
+The reframe: stop treating AI as a standalone system that operations must adapt to. Treat it as a tool that must earn its place in an existing workflow. Build with operators from day one—not for feedback at the end, but as active design partners who understand what actually matters.
+
+AI succeeds when it solves a real bottleneck, not when it's technically impressive.]]></description>
+<content:encoded><![CDATA[AI projects often fail because they optimize for metric improvement in isolation, not for what actually happens when the system runs in production. A model trains beautifully on historical data, accuracy climbs, and then operators find it useless because it drifts on the specific cases that matter to their work.
+
+This happens because AI teams and operations teams measure success differently. AI measures: does the model predict better than baseline? Operations measures: does this change how I work, and does it make my job easier or just add friction?
+
+The gap widens because AI is built in a controlled environment—clean datasets, static conditions, known failure modes. But operators work in a world where edge cases are frequent, data quality varies hourly, and context shifts. A model trained on "normal" behavior becomes useless the moment conditions change.
+
+The reframe: stop treating AI as a standalone system that operations must adapt to. Treat it as a tool that must earn its place in an existing workflow. Build with operators from day one—not for feedback at the end, but as active design partners who understand what actually matters.
+
+AI succeeds when it solves a real bottleneck, not when it's technically impressive.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why digitalization projects measure the wrong outcomes</title>
 <guid isPermaLink="false">c2e2e3e7ce98</guid>
@@ -1267,41 +1292,6 @@ Sustainability works when it's built on operator math, not planning math.]]></co
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Teams Defer the Hardest Integration Problem</title>
-<guid isPermaLink="false">86e5deaabd87</guid>
-<pubDate>Mon, 27 Jul 2026 11:18:08 +0000</pubDate>
-<description><![CDATA[Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.
-
-A team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: "The accuracy is good." The operator shrugs back: "I'll just do it manually."
-
-The problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.
-
-We use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:
-1. When does the model's output stop matching the operator's ground truth? (label drift)
-2. What changes in the input data *before* accuracy tanks? (feature drift)
-3. What's the actual cost when the system is wrong in *this specific context*?
-
-Then we build monitoring around those three signals, not just a metrics dashboard.
-
-The model isn't the product. The operator's ability to trust it is.]]></description>
-<content:encoded><![CDATA[Most AI projects fail not because the model is weak, but because nobody owns the gap between what the model outputs and what the operator actually needs to do with it.
-
-A team trains a classifier that's 94% accurate in the lab. Ship it. Three months in, operators are ignoring it because the 6% failure rate lands on edge cases that wreck their workflow—and the model gives no signal for *when* it's about to fail. The team shrugs: "The accuracy is good." The operator shrugs back: "I'll just do it manually."
-
-The problem is structural. ML teams optimize for model performance. Operations teams optimize for reliability. Nobody owns the handoff—the moment where a prediction becomes a decision.
-
-We use a simple frame: **measure drift, not just accuracy**. For every deployment, we ask three questions:
-1. When does the model's output stop matching the operator's ground truth? (label drift)
-2. What changes in the input data *before* accuracy tanks? (feature drift)
-3. What's the actual cost when the system is wrong in *this specific context*?
-
-Then we build monitoring around those three signals, not just a metrics dashboard.
-
-The model isn't the product. The operator's ability to trust it is.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

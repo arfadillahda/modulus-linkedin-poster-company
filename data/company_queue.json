@@ -1105,5 +1105,14 @@
     "title": "Why digitalization projects measure the wrong outcomes",
     "body": "Most digitalization initiatives track adoption rates and system uptime. Then they fail anyway, six months in, because adoption was never the real metric.\n\nThe root cause: we measure what's easy to instrument (logins, data entries, dashboards viewed) instead of what actually moves the needle for operators. A system can be adopted, performant, and still solve zero problems on the plant floor. Operators see it as extra work layered onto their actual job.\n\nHere's the reframe: measure the problem you claim to be solving. Not the system. If you're digitizing maintenance scheduling, the metric isn't \"maintenance logs created.\" It's \"unplanned downtime reduction\" or \"mean time between failures.\" If you're centralizing operator handoffs, it's not \"messages sent through the app.\" It's \"rework incidents traced back to missed handoff context.\"\n\nWhen you tie the system directly to operational outcomes — not adoption theater — two things happen. First, operators see the immediate value in their workflow. Second, you know within two weeks whether the tool actually matters.\n\nMeasure the outcome, not the tool adoption.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/c2e2e3e7ce98.png"
+  },
+  {
+    "id": "dc59474dd1e8",
+    "ts": "2026-09-16T13:07:41.954444+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why AI Teams Build Systems That Drift From Reality",
+    "body": "AI projects often fail because they optimize for metric improvement in isolation, not for what actually happens when the system runs in production. A model trains beautifully on historical data, accuracy climbs, and then operators find it useless because it drifts on the specific cases that matter to their work.\n\nThis happens because AI teams and operations teams measure success differently. AI measures: does the model predict better than baseline? Operations measures: does this change how I work, and does it make my job easier or just add friction?\n\nThe gap widens because AI is built in a controlled environment—clean datasets, static conditions, known failure modes. But operators work in a world where edge cases are frequent, data quality varies hourly, and context shifts. A model trained on \"normal\" behavior becomes useless the moment conditions change.\n\nThe reframe: stop treating AI as a standalone system that operations must adapt to. Treat it as a tool that must earn its place in an existing workflow. Build with operators from day one—not for feedback at the end, but as active design partners who understand what actually matters.\n\nAI succeeds when it solves a real bottleneck, not when it's technically impressive.",
+    "image_url": ""
   }
 ]
