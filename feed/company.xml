@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Wed, 16 Sep 2026 13:07:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 13:03:27 +0000</lastBuildDate>
+<item>
+<title>Why sustainability dashboards lie to regulators</title>
+<guid isPermaLink="false">e5a6fd25a467</guid>
+<pubDate>Thu, 17 Sep 2026 13:02:59 +0000</pubDate>
+<description><![CDATA[A mining operator installs a carbon monitoring system. It reports 12% year-over-year reduction. Six months later, a regulator audits the data feed and finds the system never saw a dust storm that shut down half the pit for three days. The reduction was real — just not because of anything they built.
+
+This happens because sustainability software treats operations as a black box. It aggregates reported KPIs, runs them through a model, and spits out a number. But it never validates whether the *assumptions behind those KPIs still hold* when conditions change. A dust storm, an unplanned shutdown, a shift in feedstock — the model keeps grinding.
+
+The mechanism is simple: sustainability systems are built on reported data, not observed state. They trust the inputs because validation feels expensive.
+
+We solve this by embedding real-time state validation into the measurement layer itself. Before a metric gets added to your carbon ledger, we cross-check it against operational telemetry — plant logs, sensor streams, dispatch records. When inputs drift from observed reality, the system flags it and surfaces the delta. No hiding, no false reduction.
+
+You can't improve what you're not honestly measuring.]]></description>
+<content:encoded><![CDATA[A mining operator installs a carbon monitoring system. It reports 12% year-over-year reduction. Six months later, a regulator audits the data feed and finds the system never saw a dust storm that shut down half the pit for three days. The reduction was real — just not because of anything they built.
+
+This happens because sustainability software treats operations as a black box. It aggregates reported KPIs, runs them through a model, and spits out a number. But it never validates whether the *assumptions behind those KPIs still hold* when conditions change. A dust storm, an unplanned shutdown, a shift in feedstock — the model keeps grinding.
+
+The mechanism is simple: sustainability systems are built on reported data, not observed state. They trust the inputs because validation feels expensive.
+
+We solve this by embedding real-time state validation into the measurement layer itself. Before a metric gets added to your carbon ledger, we cross-check it against operational telemetry — plant logs, sensor streams, dispatch records. When inputs drift from observed reality, the system flags it and surfaces the delta. No hiding, no false reduction.
+
+You can't improve what you're not honestly measuring.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e5a6fd25a467.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e5a6fd25a467.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why AI Teams Build Systems That Drift From Reality</title>
 <guid isPermaLink="false">dc59474dd1e8</guid>
@@ -1265,33 +1292,6 @@ The shift is architectural, not behavioral: make the sustainable choice the obvi
 Sustainability metrics stick when they're friction-free.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability targets fail on the shop floor</title>
-<guid isPermaLink="false">50058b4dc0bb</guid>
-<pubDate>Tue, 28 Jul 2026 10:32:20 +0000</pubDate>
-<description><![CDATA[Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.
-
-This happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.
-
-The gap isn't bad faith. It's that sustainability lives upstream of operations reality.
-
-Instead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.
-
-Sustainability works when it's built on operator math, not planning math.]]></description>
-<content:encoded><![CDATA[Most industrial sites set annual emissions or efficiency targets, then watch them drift by Q3. The targets were built by people who don't touch the actual equipment.
-
-This happens because sustainability gets treated as a planning problem instead of an operational one. Finance sets a number. Engineering drafts a reduction roadmap. Operations is told to execute it. But operators live inside constraints that planners didn't model: equipment age, material variability, scheduling pressure, maintenance windows. A 15% energy reduction target collides with a 20% throughput increase, and something has to give.
-
-The gap isn't bad faith. It's that sustainability lives upstream of operations reality.
-
-Instead of targets flowing down from strategy, start with what operators can actually measure and control: their own losses. Where does energy disappear? Where do cycles stall? Which changes don't require capital? Operators already know these answers. They've been optimizing around them for years. Make that knowledge visible, quantified, and operational. Then set targets that *emerge* from what can actually move.
-
-Sustainability works when it's built on operator math, not planning math.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/50058b4dc0bb.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

@@ -1114,5 +1114,14 @@
     "title": "Why AI Teams Build Systems That Drift From Reality",
     "body": "AI projects often fail because they optimize for metric improvement in isolation, not for what actually happens when the system runs in production. A model trains beautifully on historical data, accuracy climbs, and then operators find it useless because it drifts on the specific cases that matter to their work.\n\nThis happens because AI teams and operations teams measure success differently. AI measures: does the model predict better than baseline? Operations measures: does this change how I work, and does it make my job easier or just add friction?\n\nThe gap widens because AI is built in a controlled environment—clean datasets, static conditions, known failure modes. But operators work in a world where edge cases are frequent, data quality varies hourly, and context shifts. A model trained on \"normal\" behavior becomes useless the moment conditions change.\n\nThe reframe: stop treating AI as a standalone system that operations must adapt to. Treat it as a tool that must earn its place in an existing workflow. Build with operators from day one—not for feedback at the end, but as active design partners who understand what actually matters.\n\nAI succeeds when it solves a real bottleneck, not when it's technically impressive.",
     "image_url": ""
+  },
+  {
+    "id": "e5a6fd25a467",
+    "ts": "2026-09-17T13:02:59.146169+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why sustainability dashboards lie to regulators",
+    "body": "A mining operator installs a carbon monitoring system. It reports 12% year-over-year reduction. Six months later, a regulator audits the data feed and finds the system never saw a dust storm that shut down half the pit for three days. The reduction was real — just not because of anything they built.\n\nThis happens because sustainability software treats operations as a black box. It aggregates reported KPIs, runs them through a model, and spits out a number. But it never validates whether the *assumptions behind those KPIs still hold* when conditions change. A dust storm, an unplanned shutdown, a shift in feedstock — the model keeps grinding.\n\nThe mechanism is simple: sustainability systems are built on reported data, not observed state. They trust the inputs because validation feels expensive.\n\nWe solve this by embedding real-time state validation into the measurement layer itself. Before a metric gets added to your carbon ledger, we cross-check it against operational telemetry — plant logs, sensor streams, dispatch records. When inputs drift from observed reality, the system flags it and surfaces the delta. No hiding, no false reduction.\n\nYou can't improve what you're not honestly measuring.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/e5a6fd25a467.png"
   }
 ]
