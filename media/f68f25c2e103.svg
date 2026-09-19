@@ -1,0 +1,138 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ============================================================ -->
+  <!-- TOP BAND  (0 – ~225px) -->
+  <!-- ============================================================ -->
+
+  <!-- Wordmark top-right -->
+  <text
+    x="960" y="80"
+    text-anchor="end"
+    font-size="13"
+    font-weight="600"
+    letter-spacing="0.18em"
+    fill="#C24A1F"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1</text>
+
+  <!-- Kicker label -->
+  <text
+    x="64" y="80"
+    text-anchor="start"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="0.22em"
+    fill="#C24A1F"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Display headline -->
+  <text
+    x="64" y="130"
+    text-anchor="start"
+    font-size="52"
+    font-weight="800"
+    letter-spacing="-0.025em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build for how operators</text>
+  <text
+    x="64" y="190"
+    text-anchor="start"
+    font-size="52"
+    font-weight="800"
+    letter-spacing="-0.025em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">actually work.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="202" width="220" height="3" rx="1.5" fill="#C24A1F"/>
+
+  <!-- ============================================================ -->
+  <!-- MIDDLE BAND — 2×2 grid of 4 tiles (~230px – 810px) -->
+  <!-- ============================================================ -->
+
+  <!-- Tile grid math:
+       outer padding = 64px
+       gap = 16px
+       usable width = 1024 - 64 - 64 = 896px
+       tile width = (896 - 16) / 2 = 440px
+       tile top = 234px
+       tile height = (810 - 234 - 16) / 2 = 280px
+       rows: y1=234, y2=234+280+16=530
+       cols: x1=64, x2=64+440+16=520
+  -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="234" width="440" height="280" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="293" font-size="40" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="338" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Pilots fail in the field</text>
+  <text x="92" y="372" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Clean-data tools break on real-world</text>
+  <text x="92" y="392" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">edge cases and deviations.</text>
+
+  <!-- Decorative rule -->
+  <line x1="92" y1="420" x2="470" y2="420" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="446" font-size="14" font-weight="400" fill="#3A3A3A" font-style="italic" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Adoption flatlines within weeks of handoff.</text>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="520" y="234" width="440" height="280" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="293" font-size="40" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="338" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The formal vs. actual gap</text>
+  <text x="548" y="372" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">You digitized the formal process,</text>
+  <text x="548" y="392" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not the actual one.</text>
+
+  <line x1="548" y1="420" x2="926" y2="420" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="446" font-size="14" font-weight="400" fill="#3A3A3A" font-style="italic" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Operators bend the tool, then abandon it.</text>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="530" width="440" height="280" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="589" font-size="40" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="634" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Watch the workarounds</text>
+  <text x="92" y="668" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map what operators do when</text>
+  <text x="92" y="688" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the system breaks — before you build.</text>
+
+  <line x1="92" y1="716" x2="470" y2="716" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="742" font-size="14" font-weight="400" fill="#3A3A3A" font-style="italic" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Not what they should do. What they do.</text>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="520" y="530" width="440" height="280" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="589" font-size="40" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="634" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Design in tolerance</text>
+  <text x="548" y="668" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build override patterns, exception fields,</text>
+  <text x="548" y="688" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">and fallback flows into the system.</text>
+
+  <line x1="548" y1="716" x2="926" y2="716" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="742" font-size="14" font-weight="400" fill="#3A3A3A" font-style="italic" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Work with deviation, not against it.</text>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM BAND (~826px – 1024px) -->
+  <!-- ============================================================ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="840" x2="960" y2="840" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="906"
+    text-anchor="middle"
+    font-size="26"
+    font-weight="700"
+    letter-spacing="-0.01em"
+    fill="#3A3A3A"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The system that survives is built for reality.</text>
+
+  <!-- Sub-closing attribution -->
+  <text
+    x="512" y="960"
+    text-anchor="middle"
+    font-size="13"
+    font-weight="600"
+    letter-spacing="0.14em"
+    fill="#C24A1F"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">MODULUS1 · FIELD-FIRST DIGITALIZATION</text>
+
+</svg>

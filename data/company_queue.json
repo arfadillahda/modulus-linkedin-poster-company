@@ -1132,5 +1132,14 @@
     "title": "Why your digitalization data vanishes after go-live",
     "body": "You build a new digital workflow. It works in pilot. Six months post-launch, operators stop using the digital path and revert to paper because the system doesn't speak their language—literally. The data you collected during design doesn't match the schema operators actually need in production.\n\nThis happens because digitalization teams design once, then hand off. Operators inherit a frozen schema. When reality diverges (it always does), they can't adapt the capture layer without breaking upstream integrations. So they work around it. The system becomes decorative.\n\nThe fix: build schema flexibility into your handoff. We've shipped this as semantic versioning on data contracts—operators can extend the schema locally, tag their extensions, and those tags flow upstream so integrations stay aware of drift. No breaking changes. No workarounds.\n\nThe deeper move: treat your data model as a living artifact, not a finished design. Give operators a way to evolve it without permission.\n\nA system that can't adapt to its operators will be abandoned by them.",
     "image_url": ""
+  },
+  {
+    "id": "f68f25c2e103",
+    "ts": "2026-09-19T12:16:33.495337+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why digitalization projects stall before operators touch them",
+    "body": "Your digitalization pilot works beautifully in the lab. Then operations gets it, and adoption flatlines within weeks.\n\nThis happens because pilots are built for clean data and known workflows. Operations encounters edge cases, workarounds, and the thousand small deviations that exist in the real process. The system wasn't designed to accommodate that friction—it was designed to eliminate it. When the tool refuses to bend, operators bend the tool, then stop using it entirely.\n\nThe mechanism is straightforward: you've digitized the formal process, not the actual one.\n\nWe've started reversing this by mapping the gap early. Before any build work, we spend time watching operators work around the system they're supposed to use. Not what they *should* do—what they actually do when something breaks. Then we design tolerance into the solution: fields for exceptions, override patterns, fallback flows. We make the system a tool that works *with* the deviation, not against it.\n\nThe digitalization that survives isn't the one that forces operators to change. It's the one built for how they already work.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f68f25c2e103.png"
   }
 ]

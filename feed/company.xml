@@ -4,7 +4,34 @@
 <title>Modulus1 — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster-company</link>
 <description>LinkedIn posts auto-generated for the Modulus1 Company Page.</description>
-<lastBuildDate>Fri, 18 Sep 2026 12:41:44 +0000</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 12:17:04 +0000</lastBuildDate>
+<item>
+<title>Why digitalization projects stall before operators touch them</title>
+<guid isPermaLink="false">f68f25c2e103</guid>
+<pubDate>Sat, 19 Sep 2026 12:16:33 +0000</pubDate>
+<description><![CDATA[Your digitalization pilot works beautifully in the lab. Then operations gets it, and adoption flatlines within weeks.
+
+This happens because pilots are built for clean data and known workflows. Operations encounters edge cases, workarounds, and the thousand small deviations that exist in the real process. The system wasn't designed to accommodate that friction—it was designed to eliminate it. When the tool refuses to bend, operators bend the tool, then stop using it entirely.
+
+The mechanism is straightforward: you've digitized the formal process, not the actual one.
+
+We've started reversing this by mapping the gap early. Before any build work, we spend time watching operators work around the system they're supposed to use. Not what they *should* do—what they actually do when something breaks. Then we design tolerance into the solution: fields for exceptions, override patterns, fallback flows. We make the system a tool that works *with* the deviation, not against it.
+
+The digitalization that survives isn't the one that forces operators to change. It's the one built for how they already work.]]></description>
+<content:encoded><![CDATA[Your digitalization pilot works beautifully in the lab. Then operations gets it, and adoption flatlines within weeks.
+
+This happens because pilots are built for clean data and known workflows. Operations encounters edge cases, workarounds, and the thousand small deviations that exist in the real process. The system wasn't designed to accommodate that friction—it was designed to eliminate it. When the tool refuses to bend, operators bend the tool, then stop using it entirely.
+
+The mechanism is straightforward: you've digitized the formal process, not the actual one.
+
+We've started reversing this by mapping the gap early. Before any build work, we spend time watching operators work around the system they're supposed to use. Not what they *should* do—what they actually do when something breaks. Then we design tolerance into the solution: fields for exceptions, override patterns, fallback flows. We make the system a tool that works *with* the deviation, not against it.
+
+The digitalization that survives isn't the one that forces operators to change. It's the one built for how they already work.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f68f25c2e103.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f68f25c2e103.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digitalization data vanishes after go-live</title>
 <guid isPermaLink="false">6502d0eeb3e0</guid>
@@ -1265,33 +1292,6 @@ Start by mapping what decisions operators actually make and what information wou
 Data follows decision clarity. Not the other way around.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why AI Systems Fail When Data Schemas Drift</title>
-<guid isPermaLink="false">4b505eb783ae</guid>
-<pubDate>Thu, 30 Jul 2026 10:22:47 +0000</pubDate>
-<description><![CDATA[Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.
-
-This happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.
-
-The fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.
-
-We've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.
-
-Schema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.]]></description>
-<content:encoded><![CDATA[Your ML model retrains cleanly in dev. Six weeks in production, downstream systems start sending optional fields you never saw in training. The model doesn't crash—it just silently degrades by 3-5% each week. By the time monitoring catches it, you've shipped bad predictions to operators in the field.
-
-This happens because we treat training data and live data as separate problems. We validate one, ignore the other. Most teams have no contract between what the model expects and what the world actually sends. Schema validation lives in frontend frameworks, not in the systems that feed ML pipelines.
-
-The fix: treat your input schema like a contract. Define it once—what fields exist, their types, their constraints, their nullability. Then validate every live record against that contract before it reaches your model. When a schema drift happens, you see it immediately as a validation error, not as silent accuracy loss weeks later.
-
-We've built this into several industrial AI systems—form processors, sensor aggregators, operator dashboards. Same pattern every time: the moment you make the schema visible and enforced, you catch integration breaks within hours instead of discovering them through degraded output.
-
-Schema validation isn't glamorous. It's also the difference between a system you can trust and one that whispers lies.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster-company/media/4b505eb783ae.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>
