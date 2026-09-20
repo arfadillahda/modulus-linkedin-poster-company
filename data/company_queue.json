@@ -1141,5 +1141,14 @@
     "title": "Why digitalization projects stall before operators touch them",
     "body": "Your digitalization pilot works beautifully in the lab. Then operations gets it, and adoption flatlines within weeks.\n\nThis happens because pilots are built for clean data and known workflows. Operations encounters edge cases, workarounds, and the thousand small deviations that exist in the real process. The system wasn't designed to accommodate that friction—it was designed to eliminate it. When the tool refuses to bend, operators bend the tool, then stop using it entirely.\n\nThe mechanism is straightforward: you've digitized the formal process, not the actual one.\n\nWe've started reversing this by mapping the gap early. Before any build work, we spend time watching operators work around the system they're supposed to use. Not what they *should* do—what they actually do when something breaks. Then we design tolerance into the solution: fields for exceptions, override patterns, fallback flows. We make the system a tool that works *with* the deviation, not against it.\n\nThe digitalization that survives isn't the one that forces operators to change. It's the one built for how they already work.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster-company/media/f68f25c2e103.png"
+  },
+  {
+    "id": "ee2933b969a2",
+    "ts": "2026-09-20T12:51:19.060449+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why AI Teams Ignore the Operators Who'll Actually Use It",
+    "body": "We keep seeing teams build AI systems that look brilliant in notebooks but fail the moment operators touch them. The disconnect isn't usually technical—it's that the team building the AI never watches someone actually *use* it under pressure.\n\nThis happens because AI teams optimize for metrics (accuracy, latency, AUC) while operators optimize for decisions they can defend. An AI system that's 5% more accurate but requires three extra manual steps to validate looks worse to an operator than one that's slightly less precise but gives them confidence.\n\nWe've found one heuristic that shifts this: *embed operational constraints as features, not afterthoughts.* Before you tune your model, map the three things an operator must do to act on a prediction. If validating the output takes manual lookups, build that lookup into the system. If operators need an audit trail, instrument it at prediction time, not later.\n\nThe framework is simple: sit with an operator for two hours. Watch them work. For every step where they pause or second-guess, that's a constraint your model should know about.\n\nAI that operators actually use starts with watching how operators think, not how algorithms learn.",
+    "image_url": ""
   }
 ]
